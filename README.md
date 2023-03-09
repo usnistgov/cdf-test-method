@@ -1,4 +1,4 @@
-# NIST Open-Source Software Repository Template
+# Common Data Format Test Method
 
 Use of GitHub by NIST employees for government work is subject to
 the [Rules of Behavior for GitHub][gh-rob]. This is the
