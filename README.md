@@ -28,7 +28,7 @@ named `README.md` (this file) or `README`.
 Per the [GitHub ROB][gh-rob] and [NIST Suborder 1801.02][nist-s-1801-02],
 your README should contain:
 
-1. Software or Data description
+1. Software or Data descriptiona
    - Statements of purpose and maturity
    - Description of the repository contents
    - Technical installation instructions, including operating
