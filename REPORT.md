@@ -1,3 +1,8 @@
+---
+layout: default
+title: NIST Voting Common Data Format Test Method
+---
+
 # Reporting
 
 Reporting is provided in a standardized format called [XVRL](https://github.com/xproc/xvrl). This report contains validation events called *detections* that occur during one or more validation steps. Steps causing detections include include:
