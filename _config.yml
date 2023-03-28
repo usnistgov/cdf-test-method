@@ -8,7 +8,6 @@ url: "https://pages.nist.gov/" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-
 exclude:
 - ".ruby-version"
 - ".jekyll-metadata"
@@ -33,5 +32,11 @@ repo_name: cdf-test-method
 navigation:
 - text: Home
   url: /cdf-test-method/
+- text: Usage
+  url: /USAGE.md  
+- text: Reporting
+  url: /REPORT.md  
+- text: FAQ
+  url: /FAQ.md
 
 host: 0.0.0.0

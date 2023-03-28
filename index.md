@@ -30,4 +30,6 @@ The amount of memory required to run this tool is proportionate to the size of t
 
 ## Getting Started
 
-See [usage instructions](USAGE.md) to get started. 
+See [usage instructions](USAGE.md) to get started.
+
+Page was last updated on {{ site.time | date: "%B %-d %Y" }}
