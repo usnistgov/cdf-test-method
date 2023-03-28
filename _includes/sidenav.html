@@ -1,6 +1,5 @@
 <nav class="navbar navbar-default navbar-fixed-left" role="navigation">
     <ul class="nav navbar-nav">
-      {% comment %}
       {% for link in site.navigation %}
         {% assign current = '' %}
         {% if page.url == link.url %}
@@ -10,9 +9,6 @@
           <a href="{{ link.url }}">{{ link.text }}</a>
         </li>
       {% endfor %}
-      {% endcomment %}
-  
-      <li><a href="{{ site.baseurl }}/">Home</a></li>
       <li>
         <a href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}" class="icon">GitHub repository</a>
       </li>
