@@ -33,10 +33,10 @@ navigation:
 - text: Home
   url: /cdf-test-method/
 - text: Usage
-  url: /USAGE.md  
+  url: /cdf-test-method/USAGE.html
 - text: Reporting
-  url: /REPORT.md  
+  url: /cdf-test-method/REPORT.html
 - text: FAQ
-  url: /FAQ.md
+  url: /cdf-test-method/FAQ.html
 
 host: 0.0.0.0
