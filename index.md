@@ -1,3 +1,8 @@
+---
+layout: default
+title: NIST Voting Common Data Format Test Method
+---
+
 # NIST Common Data Format Test Method
 
 The NIST Voting Common Data Format (CDF) Test Method ("Test Method") is an machine executable method for testing [NIST Voting](https://www.nist.gov/itl/voting) (i.e. NIST SP 1500 series) CDFs. Its use is intended for voting system manufacturers, [Voting System Test Labs (VSTLs)](https://www.eac.gov/voting-equipment/voting-system-test-laboratories-vstl), and other members of the election community that require a standardized method to determine election technology systems' conformance to the CDFs.
