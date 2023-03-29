@@ -1,6 +1,6 @@
 # Site settings
-title: "NIST Pages Template"
-description: "Providing a page template for pages.nist.gov hosting groups."
+title: "Common Data Format Test Method"
+description: "An executable test method for NIST Voting Common Data Formats"
 
 baseurl: "/cdf-test-method" # the subpath of your site, e.g. /blog
 url: "https://pages.nist.gov/" # the base hostname & protocol for your site
