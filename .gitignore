@@ -1,0 +1,13 @@
+output/
+# BUILD DEPEDENCIES
+MorganaXProc*/
+xml-calabash*/
+Xerces*/
+SaxonHE*/
+# BUILD SCRIPTS AND OUTPUT
+build/
+build.bat
+build-no-tests.bat
+# UNCOMMENT WHEN TESTS ARE READY
+tests/
+rwd*

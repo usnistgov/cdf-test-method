@@ -33,7 +33,7 @@ categories:
   # - performance-and-workflow
   - scientific-software
   # - simulation
-  # - tools
+  - tools
   # - visualization
 
 themes:
@@ -128,7 +128,7 @@ themes:
   #     - Precision medicine
   #     - Regenerative medicine
   #
-  # - Information Technology
+  - Information Technology
   #     - Artificial intelligence
   #     - Biometrics
   #     - Cloud computing and virtualization
@@ -151,7 +151,7 @@ themes:
   #     - Health IT
   #     - Identity and access management
   #     - Internet of Things (IoT)
-  #     - Interoperability testing
+      - Interoperability testing
   #     - Mobile
   #     - Networking
   #         - Mobile and Wireless Networking
@@ -163,15 +163,15 @@ themes:
   #         - Protocol Design and Standardization
   #         - Software-defined and virtual networks
   #     - Privacy
-  #     - Software research
-  #         - Software assurance
+      - Software research
+          - Software assurance
   #         - Software performance
   #         - Software testing
   #     - Usability and human factors
   #         - Accessibility
   #     - Video analytics
   #     - Visualization research
-  #     - Voting systems
+      - Voting systems
   #
   # - Infrastructure
   #
