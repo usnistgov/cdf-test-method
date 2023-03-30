@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><sch:schema xmlns:mp="http://mapping" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:sqf="http://www.schematron-quickfix.com/validator/process" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" queryBinding="xslt2">    
     <sch:ns uri="http://itl.nist.gov/ns/voting/1500-100/v2" prefix="cdf"/>    
     <sch:ns uri="http://itl.nist.gov/ns/voting/1500-100/v2" prefix="err"/>
-    <sch:ns uri="http://www.w3.org/2001/XMLSchema-instance" prefix="xsi"/>            
+    <sch:ns uri="http://www.w3.org/2001/XMLSchema-instance" prefix="xsi"/>
+    
     <sch:pattern>        
         <sch:rule context="(/err:ElectionReport/err:Election/err:Candidate)">
             <sch:assert test="not(err:PartyId) or count(/err:ElectionReport/err:Party[@ObjectId = current()/err:PartyId]) = 1"> PartyId (<sch:value-of select="cdf:PartyId"/>) must point to an element of type Party</sch:assert>
@@ -25,9 +26,9 @@
             <sch:assert test="not(err:PartyScopeGpUnitIds) or (every $curId in tokenize(err:PartyScopeGpUnitIds) satisfies /err:ElectionReport/err:GpUnit[@ObjectId = $curId])">PartyScopeGpUnitIds (<sch:value-of select="cdf:PartyScopeGpUnitIds"/>) must point to an element of type GpUnit</sch:assert>
             <sch:assert test="not(err:LeaderPersonIds) or (every $curId in tokenize(err:LeaderPersonIds) satisfies /err:ElectionReport/err:Person[@ObjectId = $curId])">LeaderPersonIds (<sch:value-of select="cdf:LeaderPersonIds"/>) must point to an element of type Person</sch:assert>
         </sch:rule>
-        <sch:rule context="(/err:ElectionReport/err:GpUnit)">
+        <!--<sch:rule context="(/err:ElectionReport/err:GpUnit)">
             <sch:assert test="not(err:ComposingGpUnitIds) or (every $curId in tokenize(err:ComposingGpUnitIds) satisfies /err:ElectionReport/err:GpUnit[@ObjectId = $curId])">ComposingGpUnitIds (<sch:value-of select="cdf:ComposingGpUnitIds"/>) must point to an element of type GpUnit</sch:assert>
-        </sch:rule>
+        </sch:rule>-->
         <sch:rule context="(/err:ElectionReport/err:Election)">
             <sch:assert test="not(err:ElectionScopeId) or count(/err:ElectionReport/err:GpUnit[@ObjectId = current()/err:ElectionScopeId]) = 1"> ElectionScopeId (<sch:value-of select="cdf:ElectionScopeId"/>) must point to an element of type ReportingUnit</sch:assert>
         </sch:rule>
