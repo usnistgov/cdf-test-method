@@ -17,6 +17,15 @@
 			<xsl:map-entry key="'unspecified'" select="'FFD800'"/>
 		</xsl:map>
 	</xsl:variable>
+	<xsl:variable name="xsd-citation-to-uri" as="map(xs:string, xs:string)">
+		<xsl:map>
+			<xsl:map-entry key="'cvc-datatype-valid'" select="'https://www.w3.org/TR/xmlschema-2/#cvc-datatype-valid'"/>
+			<xsl:map-entry key="'cvc-attribute'" select="'https://www.w3.org/TR/xmlschema-1/#cvc-attribute'"/>
+			<xsl:map-entry key="'cvc-type'" select="'https://www.w3.org/TR/xmlschema-1/#cvc-type'"/>
+			<xsl:map-entry key="'cvc-id'" select="'https://www.w3.org/TR/xmlschema-1/#cvc-id'"/>		
+			<xsl:map-entry key="'cvc-enumeration-valid'" select="'https://www.w3.org/TR/xmlschema-2/#cvc-enumeration-valid'"></xsl:map-entry>
+		</xsl:map>
+	</xsl:variable>
 	<xsl:variable name="validator-to-friendly-name" select="
 			map {
 				'org.apache.xerces.jaxp.validation.XMLSchemaFactory': 'XML Schema Validation',
@@ -27,6 +36,11 @@
 		<html>
 			<head>
 				<title>NIST Common Data Format Test Method HTML Output</title>
+				<style type="text/css">
+					body{{
+					font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+					}}
+				</style>
 			</head>
 			<body>
 				<h1>CDF Test Method Result</h1>
@@ -123,9 +137,10 @@
 					<xsl:when
 						test="../xvrl:metadata/xvrl:validator/@name = 'org.apache.xerces.jaxp.validation.XMLSchemaFactory'">
 						<!-- TODO: some go to part 1, some go to part 2, and sometimes the URI needs to be truncated -->
+						<xsl:variable name="xsd-spec-citation" select="map:get($xsd-citation-to-uri, substring-before(concat(substring-before(xvrl:message,':'),'.'),'.'))"/>
 						<a
-							href="{concat('https://www.w3.org/TR/xmlschema-2/#',substring-before(xvrl:message,':'))}"
-							>:{substring-before(xvrl:message,':')}</a>{substring-after(xvrl:message,':')} </xsl:when>
+							href="{if($xsd-spec-citation) then $xsd-spec-citation else concat('https://www.w3.org/TR/xmlschema-1/#',substring-before(substring-before(xvrl:message,':'),'.'))}"
+							>{substring-before(xvrl:message,':')}</a>:{substring-after(xvrl:message,':')} </xsl:when>
 					<xsl:otherwise> {xvrl:message} </xsl:otherwise>
 				</xsl:choose>
 			</td>
