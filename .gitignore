@@ -1,3 +1,4 @@
+demo/
 output/
 # BUILD DEPEDENCIES
 MorganaXProc*/
@@ -6,6 +7,7 @@ Xerces*/
 SaxonHE*/
 # BUILD SCRIPTS AND OUTPUT
 build/
+third_party_licenses/
 build.bat
 build-no-tests.bat
 # UNCOMMENT WHEN TESTS ARE READY

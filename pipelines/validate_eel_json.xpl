@@ -11,7 +11,7 @@
     <p:option name="schemaNS" required="true" />
     <p:option name="stopOnError" select="false()" />
     <p:validate-with-json-schema assert-valid="{$stopOnError}" name="source-json-validation" message="Validating against JSON schema">
-        <p:with-input port="schema" href="{concat($schemaNS,'#json')}" />
+        <p:with-input port="schema" href="{concat($schemaNS,'/json')}" />
     </p:validate-with-json-schema>
     <!-- do we want to convert if its not valid JSON, steps may give incorrect results -->
     <p:xslt name="source-json2xml" message="Converting JSON to XML for further processing">
@@ -19,7 +19,7 @@
     </p:xslt>
     <p:validate-with-json-schema assert-valid="{$stopOnError}" name="documentation-json-validation" message="Validating documentation against JSON schema">
         <p:with-input port="source" pipe="documentation@pipeline" />
-        <p:with-input port="schema" href="{concat($schemaNS,'#json')}" />
+        <p:with-input port="schema" href="{concat($schemaNS,'/json')}" />
     </p:validate-with-json-schema>
     <p:xslt name="documentation-json2xml" message="Converting Documentation JSON to XML for further processing">
         <p:with-input port="stylesheet" href="{concat($schemaNS,'#json2xml')}" />
