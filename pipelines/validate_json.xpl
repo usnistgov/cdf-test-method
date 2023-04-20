@@ -10,7 +10,7 @@
     <p:option name="schemaNS" required="true" />
     <p:option name="stopOnError" select="false()" />
     <p:validate-with-json-schema assert-valid="{$stopOnError}" name="json-validation" message="validating against JSON schema">
-        <p:with-input port="schema" href="{concat($schemaNS,'#json')}" />
+        <p:with-input port="schema" href="{concat($schemaNS,'/json')}" />
     </p:validate-with-json-schema>
     <!-- do we want to convert if its not valid JSON, steps may give incorrect results -->
     <p:xslt name="json2xml" message="Converting JSON to XML for further processing {concat($schemaNS, '#json2xml')}">

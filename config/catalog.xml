@@ -2,13 +2,13 @@
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.1//EN" "http://www.oasis-open.org/committees/entity/release/1.1/catalog.dtd">
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri name="http://itl.nist.gov/ns/voting/1500-103/v1" uri="../catalog_documents/NIST_V0_cast_vote_records.xsd"/>
-    <uri name="http://itl.nist.gov/ns/voting/1500-103/v1#json" uri="../catalog_documents/NIST_V0_cast_vote_records.json"/>
+    <uri name="http://itl.nist.gov/ns/voting/1500-103/v1/json" uri="../catalog_documents/NIST_V0_cast_vote_records.json"/>
     <uri name="http://itl.nist.gov/ns/voting/1500-101/v1" uri="../catalog_documents/NIST_V1_election_event_logging.xsd"/>    
-    <uri name="http://itl.nist.gov/ns/voting/1500-101/v1#json" uri="../catalog_documents/NIST_V1_election_event_logging.json"/>    
+    <uri name="http://itl.nist.gov/ns/voting/1500-101/v1/json" uri="../catalog_documents/NIST_V1_election_event_logging.json"/>    
     <uri name="http://itl.nist.gov/ns/voting/1500-100/v2" uri="../catalog_documents/NIST_V2_election_results_reporting.xsd"/>
-    <uri name="http://itl.nist.gov/ns/voting/1500-100/v2#json" uri="../catalog_documents/NIST_V2_election_results_reporting.json"/>
+    <uri name="http://itl.nist.gov/ns/voting/1500-100/v2/json" uri="../catalog_documents/NIST_V2_election_results_reporting.json"/>
     <uri name="http://itl.nist.gov/ns/voting/1500-102/v1" uri="../catalog_documents/NIST_V0_voter_records_interchange.xsd"/>        
-    <uri name="http://itl.nist.gov/ns/voting/1500-102/v1#json" uri="../catalog_documents/NIST_V0_voter_records_interchange.json"/>        
+    <uri name="http://itl.nist.gov/ns/voting/1500-102/v1/json" uri="../catalog_documents/NIST_V0_voter_records_interchange.json"/>        
     <!-- FGDC and formats used by it (e.g. GML) -->
     <uri name="http://www.w3.org/XML/1998/namespace" uri="../catalog_documents/xml.xsd" />
     <uri name="http://www.w3.org/2000/09/xmldsig#" uri="../catalog_documents/xmldsig-core-schema.xsd" />
@@ -21,7 +21,7 @@
     <uri name="http://www.w3.org/2001/SMIL20/" uri="../catalog_documents/smil20.xsd" />
     <uri name="http://www.w3.org/2001/SMIL20/Language" uri="../catalog_documents/smil20-language.xsd" />
     <uri name="http://itl.nist.gov/ns/voting/1500-20/v1" uri="../catalog_documents/NIST_V1_ballot_definition.xsd"/>        
-    <uri name="http://itl.nist.gov/ns/voting/1500-20/v1#json" uri="../catalog_documents/NIST_V1_ballot_definition.json"/>        
+    <uri name="http://itl.nist.gov/ns/voting/1500-20/v1/json" uri="../catalog_documents/NIST_V1_ballot_definition.json"/>        
     <!-- begin json2xml conversions -->               
     <uri name="http://itl.nist.gov/ns/voting/1500-20/v1#json2xml" uri="../resources/bd_v1/json2xml.xsl"/>    
     <uri name="http://itl.nist.gov/ns/voting/1500-100/v2#json2xml" uri="../resources/err_v2/err_v2_json2xml.xsl"/>    
