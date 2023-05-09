@@ -4,9 +4,7 @@
 	<!-- the root node must be XML, meaning the JSON must be nested in XML (not ideal) -->
 	<xsl:template name="start" match=".[. instance of map(*)]" priority="1">
 		<xsl:variable name="xml">
-			<ElectionEventLog>
-				<xsl:apply-templates select=". => serialize(map { 'method' : 'json' }) => json-to-xml()"/>
-			</ElectionEventLog>
+			<xsl:apply-templates select=". => serialize(map { 'method' : 'json' }) => json-to-xml()"/>
 		</xsl:variable>
 		<xsl:copy-of select="$xml"/>
 	</xsl:template>
