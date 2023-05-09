@@ -4,7 +4,7 @@
     <xsl:key name="Party" match="/cdf:BallotDefinition/cdf:Party" use="@ObjectId"/>
     <xsl:key name="Person" match="/cdf:BallotDefinition/cdf:Person" use="@ObjectId"/>
     <xsl:key name="Election" match="/cdf:BallotDefinition/cdf:Election" use="@ObjectId"/>
-    <xsl:key name="ReportingUnit" match="/cdf:BallotDefinition/cdf:GpUnit[@xsi:type = 'cdf:ReportingUnit']" use="@ObjectId"/>
+    <xsl:key name="ReportingUnit" match="/cdf:BallotDefinition/cdf:GpUnit[contains(@xsi:type, 'ReportingUnit')]" use="@ObjectId"/>
     <xsl:key name="GpUnit" match="/cdf:BallotDefinition/cdf:GpUnit" use="@ObjectId"/>
     <xsl:key name="BallotFormat" match="/cdf:BallotDefinition/cdf:BallotFormat" use="@ObjectId"/>
     <xsl:key name="Office" match="/cdf:BallotDefinition/cdf:Office" use="@ObjectId"/>
