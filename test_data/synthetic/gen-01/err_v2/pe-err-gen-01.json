@@ -1,0 +1,1451 @@
+
+ { "Election" : 
+  [ 
+   { "BallotStyle" : 
+    [ 
+     { "ExternalIdentifier" : 
+      [ 
+       { "Type" : "local-level",
+        "Value" : "Precinct 1",
+        "@type" : "ElectionResults.ExternalIdentifier" } ],
+      "GpUnitIds" : 
+      [ "cp-1-4-5-6" ],
+      "OrderedContent" : 
+      [ 
+       { "ContestId" : "spc-1",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-president",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-senate",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-congress-1",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-assembly-1",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-1",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-county-comissioner-1",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-county-assessor",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-sc-justice-a",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-dog-catcher",
+        "@type" : "ElectionResults.OrderedContest" } ],
+      "@type" : "ElectionResults.BallotStyle" },
+     
+     { "ExternalIdentifier" : 
+      [ 
+       { "Type" : "local-level",
+        "Value" : "Precinct 2a",
+        "@type" : "ElectionResults.ExternalIdentifier" } ],
+      "GpUnitIds" : 
+      [ "ps-2a" ],
+      "OrderedContent" : 
+      [ 
+       { "ContestId" : "spc-1",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-president",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-senate",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-congress-2",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-assembly-2",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-2",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-county-comissioner-2",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-county-assessor",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-sc-justice-b",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-dog-catcher",
+        "@type" : "ElectionResults.OrderedContest" } ],
+      "@type" : "ElectionResults.BallotStyle" },
+     
+     { "ExternalIdentifier" : 
+      [ 
+       { "Type" : "local-level",
+        "Value" : "Precinct 2b",
+        "@type" : "ElectionResults.ExternalIdentifier" } ],
+      "GpUnitIds" : 
+      [ "ps-2b" ],
+      "OrderedContent" : 
+      [ 
+       { "ContestId" : "spc-1",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-president",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-senate",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-congress-2",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-assembly-2",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-3",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-county-comissioner-2",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-county-assessor",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-sc-justice-b",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-dog-catcher",
+        "@type" : "ElectionResults.OrderedContest" } ],
+      "@type" : "ElectionResults.BallotStyle" },
+     
+     { "ExternalIdentifier" : 
+      [ 
+       { "Type" : "local-level",
+        "Value" : "Precinct 3",
+        "@type" : "ElectionResults.ExternalIdentifier" } ],
+      "GpUnitIds" : 
+      [ "cp-3-7-8-9" ],
+      "OrderedContent" : 
+      [ 
+       { "ContestId" : "spc-1",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-president",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-senate",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-congress-1",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-assembly-3",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-2",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-county-comissioner-3",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-county-assessor",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-sc-justice-c",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-dog-catcher",
+        "@type" : "ElectionResults.OrderedContest" } ],
+      "@type" : "ElectionResults.BallotStyle" } ],
+    "Candidate" : 
+    [ 
+     { "@id" : "can-hb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Harry Brown",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "IsTopTicket" : true,
+      "PartyId" : "par-lib",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-jd",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Jim Doyle",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "IsTopTicket" : false,
+      "PartyId" : "par-lib",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-gb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "George Bush",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "IsTopTicket" : true,
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-dc",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Dick Cheney",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "IsTopTicket" : false,
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ag",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Al Gore",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "IsTopTicket" : true,
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-jl",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Joe Liberman",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "IsTopTicket" : false,
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ej",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Ed Johnson",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-lib",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-jr",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "John Rusco",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-kb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Katie Bernstein",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-jg",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Jim Gibbons",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-lib",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-dl",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Daniel Laws",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-mc",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Mary Cahill",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-hs",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Habib Smith",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-lib",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-bw",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Bonnie Wyatt",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-jh",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Jim Hinkle",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-mj",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Marcia Jones",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-pt",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Pat Thomas",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-yd",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Yevette Downs",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ab",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Arlyn Beal",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-jackh",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Jack Howard",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-js",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Jay Scott",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-lib",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-db",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Dave Backus",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-lib",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-daveb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Dave Backus",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-lib",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-me",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Myron Ensign",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-lib",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-rs",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Ralph Savage",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-eb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Ernie Banks",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-am",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Angus McFarland",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-mm",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Mick Manson",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-rr",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Robert Rose",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-lib",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-garyb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Gary Becker",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ld",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Laura Denise",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-lib",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-by",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Barbara Young",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-mf",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Millie Farmer",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-lib",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-rj",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Ray Jones",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-bb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Bill Bates",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ni",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Nancy Ingram",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-rg",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Roland Gustiv",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" } ],
+    "Contest" : 
+    [ 
+     { "@type" : "ElectionResults.PartyContest",
+      "@id" : "spc-1",
+      "ContestSelection" : 
+      [ 
+       { "PartyIds" : 
+        [ "par-lib" ],
+        "@type" : "ElectionResults.PartySelection",
+        "@id" : "po-lib" },
+       
+       { "PartyIds" : 
+        [ "par-rep" ],
+        "@type" : "ElectionResults.PartySelection",
+        "@id" : "po-rep" },
+       
+       { "PartyIds" : 
+        [ "par-dem" ],
+        "@type" : "ElectionResults.PartySelection",
+        "@id" : "po-dem" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Straight Party",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-president",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-hb",
+         "can-jd" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-president-hb" },
+       
+       { "CandidateIds" : 
+        [ "can-gb",
+         "can-dc" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-president-gb" },
+       
+       { "CandidateIds" : 
+        [ "can-ag",
+         "can-jl" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-president-ag" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-president-wi" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "President and Vice President of the United States",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-senate",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-ej" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-senate-ej" },
+       
+       { "CandidateIds" : 
+        [ "can-jr" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-senate-jr" },
+       
+       { "CandidateIds" : 
+        [ "can-kb" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-senate-kb" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-senate-wi" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "United State Senator",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-congress-1",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-jg" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-congress-1-jg" },
+       
+       { "CandidateIds" : 
+        [ "can-dl" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-congress-1-dl" },
+       
+       { "CandidateIds" : 
+        [ "can-mc" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-congress-1-mc" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-congress-1-wi" } ],
+      "ElectionDistrictId" : "ru-congress-1",
+      "Name" : "Representative in Congress - District 1",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-congress-2",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-hs" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-congress-2-hs" },
+       
+       { "CandidateIds" : 
+        [ "can-bw" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-congress-2-bw" },
+       
+       { "CandidateIds" : 
+        [ "can-jh" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-congress-2-jh" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-congress-2-wi" } ],
+      "ElectionDistrictId" : "ru-congress-2",
+      "Name" : "Representative in Congress - District 2",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-assembly-1",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-mj" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-assembly-1-mj" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-assembly-1-wi" } ],
+      "ElectionDistrictId" : "ru-assembly-1",
+      "Name" : "State Assembly - District 1",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-assembly-2",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-pt" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-assembly-2-pt" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-assembly-2-wi" } ],
+      "ElectionDistrictId" : "ru-assembly-2",
+      "Name" : "State Assembly - District 2",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-assembly-3",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-yd" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-assembly-3-yd" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-assembly-3-wi" } ],
+      "ElectionDistrictId" : "ru-assembly-3",
+      "Name" : "State Assembly - District 3",
+      "VoteVariation" : "n-of-m" },
+     
+     { "FullText" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Should Taxes be raised for road improvement?",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.BallotMeasureContest",
+      "@id" : "bm-proposal-1",
+      "ContestSelection" : 
+      [ 
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "YES",
+           "Language" : "en",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bm-proposal-1-yes" },
+       
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "NO",
+           "Language" : "en",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bm-proposal-1-no" } ],
+      "ElectionDistrictId" : "prec-1",
+      "Name" : "Proposal 1 - Road improvements",
+      "VoteVariation" : "n-of-m" },
+     
+     { "FullText" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Should the city fund the new stadium?",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.BallotMeasureContest",
+      "@id" : "bm-proposal-2",
+      "ContestSelection" : 
+      [ 
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "YES",
+           "Language" : "en",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bm-proposal-2-yes" },
+       
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "NO",
+           "Language" : "en",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bm-proposal-2-no" } ],
+      "ElectionDistrictId" : "ru-stadium",
+      "Name" : "Proposal 2 - Stadium",
+      "VoteVariation" : "n-of-m" },
+     
+     { "FullText" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Should the salex tax be increased to 9%",
+         "Language" : "en",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.BallotMeasureContest",
+      "@id" : "bm-proposal-3",
+      "ContestSelection" : 
+      [ 
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "YES",
+           "Language" : "en",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bm-proposal-3-yes" },
+       
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "NO",
+           "Language" : "en",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bm-proposal-3-no" } ],
+      "ElectionDistrictId" : "prec-3",
+      "Name" : "Proposal 3 - Sales tax",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-county-comissioner-1",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-ab" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-county-comissioner-1-ab" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs--wi" } ],
+      "ElectionDistrictId" : "ru-county-commisioner-1",
+      "Name" : "County Commissioner - District 1",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-county-comissioner-2",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-jackh" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-county-comissioner-2-jh" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-county-comissioner-2-wi" } ],
+      "ElectionDistrictId" : "ru-county-commisioner-2",
+      "Name" : "County Commissioner - District 2",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-county-comissioner-3",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-js" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-county-comissioner-3-js" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-county-comissioner-3-wi" } ],
+      "ElectionDistrictId" : "ru-county-commisioner-3",
+      "Name" : "County Commissioner - District 3",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 2,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-county-assessor",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-db" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-county-assessor-db" },
+       
+       { "CandidateIds" : 
+        [ "can-me" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-county-assessor-me" },
+       
+       { "CandidateIds" : 
+        [ "can-rs" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-county-assessor-rs" },
+       
+       { "CandidateIds" : 
+        [ "can-eb" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-county-assessor-eb" },
+       
+       { "CandidateIds" : 
+        [ "can-am" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-county-assessor-am" },
+       
+       { "CandidateIds" : 
+        [ "can-mm" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-county-assessor-mm" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-county-assessor-db-wi" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-county-assessor-db-wi2" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "County Assessor",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-sc-justice-a",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-rr" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-sc-justice-a-rr" },
+       
+       { "CandidateIds" : 
+        [ "can-garyb" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-sc-justice-a-gb" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-sc-justice-a-wi" } ],
+      "ElectionDistrictId" : "ru-supreme-court-a",
+      "Name" : "Supreme Court Justice - Seat A",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-sc-justice-b",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-ld" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-sc-justice-b-ld" },
+       
+       { "CandidateIds" : 
+        [ "can-by" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-sc-justice-b-by" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-sc-justice-b-wi" } ],
+      "ElectionDistrictId" : "ru-supreme-court-b",
+      "Name" : "Supreme Court Justice - Seat B",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-sc-justice-c",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-mf" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-sc-justice-c-mf" },
+       
+       { "CandidateIds" : 
+        [ "can-rj" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-sc-justice-c-rj" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-sc-justice-c-wi" } ],
+      "ElectionDistrictId" : "ru-supreme-court-c",
+      "Name" : "Supreme Court Justice - Seat C",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-dog-catcher",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-bb" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dog-catcher-bb" },
+       
+       { "CandidateIds" : 
+        [ "can-ni" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dog-catcher-ni" },
+       
+       { "CandidateIds" : 
+        [ "can-rg" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dog-catcher-rg" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dog-catcher-wi" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Dog Catcher",
+      "VoteVariation" : "n-of-m" } ],
+    "ElectionScopeId" : "ru-county-1",
+    "EndDate" : "2000-11-07",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "GEN-01",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" },
+    "StartDate" : "2000-11-07",
+    "Type" : "general",
+    "@type" : "ElectionResults.Election" } ],
+  "Format" : "precinct-level",
+  "GeneratedDate" : "2023-05-08T00:00:00Z",
+  "GpUnit" : 
+  [ 
+   { "Number" : "2",
+    "Type" : "congressional",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-congress-1",
+    "ComposingGpUnitIds" : 
+    [ "prec-1",
+     "prec-3" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "1st Congressional District",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Number" : "2",
+    "Type" : "congressional",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-congress-2",
+    "ComposingGpUnitIds" : 
+    [ "prec-2" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "2nd Congressional District",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Number" : "1",
+    "Type" : "state-house",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-assembly-1",
+    "ComposingGpUnitIds" : 
+    [ "prec-1" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "1st Assembly District",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Number" : "2",
+    "Type" : "state-house",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-assembly-2",
+    "ComposingGpUnitIds" : 
+    [ "prec-2" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "2nd Assembly District",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Number" : "3",
+    "Type" : "state-house",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-assembly-3",
+    "ComposingGpUnitIds" : 
+    [ "prec-3" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "3rd Assembly District",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Number" : "1",
+    "Type" : "county-council",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-county-commisioner-1",
+    "ComposingGpUnitIds" : 
+    [ "prec-1" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "1st County Commissioner District",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Number" : "2",
+    "Type" : "county-council",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-county-commisioner-2",
+    "ComposingGpUnitIds" : 
+    [ "prec-2" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "2nd County Commissioner District",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Number" : "3",
+    "Type" : "county-council",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-county-commisioner-3",
+    "ComposingGpUnitIds" : 
+    [ "prec-3" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "3rd County Commissioner District",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Number" : "A",
+    "Type" : "judicial",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-supreme-court-a",
+    "ComposingGpUnitIds" : 
+    [ "prec-1" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Supreme Court Justice - Seat A",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Number" : "B",
+    "Type" : "judicial",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-supreme-court-b",
+    "ComposingGpUnitIds" : 
+    [ "prec-2" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Supreme Court Justice - Seat B",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Number" : "C",
+    "Type" : "judicial",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-supreme-court-c",
+    "ComposingGpUnitIds" : 
+    [ "prec-3" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Supreme Court Justice - Seat C",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "county",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-county-1",
+    "ComposingGpUnitIds" : 
+    [ "prec-1",
+     "prec-2",
+     "prec-3",
+     "prec-4",
+     "prec-5",
+     "prec-6",
+     "prec-7",
+     "prec-8",
+     "prec-9" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Test County",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "special",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-stadium",
+    "ComposingGpUnitIds" : 
+    [ "ps-2a",
+     "prec-3" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Stadium Improvement District",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "combined-precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "cp-1-4-5-6",
+    "ComposingGpUnitIds" : 
+    [ "prec-1",
+     "prec-4",
+     "prec-5",
+     "prec-6" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Combined Precincts 1,4,5,6",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "combined-precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "cp-3-7-8-9",
+    "ComposingGpUnitIds" : 
+    [ "prec-3",
+     "prec-7",
+     "prec-8",
+     "prec-9" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Combined Precincts 3,7,8,9",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-1",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 1",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-2",
+    "ComposingGpUnitIds" : 
+    [ "ps-2a",
+     "ps-2b" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 2",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-3",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 3",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "split-precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ps-2a",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 2a",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ps-2b",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 2b",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-4",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 4",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-5",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 5",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-6",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 6",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-7",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 7",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-8",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 8",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-9",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 9",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } } ],
+  "Issuer" : "National Institute of Standards and Technology",
+  "IssuerAbbreviation" : "NIST",
+  "Party" : 
+  [ 
+   { "@id" : "par-dem",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Democrat",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" },
+    "@type" : "ElectionResults.Party" },
+   
+   { "@id" : "par-lib",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Libertarian",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" },
+    "@type" : "ElectionResults.Party" },
+   
+   { "@id" : "par-rep",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Republican",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" },
+    "@type" : "ElectionResults.Party" } ],
+  "SequenceEnd" : 1,
+  "SequenceStart" : 1,
+  "Status" : "pre-election",
+  "VendorApplicationId" : "NIST Test Data",
+  "@type" : "ElectionResults.ElectionReport" }

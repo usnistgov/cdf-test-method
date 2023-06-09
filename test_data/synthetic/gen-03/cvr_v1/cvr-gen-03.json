@@ -1,0 +1,2481 @@
+
+ { "CVR" : 
+  [ 
+   { "BallotStyleId" : "b-1-prec-fs-23",
+    "BallotStyleUnitId" : "prec-fs-23",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-1-prec-fs-23",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-1-prec-fs-23",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-ak",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-cs",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-1-es",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-1-gc",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-2-prec-fs-23",
+    "BallotStyleUnitId" : "prec-fs-23",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-2-prec-fs-23",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-2-prec-fs-23",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-bg",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-de",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-1-ff",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-1-hs",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-3-prec-fs-23",
+    "BallotStyleUnitId" : "prec-fs-23",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-3-prec-fs-23",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-3-prec-fs-23",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-ak",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-cs",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-1-es",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-1-gc",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-4-prec-fs-23",
+    "BallotStyleUnitId" : "prec-fs-23",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-4-prec-fs-23",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-4-prec-fs-23",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-bg",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-wi",
+          "SelectionPosition" : 
+          [ 
+           { "CVRWriteIn" : 
+            { "Text" : "John Quincy Adams",
+             "@type" : "CVR.CVRWriteIn" },
+            "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-1-ff",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-1-hs",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-5-prec-fs-23",
+    "BallotStyleUnitId" : "prec-fs-23",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-5-prec-fs-23",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-5-prec-fs-23",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-ak",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-cs",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-1-wi",
+          "SelectionPosition" : 
+          [ 
+           { "CVRWriteIn" : 
+            { "Text" : "Susan B. Anthony",
+             "@type" : "CVR.CVRWriteIn" },
+            "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-1-gc",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-6-prec-fs-23",
+    "BallotStyleUnitId" : "prec-fs-23",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-6-prec-fs-23",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-6-prec-fs-23",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-wi",
+          "SelectionPosition" : 
+          [ 
+           { "CVRWriteIn" : 
+            { "Text" : "Abraham Lincoln",
+             "@type" : "CVR.CVRWriteIn" },
+            "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-de",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-1-ff",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-1-hs",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-7-prec-fs-23",
+    "BallotStyleUnitId" : "prec-fs-23",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-7-prec-fs-23",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-7-prec-fs-23",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-ak",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-cs",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-1-es",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-1-wi",
+          "SelectionPosition" : 
+          [ 
+           { "CVRWriteIn" : 
+            { "Text" : "Abigail Adams",
+             "@type" : "CVR.CVRWriteIn" },
+            "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-8-prec-fs-23",
+    "BallotStyleUnitId" : "prec-fs-23",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-8-prec-fs-23",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-8-prec-fs-23",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-bg",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-de",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-1-ff",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-1-wi",
+          "SelectionPosition" : 
+          [ 
+           { "CVRWriteIn" : 
+            { "Text" : "Abigail Adams",
+             "@type" : "CVR.CVRWriteIn" },
+            "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-9-prec-fs-23",
+    "BallotStyleUnitId" : "prec-fs-23",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-9-prec-fs-23",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-9-prec-fs-23",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-ak",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-cs",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-1-es",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-1-wi",
+          "SelectionPosition" : 
+          [ 
+           { "CVRWriteIn" : 
+            { "Text" : "Susan B. Anthony",
+             "@type" : "CVR.CVRWriteIn" },
+            "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-10-prec-fs-23",
+    "BallotStyleUnitId" : "prec-fs-23",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-10-prec-fs-23",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-10-prec-fs-23",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-bg",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-de",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-1-ff",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-1",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-1-wi",
+          "SelectionPosition" : 
+          [ 
+           { "CVRWriteIn" : 
+            { "Text" : "Abigail Adams",
+             "@type" : "CVR.CVRWriteIn" },
+            "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-1-prec-ac",
+    "BallotStyleUnitId" : "prec-ac",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-1-prec-ac",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-1-prec-ac",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-ak",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-cs",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-2-es",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-2-gcl",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-2-prec-ac",
+    "BallotStyleUnitId" : "prec-ac",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-2-prec-ac",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-2-prec-ac",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-bg",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-de",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-2-fm",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-2-hh",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-3-prec-ac",
+    "BallotStyleUnitId" : "prec-ac",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-3-prec-ac",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-3-prec-ac",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-ak",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-cs",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-2-es",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-2-gcl",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-4-prec-ac",
+    "BallotStyleUnitId" : "prec-ac",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-4-prec-ac",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-4-prec-ac",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-bg",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-wi",
+          "SelectionPosition" : 
+          [ 
+           { "CVRWriteIn" : 
+            { "Text" : "John Quincy Adams",
+             "@type" : "CVR.CVRWriteIn" },
+            "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-2-fm",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-2-hh",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-5-prec-ac",
+    "BallotStyleUnitId" : "prec-ac",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-5-prec-ac",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-5-prec-ac",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-ak",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-cs",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-2-wi",
+          "SelectionPosition" : 
+          [ 
+           { "CVRWriteIn" : 
+            { "Text" : "Abigail Adams",
+             "@type" : "CVR.CVRWriteIn" },
+            "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-2-gcl",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-6-prec-ac",
+    "BallotStyleUnitId" : "prec-ac",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-6-prec-ac",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-6-prec-ac",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-bg",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-de",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-2-fm",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-2-hh",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-7-prec-ac",
+    "BallotStyleUnitId" : "prec-ac",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-7-prec-ac",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-7-prec-ac",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-ak",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-cs",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-2-es",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-2-wi",
+          "SelectionPosition" : 
+          [ 
+           { "CVRWriteIn" : 
+            { "Text" : "Susan B. Anthony",
+             "@type" : "CVR.CVRWriteIn" },
+            "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-8-prec-ac",
+    "BallotStyleUnitId" : "prec-ac",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-8-prec-ac",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-8-prec-ac",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-bg",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-de",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-2-fm",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-2-wi",
+          "SelectionPosition" : 
+          [ 
+           { "CVRWriteIn" : 
+            { "Text" : "Abigail Adams",
+             "@type" : "CVR.CVRWriteIn" },
+            "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-9-prec-ac",
+    "BallotStyleUnitId" : "prec-ac",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-9-prec-ac",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-9-prec-ac",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-ak",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-cs",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-2-es",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-2-wi",
+          "SelectionPosition" : 
+          [ 
+           { "CVRWriteIn" : 
+            { "Text" : "Susan B. Anthony",
+             "@type" : "CVR.CVRWriteIn" },
+            "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-yes",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" },
+   
+   { "BallotStyleId" : "b-10-prec-ac",
+    "BallotStyleUnitId" : "prec-ac",
+    "CreatingDeviceId" : "rd",
+    "CurrentSnapshotId" : "b-10-prec-ac",
+    "CVRSnapshot" : 
+    [ 
+     { "@id" : "b-10-prec-ac",
+      "CVRContest" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-president-bg",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-senate",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-senate-de",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-congress-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-congress-2-fm",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "cc-assembly-2",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-assembly-2-wi",
+          "SelectionPosition" : 
+          [ 
+           { "CVRWriteIn" : 
+            { "Text" : "Abigail Adams",
+             "@type" : "CVR.CVRWriteIn" },
+            "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-22.6",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-22.6-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" },
+       
+       { "ContestId" : "bm-25.3",
+        "CVRContestSelection" : 
+        [ 
+         { "ContestSelectionId" : "cs-25.3-no",
+          "SelectionPosition" : 
+          [ 
+           { "HasIndication" : "yes",
+            "IsAllocable" : "yes",
+            "NumberVotes" : 1,
+            "@type" : "CVR.SelectionPosition" } ],
+          "TotalNumberVotes" : 1,
+          "@type" : "CVR.CVRContestSelection" } ],
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "CVR.CVRContest" } ],
+      "Type" : "original",
+      "@type" : "CVR.CVRSnapshot" } ],
+    "ElectionId" : "election",
+    "@type" : "CVR.CVR" } ],
+  "Election" : 
+  [ 
+   { "@id" : "election",
+    "Candidate" : 
+    [ 
+     { "@id" : "can-ak",
+      "Name" : "Arthur Kumar",
+      "PartyId" : "par-rep",
+      "@type" : "CVR.Candidate" },
+     
+     { "@id" : "can-bg",
+      "Name" : "Brian Getz",
+      "PartyId" : "par-dem",
+      "@type" : "CVR.Candidate" },
+     
+     { "@id" : "can-cs",
+      "Name" : "Chad Snow",
+      "PartyId" : "par-rep",
+      "@type" : "CVR.Candidate" },
+     
+     { "@id" : "can-de",
+      "Name" : "Don Etler",
+      "PartyId" : "par-dem",
+      "@type" : "CVR.Candidate" },
+     
+     { "@id" : "can-esheehy",
+      "Name" : "Eric Sheehy",
+      "PartyId" : "par-rep",
+      "@type" : "CVR.Candidate" },
+     
+     { "@id" : "can-ff",
+      "Name" : "Fiero Finn",
+      "PartyId" : "par-dem",
+      "@type" : "CVR.Candidate" },
+     
+     { "@id" : "can-esnyder",
+      "Name" : "Ernest Snyder",
+      "PartyId" : "par-rep",
+      "@type" : "CVR.Candidate" },
+     
+     { "@id" : "can-fm",
+      "Name" : "Frank L. Matthews",
+      "PartyId" : "par-dem",
+      "@type" : "CVR.Candidate" },
+     
+     { "@id" : "can-gc",
+      "Name" : "Gloria Castle",
+      "PartyId" : "par-rep",
+      "@type" : "CVR.Candidate" },
+     
+     { "@id" : "can-hs",
+      "Name" : "Harry Sosses",
+      "PartyId" : "par-dem",
+      "@type" : "CVR.Candidate" },
+     
+     { "@id" : "can-gcl",
+      "Name" : "Glenna P Cook-Lincoln",
+      "PartyId" : "par-rep",
+      "@type" : "CVR.Candidate" },
+     
+     { "@id" : "can-hh",
+      "Name" : "Heidi Hatzinger",
+      "PartyId" : "par-dem",
+      "@type" : "CVR.Candidate" } ],
+    "Contest" : 
+    [ 
+     { "VotesAllowed" : 1,
+      "@type" : "CVR.CandidateContest",
+      "@id" : "cc-president",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-ak" ],
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-president-ak" },
+       
+       { "CandidateIds" : 
+        [ "can-bg" ],
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-president-bg" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-president-wi" } ],
+      "Name" : "President of the United States",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "CVR.CandidateContest",
+      "@id" : "cc-senate",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-cs" ],
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-senate-cs" },
+       
+       { "CandidateIds" : 
+        [ "can-de" ],
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-senate-de" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-senate-wi" } ],
+      "Name" : "United State Senator",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "CVR.CandidateContest",
+      "@id" : "cc-congress-1",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-esheehy" ],
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-congress-1-es" },
+       
+       { "CandidateIds" : 
+        [ "can-ff" ],
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-congress-1-ff" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-congress-1-wi" } ],
+      "Name" : "Representative in Congress - District 1",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "CVR.CandidateContest",
+      "@id" : "cc-congress-2",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-esnyder" ],
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-congress-2-es" },
+       
+       { "CandidateIds" : 
+        [ "can-fm" ],
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-congress-2-fm" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-congress-2-wi" } ],
+      "Name" : "Representative in Congress - District 2",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "CVR.CandidateContest",
+      "@id" : "cc-assembly-1",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-gc" ],
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-assembly-1-gc" },
+       
+       { "CandidateIds" : 
+        [ "can-hs" ],
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-assembly-1-hs" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-assembly-1-wi" } ],
+      "Name" : "State Assembly - District 1",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "CVR.CandidateContest",
+      "@id" : "cc-assembly-2",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-gcl" ],
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-assembly-2-gcl" },
+       
+       { "CandidateIds" : 
+        [ "can-hh" ],
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-assembly-2-hh" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "CVR.CandidateSelection",
+        "@id" : "cs-assembly-2-wi" } ],
+      "Name" : "State Assembly - District 2",
+      "VoteVariation" : "n-of-m" },
+     
+     { "@type" : "CVR.BallotMeasureContest",
+      "@id" : "bm-22.6",
+      "ContestSelection" : 
+      [ 
+       { "Selection" : "YES",
+        "@type" : "CVR.BallotMeasureSelection",
+        "@id" : "cs-22.6-yes" },
+       
+       { "Selection" : "NO",
+        "@type" : "CVR.BallotMeasureSelection",
+        "@id" : "cs-22.6-no" } ],
+      "Name" : "Measure 22.6 - Exchange of Certain Property",
+      "VoteVariation" : "n-of-m" },
+     
+     { "@type" : "CVR.BallotMeasureContest",
+      "@id" : "bm-25.3",
+      "ContestSelection" : 
+      [ 
+       { "Selection" : "YES",
+        "@type" : "CVR.BallotMeasureSelection",
+        "@id" : "cs-25.3-yes" },
+       
+       { "Selection" : "NO",
+        "@type" : "CVR.BallotMeasureSelection",
+        "@id" : "cs-25.3-no" } ],
+      "Name" : "Measure 25.3 - County Charter",
+      "VoteVariation" : "n-of-m" } ],
+    "ElectionScopeId" : "ru-county-3",
+    "@type" : "CVR.Election" } ],
+  "GeneratedDate" : "2023-05-31T00:00:00Z",
+  "GpUnit" : 
+  [ 
+   { "@id" : "ru-county-3",
+    "Name" : "Test County",
+    "OtherType" : "county",
+    "Type" : "other",
+    "@type" : "CVR.GpUnit" },
+   
+   { "@id" : "prec-fs-23",
+    "Name" : "Fire Station 23",
+    "Type" : "precinct",
+    "@type" : "CVR.GpUnit" },
+   
+   { "@id" : "prec-ac",
+    "Name" : "Aldersgate Church",
+    "Type" : "precinct",
+    "@type" : "CVR.GpUnit" } ],
+  "Party" : 
+  [ 
+   { "@id" : "par-dem",
+    "Name" : "Democrat",
+    "@type" : "CVR.Party" },
+   
+   { "@id" : "par-rep",
+    "Name" : "Republican",
+    "@type" : "CVR.Party" } ],
+  "ReportGeneratingDeviceIds" : 
+  [ "rd" ],
+  "ReportType" : 
+  [ "aggregated" ],
+  "ReportingDevice" : 
+  [ 
+   { "@id" : "rd",
+    "Application" : "Test Data",
+    "Manufacturer" : "NIST",
+    "@type" : "CVR.ReportingDevice" } ],
+  "Version" : "1.0.0",
+  "@type" : "CVR.CastVoteRecordReport" }

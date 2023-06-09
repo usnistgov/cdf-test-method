@@ -1,0 +1,1016 @@
+
+ { "Election" : 
+  [ 
+   { "BallotStyle" : 
+    [ 
+     { "ExternalIdentifier" : 
+      [ 
+       { "Type" : "local-level",
+        "Value" : "Democratic",
+        "@type" : "ElectionResults.ExternalIdentifier" } ],
+      "GpUnitIds" : 
+      [ "prec-fbc",
+       "prec-mcc" ],
+      "OrderedContent" : 
+      [ 
+       { "ContestId" : "cc-dem-president",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-dem-senate",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-dem-congress-12",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-dem-assembly-26",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bmc-referendum-a",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bmc-referendum-b",
+        "@type" : "ElectionResults.OrderedContest" } ],
+      "PartyIds" : 
+      [ "par-dem" ],
+      "@type" : "ElectionResults.BallotStyle" },
+     
+     { "ExternalIdentifier" : 
+      [ 
+       { "Type" : "local-level",
+        "Value" : "Republican",
+        "@type" : "ElectionResults.ExternalIdentifier" } ],
+      "GpUnitIds" : 
+      [ "prec-fbc",
+       "prec-mcc" ],
+      "OrderedContent" : 
+      [ 
+       { "ContestId" : "cc-rep-president",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-rep-senate",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-rep-congress-12",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-rep-assembly-26",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bmc-referendum-a",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bmc-referendum-b",
+        "@type" : "ElectionResults.OrderedContest" } ],
+      "PartyIds" : 
+      [ "par-rep" ],
+      "@type" : "ElectionResults.BallotStyle" } ],
+    "Candidate" : 
+    [ 
+     { "@id" : "can-aneet",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Anne Neet",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-bb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Ben Baker",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-cs",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Chad Snow",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-de",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Don Etler",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-esheehy",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Eric Sheehy",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ff",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Fiero Finn",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-sa",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Shlomo Archibald",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-anina",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Andre Nina",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-bg",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Brent Gilley",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-cc",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Carol Cross",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-dc",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "David Cox",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-esnyder",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Ernest Snyder",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-fm",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Frank L. Matthews",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-gcl",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Glenna P Cook-Lincoln",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-hh",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Heidi Hatzinger",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" } ],
+    "Contest" : 
+    [ 
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-dem-president",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-aneet" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dem-president-an",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-bb" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dem-president-bb",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dem-president-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county",
+      "Name" : "President of the United States",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-dem-senate",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-cs" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dem-senate-cs",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 8,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-de" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dem-senate-de",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dem-senate-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county",
+      "Name" : "United States Senator",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-dem-congress-12",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-esheehy" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dem-congress-12-es",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-ff" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dem-congress-12-ff",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dem-congress-12-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county",
+      "Name" : "Representative in Congress - District 12",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-dem-assembly-26",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-sa" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dem-assembly-26",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-dem-assembly-26-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county",
+      "Name" : "State Assembly - District 26",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-rep-president",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-anina" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-rep-president-an",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-bg" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-rep-president-bg",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-rep-president-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county",
+      "Name" : "President of the United States",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-rep-senate",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-cc" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-rep-senate-cc",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 8,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-dc" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-rep-senate-dc",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-rep-senate-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county",
+      "Name" : "United States Senator",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-rep-congress-12",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-esnyder" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-rep-congress-12-es",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-fm" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-rep-congress-12-fm",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-rep-congress-12-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county",
+      "Name" : "Representative in Congress - District 12",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-rep-assembly-26",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-gcl" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-rep-assembly-26-gcl",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-hh" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-rep-assembly-26-hh",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "cs-rep-assembly-26-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county",
+      "Name" : "State Assembly - District 26",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "@type" : "ElectionResults.BallotMeasureContest",
+      "@id" : "bmc-referendum-a",
+      "ContestSelection" : 
+      [ 
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "FOR",
+           "Language" : "en-us",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bms-referendum-a-yes",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 18,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "AGAINST",
+           "Language" : "en-us",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bms-referendum-a-no",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county",
+      "Name" : "Referendum A - Bond Issue",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "@type" : "ElectionResults.BallotMeasureContest",
+      "@id" : "bmc-referendum-b",
+      "ContestSelection" : 
+      [ 
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "FOR",
+           "Language" : "en-us",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bms-referendum-b-yes",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 12,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] },
+       
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "AGAINST",
+           "Language" : "en-us",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bms-referendum-b-no",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 8,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county",
+          "Type" : "total" },
+         
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mcc",
+          "Type" : "total" },
+         
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-fbc",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county",
+      "Name" : "Referendum B - Exchange or Certain Property",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" } ] } ],
+    "ElectionScopeId" : "ru-county",
+    "EndDate" : "2012-03-06",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Unnamed Election",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" },
+    "StartDate" : "2012-03-06",
+    "Type" : "partisan-primary-closed",
+    "@type" : "ElectionResults.Election" } ],
+  "Format" : "precinct-level",
+  "GeneratedDate" : "2023-06-07T15:44:17-04:00",
+  "GpUnit" : 
+  [ 
+   { "Type" : "other",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-county",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Test County",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-mcc",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Middleton Community Center",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-fbc",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "First Baptist Church",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } } ],
+  "Issuer" : "National Institute of Standards and Technology",
+  "IssuerAbbreviation" : "NIST",
+  "Party" : 
+  [ 
+   { "@id" : "par-dem",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Democratic",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" },
+    "@type" : "ElectionResults.Party" },
+   
+   { "@id" : "par-rep",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Republican",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" },
+    "@type" : "ElectionResults.Party" } ],
+  "SequenceEnd" : 1,
+  "SequenceStart" : 1,
+  "Status" : "unofficial-partial",
+  "VendorApplicationId" : "XSLT Tabulator Prototype 1.0",
+  "@type" : "ElectionResults.ElectionReport" }
