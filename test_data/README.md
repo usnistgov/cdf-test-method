@@ -1,6 +1,6 @@
-# NIST Voting Common Data Format Test Data - Synthetic Test Data Sets
+# NIST Voting Common Data Format Test Data - Test Data Sets
 
-The directory for each synthetic test election is structured in the same manner.
+The directory for each test election is structured in the same manner.
 
 - `bd_v1` - JSON and XML files in the Ballot Definition v1 specification
 - `cvr_v1` - JSON and XML files in the Cast Vote Records v1 specification
