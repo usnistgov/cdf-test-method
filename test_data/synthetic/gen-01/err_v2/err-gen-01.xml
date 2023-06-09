@@ -1,0 +1,2515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK-->
+<ElectionReport xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
+   <Election>
+      <BallotStyle>
+         <ExternalIdentifier>
+            <Type>local-level</Type>
+            <Value>Precinct 1</Value>
+         </ExternalIdentifier>
+         <GpUnitIds>cp-1-4-5-6</GpUnitIds>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>spc-1</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-president</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-senate</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-congress-1</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-assembly-1</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>bm-proposal-1</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-county-comissioner-1</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-county-assessor</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-sc-justice-a</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-dog-catcher</ContestId>
+         </OrderedContent>
+      </BallotStyle>
+      <BallotStyle>
+         <ExternalIdentifier>
+            <Type>local-level</Type>
+            <Value>Precinct 2a</Value>
+         </ExternalIdentifier>
+         <GpUnitIds>ps-2a</GpUnitIds>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>spc-1</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-president</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-senate</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-congress-2</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-assembly-2</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>bm-proposal-2</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-county-comissioner-2</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-county-assessor</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-sc-justice-b</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-dog-catcher</ContestId>
+         </OrderedContent>
+      </BallotStyle>
+      <BallotStyle>
+         <ExternalIdentifier>
+            <Type>local-level</Type>
+            <Value>Precinct 2b</Value>
+         </ExternalIdentifier>
+         <GpUnitIds>ps-2b</GpUnitIds>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>spc-1</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-president</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-senate</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-congress-2</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-assembly-2</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>bm-proposal-3</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-county-comissioner-2</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-county-assessor</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-sc-justice-b</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-dog-catcher</ContestId>
+         </OrderedContent>
+      </BallotStyle>
+      <BallotStyle>
+         <ExternalIdentifier>
+            <Type>local-level</Type>
+            <Value>Precinct 3</Value>
+         </ExternalIdentifier>
+         <GpUnitIds>cp-3-7-8-9</GpUnitIds>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>spc-1</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-president</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-senate</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-congress-1</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-assembly-3</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>bm-proposal-2</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-county-comissioner-3</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-county-assessor</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-sc-justice-c</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ContestId>cc-dog-catcher</ContestId>
+         </OrderedContent>
+      </BallotStyle>
+      <Candidate ObjectId="can-hb"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Harry Brown</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jd"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Jim Doyle</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-gb"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">George Bush</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-dc"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Dick Cheney</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-ag"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Al Gore</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jl"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Joe Liberman</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-ej"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Ed Johnson</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jr"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">John Rusco</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-kb"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Katie Bernstein</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jg"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Jim Gibbons</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-dl"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Daniel Laws</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-mc"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Mary Cahill</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-hs"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Habib Smith</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-bw"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Bonnie Wyatt</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jh"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Jim Hinkle</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-mj"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Marcia Jones</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-pt"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Pat Thomas</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-yd"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Yevette Downs</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-ab"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Arlyn Beal</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jackh"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Jack Howard</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-js"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Jay Scott</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-db"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Dave Backus</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-daveb"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Dave Backus</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-me"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Myron Ensign</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-rs"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Ralph Savage</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-eb"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Ernie Banks</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-am"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Angus McFarland</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-mm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Mick Manson</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-rr"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Robert Rose</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-garyb"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Gary Becker</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-ld"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Laura Denise</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-by"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Barbara Young</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-mf"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Millie Farmer</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-rj"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Ray Jones</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-bb"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Bill Bates</Text>
+         </BallotName>
+      </Candidate>
+      <Candidate ObjectId="can-ni"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Nancy Ingram</Text>
+         </BallotName>
+      </Candidate>
+      <Candidate ObjectId="can-rg"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <BallotName>
+            <Text Language="en-us">Roland Gustiv</Text>
+         </BallotName>
+      </Candidate>
+      <Contest ObjectId="spc-1"
+               xsi:type="PartyContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="po-lib"
+                           xsi:type="PartySelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <PartyIds>par-lib</PartyIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="po-rep"
+                           xsi:type="PartySelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <PartyIds>par-rep</PartyIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="po-dem"
+                           xsi:type="PartySelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <PartyIds>par-dem</PartyIds>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>Straight Party</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>28</Undervotes>
+         </OtherCounts>
+      </Contest>
+      <Contest ObjectId="cc-president"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-president-hb"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>12</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-hb can-jd</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-president-gb"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>12</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-gb can-dc</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-president-ag"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <CandidateIds>can-ag can-jl</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-president-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>President and Vice President of the United States</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>12</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-senate"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-senate-ej"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>12</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-ej</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-senate-jr"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>12</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-jr</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-senate-kb"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <CandidateIds>can-kb</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-senate-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>United State Senator</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>12</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-congress-1"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-congress-1-jg"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-jg</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-congress-1-dl"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-dl</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-congress-1-mc"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-mc</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-congress-1-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>Representative in Congress - District 1</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>6</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-congress-2"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-congress-2-hs"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-hs</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-congress-2-bw"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-bw</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-congress-2-jh"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <CandidateIds>can-jh</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-congress-2-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>Representative in Congress - District 2</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>6</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-assembly-1"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-assembly-1-mj"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-mj</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-assembly-1-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>State Assembly - District 1</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>4</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-assembly-2"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-assembly-2-pt"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <CandidateIds>can-pt</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-assembly-2-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>State Assembly - District 2</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>8</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-assembly-3"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-assembly-3-yd"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-yd</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-assembly-3-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>State Assembly - District 3</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>4</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="bm-proposal-1"
+               xsi:type="BallotMeasureContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="bm-proposal-1-yes"
+                           xsi:type="BallotMeasureSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <Selection>
+               <Text Language="en-us">YES</Text>
+            </Selection>
+         </ContestSelection>
+         <ContestSelection ObjectId="bm-proposal-1-no"
+                           xsi:type="BallotMeasureSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <Selection>
+               <Text Language="en-us">NO</Text>
+            </Selection>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>Proposal 1 - Road improvements</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+      </Contest>
+      <Contest ObjectId="bm-proposal-2"
+               xsi:type="BallotMeasureContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="bm-proposal-2-yes"
+                           xsi:type="BallotMeasureSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>10</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <Selection>
+               <Text Language="en-us">YES</Text>
+            </Selection>
+         </ContestSelection>
+         <ContestSelection ObjectId="bm-proposal-2-no"
+                           xsi:type="BallotMeasureSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>10</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <Selection>
+               <Text Language="en-us">NO</Text>
+            </Selection>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>Proposal 2 - Stadium</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+      </Contest>
+      <Contest ObjectId="bm-proposal-3"
+               xsi:type="BallotMeasureContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="bm-proposal-3-yes"
+                           xsi:type="BallotMeasureSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <Selection>
+               <Text Language="en-us">YES</Text>
+            </Selection>
+         </ContestSelection>
+         <ContestSelection ObjectId="bm-proposal-3-no"
+                           xsi:type="BallotMeasureSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <Selection>
+               <Text Language="en-us">NO</Text>
+            </Selection>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>Proposal 3 - Sales tax</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+      </Contest>
+      <Contest ObjectId="cc-county-comissioner-1"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-county-comissioner-1-ab"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-ab</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs--wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>County Commissioner - District 1</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>3</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-county-comissioner-2"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-county-comissioner-2-jh"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <CandidateIds>can-jackh</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-county-comissioner-2-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>County Commissioner - District 2</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>6</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-county-comissioner-3"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-county-comissioner-3-js"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-js</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-county-comissioner-3-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>County Commissioner - District 3</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>3</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-county-assessor"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-county-assessor-db"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>12</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-db</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-county-assessor-me"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>12</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-me</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-county-assessor-rs"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <CandidateIds>can-rs</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-county-assessor-eb"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <CandidateIds>can-eb</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-county-assessor-am"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <CandidateIds>can-am</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-county-assessor-mm"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <CandidateIds>can-mm</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-county-assessor-db-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>16</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-county-assessor-db-wi2"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>County Assessor</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>24</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>2</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-sc-justice-a"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-sc-justice-a-rr"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-rr</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-sc-justice-a-gb"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-garyb</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-sc-justice-a-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>Supreme Court Justice - Seat A</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>3</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-sc-justice-b"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-sc-justice-b-ld"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-ld</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-sc-justice-b-by"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-by</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-sc-justice-b-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>Supreme Court Justice - Seat B</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>6</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-sc-justice-c"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-sc-justice-c-mf"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-mf</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-sc-justice-c-rj"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-rj</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-sc-justice-c-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>Supreme Court Justice - Seat C</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>3</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-dog-catcher"
+               xsi:type="CandidateContest"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContestSelection ObjectId="cs-dog-catcher-bb"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>12</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-bb</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-dog-catcher-ni"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>12</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-ni</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-dog-catcher-rg"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <CandidateIds>can-rg</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-dog-catcher-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county-1</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-1-4-5-6</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>cp-3-7-8-9</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2a</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>ps-2b</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county-1</ElectionDistrictId>
+         <Name>Dog Catcher</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county-1</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <ElectionScopeId>ru-county-1</ElectionScopeId>
+      <Name>
+         <Text Language="en-us"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Unnamed Election</Text>
+      </Name>
+      <StartDate>2000-11-07</StartDate>
+      <EndDate>2000-11-07</EndDate>
+      <Type>general</Type>
+   </Election>
+   <Format>precinct-level</Format>
+   <GeneratedDate>2023-06-07T15:44:12-04:00</GeneratedDate>
+   <GpUnit ObjectId="ru-county-1"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Test County</Text>
+      </Name>
+      <Type>other</Type>
+   </GpUnit>
+   <GpUnit ObjectId="cp-1-4-5-6"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Combined Precincts 1,4,5,6</Text>
+      </Name>
+      <Type>combined-precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="cp-3-7-8-9"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Combined Precincts 3,7,8,9</Text>
+      </Name>
+      <Type>combined-precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="prec-1"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Precinct 1</Text>
+      </Name>
+      <Type>precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="prec-2"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Precinct 2</Text>
+      </Name>
+      <Type>precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="prec-3"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Precinct 3</Text>
+      </Name>
+      <Type>precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="ps-2a"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Precinct 2a</Text>
+      </Name>
+      <Type>split-precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="ps-2b"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Precinct 2b</Text>
+      </Name>
+      <Type>precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="prec-4"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Precinct 4</Text>
+      </Name>
+      <Type>precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="prec-5"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Precinct 5</Text>
+      </Name>
+      <Type>precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="prec-6"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Precinct 6</Text>
+      </Name>
+      <Type>precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="prec-7"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Precinct 7</Text>
+      </Name>
+      <Type>precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="prec-8"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Precinct 8</Text>
+      </Name>
+      <Type>precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="prec-9"
+           xsi:type="ReportingUnit"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Precinct 9</Text>
+      </Name>
+      <Type>precinct</Type>
+   </GpUnit>
+   <Issuer>National Institute of Standards and Technology</Issuer>
+   <IssuerAbbreviation>NIST</IssuerAbbreviation>
+   <Party ObjectId="par-dem"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Democrat</Text>
+      </Name>
+   </Party>
+   <Party ObjectId="par-lib"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Libertarian</Text>
+      </Name>
+   </Party>
+   <Party ObjectId="par-rep"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Name>
+         <Text Language="en-us">Republican</Text>
+      </Name>
+   </Party>
+   <SequenceStart>1</SequenceStart>
+   <SequenceEnd>1</SequenceEnd>
+   <Status>unofficial-partial</Status>
+   <VendorApplicationId>XSLT Tabulator Prototype 1.0</VendorApplicationId>
+</ElectionReport>

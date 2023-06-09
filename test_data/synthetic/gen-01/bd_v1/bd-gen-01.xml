@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK -->
+<BallotDefinition xmlns="http://itl.nist.gov/ns/voting/1500-20/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Election>
+		<BallotStyle>
+			<ExternalIdentifier>
+				<Type>local-level</Type>
+				<Value>Precinct 1</Value>
+			</ExternalIdentifier>
+			<GpUnitIds>cp-1-4-5-6</GpUnitIds>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>spc-1</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-president</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-senate</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-congress-1</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-assembly-1</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>bm-proposal-1</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-county-comissioner-1</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-county-assessor</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-sc-justice-a</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-dog-catcher</ContestId>
+			</OrderedContent>
+		</BallotStyle>
+		<BallotStyle>
+			<ExternalIdentifier>
+				<Type>local-level</Type>
+				<Value>Precinct 2a</Value>
+			</ExternalIdentifier>
+			<GpUnitIds>ps-2a</GpUnitIds>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>spc-1</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-president</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-senate</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-congress-2</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-assembly-2</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>bm-proposal-2</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-county-comissioner-2</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-county-assessor</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-sc-justice-b</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-dog-catcher</ContestId>
+			</OrderedContent>
+		</BallotStyle>
+		<BallotStyle>
+			<ExternalIdentifier>
+				<Type>local-level</Type>
+				<Value>Precinct 2b</Value>
+			</ExternalIdentifier>
+			<GpUnitIds>ps-2b</GpUnitIds>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>spc-1</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-president</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-senate</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-congress-2</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-assembly-2</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>bm-proposal-3</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-county-comissioner-2</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-county-assessor</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-sc-justice-b</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-dog-catcher</ContestId>
+			</OrderedContent>
+		</BallotStyle>
+		<BallotStyle>
+			<ExternalIdentifier>
+				<Type>local-level</Type>
+				<Value>Precinct 3</Value>
+			</ExternalIdentifier>
+			<GpUnitIds>cp-3-7-8-9</GpUnitIds>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>spc-1</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-president</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-senate</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-congress-1</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-assembly-3</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>bm-proposal-2</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-county-comissioner-3</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-county-assessor</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-sc-justice-c</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-dog-catcher</ContestId>
+			</OrderedContent>
+		</BallotStyle>
+		<Candidate ObjectId="can-hb">
+			<BallotName>
+				<Text Language="en">Harry Brown</Text>
+			</BallotName>
+			<IsTopTicket>true</IsTopTicket>
+			<PartyId>par-lib</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-jd">
+			<BallotName>
+				<Text Language="en">Jim Doyle</Text>
+			</BallotName>
+			<IsTopTicket>false</IsTopTicket>
+			<PartyId>par-lib</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-gb">
+			<BallotName>
+				<Text Language="en">George Bush</Text>
+			</BallotName>
+			<IsTopTicket>true</IsTopTicket>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-dc">
+			<BallotName>
+				<Text Language="en">Dick Cheney</Text>
+			</BallotName>
+			<IsTopTicket>false</IsTopTicket>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-ag">
+			<BallotName>
+				<Text Language="en">Al Gore</Text>
+			</BallotName>
+			<IsTopTicket>true</IsTopTicket>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-jl">
+			<BallotName>
+				<Text Language="en">Joe Liberman</Text>
+			</BallotName>
+			<IsTopTicket>false</IsTopTicket>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-ej">
+			<BallotName>
+				<Text Language="en">Ed Johnson</Text>
+			</BallotName>
+			<PartyId>par-lib</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-jr">
+			<BallotName>
+				<Text Language="en">John Rusco</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-kb">
+			<BallotName>
+				<Text Language="en">Katie Bernstein</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-jg">
+			<BallotName>
+				<Text Language="en">Jim Gibbons</Text>
+			</BallotName>
+			<PartyId>par-lib</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-dl">
+			<BallotName>
+				<Text Language="en">Daniel Laws</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-mc">
+			<BallotName>
+				<Text Language="en">Mary Cahill</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-hs">
+			<BallotName>
+				<Text Language="en">Habib Smith</Text>
+			</BallotName>
+			<PartyId>par-lib</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-bw">
+			<BallotName>
+				<Text Language="en">Bonnie Wyatt</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-jh">
+			<BallotName>
+				<Text Language="en">Jim Hinkle</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-mj">
+			<BallotName>
+				<Text Language="en">Marcia Jones</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-pt">
+			<BallotName>
+				<Text Language="en">Pat Thomas</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-yd">
+			<BallotName>
+				<Text Language="en">Yevette Downs</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-ab">
+			<BallotName>
+				<Text Language="en">Arlyn Beal</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-jackh">
+			<BallotName>
+				<Text Language="en">Jack Howard</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-js">
+			<BallotName>
+				<Text Language="en">Jay Scott</Text>
+			</BallotName>
+			<PartyId>par-lib</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-db">
+			<BallotName>
+				<Text Language="en">Dave Backus</Text>
+			</BallotName>
+			<PartyId>par-lib</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-daveb">
+			<BallotName>
+				<Text Language="en">Dave Backus</Text>
+			</BallotName>
+			<PartyId>par-lib</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-me">
+			<BallotName>
+				<Text Language="en">Myron Ensign</Text>
+			</BallotName>
+			<PartyId>par-lib</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-rs">
+			<BallotName>
+				<Text Language="en">Ralph Savage</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-eb">
+			<BallotName>
+				<Text Language="en">Ernie Banks</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-am">
+			<BallotName>
+				<Text Language="en">Angus McFarland</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-mm">
+			<BallotName>
+				<Text Language="en">Mick Manson</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-rr">
+			<BallotName>
+				<Text Language="en">Robert Rose</Text>
+			</BallotName>
+			<PartyId>par-lib</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-garyb">
+			<BallotName>
+				<Text Language="en">Gary Becker</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-ld">
+			<BallotName>
+				<Text Language="en">Laura Denise</Text>
+			</BallotName>
+			<PartyId>par-lib</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-by">
+			<BallotName>
+				<Text Language="en">Barbara Young</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-mf">
+			<BallotName>
+				<Text Language="en">Millie Farmer</Text>
+			</BallotName>
+			<PartyId>par-lib</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-rj">
+			<BallotName>
+				<Text Language="en">Ray Jones</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-bb">
+			<BallotName>
+				<Text Language="en">Bill Bates</Text>
+			</BallotName>
+		</Candidate>
+		<Candidate ObjectId="can-ni">
+			<BallotName>
+				<Text Language="en">Nancy Ingram</Text>
+			</BallotName>
+		</Candidate>
+		<Candidate ObjectId="can-rg">
+			<BallotName>
+				<Text Language="en">Roland Gustiv</Text>
+			</BallotName>
+		</Candidate>
+		<Contest xsi:type="StraightPartyContest" ObjectId="spc-1">
+			<ContestOption xsi:type="PartyOption" ObjectId="po-lib">
+				<PartyIds>par-lib</PartyIds>
+			</ContestOption>
+			<ContestOption xsi:type="PartyOption" ObjectId="po-rep">
+				<PartyIds>par-rep</PartyIds>
+			</ContestOption>
+			<ContestOption xsi:type="PartyOption" ObjectId="po-dem">
+				<PartyIds>par-dem</PartyIds>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<Name>Straight Party</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<ControlledContestIds>cc-president cc-senate cc-congress-1 cc-congress-2 cc-assembly-1 cc-assembly-2 cc-assembly-3 cc-county-comissioner-1 cc-county-comissioner-2 cc-county-comissioner-3 cc-county-assessor cc-sc-justice-a cc-sc-justice-b cc-sc-justice-c</ControlledContestIds>
+			<StraightPartyRuleset>inclusive</StraightPartyRuleset>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-president">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-president-hb">
+				<CandidateIds>can-hb can-jd</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-president-gb">
+				<CandidateIds>can-gb can-dc</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-president-ag">
+				<CandidateIds>can-ag can-jl</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-president-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<Name>President and Vice President of the United States</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-senate">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-senate-ej">
+				<CandidateIds>can-ej</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-senate-jr">
+				<CandidateIds>can-jr</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-senate-kb">
+				<CandidateIds>can-kb</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-senate-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<Name>United State Senator</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-congress-1">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-1-jg">
+				<CandidateIds>can-jg</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-1-dl">
+				<CandidateIds>can-dl</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-1-mc">
+				<CandidateIds>can-mc</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-1-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-congress-1</ElectionDistrictId>
+			<Name>Representative in Congress - District 1</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-congress-2">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-2-hs">
+				<CandidateIds>can-hs</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-2-bw">
+				<CandidateIds>can-bw</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-2-jh">
+				<CandidateIds>can-jh</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-2-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-congress-2</ElectionDistrictId>
+			<Name>Representative in Congress - District 2</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-assembly-1">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-1-mj">
+				<CandidateIds>can-mj</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-1-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-assembly-1</ElectionDistrictId>
+			<Name>State Assembly - District 1</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-assembly-2">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-2-pt">
+				<CandidateIds>can-pt</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-2-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-assembly-2</ElectionDistrictId>
+			<Name>State Assembly - District 2</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-assembly-3">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-3-yd">
+				<CandidateIds>can-yd</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-3-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-assembly-3</ElectionDistrictId>
+			<Name>State Assembly - District 3</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="BallotMeasureContest" ObjectId="bm-proposal-1">
+			<ContestOption xsi:type="BallotMeasureOption" ObjectId="bm-proposal-1-yes">
+				<Selection>
+					<Text Language="en">YES</Text>
+				</Selection>
+			</ContestOption>
+			<ContestOption xsi:type="BallotMeasureOption" ObjectId="bm-proposal-1-no">
+				<Selection>
+					<Text Language="en">NO</Text>
+				</Selection>
+			</ContestOption>
+			<ElectionDistrictId>prec-1</ElectionDistrictId>
+			<Name>Proposal 1 - Road improvements</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<FullText>
+				<Text Language="en">Should Taxes be raised for road improvement?</Text>
+			</FullText>
+		</Contest>
+		<Contest xsi:type="BallotMeasureContest" ObjectId="bm-proposal-2">
+			<ContestOption xsi:type="BallotMeasureOption" ObjectId="bm-proposal-2-yes">
+				<Selection>
+					<Text Language="en">YES</Text>
+				</Selection>
+			</ContestOption>
+			<ContestOption xsi:type="BallotMeasureOption" ObjectId="bm-proposal-2-no">
+				<Selection>
+					<Text Language="en">NO</Text>
+				</Selection>
+			</ContestOption>
+			<ElectionDistrictId>ru-stadium</ElectionDistrictId>
+			<Name>Proposal 2 - Stadium</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<FullText>
+				<Text Language="en">Should the city fund the new stadium?</Text>
+			</FullText>
+		</Contest>
+		<Contest xsi:type="BallotMeasureContest" ObjectId="bm-proposal-3">
+			<ContestOption xsi:type="BallotMeasureOption" ObjectId="bm-proposal-3-yes">
+				<Selection>
+					<Text Language="en">YES</Text>
+				</Selection>
+			</ContestOption>
+			<ContestOption xsi:type="BallotMeasureOption" ObjectId="bm-proposal-3-no">
+				<Selection>
+					<Text Language="en">NO</Text>
+				</Selection>
+			</ContestOption>
+			<ElectionDistrictId>prec-3</ElectionDistrictId>
+			<Name>Proposal 3 - Sales tax</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<FullText>
+				<Text Language="en">Should the salex tax be increased to 9%</Text>
+			</FullText>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-county-comissioner-1">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-comissioner-1-ab">
+				<CandidateIds>can-ab</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs--wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-commisioner-1</ElectionDistrictId>
+			<Name>County Commissioner - District 1</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-county-comissioner-2">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-comissioner-2-jh">
+				<CandidateIds>can-jackh</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-comissioner-2-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-commisioner-2</ElectionDistrictId>
+			<Name>County Commissioner - District 2</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-county-comissioner-3">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-comissioner-3-js">
+				<CandidateIds>can-js</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-comissioner-3-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-commisioner-3</ElectionDistrictId>
+			<Name>County Commissioner - District 3</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-county-assessor">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-assessor-db">
+				<CandidateIds>can-db</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-assessor-me">
+				<CandidateIds>can-me</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-assessor-rs">
+				<CandidateIds>can-rs</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-assessor-eb">
+				<CandidateIds>can-eb</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-assessor-am">
+				<CandidateIds>can-am</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-assessor-mm">
+				<CandidateIds>can-mm</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-assessor-db-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-assessor-db-wi2">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<Name>County Assessor</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>2</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-sc-justice-a">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-sc-justice-a-rr">
+				<CandidateIds>can-rr</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-sc-justice-a-gb">
+				<CandidateIds>can-garyb</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-sc-justice-a-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-supreme-court-a</ElectionDistrictId>
+			<Name>Supreme Court Justice - Seat A</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-sc-justice-b">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-sc-justice-b-ld">
+				<CandidateIds>can-ld</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-sc-justice-b-by">
+				<CandidateIds>can-by</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-sc-justice-b-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-supreme-court-b</ElectionDistrictId>
+			<Name>Supreme Court Justice - Seat B</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-sc-justice-c">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-sc-justice-c-mf">
+				<CandidateIds>can-mf</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-sc-justice-c-rj">
+				<CandidateIds>can-rj</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-sc-justice-c-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-supreme-court-c</ElectionDistrictId>
+			<Name>Supreme Court Justice - Seat C</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-dog-catcher">
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-dog-catcher-bb">
+				<CandidateIds>can-bb</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-dog-catcher-ni">
+				<CandidateIds>can-ni</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-dog-catcher-rg">
+				<CandidateIds>can-rg</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="cs-dog-catcher-wi">
+				<IsWriteIn>true</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<Name>Dog Catcher</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<ElectionScopeId>ru-county-1</ElectionScopeId>
+		<Name>
+			<Text Language="en">GEN-01</Text>
+		</Name>
+		<StartDate>2000-11-07</StartDate>
+		<EndDate>2000-11-07</EndDate>
+		<Type>general</Type>
+	</Election>
+	<GeneratedDate>2023-05-08T00:00:00Z</GeneratedDate>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-congress-1">
+		<ComposingGpUnitIds>prec-1 prec-3</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">1st Congressional District</Text>
+		</Name>
+		<Number>2</Number>
+		<Type>congressional</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-congress-2">
+		<ComposingGpUnitIds>prec-2</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">2nd Congressional District</Text>
+		</Name>
+		<Number>2</Number>
+		<Type>congressional</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-assembly-1">
+		<ComposingGpUnitIds>prec-1</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">1st Assembly District</Text>
+		</Name>
+		<Number>1</Number>
+		<Type>state-house</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-assembly-2">
+		<ComposingGpUnitIds>prec-2</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">2nd Assembly District</Text>
+		</Name>
+		<Number>2</Number>
+		<Type>state-house</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-assembly-3">
+		<ComposingGpUnitIds>prec-3</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">3rd Assembly District</Text>
+		</Name>
+		<Number>3</Number>
+		<Type>state-house</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-county-commisioner-1">
+		<ComposingGpUnitIds>prec-1</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">1st County Commissioner District</Text>
+		</Name>
+		<Number>1</Number>
+		<Type>county-council</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-county-commisioner-2">
+		<ComposingGpUnitIds>prec-2</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">2nd County Commissioner District</Text>
+		</Name>
+		<Number>2</Number>
+		<Type>county-council</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-county-commisioner-3">
+		<ComposingGpUnitIds>prec-3</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">3rd County Commissioner District</Text>
+		</Name>
+		<Number>3</Number>
+		<Type>county-council</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-supreme-court-a">
+		<ComposingGpUnitIds>prec-1</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">Supreme Court Justice - Seat A</Text>
+		</Name>
+		<Number>A</Number>
+		<Type>judicial</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-supreme-court-b">
+		<ComposingGpUnitIds>prec-2</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">Supreme Court Justice - Seat B</Text>
+		</Name>
+		<Number>B</Number>
+		<Type>judicial</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-supreme-court-c">
+		<ComposingGpUnitIds>prec-3</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">Supreme Court Justice - Seat C</Text>
+		</Name>
+		<Number>C</Number>
+		<Type>judicial</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-county-1">
+		<ComposingGpUnitIds>prec-1 prec-2 prec-3 prec-4 prec-5 prec-6 prec-7 prec-8 prec-9</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">Test County</Text>
+		</Name>
+		<Type>county</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-stadium">
+		<ComposingGpUnitIds>ps-2a prec-3</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">Stadium Improvement District</Text>
+		</Name>
+		<Type>special</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="cp-1-4-5-6">
+		<ComposingGpUnitIds>prec-1 prec-4 prec-5 prec-6</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">Combined Precincts 1,4,5,6</Text>
+		</Name>
+		<Type>combined-precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="cp-3-7-8-9">
+		<ComposingGpUnitIds>prec-3 prec-7 prec-8 prec-9</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">Combined Precincts 3,7,8,9</Text>
+		</Name>
+		<Type>combined-precinct</Type>
+	</GpUnit>
+	<!-- begin precincts -->
+	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-1">
+		<Name>
+			<Text Language="en">Precinct 1</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-2">
+		<ComposingGpUnitIds>ps-2a ps-2b</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">Precinct 2</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-3">
+		<Name>
+			<Text Language="en">Precinct 3</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<!-- begin precinct-splits -->
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ps-2a">
+		<Name>
+			<Text Language="en">Precinct 2a</Text>
+		</Name>
+		<Type>split-precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ps-2b">
+		<Name>
+			<Text Language="en">Precinct 2b</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-4">
+		<Name>
+			<Text Language="en">Precinct 4</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-5">
+		<Name>
+			<Text Language="en">Precinct 5</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-6">
+		<Name>
+			<Text Language="en">Precinct 6</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-7">
+		<Name>
+			<Text Language="en">Precinct 7</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-8">
+		<Name>
+			<Text Language="en">Precinct 8</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-9">
+		<Name>
+			<Text Language="en">Precinct 9</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<Issuer>National Institute of Standards and Technology</Issuer>
+	<IssuerAbbreviation>NIST</IssuerAbbreviation>
+	<Party ObjectId="par-dem">
+		<Name>
+			<Text Language="en">Democrat</Text>
+		</Name>
+	</Party>
+	<Party ObjectId="par-lib">
+		<Name>
+			<Text Language="en">Libertarian</Text>
+		</Name>
+	</Party>
+	<Party ObjectId="par-rep">
+		<Name>
+			<Text Language="en">Republican</Text>
+		</Name>
+	</Party>
+	<SequenceStart>1</SequenceStart>
+	<SequenceEnd>1</SequenceEnd>
+	<VendorApplicationId>NIST Test Data</VendorApplicationId>
+	<Version>1.0.0</Version>
+</BallotDefinition>
