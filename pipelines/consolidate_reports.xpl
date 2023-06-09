@@ -14,7 +14,7 @@
         <p:with-input port="insertion">
             <p:inline>
                 <xvrl:metadata xmlns:xvrl="http://www.xproc.org/ns/xvrl">
-                    <xvrl:creator name="NIST Common Data Format Test Method" version="1.0.0beta4" />
+                    <xvrl:creator name="NIST Common Data Format Test Method" version="1.0.0beta5" />
                     <xvrl:timestamp>{$start-dateTime}</xvrl:timestamp>
                     <xvrl:summary>Please review each report to determine conformance to the applicable test assertions / requirements</xvrl:summary>
                     <xvrl:supplemental tm:xproc-engine-name="{p:system-property('p:product-name')}"
