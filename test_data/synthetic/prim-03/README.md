@@ -118,7 +118,11 @@ several test elections that has been developed.
 <tr class="odd">
 <td><p><strong>Referendum A</strong></p>
 <p><strong>Bond Issue</strong></p>
-<p>To promote and assure the preservation and improvement of essential rail passenger and freight services to the inhabitants of the state, shall section two of chapter one hundred eighteen of the laws of nineteen hundred seventy-four, authorizing the creation of a state debt in the amount of two hundred fifty million dollars for capital facilities be approved?</p>
+<p>To promote and assure the preservation and improvement of essential rail</p>
+<p>passenger and freight services to the inhabitants of the state, shall section</p>
+<p>two of chapter one hundred eighteen of the laws of nineteen hundred</p>
+<p>seventy-four, authorizing the creation of a state debt in the amount of</p>
+<p>two hundred fifty million dollars for capital facilities be approved?</p>
 <p>For</p>
 <p>Against</p>
 <p>Vote for 1</p></td>
