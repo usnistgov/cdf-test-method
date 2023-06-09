@@ -77,7 +77,8 @@ several test elections that has been developed.
 <td></td>
 </tr>
 <tr class="even">
-<td><p><strong>President and Vice President of the United States</strong></p>
+<td><p><strong>President and Vice President</strong></p>
+<p><strong>of the United States</strong></p>
 <p>Harry Brown LIB</p>
 <p>Jim Doyle</p>
 <p>George Bush REP</p>
