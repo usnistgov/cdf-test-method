@@ -147,25 +147,29 @@ several test elections that has been developed.
 <tr class="even">
 <td><p><strong>Proposal 1</strong></p>
 <p><strong>District 1</strong></p>
-<p>Should Taxes be raised for road improvement?</p>
+<p>Should Taxes be raised</p>
+<p>for road improvement?</p>
 <p>Yes</p>
 <p>No</p>
 <p>Vote for 1</p></td>
 <td><p><strong>Proposal 1</strong></p>
 <p><strong>District 2a</strong></p>
-<p>Should the city fund the new stadium?</p>
+<p>Should the city fund</p>
+<p>the new stadium?</p>
 <p>Yes</p>
 <p>No</p>
 <p>Vote for 1</p></td>
 <td><p><strong>Proposal 1</strong></p>
 <p><strong>District 2b</strong></p>
-<p>Should the sales tax be increased to 9%?</p>
+<p>Should the sales tax</p>
+<p>be increased to 9%?</p>
 <p>Yes</p>
 <p>No</p>
 <p>Vote for 1</p></td>
 <td><p><strong>Proposal 1</strong></p>
 <p><strong>District 2a</strong></p>
-<p>Should the city fund the new stadium?</p>
+<p>Should the city fund</p>
+<p>the new stadium?</p>
 <p>Yes</p>
 <p>No</p>
 <p>Vote for 1</p></td>
