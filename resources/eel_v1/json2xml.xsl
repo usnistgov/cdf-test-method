@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xml:id="json2xml" xpath-default-namespace="http://www.w3.org/2005/xpath-functions" xmlns="http://itl.nist.gov/ns/voting/1500-101/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdf="afssaf" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:math="http://www.w3.org/2005/xpath-functions/math" xmlns:array="http://www.w3.org/2005/xpath-functions/array" xmlns:map="http://www.w3.org/2005/xpath-functions/map" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:err="http://www.w3.org/2005/xqt-errors" exclude-result-prefixes="array cdf fn map math xhtml err xs" version="3.0">
+<xsl:stylesheet xml:id="json2xml" xpath-default-namespace="http://www.w3.org/2005/xpath-functions" xmlns="http://itl.nist.gov/ns/voting/1500-101/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdf="http://itl.nist.gov/ns/voting/1500-101/v1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:math="http://www.w3.org/2005/xpath-functions/math" xmlns:array="http://www.w3.org/2005/xpath-functions/array" xmlns:map="http://www.w3.org/2005/xpath-functions/map" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:err="http://www.w3.org/2005/xqt-errors" exclude-result-prefixes="array cdf fn map math xhtml err xs" version="3.0">
 	<xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
 	<!-- the root node must be XML, meaning the JSON must be nested in XML (not ideal) -->
 	<xsl:template name="start" match=".[. instance of map(*)]" priority="1">
@@ -27,6 +27,11 @@
 				<xsl:value-of select="*[@key = 'HashType']"/>
 			</HashType>
 		</xsl:if>
+		<xsl:if test="boolean(*[@key = 'OtherHashType'])">
+			<OtherHashType>
+				<xsl:value-of select="*[@key = 'OtherHashType']"/>
+			</OtherHashType>
+		</xsl:if>
 		<xsl:if test="boolean(*[@key = 'Id'])">
 			<Id>
 				<xsl:value-of select="*[@key = 'Id']"/>
@@ -41,11 +46,6 @@
 			<Model>
 				<xsl:value-of select="*[@key = 'Model']"/>
 			</Model>
-		</xsl:if>
-		<xsl:if test="boolean(*[@key = 'OtherHashType'])">
-			<OtherHashType>
-				<xsl:value-of select="*[@key = 'OtherHashType']"/>
-			</OtherHashType>
 		</xsl:if>
 		<xsl:if test="boolean(*[@key = 'Type'])">
 			<Type>
@@ -65,7 +65,7 @@
 	</xsl:template>
 	<xsl:template name="cdf:ElectionEventLog" match="*[string = 'EventLogging.ElectionEventLog' and string/@key = '@type']">
 		<xsl:param name="set_type" select="true()"/>
-		<ElectionEventLog>
+		<ElectionEventLog>		
 			<xsl:if test="boolean(*[@key = 'Details'])">
 				<Details>
 					<xsl:value-of select="*[@key = 'Details']"/>

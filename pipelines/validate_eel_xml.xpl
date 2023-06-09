@@ -20,11 +20,10 @@
     later -->
     <p:if test="exists(/*/@xsi:schemaLocation)"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <p:variable name="current-document" select="document-uri(.)"></p:variable>
         <p:error code="tm:schemaLocationNotAllowed">
             <p:with-input port="source">
                 <message>Attribute xsi:schemaLocation on root tag is disallowed for
-                    {$current-document}.</message>
+                    {p:document-property(.,'base-uri')}.</message>
             </p:with-input>
         </p:error>
     </p:if>
@@ -41,7 +40,7 @@
         <p:error code="tm:badtag">
             <p:with-input port="source">
                 <message>The input document root tag is unexpected. Expected "ElectionEventLog" for
-                    {document-uri()}</message>
+                    {p:document-property(.,'base-uri')}</message>
             </p:with-input>
         </p:error>
     </p:if>
@@ -62,7 +61,7 @@
         <p:error code="tm:schemaLocationNotAllowed">
             <p:with-input port="source">
                 <message>Attribute xsi:schemaLocation on root tag is disallowed for
-                    {$current-document}.</message>
+                    {p:document-property(.,'base-uri')}.</message>
             </p:with-input>
         </p:error>
     </p:if>
@@ -71,7 +70,7 @@
         <p:error code="tm:badtag">
             <p:with-input port="source">
                 <message>The input document root tag is unexpected. Expected
-                    "ElectionEventLogDocumentation" for {document-uri()}.</message>
+                    "ElectionEventLogDocumentation" for {p:document-property(.,'base-uri')}.</message>
             </p:with-input>
         </p:error>
     </p:if>

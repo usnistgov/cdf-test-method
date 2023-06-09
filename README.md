@@ -9,8 +9,6 @@ Current Limitations (expected to be lifted in subsequent versions):
 - Baseline semantic rulesets (Schematron) may be incomplete
 - TM does not support external Schematron rulesets
 - JSON Schema Validation of Voter Records Interchange (VRI) is not supported
-- JSON Schema Validation of certain Election Event Logs may fail
-- There is a known issue with the JSON Schema Validator's handling of `format: time` for certain format models
 
 > NB: Voter Records Interchange does not have any interoperability requirements in VVSG 2.0
 
