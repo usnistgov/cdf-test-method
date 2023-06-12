@@ -110,7 +110,7 @@ several test elections that has been developed.
 <p>Mary Cahill DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td><p><strong>Representative in Congress</strong></p>
+<td colspan="2"><p><strong>Representative in Congress</strong></p>
 <p>District 2</p>
 <p>Habib Smith LIB</p>
 <p>Bonnie Wyatt REP</p>
@@ -132,7 +132,7 @@ several test elections that has been developed.
 <p>Marcia Jones DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td><p><strong>State Assembly</strong></p>
+<td colspan="2"><p><strong>State Assembly</strong></p>
 <p><strong>District 2</strong></p>
 <p>Pat Thomas DEM</p>
 <p>Write-In</p>
@@ -180,7 +180,7 @@ several test elections that has been developed.
 <p>Arlyn Beal REP</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td><p><strong>County Commissioner</strong></p>
+<td colspan="2"><p><strong>County Commissioner</strong></p>
 <p><strong>District 2</strong></p>
 <p>Jack Howard DEM</p>
 <p>Write-In</p>
@@ -214,7 +214,7 @@ several test elections that has been developed.
 <p>Gary Becker DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td><p><strong>Supreme Court Justice</strong></p>
+<td colspan="2"><p><strong>Supreme Court Justice</strong></p>
 <p><strong>Seat B</strong></p>
 <p>Laura Denise LIB</p>
 <p>Barbara Young DEM</p>
