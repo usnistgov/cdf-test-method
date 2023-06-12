@@ -77,7 +77,7 @@ several test elections that has been developed.
 <td></td>
 </tr>
 <tr class="even">
-<td><p><strong>President and Vice President</strong></p>
+<td colspan="4"><p><strong>President and Vice President</strong></p>
 <p><strong>of the United States</strong></p>
 <p>Harry Brown LIB</p>
 <p>Jim Doyle</p>
@@ -87,20 +87,14 @@ several test elections that has been developed.
 <p>Joe Liberman</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="odd">
-<td><p><strong>United States Senator</strong></p>
+<td colspan="4"><p><strong>United States Senator</strong></p>
 <p>Ed Johnson LIB</p>
 <p>John Rusco REP</p>
 <p>Katie Bernstein DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
 <td><p><strong>Representative in Congress</strong></p>
@@ -124,7 +118,6 @@ several test elections that has been developed.
 <p>Mary Cahill DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>State Assembly</strong></p>
@@ -142,7 +135,6 @@ several test elections that has been developed.
 <p>Yevette Downs DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
 </tr>
 <tr class="even">
 <td><p><strong>Proposal 1</strong></p>
@@ -190,10 +182,9 @@ several test elections that has been developed.
 <p>Jay Scott LIB</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
 </tr>
 <tr class="even">
-<td><p><strong>County Assessor</strong></p>
+<td colspan="4"><p><strong>County Assessor</strong></p>
 <p>Dave Backus LIB</p>
 <p>Myron Ensign LIB</p>
 <p>Ralph Savage REP</p>
@@ -203,9 +194,6 @@ several test elections that has been developed.
 <p>Write-In</p>
 <p>Write-In</p>
 <p>Vote for 2</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Supreme Court Justice</strong></p>
@@ -226,18 +214,14 @@ several test elections that has been developed.
 <p>Ray Jones DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
 </tr>
 <tr class="even">
-<td><p><strong>Dog Catcher</strong></p>
+<td colspan="4"><p><strong>Dog Catcher</strong></p>
 <p>Bill Bates</p>
 <p>Nancy Ingram</p>
 <p>Roland Gustiv</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table></td>
