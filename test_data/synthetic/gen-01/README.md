@@ -67,14 +67,11 @@ several test elections that has been developed.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Straight Party</strong></p>
+<td colspan="4"><p><strong>Straight Party</strong></p>
 <p>Libertarian</p>
 <p>Republican</p>
 <p>Democrat</p>
 <p>Vote for one</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
 <td colspan="4"><p><strong>President and Vice President</strong></p>

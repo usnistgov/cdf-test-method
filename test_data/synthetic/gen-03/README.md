@@ -65,20 +65,18 @@ several test elections that has been developed.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>President of the United States</strong></p>
+<td colspan="2"><p><strong>President of the United States</strong></p>
 <p>Arthur Kumar REP</p>
 <p>Brian Getz DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
 </tr>
 <tr class="even">
-<td><p><strong>United States Senator</strong></p>
+<td colspan="2"><p><strong>United States Senator</strong></p>
 <p>Chad Snow REP</p>
 <p>Don Etler DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Representative in Congress</strong></p>
@@ -109,7 +107,7 @@ several test elections that has been developed.
 <p>Vote for 1</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Measure 22.6</strong></p>
+<td colspan="2"><p><strong>Measure 22.6</strong></p>
 <p><strong>Exchange</strong> <strong>of</strong> <strong>Certain Property</strong></p>
 <p>Shall the proposed amendment to Article XIV, section 1 of the Constitution,</p>
 <p>authorizing the conveyance of approximately ten acres of State Land in</p>
@@ -118,10 +116,9 @@ several test elections that has been developed.
 <p>Yes</p>
 <p>No</p>
 <p>Vote for one</p></td>
-<td></td>
 </tr>
 <tr class="even">
-<td><p><strong>Measure 25.3</strong></p>
+<td colspan="2"><p><strong>Measure 25.3</strong></p>
 <p><strong>County Charter</strong></p>
 <p>Shall there be approved and adopted in the County, a Local Law</p>
 <p>passed by the Board of the County on August 19, 1974 entitled</p>
@@ -132,7 +129,6 @@ several test elections that has been developed.
 <p>Yes</p>
 <p>No</p>
 <p>Vote for one</p></td>
-<td></td>
 </tr>
 </tbody>
 </table></td>
