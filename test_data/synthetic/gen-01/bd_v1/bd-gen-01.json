@@ -1078,7 +1078,7 @@
     "StartDate" : "2000-11-07",
     "Type" : "general",
     "@type" : "BallotDefinition.Election" } ],
-  "GeneratedDate" : "2023-05-08T00:00:00Z",
+  "GeneratedDate" : "2023-07-14T13:32:09-04:00",
   "GpUnit" : 
   [ 
    { "Number" : "2",

@@ -12,6 +12,7 @@
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>po-lib</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -25,27 +26,32 @@
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-senate</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-congress-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-assembly-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-1-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -59,22 +65,26 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-county-assessor</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>2</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-sc-justice-a</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-bb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -99,6 +109,7 @@
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>po-rep</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -112,27 +123,32 @@
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-senate</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-congress-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-assembly-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-1-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -146,22 +162,26 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-county-assessor</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>2</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-sc-justice-a</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-ni</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -186,6 +206,7 @@
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>po-dem</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -199,27 +220,32 @@
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-senate</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-congress-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-assembly-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-1-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -233,22 +259,26 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-county-assessor</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>2</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-sc-justice-a</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-rg</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -272,12 +302,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-hb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -292,6 +324,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-ej</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -306,6 +339,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-jg</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -320,6 +354,7 @@
             <ContestId>cc-assembly-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-1-mj</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -334,6 +369,7 @@
             <ContestId>bm-proposal-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-1-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -348,6 +384,7 @@
             <ContestId>cc-county-comissioner-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-1-ab</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -362,6 +399,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -371,6 +409,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-me</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -385,6 +424,7 @@
             <ContestId>cc-sc-justice-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-a-rr</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -399,6 +439,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-bb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -422,12 +463,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-gb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -442,6 +485,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-jr</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -456,6 +500,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-dl</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -470,6 +515,7 @@
             <ContestId>cc-assembly-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-1-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Martin Delany</Text>
@@ -487,6 +533,7 @@
             <ContestId>bm-proposal-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-1-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -501,6 +548,7 @@
             <ContestId>cc-county-comissioner-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs--wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>David Einhorn</Text>
@@ -518,6 +566,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-rs</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -527,6 +576,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-eb</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -541,6 +591,7 @@
             <ContestId>cc-sc-justice-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-a-gb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -555,6 +606,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-ni</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -578,12 +630,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-ag</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -598,6 +652,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-kb</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -612,6 +667,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-mc</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -626,6 +682,7 @@
             <ContestId>cc-assembly-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-1-mj</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -640,6 +697,7 @@
             <ContestId>bm-proposal-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-1-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -654,6 +712,7 @@
             <ContestId>cc-county-comissioner-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-1-ab</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -668,6 +727,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-am</ContestSelectionId>
+               <OptionPosition>5</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -677,6 +737,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-mm</ContestSelectionId>
+               <OptionPosition>6</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -691,6 +752,7 @@
             <ContestId>cc-sc-justice-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-a-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Ralph Waldo Emerson</Text>
@@ -708,6 +770,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-rg</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -731,12 +794,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Sarah Harris Fayerweather</Text>
@@ -754,6 +819,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Amos Noë Freeman</Text>
@@ -771,6 +837,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Gregg Fee</Text>
@@ -788,6 +855,7 @@
             <ContestId>cc-assembly-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-1-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>James Forten</Text>
@@ -805,6 +873,7 @@
             <ContestId>bm-proposal-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-1-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -819,6 +888,7 @@
             <ContestId>cc-county-comissioner-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs--wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Stephen Symonds Foster</Text>
@@ -836,6 +906,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John C. Frémont </Text>
@@ -848,6 +919,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi2</ContestSelectionId>
+               <OptionPosition>8</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Eliza Ann Gardner</Text>
@@ -865,6 +937,7 @@
             <ContestId>cc-sc-justice-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-a-rr</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -879,6 +952,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Rankin </Text>
@@ -905,12 +979,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-hb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -925,6 +1001,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-ej</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -939,6 +1016,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-jg</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -953,6 +1031,7 @@
             <ContestId>cc-assembly-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-1-mj</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -967,6 +1046,7 @@
             <ContestId>bm-proposal-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-1-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -981,6 +1061,7 @@
             <ContestId>cc-county-comissioner-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-1-ab</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -995,6 +1076,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1004,6 +1086,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Charlotte Forten Grimké</Text>
@@ -1021,6 +1104,7 @@
             <ContestId>cc-sc-justice-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-a-gb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1035,6 +1119,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-bb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1058,12 +1143,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-gb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1078,6 +1165,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-jr</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1092,6 +1180,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-dl</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1105,12 +1194,14 @@
          <CVRContest>
             <ContestId>cc-assembly-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-1-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1125,6 +1216,7 @@
             <ContestId>cc-county-comissioner-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs--wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Isaac Hopper</Text>
@@ -1142,6 +1234,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-me</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1151,6 +1244,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Samuel Gridley Howe</Text>
@@ -1168,6 +1262,7 @@
             <ContestId>cc-sc-justice-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-a-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Maria White Lowell</Text>
@@ -1185,6 +1280,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-ni</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1208,12 +1304,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Isaac Mendenhall</Text>
@@ -1231,6 +1329,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Samuel Joseph May</Text>
@@ -1248,6 +1347,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>James Shepherd Pike</Text>
@@ -1265,6 +1365,7 @@
             <ContestId>cc-assembly-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-1-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Benjamin Rush</Text>
@@ -1282,6 +1383,7 @@
             <ContestId>bm-proposal-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-1-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1296,6 +1398,7 @@
             <ContestId>cc-county-comissioner-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs--wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Elizabeth Cady Stanton</Text>
@@ -1313,6 +1416,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text/>
@@ -1325,6 +1429,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi2</ContestSelectionId>
+               <OptionPosition>8</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text/>
@@ -1342,6 +1447,7 @@
             <ContestId>cc-sc-justice-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-a-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Frederick Douglass</Text>
@@ -1359,6 +1465,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Bingham</Text>
@@ -1386,6 +1493,7 @@
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>po-lib</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1399,27 +1507,32 @@
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-senate</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-congress-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-assembly-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1433,22 +1546,26 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-county-assessor</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>2</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-sc-justice-b</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-bb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1473,6 +1590,7 @@
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>po-rep</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1486,27 +1604,32 @@
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-senate</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-congress-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-assembly-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1520,22 +1643,26 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-county-assessor</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>2</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-sc-justice-b</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-ni</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1560,6 +1687,7 @@
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>po-dem</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1573,27 +1701,32 @@
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-senate</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-congress-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-assembly-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1607,22 +1740,26 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-county-assessor</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>2</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-sc-justice-b</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-rg</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1646,12 +1783,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-hb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1666,6 +1805,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-ej</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1680,6 +1820,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-hs</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1694,6 +1835,7 @@
             <ContestId>cc-assembly-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-2-pt</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1708,6 +1850,7 @@
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1722,6 +1865,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-jh</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1736,6 +1880,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1745,6 +1890,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-me</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1759,6 +1905,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-ld</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1773,6 +1920,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-bb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1796,12 +1944,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-gb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1816,6 +1966,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-jr</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1830,6 +1981,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-bw</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1844,6 +1996,7 @@
             <ContestId>cc-assembly-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Rosa Miller Avery</Text>
@@ -1861,6 +2014,7 @@
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1875,6 +2029,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John C. Frémont </Text>
@@ -1892,6 +2047,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-rs</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1901,6 +2057,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-eb</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1915,6 +2072,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-by</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1929,6 +2087,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-ni</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1952,12 +2111,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-ag</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1972,6 +2133,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-kb</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1986,6 +2148,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-jh</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2000,6 +2163,7 @@
             <ContestId>cc-assembly-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-2-pt</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2014,6 +2178,7 @@
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2028,6 +2193,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-jh</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2042,6 +2208,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-am</ContestSelectionId>
+               <OptionPosition>5</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2051,6 +2218,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-mm</ContestSelectionId>
+               <OptionPosition>6</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2065,6 +2233,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Angelina Grimké</Text>
@@ -2082,6 +2251,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-rg</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2105,12 +2275,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Rankin</Text>
@@ -2128,6 +2300,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Thaddeus Stevens</Text>
@@ -2145,6 +2318,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Susan B. Anthony</Text>
@@ -2162,6 +2336,7 @@
             <ContestId>cc-assembly-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Toussaint L'Ouverture</Text>
@@ -2179,6 +2354,7 @@
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2193,6 +2369,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Elizabeth Cady Stanton</Text>
@@ -2210,6 +2387,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Benjamin Rush</Text>
@@ -2222,6 +2400,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi2</ContestSelectionId>
+               <OptionPosition>8</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John D. Read</Text>
@@ -2239,6 +2418,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-ld</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2253,6 +2433,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Jermain Loguen</Text>
@@ -2279,12 +2460,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-hb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2299,6 +2482,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-ej</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2313,6 +2497,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-hs</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2327,6 +2512,7 @@
             <ContestId>cc-assembly-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-2-pt</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2341,6 +2527,7 @@
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2355,6 +2542,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-jh</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2369,6 +2557,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2378,6 +2567,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John C. Frémont</Text>
@@ -2395,6 +2585,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-by</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2409,6 +2600,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-bb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2432,12 +2624,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-gb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2452,6 +2646,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-jr</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2466,6 +2661,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-bw</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2479,12 +2675,14 @@
          <CVRContest>
             <ContestId>cc-assembly-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2499,6 +2697,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Elizabeth Cady Stanton</Text>
@@ -2516,6 +2715,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-me</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2525,6 +2725,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Amos Noë Freeman</Text>
@@ -2542,6 +2743,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abraham Lincoln</Text>
@@ -2559,6 +2761,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-ni</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2582,12 +2785,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abraham Lincoln</Text>
@@ -2605,6 +2810,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Louisa May Alcott</Text>
@@ -2622,6 +2828,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Elizabeth Cady Stanton</Text>
@@ -2639,6 +2846,7 @@
             <ContestId>cc-assembly-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Brown</Text>
@@ -2656,6 +2864,7 @@
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2670,6 +2879,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Sojourner Truth</Text>
@@ -2687,6 +2897,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Angelina Grimké</Text>
@@ -2699,6 +2910,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi2</ContestSelectionId>
+               <OptionPosition>8</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Isaac Hopper</Text>
@@ -2716,6 +2928,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Michael Heilprin</Text>
@@ -2733,6 +2946,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Jay</Text>
@@ -2760,6 +2974,7 @@
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>po-lib</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2773,27 +2988,32 @@
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-senate</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-congress-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-assembly-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-3-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2807,22 +3027,26 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-county-assessor</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>2</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-sc-justice-b</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-bb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2847,6 +3071,7 @@
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>po-rep</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2860,27 +3085,32 @@
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-senate</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-congress-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-assembly-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-3-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2894,22 +3124,26 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-county-assessor</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>2</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-sc-justice-b</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-ni</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2934,6 +3168,7 @@
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>po-dem</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2947,27 +3182,32 @@
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-senate</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-congress-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-assembly-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-3-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -2981,22 +3221,26 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-county-assessor</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>2</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-sc-justice-b</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-rg</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3020,12 +3264,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-hb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3040,6 +3286,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-ej</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3054,6 +3301,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-hs</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3068,6 +3316,7 @@
             <ContestId>cc-assembly-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-2-pt</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3082,6 +3331,7 @@
             <ContestId>bm-proposal-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-3-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3096,6 +3346,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-jh</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3110,6 +3361,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3119,6 +3371,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-me</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3133,6 +3386,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-ld</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3147,6 +3401,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-bb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3170,12 +3425,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-gb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3190,6 +3447,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-jr</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3204,6 +3462,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-bw</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3218,6 +3477,7 @@
             <ContestId>cc-assembly-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -3235,6 +3495,7 @@
             <ContestId>bm-proposal-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-3-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3249,6 +3510,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Susan B. Anthony</Text>
@@ -3266,6 +3528,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-rs</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3275,6 +3538,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-eb</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3289,6 +3553,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-by</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3303,6 +3568,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-ni</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3326,12 +3592,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-ag</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3346,6 +3614,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-kb</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3360,6 +3629,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-jh</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3374,6 +3644,7 @@
             <ContestId>cc-assembly-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-2-pt</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3388,6 +3659,7 @@
             <ContestId>bm-proposal-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-3-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3402,6 +3674,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-jh</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3416,6 +3689,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-am</ContestSelectionId>
+               <OptionPosition>5</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3425,6 +3699,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-mm</ContestSelectionId>
+               <OptionPosition>6</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3439,6 +3714,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -3456,6 +3732,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-rg</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3479,12 +3756,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abraham Lincoln</Text>
@@ -3502,6 +3781,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Quincy Adams</Text>
@@ -3519,6 +3799,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -3536,6 +3817,7 @@
             <ContestId>cc-assembly-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Susan B. Anthony</Text>
@@ -3553,6 +3835,7 @@
             <ContestId>bm-proposal-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-3-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3567,6 +3850,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Brown</Text>
@@ -3584,6 +3868,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Quincy Adams</Text>
@@ -3596,6 +3881,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi2</ContestSelectionId>
+               <OptionPosition>8</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -3613,6 +3899,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-ld</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3627,6 +3914,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Brown</Text>
@@ -3653,12 +3941,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-hb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3673,6 +3963,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-ej</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3687,6 +3978,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-hs</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3701,6 +3993,7 @@
             <ContestId>cc-assembly-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-2-pt</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3715,6 +4008,7 @@
             <ContestId>bm-proposal-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-3-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3729,6 +4023,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-jh</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3743,6 +4038,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3752,6 +4048,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Quincy Adams</Text>
@@ -3769,6 +4066,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-by</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3783,6 +4081,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-bb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3806,12 +4105,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-gb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3826,6 +4127,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-jr</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3840,6 +4142,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-bw</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3853,12 +4156,14 @@
          <CVRContest>
             <ContestId>cc-assembly-2</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-3-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3873,6 +4178,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -3890,6 +4196,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-me</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3899,6 +4206,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Quincy Adams</Text>
@@ -3916,6 +4224,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Susan B. Anthony</Text>
@@ -3933,6 +4242,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-ni</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -3956,12 +4266,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abraham Lincoln</Text>
@@ -3979,6 +4291,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John C. Frémont</Text>
@@ -3996,6 +4309,7 @@
             <ContestId>cc-congress-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-2-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Quincy Adams</Text>
@@ -4013,6 +4327,7 @@
             <ContestId>cc-assembly-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -4030,6 +4345,7 @@
             <ContestId>bm-proposal-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-3-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4044,6 +4360,7 @@
             <ContestId>cc-county-comissioner-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-2-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Susan B. Anthony</Text>
@@ -4061,6 +4378,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>JohnBrown</Text>
@@ -4073,6 +4391,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi2</ContestSelectionId>
+               <OptionPosition>8</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Elizabeth Cady Stanton</Text>
@@ -4090,6 +4409,7 @@
             <ContestId>cc-sc-justice-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-b-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Jay</Text>
@@ -4107,6 +4427,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Harriet Jacobs</Text>
@@ -4134,6 +4455,7 @@
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>po-lib</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4147,27 +4469,32 @@
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-senate</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-congress-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-assembly-3</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4181,22 +4508,26 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-3</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-county-assessor</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>2</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-sc-justice-c</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-bb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4221,6 +4552,7 @@
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>po-rep</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4234,27 +4566,32 @@
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-senate</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-congress-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-assembly-3</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4268,22 +4605,26 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-3</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-county-assessor</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>2</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-sc-justice-c</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-ni</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4308,6 +4649,7 @@
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>po-dem</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4321,27 +4663,32 @@
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-senate</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-congress-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-assembly-3</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4355,22 +4702,26 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-3</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-county-assessor</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>2</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-sc-justice-c</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-rg</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4394,12 +4745,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-hb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4414,6 +4767,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-ej</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4428,6 +4782,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-jg</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4442,6 +4797,7 @@
             <ContestId>cc-assembly-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-3-yd</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4456,6 +4812,7 @@
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4470,6 +4827,7 @@
             <ContestId>cc-county-comissioner-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-3-js</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4484,6 +4842,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4493,6 +4852,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-me</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4507,6 +4867,7 @@
             <ContestId>cc-sc-justice-c</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-c-mf</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4521,6 +4882,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-bb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4544,12 +4906,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-gb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4564,6 +4928,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-jr</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4578,6 +4943,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-dl</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4592,6 +4958,7 @@
             <ContestId>cc-assembly-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-3-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -4609,6 +4976,7 @@
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4623,6 +4991,7 @@
             <ContestId>cc-county-comissioner-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-3-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Quincy Adams</Text>
@@ -4640,6 +5009,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-rs</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4649,6 +5019,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-eb</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4663,6 +5034,7 @@
             <ContestId>cc-sc-justice-c</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-c-rj</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4677,6 +5049,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-ni</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4700,12 +5073,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-ag</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4720,6 +5095,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-kb</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4734,6 +5110,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-mc</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4748,6 +5125,7 @@
             <ContestId>cc-assembly-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-3-yd</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4762,6 +5140,7 @@
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4776,6 +5155,7 @@
             <ContestId>cc-county-comissioner-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-3-js</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4790,6 +5170,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-am</ContestSelectionId>
+               <OptionPosition>5</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4799,6 +5180,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-mm</ContestSelectionId>
+               <OptionPosition>6</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4813,6 +5195,7 @@
             <ContestId>cc-sc-justice-c</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-c-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -4830,6 +5213,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-rg</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4853,12 +5237,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abraham Lincoln</Text>
@@ -4876,6 +5262,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Quincy Adams</Text>
@@ -4893,6 +5280,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -4910,6 +5298,7 @@
             <ContestId>cc-assembly-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-3-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Louisa May Alcott</Text>
@@ -4927,6 +5316,7 @@
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -4941,6 +5331,7 @@
             <ContestId>cc-county-comissioner-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-3-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Brown</Text>
@@ -4958,6 +5349,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Angelina Grimké</Text>
@@ -4970,6 +5362,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi2</ContestSelectionId>
+               <OptionPosition>8</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Dred Scott</Text>
@@ -4987,6 +5380,7 @@
             <ContestId>cc-sc-justice-c</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-c-mf</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5001,6 +5395,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Robert Purvis</Text>
@@ -5027,12 +5422,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-hb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5047,6 +5444,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-ej</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5061,6 +5459,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-jg</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5075,6 +5474,7 @@
             <ContestId>cc-assembly-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-3-yd</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5089,6 +5489,7 @@
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5103,6 +5504,7 @@
             <ContestId>cc-county-comissioner-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-3-js</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5117,6 +5519,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5126,6 +5529,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Jay</Text>
@@ -5143,6 +5547,7 @@
             <ContestId>cc-sc-justice-c</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-c-rj</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5157,6 +5562,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-bb</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5180,12 +5586,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-gb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5200,6 +5608,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-jr</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5214,6 +5623,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-dl</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5227,12 +5637,14 @@
          <CVRContest>
             <ContestId>cc-assembly-3</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5247,6 +5659,7 @@
             <ContestId>cc-county-comissioner-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-3-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Jay </Text>
@@ -5264,6 +5677,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-me</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5273,6 +5687,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Dred Scott</Text>
@@ -5290,6 +5705,7 @@
             <ContestId>cc-sc-justice-c</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-c-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Quincy Adams</Text>
@@ -5307,6 +5723,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-ni</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5330,12 +5747,14 @@
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
+            <Status>undervoted</Status>
             <Undervotes>1</Undervotes>
          </CVRContest>
          <CVRContest>
             <ContestId>cc-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-president-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abraham Lincoln</Text>
@@ -5353,6 +5772,7 @@
             <ContestId>cc-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-senate-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Quincy Adams</Text>
@@ -5370,6 +5790,7 @@
             <ContestId>cc-congress-1</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-congress-1-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -5387,6 +5808,7 @@
             <ContestId>cc-assembly-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-assembly-3-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Louisa May Alcott</Text>
@@ -5404,6 +5826,7 @@
             <ContestId>bm-proposal-2</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bm-proposal-2-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -5418,6 +5841,7 @@
             <ContestId>cc-county-comissioner-3</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-comissioner-3-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Jay</Text>
@@ -5435,6 +5859,7 @@
             <ContestId>cc-county-assessor</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi</ContestSelectionId>
+               <OptionPosition>7</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John C. Frémont</Text>
@@ -5447,6 +5872,7 @@
             </CVRContestSelection>
             <CVRContestSelection>
                <ContestSelectionId>cs-county-assessor-db-wi2</ContestSelectionId>
+               <OptionPosition>8</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Lucy Stone</Text>
@@ -5464,6 +5890,7 @@
             <ContestId>cc-sc-justice-c</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-sc-justice-c-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Aaron Burr</Text>
@@ -5481,6 +5908,7 @@
             <ContestId>cc-dog-catcher</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dog-catcher-wi</ContestSelectionId>
+               <OptionPosition>4</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>John Brown</Text>
@@ -5989,7 +6417,7 @@
       </Contest>
       <ElectionScopeId>ru-county-1</ElectionScopeId>
    </Election>
-   <GeneratedDate>2023-05-08T00:00:00Z</GeneratedDate>
+   <GeneratedDate>2023-07-14T13:32:09-04:00</GeneratedDate>
    <GpUnit ObjectId="ru-county-1"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Name>Test County</Name>

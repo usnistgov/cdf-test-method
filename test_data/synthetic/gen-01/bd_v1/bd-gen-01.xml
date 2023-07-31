@@ -690,7 +690,7 @@
 		<EndDate>2000-11-07</EndDate>
 		<Type>general</Type>
 	</Election>
-	<GeneratedDate>2023-05-08T00:00:00Z</GeneratedDate>
+	<GeneratedDate>2023-07-14T13:32:09-04:00</GeneratedDate>
 	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-congress-1">
 		<ComposingGpUnitIds>prec-1 prec-3</ComposingGpUnitIds>
 		<Name>

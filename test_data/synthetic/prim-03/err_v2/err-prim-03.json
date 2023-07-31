@@ -287,22 +287,22 @@
          { "Count" : 0,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ru-county",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-mcc",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-fbc",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county",
       "Name" : "President of the United States",
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mcc",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fbc",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -362,22 +362,22 @@
          { "Count" : 0,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ru-county",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-mcc",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-fbc",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county",
       "Name" : "United States Senator",
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mcc",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fbc",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -455,6 +455,16 @@
        { "GpUnitId" : "ru-county",
         "Overvotes" : 0,
         "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mcc",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fbc",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -507,6 +517,16 @@
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mcc",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fbc",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -566,22 +586,22 @@
          { "Count" : 0,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ru-county",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-mcc",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-fbc",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county",
       "Name" : "President of the United States",
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mcc",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fbc",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -641,22 +661,22 @@
          { "Count" : 0,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ru-county",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-mcc",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-fbc",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county",
       "Name" : "United States Senator",
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mcc",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fbc",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -716,22 +736,22 @@
          { "Count" : 0,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ru-county",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-mcc",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-fbc",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county",
       "Name" : "Representative in Congress - District 12",
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mcc",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fbc",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -809,6 +829,16 @@
        { "GpUnitId" : "ru-county",
         "Overvotes" : 0,
         "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mcc",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fbc",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "@type" : "ElectionResults.BallotMeasureContest",
@@ -871,6 +901,16 @@
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mcc",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fbc",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -937,6 +977,16 @@
        { "GpUnitId" : "ru-county",
         "Overvotes" : 0,
         "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mcc",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fbc",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] } ],
     "ElectionScopeId" : "ru-county",
     "EndDate" : "2012-03-06",
@@ -951,7 +1001,7 @@
     "Type" : "partisan-primary-closed",
     "@type" : "ElectionResults.Election" } ],
   "Format" : "precinct-level",
-  "GeneratedDate" : "2023-06-07T15:44:17-04:00",
+  "GeneratedDate" : "2023-05-31T17:52:00Z",
   "GpUnit" : 
   [ 
    { "Type" : "other",
@@ -1011,6 +1061,6 @@
     "@type" : "ElectionResults.Party" } ],
   "SequenceEnd" : 1,
   "SequenceStart" : 1,
-  "Status" : "unofficial-partial",
-  "VendorApplicationId" : "XSLT Tabulator Prototype 1.0",
+  "Status" : "unofficial-complete",
+  "VendorApplicationId" : "XSLT Tabulator 1.0 Beta 3",
   "@type" : "ElectionResults.ElectionReport" }

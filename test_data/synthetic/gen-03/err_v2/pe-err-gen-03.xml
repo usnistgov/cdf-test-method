@@ -323,7 +323,7 @@
       <Type>general</Type>
    </Election>
    <Format>precinct-level</Format>
-   <GeneratedDate>2023-05-31T00:00:00Z</GeneratedDate>
+   <GeneratedDate>2023-07-14T13:32:09-04:00</GeneratedDate>
    <GpUnit xsi:type="ReportingUnit"
            ObjectId="ru-congress-1"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">

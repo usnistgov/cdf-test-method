@@ -14,6 +14,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ak",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -30,6 +31,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-cs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -46,6 +48,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-es",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -62,6 +65,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-gc",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -78,6 +82,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -94,6 +99,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -123,6 +129,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-bg",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -139,6 +146,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-de",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -155,6 +163,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-ff",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -171,6 +180,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-hs",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -187,6 +197,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -203,6 +214,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -232,6 +244,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ak",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -248,6 +261,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-cs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -264,6 +278,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-es",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -280,6 +295,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-gc",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -296,6 +312,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -312,6 +329,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -341,6 +359,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-bg",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -357,6 +376,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -376,6 +396,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-ff",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -392,6 +413,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-hs",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -408,6 +430,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -424,6 +447,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -453,6 +477,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ak",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -469,6 +494,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-cs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -485,6 +511,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -504,6 +531,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-gc",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -520,6 +548,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -536,6 +565,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -565,6 +595,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -584,6 +615,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-de",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -600,6 +632,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-ff",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -616,6 +649,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-hs",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -632,6 +666,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -648,6 +683,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -677,6 +713,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ak",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -693,6 +730,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-cs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -709,6 +747,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-es",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -725,6 +764,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -744,6 +784,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -760,6 +801,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -789,6 +831,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-bg",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -805,6 +848,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-de",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -821,6 +865,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-ff",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -837,6 +882,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -856,6 +902,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -872,6 +919,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -901,6 +949,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ak",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -917,6 +966,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-cs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -933,6 +983,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-es",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -949,6 +1000,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -968,6 +1020,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -984,6 +1037,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1013,6 +1067,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-bg",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1029,6 +1084,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-de",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1045,6 +1101,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-ff",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1061,6 +1118,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1080,6 +1138,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1096,6 +1155,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1125,6 +1185,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ak",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1141,6 +1202,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-cs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1157,6 +1219,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-es",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1173,6 +1236,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-gcl",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1189,6 +1253,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1205,6 +1270,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1234,6 +1300,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-bg",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1250,6 +1317,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-de",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1266,6 +1334,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-fm",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1282,6 +1351,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-hh",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1298,6 +1368,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1314,6 +1385,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1343,6 +1415,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ak",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1359,6 +1432,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-cs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1375,6 +1449,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-es",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1391,6 +1466,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-gcl",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1407,6 +1483,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1423,6 +1500,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1452,6 +1530,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-bg",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1468,6 +1547,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1487,6 +1567,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-fm",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1503,6 +1584,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-hh",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1519,6 +1601,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1535,6 +1618,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1564,6 +1648,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ak",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1580,6 +1665,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-cs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1596,6 +1682,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1615,6 +1702,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-gcl",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1631,6 +1719,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1647,6 +1736,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1676,6 +1766,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-bg",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1692,6 +1783,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-de",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1708,6 +1800,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-fm",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1724,6 +1817,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-hh",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1740,6 +1834,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1756,6 +1851,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1785,6 +1881,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ak",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1801,6 +1898,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-cs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1817,6 +1915,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-es",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1833,6 +1932,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1852,6 +1952,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1868,6 +1969,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1897,6 +1999,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-bg",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1913,6 +2016,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-de",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1929,6 +2033,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-fm",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1945,6 +2050,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1964,6 +2070,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1980,6 +2087,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2009,6 +2117,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ak",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2025,6 +2134,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-cs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2041,6 +2151,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-es",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2057,6 +2168,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2076,6 +2188,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2092,6 +2205,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2121,6 +2235,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-bg",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2137,6 +2252,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-de",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2153,6 +2269,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-fm",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2169,6 +2286,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2188,6 +2306,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-22.6-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2204,6 +2323,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-25.3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2440,7 +2560,7 @@
       "VoteVariation" : "n-of-m" } ],
     "ElectionScopeId" : "ru-county-3",
     "@type" : "CVR.Election" } ],
-  "GeneratedDate" : "2023-05-31T00:00:00Z",
+  "GeneratedDate" : "2023-07-14T13:32:09-04:00",
   "GpUnit" : 
   [ 
    { "@id" : "ru-county-3",

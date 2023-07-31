@@ -672,6 +672,26 @@
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
         "Undervotes" : 28,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-1-4-5-6",
+        "Overvotes" : 0,
+        "Undervotes" : 7,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-3-7-8-9",
+        "Overvotes" : 0,
+        "Undervotes" : 7,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2a",
+        "Overvotes" : 0,
+        "Undervotes" : 7,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2b",
+        "Overvotes" : 0,
+        "Undervotes" : 7,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -810,7 +830,27 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 12,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-1-4-5-6",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-3-7-8-9",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2a",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2b",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -946,7 +986,27 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 12,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-1-4-5-6",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-3-7-8-9",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2a",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2b",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -973,16 +1033,6 @@
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] },
        
        { "CandidateIds" : 
@@ -1004,16 +1054,6 @@
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] },
        
        { "CandidateIds" : 
@@ -1035,16 +1075,6 @@
          { "Count" : 2,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] },
        
        { "IsWriteIn" : true,
@@ -1065,16 +1095,6 @@
          { "Count" : 2,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county-1",
       "Name" : "Representative in Congress - District 1",
@@ -1082,7 +1102,17 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 6,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-1-4-5-6",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-3-7-8-9",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -1099,16 +1129,6 @@
          { "Count" : 6,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ru-county-1",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
           "Type" : "total" },
          
          { "Count" : 3,
@@ -1132,16 +1152,6 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ps-2a",
@@ -1161,16 +1171,6 @@
          { "Count" : 4,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ru-county-1",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
           "Type" : "total" },
          
          { "Count" : 2,
@@ -1193,16 +1193,6 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
          { "Count" : 2,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ps-2a",
@@ -1218,7 +1208,17 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 6,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2a",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2b",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -1240,21 +1240,6 @@
          { "Count" : 4,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] },
        
        { "IsWriteIn" : true,
@@ -1270,21 +1255,6 @@
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county-1",
       "Name" : "State Assembly - District 1",
@@ -1292,7 +1262,12 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 4,
+        "Undervotes" : 3,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-1-4-5-6",
+        "Overvotes" : 0,
+        "Undervotes" : 3,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -1309,16 +1284,6 @@
          { "Count" : 8,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ru-county-1",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
           "Type" : "total" },
          
          { "Count" : 4,
@@ -1341,16 +1306,6 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ps-2a",
@@ -1366,7 +1321,17 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 8,
+        "Undervotes" : 6,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2a",
+        "Overvotes" : 0,
+        "Undervotes" : 3,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2b",
+        "Overvotes" : 0,
+        "Undervotes" : 3,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -1385,24 +1350,9 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
          { "Count" : 4,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] },
        
        { "IsWriteIn" : true,
@@ -1415,24 +1365,9 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county-1",
       "Name" : "State Assembly - District 3",
@@ -1440,7 +1375,12 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 4,
+        "Undervotes" : 3,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-3-7-8-9",
+        "Overvotes" : 0,
+        "Undervotes" : 3,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "@type" : "ElectionResults.BallotMeasureContest",
@@ -1466,21 +1406,6 @@
          { "Count" : 5,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] },
        
        { "Selection" : 
@@ -1502,27 +1427,17 @@
          { "Count" : 5,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county-1",
       "Name" : "Proposal 1 - Road improvements",
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-1-4-5-6",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -1547,11 +1462,6 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
          { "Count" : 5,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-3-7-8-9",
@@ -1560,11 +1470,6 @@
          { "Count" : 5,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] },
        
        { "Selection" : 
@@ -1583,11 +1488,6 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
          { "Count" : 5,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-3-7-8-9",
@@ -1596,17 +1496,22 @@
          { "Count" : 5,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county-1",
       "Name" : "Proposal 2 - Stadium",
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-3-7-8-9",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2a",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -1631,21 +1536,6 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
          { "Count" : 5,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ps-2b",
@@ -1667,21 +1557,6 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
          { "Count" : 5,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ps-2b",
@@ -1691,6 +1566,11 @@
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2b",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -1714,21 +1594,6 @@
          { "Count" : 4,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] },
        
        { "IsWriteIn" : true,
@@ -1744,21 +1609,6 @@
          { "Count" : 4,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county-1",
       "Name" : "County Commissioner - District 1",
@@ -1766,7 +1616,12 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 3,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-1-4-5-6",
+        "Overvotes" : 0,
+        "Undervotes" : 2,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -1783,16 +1638,6 @@
          { "Count" : 8,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ru-county-1",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
           "Type" : "total" },
          
          { "Count" : 4,
@@ -1815,16 +1660,6 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
          { "Count" : 4,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ps-2a",
@@ -1840,7 +1675,17 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 6,
+        "Undervotes" : 4,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2a",
+        "Overvotes" : 0,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2b",
+        "Overvotes" : 0,
+        "Undervotes" : 2,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -1859,24 +1704,9 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
          { "Count" : 4,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] },
        
        { "IsWriteIn" : true,
@@ -1889,24 +1719,9 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
          { "Count" : 4,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county-1",
       "Name" : "County Commissioner - District 3",
@@ -1914,7 +1729,12 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 3,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-3-7-8-9",
+        "Overvotes" : 0,
+        "Undervotes" : 2,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 2,
@@ -2173,7 +1993,27 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 24,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-1-4-5-6",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-3-7-8-9",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2a",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2b",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -2195,21 +2035,6 @@
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] },
        
        { "CandidateIds" : 
@@ -2226,21 +2051,6 @@
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] },
        
        { "IsWriteIn" : true,
@@ -2256,21 +2066,6 @@
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county-1",
       "Name" : "Supreme Court Justice - Seat A",
@@ -2278,7 +2073,12 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 3,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-1-4-5-6",
+        "Overvotes" : 0,
+        "Undervotes" : 1,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -2295,16 +2095,6 @@
          { "Count" : 6,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ru-county-1",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
           "Type" : "total" },
          
          { "Count" : 3,
@@ -2328,16 +2118,6 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ps-2a",
@@ -2358,16 +2138,6 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ps-2a",
@@ -2383,7 +2153,17 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 6,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2a",
+        "Overvotes" : 0,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2b",
+        "Overvotes" : 0,
+        "Undervotes" : 1,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -2402,24 +2182,9 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] },
        
        { "CandidateIds" : 
@@ -2433,24 +2198,9 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] },
        
        { "IsWriteIn" : true,
@@ -2463,24 +2213,9 @@
           "GpUnitId" : "ru-county-1",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "cp-1-4-5-6",
-          "Type" : "total" },
-         
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "cp-3-7-8-9",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2a",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "ps-2b",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county-1",
       "Name" : "Supreme Court Justice - Seat C",
@@ -2488,7 +2223,12 @@
       [ 
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
-        "Undervotes" : 3,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-3-7-8-9",
+        "Overvotes" : 0,
+        "Undervotes" : 1,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -2625,6 +2365,26 @@
        { "GpUnitId" : "ru-county-1",
         "Overvotes" : 0,
         "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-1-4-5-6",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "cp-3-7-8-9",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2a",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "ps-2b",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] } ],
     "ElectionScopeId" : "ru-county-1",
     "EndDate" : "2000-11-07",
@@ -2639,7 +2399,7 @@
     "Type" : "general",
     "@type" : "ElectionResults.Election" } ],
   "Format" : "precinct-level",
-  "GeneratedDate" : "2023-06-07T15:44:12-04:00",
+  "GeneratedDate" : "2023-07-14T13:32:09-04:00",
   "GpUnit" : 
   [ 
    { "Type" : "other",
@@ -2830,6 +2590,6 @@
     "@type" : "ElectionResults.Party" } ],
   "SequenceEnd" : 1,
   "SequenceStart" : 1,
-  "Status" : "unofficial-partial",
-  "VendorApplicationId" : "XSLT Tabulator Prototype 1.0",
+  "Status" : "unofficial-complete",
+  "VendorApplicationId" : "XSLT Tabulator 1.0 Beta 3",
   "@type" : "ElectionResults.ElectionReport" }

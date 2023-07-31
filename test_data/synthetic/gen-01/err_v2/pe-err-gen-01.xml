@@ -456,16 +456,16 @@
       <Contest xsi:type="PartyContest"
                ObjectId="spc-1"
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <ContestSelection xsi:type="PartySelection"
-                           ObjectId="po-lib">
+         <ContestSelection ObjectId="po-lib"
+                           xsi:type="PartySelection">
             <PartyIds>par-lib</PartyIds>
          </ContestSelection>
-         <ContestSelection xsi:type="PartySelection"
-                           ObjectId="po-rep">
+         <ContestSelection ObjectId="po-rep"
+                           xsi:type="PartySelection">
             <PartyIds>par-rep</PartyIds>
          </ContestSelection>
-         <ContestSelection xsi:type="PartySelection"
-                           ObjectId="po-dem">
+         <ContestSelection ObjectId="po-dem"
+                           xsi:type="PartySelection">
             <PartyIds>par-dem</PartyIds>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
@@ -864,7 +864,7 @@
       <Type>general</Type>
    </Election>
    <Format>precinct-level</Format>
-   <GeneratedDate>2023-05-08T00:00:00Z</GeneratedDate>
+   <GeneratedDate>2023-07-14T13:32:09-04:00</GeneratedDate>
    <GpUnit xsi:type="ReportingUnit"
            ObjectId="ru-congress-1"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">

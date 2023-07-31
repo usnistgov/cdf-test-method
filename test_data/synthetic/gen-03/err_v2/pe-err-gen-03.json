@@ -405,7 +405,7 @@
     "Type" : "general",
     "@type" : "ElectionResults.Election" } ],
   "Format" : "precinct-level",
-  "GeneratedDate" : "2023-05-31T00:00:00Z",
+  "GeneratedDate" : "2023-07-14T13:32:09-04:00",
   "GpUnit" : 
   [ 
    { "Number" : "2",

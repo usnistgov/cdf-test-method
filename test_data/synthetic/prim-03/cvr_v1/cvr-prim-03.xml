@@ -12,6 +12,7 @@
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-president-an</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -26,6 +27,7 @@
             <ContestId>cc-dem-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-senate-cs</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -40,6 +42,7 @@
             <ContestId>cc-dem-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-congress-12-es</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -54,6 +57,7 @@
             <ContestId>cc-dem-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-assembly-26</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -68,6 +72,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -82,6 +87,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -106,6 +112,7 @@
             <ContestId>cc-rep-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-president-an</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -120,6 +127,7 @@
             <ContestId>cc-rep-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-senate-cc</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -134,6 +142,7 @@
             <ContestId>cc-rep-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-congress-12-es</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -148,6 +157,7 @@
             <ContestId>cc-rep-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-assembly-26-hh</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -162,6 +172,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -176,6 +187,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -200,6 +212,7 @@
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-president-an</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -214,6 +227,7 @@
             <ContestId>cc-dem-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-senate-cs</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -228,6 +242,7 @@
             <ContestId>cc-dem-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-congress-12-es</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -242,6 +257,7 @@
             <ContestId>cc-dem-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-assembly-26-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Susan B. Anthony</Text>
@@ -259,6 +275,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -273,6 +290,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -297,6 +315,7 @@
             <ContestId>cc-rep-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-president-bg</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -311,6 +330,7 @@
             <ContestId>cc-rep-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-senate-dc</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -325,6 +345,7 @@
             <ContestId>cc-rep-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-congress-12-fm</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -339,6 +360,7 @@
             <ContestId>cc-rep-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-assembly-26-gcl</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -353,6 +375,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -367,6 +390,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -391,6 +415,7 @@
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-president-bb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -405,6 +430,7 @@
             <ContestId>cc-dem-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-senate-de</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -419,6 +445,7 @@
             <ContestId>cc-dem-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-congress-12-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -436,6 +463,7 @@
             <ContestId>cc-dem-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-assembly-26-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Dred Scott</Text>
@@ -453,6 +481,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -467,6 +496,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -491,6 +521,7 @@
             <ContestId>cc-rep-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-president-an</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -505,6 +536,7 @@
             <ContestId>cc-rep-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-senate-cc</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -519,6 +551,7 @@
             <ContestId>cc-rep-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-congress-12-fm</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -533,6 +566,7 @@
             <ContestId>cc-rep-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-assembly-26-hh</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -547,6 +581,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -561,6 +596,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -585,6 +621,7 @@
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-president-bb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -599,6 +636,7 @@
             <ContestId>cc-dem-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-senate-cs</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -613,6 +651,7 @@
             <ContestId>cc-dem-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-congress-12-es</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -627,6 +666,7 @@
             <ContestId>cc-dem-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-assembly-26</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -641,6 +681,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -655,6 +696,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -679,6 +721,7 @@
             <ContestId>cc-rep-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-president-bg</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -693,6 +736,7 @@
             <ContestId>cc-rep-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-senate-cc</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -707,6 +751,7 @@
             <ContestId>cc-rep-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-congress-12-fm</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -721,6 +766,7 @@
             <ContestId>cc-rep-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-assembly-26-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Dred Scott</Text>
@@ -738,6 +784,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -752,6 +799,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -776,6 +824,7 @@
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-president-an</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -790,6 +839,7 @@
             <ContestId>cc-dem-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-senate-cs</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -804,6 +854,7 @@
             <ContestId>cc-dem-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-congress-12-ff</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -818,6 +869,7 @@
             <ContestId>cc-dem-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-assembly-26-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -835,6 +887,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -849,6 +902,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -873,6 +927,7 @@
             <ContestId>cc-rep-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-president-an</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -887,6 +942,7 @@
             <ContestId>cc-rep-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-senate-cc</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -901,6 +957,7 @@
             <ContestId>cc-rep-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-congress-12-es</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -915,6 +972,7 @@
             <ContestId>cc-rep-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-assembly-26-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abraham Lincoln</Text>
@@ -932,6 +990,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -946,6 +1005,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -970,6 +1030,7 @@
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-president-an</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -984,6 +1045,7 @@
             <ContestId>cc-dem-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-senate-cs</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -998,6 +1060,7 @@
             <ContestId>cc-dem-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-congress-12-es</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1012,6 +1075,7 @@
             <ContestId>cc-dem-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-assembly-26</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1026,6 +1090,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1040,6 +1105,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1064,6 +1130,7 @@
             <ContestId>cc-rep-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-president-an</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1078,6 +1145,7 @@
             <ContestId>cc-rep-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-senate-cc</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1092,6 +1160,7 @@
             <ContestId>cc-rep-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-congress-12-es</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1106,6 +1175,7 @@
             <ContestId>cc-rep-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-assembly-26-hh</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1120,6 +1190,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1134,6 +1205,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1158,6 +1230,7 @@
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-president-an</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1172,6 +1245,7 @@
             <ContestId>cc-dem-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-senate-cs</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1186,6 +1260,7 @@
             <ContestId>cc-dem-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-congress-12-es</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1200,6 +1275,7 @@
             <ContestId>cc-dem-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-assembly-26-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Susan B. Anthony</Text>
@@ -1217,6 +1293,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1231,6 +1308,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1255,6 +1333,7 @@
             <ContestId>cc-rep-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-president-bg</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1269,6 +1348,7 @@
             <ContestId>cc-rep-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-senate-dc</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1283,6 +1363,7 @@
             <ContestId>cc-rep-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-congress-12-fm</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1297,6 +1378,7 @@
             <ContestId>cc-rep-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-assembly-26-gcl</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1311,6 +1393,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1325,6 +1408,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1349,6 +1433,7 @@
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-president-bb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1363,6 +1448,7 @@
             <ContestId>cc-dem-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-senate-de</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1377,6 +1463,7 @@
             <ContestId>cc-dem-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-congress-12-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -1394,6 +1481,7 @@
             <ContestId>cc-dem-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-assembly-26-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Dred Scott</Text>
@@ -1411,6 +1499,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1425,6 +1514,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1449,6 +1539,7 @@
             <ContestId>cc-rep-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-president-an</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1463,6 +1554,7 @@
             <ContestId>cc-rep-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-senate-cc</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1477,6 +1569,7 @@
             <ContestId>cc-rep-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-congress-12-fm</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1491,6 +1584,7 @@
             <ContestId>cc-rep-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-assembly-26-hh</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1505,6 +1599,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1519,6 +1614,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1543,6 +1639,7 @@
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-president-bb</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1557,6 +1654,7 @@
             <ContestId>cc-dem-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-senate-cs</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1571,6 +1669,7 @@
             <ContestId>cc-dem-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-congress-12-es</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1585,6 +1684,7 @@
             <ContestId>cc-dem-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-assembly-26-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text/>
@@ -1602,6 +1702,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1616,6 +1717,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1640,6 +1742,7 @@
             <ContestId>cc-rep-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-president-bg</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1654,6 +1757,7 @@
             <ContestId>cc-rep-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-senate-cc</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1668,6 +1772,7 @@
             <ContestId>cc-rep-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-congress-12-fm</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1682,6 +1787,7 @@
             <ContestId>cc-rep-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-assembly-26-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Dred Scott</Text>
@@ -1699,6 +1805,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1713,6 +1820,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1737,6 +1845,7 @@
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-president-an</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1751,6 +1860,7 @@
             <ContestId>cc-dem-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-senate-cs</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1765,6 +1875,7 @@
             <ContestId>cc-dem-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-congress-12-ff</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1779,6 +1890,7 @@
             <ContestId>cc-dem-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-dem-assembly-26-wi</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abigail Adams</Text>
@@ -1796,6 +1908,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1810,6 +1923,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1834,6 +1948,7 @@
             <ContestId>cc-rep-president</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-president-an</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1848,6 +1963,7 @@
             <ContestId>cc-rep-senate</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-senate-cc</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1862,6 +1978,7 @@
             <ContestId>cc-rep-congress-12</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-congress-12-es</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1876,6 +1993,7 @@
             <ContestId>cc-rep-assembly-26</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>cs-rep-assembly-26-wi</ContestSelectionId>
+               <OptionPosition>3</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
                      <Text>Abraham Lincoln</Text>
@@ -1893,6 +2011,7 @@
             <ContestId>bmc-referendum-a</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-a-yes</ContestSelectionId>
+               <OptionPosition>1</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1907,6 +2026,7 @@
             <ContestId>bmc-referendum-b</ContestId>
             <CVRContestSelection>
                <ContestSelectionId>bms-referendum-b-no</ContestSelectionId>
+               <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <HasIndication>yes</HasIndication>
                   <IsAllocable>yes</IsAllocable>
@@ -1999,6 +2119,7 @@
          </ContestSelection>
          <Name>President of the United States</Name>
          <VoteVariation>n-of-m</VoteVariation>
+         <PrimaryPartyId>par-dem</PrimaryPartyId>
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
@@ -2017,6 +2138,7 @@
          </ContestSelection>
          <Name>United States Senator</Name>
          <VoteVariation>n-of-m</VoteVariation>
+         <PrimaryPartyId>par-dem</PrimaryPartyId>
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
@@ -2035,6 +2157,7 @@
          </ContestSelection>
          <Name>Representative in Congress - District 12</Name>
          <VoteVariation>n-of-m</VoteVariation>
+         <PrimaryPartyId>par-dem</PrimaryPartyId>
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
@@ -2049,6 +2172,7 @@
          </ContestSelection>
          <Name>State Assembly - District 26</Name>
          <VoteVariation>n-of-m</VoteVariation>
+         <PrimaryPartyId>par-dem</PrimaryPartyId>
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
@@ -2067,6 +2191,7 @@
          </ContestSelection>
          <Name>President of the United States</Name>
          <VoteVariation>n-of-m</VoteVariation>
+         <PrimaryPartyId>par-rep</PrimaryPartyId>
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
@@ -2085,6 +2210,7 @@
          </ContestSelection>
          <Name>United States Senator</Name>
          <VoteVariation>n-of-m</VoteVariation>
+         <PrimaryPartyId>par-rep</PrimaryPartyId>
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
@@ -2103,6 +2229,7 @@
          </ContestSelection>
          <Name>Representative in Congress - District 12</Name>
          <VoteVariation>n-of-m</VoteVariation>
+         <PrimaryPartyId>par-rep</PrimaryPartyId>
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
@@ -2121,6 +2248,7 @@
          </ContestSelection>
          <Name>State Assembly - District 26</Name>
          <VoteVariation>n-of-m</VoteVariation>
+         <PrimaryPartyId>par-rep</PrimaryPartyId>
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="BallotMeasureContest"

@@ -733,7 +733,7 @@ several test elections that has been developed.
 <tbody>
 <tr class="odd">
 <td><p><strong>Criteria For Evaluation of Test Results:</strong></p>
-<p>The results of this test will be accepted if the stated election definition can be input into the EMS, the election transferred to the voting machine, voted according to the test vote pattern, and the results reported and audited to match the expected results. During the execution of this election all errors need to be logged and analyzed by Pro V&amp;V qualified personal to determine if the error is an actual error or another issue.</p></td>
+<p>The results of this test will be accepted if the stated election definition can be input into the EMS, the election transferred to the voting machine, voted according to the test vote pattern, and the results reported and audited to match the expected results. During the execution of this election all errors need to be logged and analyzed by qualified personal to determine if the error is an actual error or another issue.</p></td>
 </tr>
 </tbody>
 </table>
