@@ -1,0 +1,1157 @@
+
+ { "Election" : 
+  [ 
+   { "BallotStyle" : 
+    [ 
+     { "ExternalIdentifier" : 
+      [ 
+       { "Type" : "local-level",
+        "Value" : "Creekside",
+        "@type" : "BallotDefinition.ExternalIdentifier" } ],
+      "GpUnitIds" : 
+      [ "prec-creekside" ],
+      "OrderedContent" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "OrderedContestOptionIds" : 
+        [ "co-president-as",
+         "co-president-bh",
+         "co-president-wi" ],
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-senate",
+        "OrderedContestOptionIds" : 
+        [ "co-senate-cm",
+         "co-senate-dh",
+         "co-senate-wi" ],
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-lt-governor",
+        "OrderedContestOptionIds" : 
+        [ "co-lt-governor-eb",
+         "co-lt-governor-ff",
+         "co-lt-governor-wi" ],
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-sos",
+        "OrderedContestOptionIds" : 
+        [ "co-sos-gk",
+         "co-sos-hl",
+         "co-sos-wi" ],
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-sherrif",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-state-house-1",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-assembly-a",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-school-board",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "ac-recall-governor",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-recall-governor",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-a",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-b",
+        "@type" : "BallotDefinition.OrderedContest" } ],
+      "@type" : "BallotDefinition.BallotStyle" },
+     
+     { "ExternalIdentifier" : 
+      [ 
+       { "Type" : "local-level",
+        "Value" : "Mooring",
+        "@type" : "BallotDefinition.ExternalIdentifier" } ],
+      "GpUnitIds" : 
+      [ "prec-mooring" ],
+      "OrderedContent" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "OrderedContestOptionIds" : 
+        [ "co-president-bh",
+         "co-president-as",
+         "co-president-wi" ],
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-senate",
+        "OrderedContestOptionIds" : 
+        [ "co-senate-dh",
+         "co-senate-cm",
+         "co-senate-wi" ],
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-lt-governor",
+        "OrderedContestOptionIds" : 
+        [ "co-lt-governor-ff",
+         "co-lt-governor-eb",
+         "co-lt-governor-wi" ],
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-sos",
+        "OrderedContestOptionIds" : 
+        [ "co-sos-hl",
+         "co-sos-gk",
+         "co-sos-wi" ],
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-sherrif",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-state-house-2",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-assembly-b",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-school-board",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "ac-recall-governor",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-recall-governor",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-a",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-b",
+        "@type" : "BallotDefinition.OrderedContest" } ],
+      "@type" : "BallotDefinition.BallotStyle" },
+     
+     { "ExternalIdentifier" : 
+      [ 
+       { "Type" : "local-level",
+        "Value" : "Hillwood",
+        "@type" : "BallotDefinition.ExternalIdentifier" } ],
+      "GpUnitIds" : 
+      [ "prec-hillwood" ],
+      "OrderedContent" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "OrderedContestOptionIds" : 
+        [ "co-president-as",
+         "co-president-bh",
+         "co-president-wi" ],
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-senate",
+        "OrderedContestOptionIds" : 
+        [ "co-senate-cm",
+         "co-senate-dh",
+         "co-senate-wi" ],
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-lt-governor",
+        "OrderedContestOptionIds" : 
+        [ "co-lt-governor-eb",
+         "co-lt-governor-ff",
+         "co-lt-governor-wi" ],
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-sos",
+        "OrderedContestOptionIds" : 
+        [ "co-sos-gk",
+         "co-sos-hl",
+         "co-sos-wi" ],
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-sherrif",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-state-house-2",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-assembly-c",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-school-board",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "ac-recall-governor",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "cc-recall-governor",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-a",
+        "@type" : "BallotDefinition.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-b",
+        "@type" : "BallotDefinition.OrderedContest" } ],
+      "@type" : "BallotDefinition.BallotStyle" } ],
+    "Candidate" : 
+    [ 
+     { "@id" : "can-as",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Albina Sepich",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-bh",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Barbara Barrett Hicks",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-cm",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Carl Moore",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-dh",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "David Heroux",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-eb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Edwin Best",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-ff",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Fiero Finn",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-gk",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Gail Keefe",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-hl",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Harry Levin",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-ir",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Imran Rashid",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-jb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Jack \"Duke\" Brodisky",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-ka",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Ken Anderson",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-lcr",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Leo Cross",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-mb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Mary Burke",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-nk",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Nora Kling",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-kr",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Kay Raab",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-lc",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Laurie Cioffi",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-ks",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Keith Satterwhite",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-ls",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Laurie St Laurent",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-mc",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Maribeth Clark",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-nj",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Nathan Johnson",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-mh",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Marjorie Hall",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-nc",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Neil Carey",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-mj",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Marsha Johnson",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-np",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Neil Pitzsimmons",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-ps",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Patricia Smallmon",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-rb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "R Nicholas Burton",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-sp",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Sam Patel",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-ts",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Tabathia Song",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-vg",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Vincent Gould",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-ads",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Ala Dee Smith",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-bb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Ben Baker",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-cma",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Calvin Marino",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-dc",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "David Cox",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "BallotDefinition.Candidate" },
+     
+     { "@id" : "can-et",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Edris Thomas ",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "BallotDefinition.Candidate" } ],
+    "Contest" : 
+    [ 
+     { "VotesAllowed" : 1,
+      "@type" : "BallotDefinition.CandidateContest",
+      "@id" : "cc-president",
+      "ContestOption" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-as" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-president-as" },
+       
+       { "CandidateIds" : 
+        [ "can-bh" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-president-bh" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-president-wi" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "HasRotation" : true,
+      "Name" : "President of the United States",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "BallotDefinition.CandidateContest",
+      "@id" : "cc-senate",
+      "ContestOption" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-cm" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-senate-cm" },
+       
+       { "CandidateIds" : 
+        [ "can-dh" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-senate-dh" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-senate-wi" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "HasRotation" : true,
+      "Name" : "Senator of the United States",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "BallotDefinition.CandidateContest",
+      "@id" : "cc-lt-governor",
+      "ContestOption" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-eb" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-lt-governor-eb" },
+       
+       { "CandidateIds" : 
+        [ "can-ff" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-lt-governor-ff" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-lt-governor-wi" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "HasRotation" : true,
+      "Name" : "Lieutenant Governor",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "BallotDefinition.CandidateContest",
+      "@id" : "cc-sos",
+      "ContestOption" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-gk" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-sos-gk" },
+       
+       { "CandidateIds" : 
+        [ "can-hl" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-sos-hl" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-sos-wi" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "HasRotation" : true,
+      "Name" : "Secretary of State",
+      "VoteVariation" : "n-of-m" },
+     
+     { "RanksAllowed" : 3,
+      "VotesAllowed" : 1,
+      "@type" : "BallotDefinition.CandidateContest",
+      "@id" : "cc-sherrif",
+      "ContestOption" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-ir" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-sherrif-ir" },
+       
+       { "CandidateIds" : 
+        [ "can-jb" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-sherrif-jb" },
+       
+       { "CandidateIds" : 
+        [ "can-ka" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-sherrif-ka" },
+       
+       { "CandidateIds" : 
+        [ "can-lcr" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-sherrif-lcr" },
+       
+       { "CandidateIds" : 
+        [ "can-mb" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-sherrif-mb" },
+       
+       { "CandidateIds" : 
+        [ "can-nk" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-sherrif-nk" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-sherrif-wi" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-sherrif-wi2" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-sherrif-wi3" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Sheriff of Morgan County",
+      "VoteVariation" : "rcv" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "BallotDefinition.CandidateContest",
+      "@id" : "cc-state-house-1",
+      "ContestOption" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-kr" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-state-house-1-kr" },
+       
+       { "CandidateIds" : 
+        [ "can-lc" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-state-house-1-lc" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-state-house-1-wi" } ],
+      "ElectionDistrictId" : "ru-state-house-1",
+      "Name" : "State House of Representative - District 1",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "BallotDefinition.CandidateContest",
+      "@id" : "cc-state-house-2",
+      "ContestOption" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-ks" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-state-house-2-ks" },
+       
+       { "CandidateIds" : 
+        [ "can-ls" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-state-house-2-ls" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-state-house-2-wi" } ],
+      "ElectionDistrictId" : "ru-state-house-2",
+      "Name" : "State House of Representative - District 2",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "BallotDefinition.CandidateContest",
+      "@id" : "cc-assembly-a",
+      "ContestOption" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-mc" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-assembly-a-mc" },
+       
+       { "CandidateIds" : 
+        [ "can-nj" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-assembly-a-nj" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-assembly-a-wi" } ],
+      "ElectionDistrictId" : "ru-assembly-a",
+      "Name" : "Member of Assembly - Seat A",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "BallotDefinition.CandidateContest",
+      "@id" : "cc-assembly-b",
+      "ContestOption" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-mh" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-assembly-b-mh" },
+       
+       { "CandidateIds" : 
+        [ "can-nc" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-assembly-b-nc" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-assembly-b-wi" } ],
+      "ElectionDistrictId" : "ru-assembly-b",
+      "Name" : "Member of Assembly - Seat B",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "BallotDefinition.CandidateContest",
+      "@id" : "cc-assembly-c",
+      "ContestOption" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-mj" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-assembly-c-mj" },
+       
+       { "CandidateIds" : 
+        [ "can-np" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-assembly-c-np" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-assembly-c-wi" } ],
+      "ElectionDistrictId" : "ru-assembly-c",
+      "Name" : "Member of Assembly - Seat C",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 2,
+      "@type" : "BallotDefinition.CandidateContest",
+      "@id" : "cc-school-board",
+      "ContestOption" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-ps" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-school-board-ps" },
+       
+       { "CandidateIds" : 
+        [ "can-rb" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-school-board-rb" },
+       
+       { "CandidateIds" : 
+        [ "can-sp" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-school-board-sp" },
+       
+       { "CandidateIds" : 
+        [ "can-ts" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-school-board-ts" },
+       
+       { "CandidateIds" : 
+        [ "can-vg" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-school-board-vg" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-school-board-wi" },
+       
+       { "IsWriteIn" : true,
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-school-board-wi2" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "HasRotation" : true,
+      "Name" : "School Board - District 21",
+      "VoteVariation" : "n-of-m" },
+     
+     { "SummaryText" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Should the Governor of the State be Recalled for failure to perform his duties?",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.ActivationContest",
+      "ControlledContestIds" : 
+      [ "cc-recall-governor" ],
+      "@id" : "ac-recall-governor",
+      "ContestOption" : 
+      [ 
+       { "CausesActivation" : true,
+        "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "Yes",
+           "Language" : "en",
+           "@type" : "BallotDefinition.LanguageString" } ],
+         "@type" : "BallotDefinition.InternationalizedText" },
+        "@type" : "BallotDefinition.ActivationOption",
+        "@id" : "ao-recall-governor-yes" },
+       
+       { "CausesActivation" : false,
+        "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "No",
+           "Language" : "en",
+           "@type" : "BallotDefinition.LanguageString" } ],
+         "@type" : "BallotDefinition.InternationalizedText" },
+        "@type" : "BallotDefinition.ActivationOption",
+        "@id" : "ao-recall-governor-no" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Recall Governor",
+      "VoteVariation" : "n-of-m" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "BallotDefinition.CandidateContest",
+      "@id" : "cc-recall-governor",
+      "BallotSubTitle" : 
+      { "Text" : 
+       [ 
+        { "Content" : "If the Governor is to be replaced which candidate should replace him?",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "ContestOption" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-ads" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-recall-governor-ads" },
+       
+       { "CandidateIds" : 
+        [ "can-bb" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-recall-governor-bb" },
+       
+       { "CandidateIds" : 
+        [ "can-cma" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-recall-governor-cma" },
+       
+       { "CandidateIds" : 
+        [ "can-dc" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-recall-governor-dc" },
+       
+       { "CandidateIds" : 
+        [ "can-et" ],
+        "@type" : "BallotDefinition.CandidateOption",
+        "@id" : "co-recall-governor-et" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Replacement Governor",
+      "VoteVariation" : "n-of-m" },
+     
+     { "FullText" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Shall there be approved and adopted in the County, a Local Law passed by the Board of the County on August 19, 1974 entitled \"A Local Law to amend section six (a) of Article II of the County Charter - changing the elected term of the County Board to four years,\" which enlarges the term of office of each member of the County Board of Legislators from two (2) years to four (4) years?",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.BallotMeasureContest",
+      "@id" : "bm-proposal-a",
+      "ContestOption" : 
+      [ 
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "Yes",
+           "Language" : "en",
+           "@type" : "BallotDefinition.LanguageString" } ],
+         "@type" : "BallotDefinition.InternationalizedText" },
+        "@type" : "BallotDefinition.BallotMeasureOption",
+        "@id" : "bmo-proposal-a-yes" },
+       
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "No",
+           "Language" : "en",
+           "@type" : "BallotDefinition.LanguageString" } ],
+         "@type" : "BallotDefinition.InternationalizedText" },
+        "@type" : "BallotDefinition.BallotMeasureOption",
+        "@id" : "bmo-proposal-a-no" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Proposal A - County Charter",
+      "VoteVariation" : "n-of-m" },
+     
+     { "FullText" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Shall the proposed amendment to Article XIV, section 1 of the Constitution, authorizing the conveyance of approximately ten acres of State Land in exchange for approximately two hundred acres of wild forest land in order to facilitate the preservation of certain historic buildings, be approved?",
+         "Language" : "en",
+         "@type" : "BallotDefinition.LanguageString" } ],
+       "@type" : "BallotDefinition.InternationalizedText" },
+      "@type" : "BallotDefinition.BallotMeasureContest",
+      "@id" : "bm-proposal-b",
+      "ContestOption" : 
+      [ 
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "Yes",
+           "Language" : "en",
+           "@type" : "BallotDefinition.LanguageString" } ],
+         "@type" : "BallotDefinition.InternationalizedText" },
+        "@type" : "BallotDefinition.BallotMeasureOption",
+        "@id" : "bmo-proposal-b-yes" },
+       
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "No",
+           "Language" : "en",
+           "@type" : "BallotDefinition.LanguageString" } ],
+         "@type" : "BallotDefinition.InternationalizedText" },
+        "@type" : "BallotDefinition.BallotMeasureOption",
+        "@id" : "bmo-proposal-b-no" } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Proposal B - Exchange of Certain Property",
+      "VoteVariation" : "n-of-m" } ],
+    "ElectionScopeId" : "ru-county-1",
+    "EndDate" : "2000-11-07",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "GEN-02",
+       "Language" : "en",
+       "@type" : "BallotDefinition.LanguageString" } ],
+     "@type" : "BallotDefinition.InternationalizedText" },
+    "StartDate" : "2000-11-07",
+    "Type" : "general",
+    "@type" : "BallotDefinition.Election" } ],
+  "GeneratedDate" : "2023-07-03T00:00:00Z",
+  "GpUnit" : 
+  [ 
+   { "Type" : "precinct",
+    "@type" : "BallotDefinition.ReportingUnit",
+    "@id" : "prec-creekside",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Creekside",
+       "Language" : "en",
+       "@type" : "BallotDefinition.LanguageString" } ],
+     "@type" : "BallotDefinition.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "BallotDefinition.ReportingUnit",
+    "@id" : "prec-mooring",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Mooring",
+       "Language" : "en",
+       "@type" : "BallotDefinition.LanguageString" } ],
+     "@type" : "BallotDefinition.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "BallotDefinition.ReportingUnit",
+    "@id" : "prec-hillwood",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Hillwood",
+       "Language" : "en",
+       "@type" : "BallotDefinition.LanguageString" } ],
+     "@type" : "BallotDefinition.InternationalizedText" } },
+   
+   { "Type" : "county",
+    "@type" : "BallotDefinition.ReportingUnit",
+    "@id" : "ru-county-1",
+    "ComposingGpUnitIds" : 
+    [ "prec-creekside",
+     "prec-hillwood",
+     "prec-mooring" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Test County",
+       "Language" : "en",
+       "@type" : "BallotDefinition.LanguageString" } ],
+     "@type" : "BallotDefinition.InternationalizedText" } },
+   
+   { "Number" : "1",
+    "Type" : "state-house",
+    "@type" : "BallotDefinition.ReportingUnit",
+    "@id" : "ru-state-house-1",
+    "ComposingGpUnitIds" : 
+    [ "prec-creekside" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "State House of Representatives - District 1",
+       "Language" : "en",
+       "@type" : "BallotDefinition.LanguageString" } ],
+     "@type" : "BallotDefinition.InternationalizedText" } },
+   
+   { "Number" : "2",
+    "Type" : "state-house",
+    "@type" : "BallotDefinition.ReportingUnit",
+    "@id" : "ru-state-house-2",
+    "ComposingGpUnitIds" : 
+    [ "prec-mooring",
+     "prec-hillwood" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "State House of Representatives - District 2",
+       "Language" : "en",
+       "@type" : "BallotDefinition.LanguageString" } ],
+     "@type" : "BallotDefinition.InternationalizedText" } },
+   
+   { "Number" : "A",
+    "Type" : "county-council",
+    "@type" : "BallotDefinition.ReportingUnit",
+    "@id" : "ru-assembly-a",
+    "ComposingGpUnitIds" : 
+    [ "prec-creekside" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Assembly - Seat A",
+       "Language" : "en",
+       "@type" : "BallotDefinition.LanguageString" } ],
+     "@type" : "BallotDefinition.InternationalizedText" } },
+   
+   { "Number" : "B",
+    "Type" : "county-council",
+    "@type" : "BallotDefinition.ReportingUnit",
+    "@id" : "ru-assembly-b",
+    "ComposingGpUnitIds" : 
+    [ "prec-mooring" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Assembly - Seat B",
+       "Language" : "en",
+       "@type" : "BallotDefinition.LanguageString" } ],
+     "@type" : "BallotDefinition.InternationalizedText" } },
+   
+   { "Number" : "C",
+    "Type" : "county-council",
+    "@type" : "BallotDefinition.ReportingUnit",
+    "@id" : "ru-assembly-c",
+    "ComposingGpUnitIds" : 
+    [ "prec-hillwood" ],
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Assembly - Seat C",
+       "Language" : "en",
+       "@type" : "BallotDefinition.LanguageString" } ],
+     "@type" : "BallotDefinition.InternationalizedText" } } ],
+  "Issuer" : "National Institute of Standards and Technology",
+  "IssuerAbbreviation" : "NIST",
+  "Party" : 
+  [ 
+   { "@id" : "par-dem",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Democrat",
+       "Language" : "en",
+       "@type" : "BallotDefinition.LanguageString" } ],
+     "@type" : "BallotDefinition.InternationalizedText" },
+    "@type" : "BallotDefinition.Party" },
+   
+   { "@id" : "par-rep",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Republican",
+       "Language" : "en",
+       "@type" : "BallotDefinition.LanguageString" } ],
+     "@type" : "BallotDefinition.InternationalizedText" },
+    "@type" : "BallotDefinition.Party" } ],
+  "SequenceEnd" : 1,
+  "SequenceStart" : 1,
+  "VendorApplicationId" : "NIST Test Data",
+  "Version" : "1.0.0",
+  "@type" : "BallotDefinition.BallotDefinition" }
