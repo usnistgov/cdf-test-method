@@ -15,7 +15,7 @@ several test elections that has been developed.
 <table>
 <thead>
 <tr class="header">
-<th>b-1ELECTION DEFINITION: PRIM-02</th>
+<th>ELECTION DEFINITION: PRIM-02</th>
 </tr>
 </thead>
 <tbody>
@@ -130,7 +130,8 @@ several test elections that has been developed.
 <p>Vote for One</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Delegates to the Democratic National Convention</strong></p>
+<td><p><strong>Delegates to the<br />
+Democratic National Convention</strong></p>
 <p><strong>(</strong><em>Group 1)</em></p>
 <p>Micheal Fegley</p>
 <p>Bliar Johnston</p>
@@ -140,7 +141,8 @@ several test elections that has been developed.
 <p>Thomas A. Wallitsch</p>
 <p>Joseph J. Russo</p>
 <p>Vote for One</p></td>
-<td><p><strong>Delegates to the Libertarian National Convention</strong></p>
+<td><p><strong>Delegates to the<br />
+Libertarian National Convention</strong></p>
 <p><strong>(</strong><em>Group 1)</em></p>
 <p>Dorthy Baran</p>
 <p>Wendy Fuentes</p>
@@ -150,7 +152,8 @@ several test elections that has been developed.
 <p>Robert McCord</p>
 <p>Julius F. Cordisco</p>
 <p>Vote for One</p></td>
-<td><p><strong>Delegates to the Republican National Convention</strong></p>
+<td><p><strong>Delegates to the<br />
+Republican National Convention</strong></p>
 <p><strong>(</strong><em>Group 1)</em></p>
 <p>Dennis Morrison-Wesley</p>
 <p>Jack Wagner</p>
@@ -162,15 +165,16 @@ Nita Iracema</p>
 <p>Vote for One</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Proposition 54</strong></p>
+<td colspan="3"><p><strong>Proposition 54</strong></p>
 <p><strong>Classification by Race, Ethnicity, Color, or National Origin,</strong></p>
 <p><strong>Initiative Constitutional Amendment</strong></p>
-<p>Prohibits state and local governments from classifying any person by race, ethnicity, color, or national origin. Various exemptions apply. Fiscal Impact: The measure would not result in a significant fiscal impact on the state and local governments.</p>
+<p>Prohibits state and local governments from classifying any person<br />
+by race, ethnicity, color, or national origin. Various exemptions apply.<br />
+Fiscal Impact: The measure would not result in a significant fiscal impact<br />
+on the state and local governments.</p>
 <p>YES</p>
 <p>NO</p>
 <p>Vote for One</p></td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table></td>
@@ -186,26 +190,26 @@ Nita Iracema</p>
 <thead>
 <tr class="header">
 <th><strong>Fire station 7</strong></th>
-<th><strong>B 1</strong></th>
-<th><strong>B 2</strong></th>
-<th><strong>B 3</strong></th>
-<th><strong>B 4</strong></th>
-<th><strong>B 5</strong></th>
-<th><strong>B 6</strong></th>
-<th><strong>B 7</strong></th>
-<th><strong>B 8</strong></th>
-<th><strong>B 9</strong></th>
-<th><strong>B 10</strong></th>
-<th><strong>B 11</strong></th>
-<th><strong>B 12</strong></th>
-<th><strong>B 13</strong></th>
-<th><strong>B 14</strong></th>
-<th><strong>B 15</strong></th>
-<th><strong>B 16</strong></th>
-<th><strong>B 17</strong></th>
-<th><strong>B 18</strong></th>
-<th><strong>B 19</strong></th>
-<th><strong>B 20</strong></th>
+<th><strong>1</strong></th>
+<th><strong>2</strong></th>
+<th><strong>3</strong></th>
+<th><strong>4</strong></th>
+<th><strong>5</strong></th>
+<th><strong>6</strong></th>
+<th><strong>7</strong></th>
+<th><strong>8</strong></th>
+<th><strong>9</strong></th>
+<th><strong>10</strong></th>
+<th><strong>11</strong></th>
+<th><strong>12</strong></th>
+<th><strong>13</strong></th>
+<th><strong>14</strong></th>
+<th><strong>15</strong></th>
+<th><strong>16</strong></th>
+<th><strong>17</strong></th>
+<th><strong>18</strong></th>
+<th><strong>19</strong></th>
+<th><strong>20</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -486,7 +490,8 @@ Nita Iracema</p>
 <td></td>
 </tr>
 <tr class="odd">
-<td><strong>STATE REPRESENTATIVE DISTRICT 23</strong></td>
+<td><strong>STATE REPRESENTATIVE<br />
+DISTRICT 23</strong></td>
 <td></td>
 <td></td>
 <td></td>
@@ -578,7 +583,8 @@ Nita Iracema</p>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Delegates to the Democratic National Convention</strong></p>
+<td><p><strong>Delegates to the<br />
+Democratic National Convention</strong></p>
 <p><em>(Grouped)</em></p></td>
 <td></td>
 <td></td>
@@ -1066,8 +1072,7 @@ Nita Iracema</p>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Cynthia Mckinney</p>
-<p><em>(Jim Doyle)</em></p></td>
+<td>Cynthia Mckinney </td>
 <td></td>
 <td></td>
 <td></td>
@@ -1113,7 +1118,8 @@ Nita Iracema</p>
 <td></td>
 </tr>
 <tr class="even">
-<td><strong>STATE REPRESENTATIVE DISTRICT 23</strong></td>
+<td><strong>STATE REPRESENTATIVE<br />
+DISTRICT 23</strong></td>
 <td></td>
 <td></td>
 <td></td>
@@ -1182,7 +1188,8 @@ Nita Iracema</p>
 <td><strong>X</strong></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Delegates to the Libertarian National Convention</strong></p>
+<td><p><strong>Delegates to the<br />
+Libertarian National Convention</strong></p>
 <p><em>(Grouped)</em></p></td>
 <td></td>
 <td></td>
@@ -1785,7 +1792,8 @@ Nita Iracema</p>
 <td></td>
 </tr>
 <tr class="odd">
-<td><strong>STATE REPRESENTATIVE DISTRICT 23</strong></td>
+<td><strong>STATE REPRESENTATIVE<br />
+DISTRICT 23</strong></td>
 <td></td>
 <td></td>
 <td></td>
@@ -1877,7 +1885,8 @@ Nita Iracema</p>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Delegates to the Republican National Convention</strong></p>
+<td><p><strong>Delegates to the<br />
+Republican National Convention</strong></p>
 <p><em>(Grouped)</em></p></td>
 <td></td>
 <td></td>
@@ -2186,26 +2195,26 @@ Nita Iracema</p>
 <thead>
 <tr class="header">
 <th><strong>Mountain Gap School</strong></th>
-<th><strong>B 1</strong></th>
-<th><strong>B 2</strong></th>
-<th><strong>B 3</strong></th>
-<th><strong>B 4</strong></th>
-<th><strong>B 5</strong></th>
-<th><strong>B 6</strong></th>
-<th><strong>B 7</strong></th>
-<th><strong>B 8</strong></th>
-<th><strong>B 9</strong></th>
-<th><strong>B 10</strong></th>
-<th><strong>B 11</strong></th>
-<th><strong>B 12</strong></th>
-<th><strong>B 13</strong></th>
-<th><strong>B 14</strong></th>
-<th><strong>B 15</strong></th>
-<th><strong>B 16</strong></th>
-<th><strong>B 17</strong></th>
-<th><strong>B 18</strong></th>
-<th><strong>B 19</strong></th>
-<th><strong>B 20</strong></th>
+<th><strong>1</strong></th>
+<th><strong>2</strong></th>
+<th><strong>3</strong></th>
+<th><strong>4</strong></th>
+<th><strong>5</strong></th>
+<th><strong>6</strong></th>
+<th><strong>7</strong></th>
+<th><strong>8</strong></th>
+<th><strong>9</strong></th>
+<th><strong>10</strong></th>
+<th><strong>11</strong></th>
+<th><strong>12</strong></th>
+<th><strong>13</strong></th>
+<th><strong>14</strong></th>
+<th><strong>15</strong></th>
+<th><strong>16</strong></th>
+<th><strong>17</strong></th>
+<th><strong>18</strong></th>
+<th><strong>19</strong></th>
+<th><strong>20</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -2486,7 +2495,8 @@ Nita Iracema</p>
 <td></td>
 </tr>
 <tr class="odd">
-<td><strong>STATE REPRESENTATIVE DISTRICT 23</strong></td>
+<td><strong>STATE REPRESENTATIVE<br />
+DISTRICT 23</strong></td>
 <td></td>
 <td></td>
 <td></td>
@@ -2578,7 +2588,8 @@ Nita Iracema</p>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Delegates to the Democratic National Convention</strong></p>
+<td><p><strong>Delegates to the<br />
+Democratic National Convention</strong></p>
 <p><em>(Grouped)</em></p></td>
 <td></td>
 <td></td>
@@ -3066,8 +3077,7 @@ Nita Iracema</p>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Cynthia Mckinney</p>
-<p><em>(Jim Doyle)</em></p></td>
+<td>Cynthia Mckinney </td>
 <td></td>
 <td></td>
 <td></td>
@@ -3113,7 +3123,8 @@ Nita Iracema</p>
 <td></td>
 </tr>
 <tr class="even">
-<td><strong>STATE REPRESENTATIVE DISTRICT 23</strong></td>
+<td><strong>STATE REPRESENTATIVE<br />
+DISTRICT 23</strong></td>
 <td></td>
 <td></td>
 <td></td>
@@ -3182,7 +3193,8 @@ Nita Iracema</p>
 <td><strong>X</strong></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Delegates to the Libertarian National Convention</strong></p>
+<td><p><strong>Delegates to the<br />
+Libertarian National Convention</strong></p>
 <p><em>(Grouped)</em></p></td>
 <td></td>
 <td></td>
@@ -3877,7 +3889,8 @@ Nita Iracema</p>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Delegates to the Republican National Convention</strong></p>
+<td><p><strong>Delegates to the<br />
+Republican National Convention</strong></p>
 <p><em>(Grouped)</em></p></td>
 <td></td>
 <td></td>
@@ -3951,8 +3964,7 @@ Nita Iracema</p>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><strong>Delegates to the Republican National Convention</strong></p>
-<p><em>(N of M)</em></p></td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -3975,7 +3987,6 @@ Nita Iracema</p>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Dennis Morrison-Wesley</td>
 <td></td>
 <td></td>
 <td></td>
@@ -3990,15 +4001,15 @@ Nita Iracema</p>
 <td></td>
 <td></td>
 <td></td>
-<td><strong>X</strong></td>
 <td></td>
-<td><strong>U</strong></td>
-<td><strong>X</strong></td>
 <td></td>
-<td><strong>X</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td>Jack Wagner</td>
 <td></td>
 <td></td>
 <td></td>
@@ -4013,61 +4024,15 @@ Nita Iracema</p>
 <td></td>
 <td></td>
 <td></td>
-<td><strong>X</strong></td>
-<td></td>
-<td></td>
-<td><strong>X</strong></td>
-<td></td>
-<td><strong>X</strong></td>
-</tr>
-<tr class="odd">
-<td>John M. Morganelli</td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><strong>X</strong></td>
-<td></td>
-<td></td>
-<td><strong>X</strong></td>
-<td></td>
-<td><strong>X</strong></td>
-</tr>
-<tr class="even">
-<td>Micheal Fegley</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><strong>X</strong></td>
-<td></td>
-<td><strong>X</strong></td>
-<td></td>
-<td></td>
-<td><strong>X</strong></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Bliar Johnston</td>
 <td></td>
 <td></td>
 <td></td>
@@ -4081,16 +4046,16 @@ Nita Iracema</p>
 <td></td>
 <td></td>
 <td></td>
-<td><strong>X</strong></td>
-<td></td>
-<td><strong>X</strong></td>
 <td></td>
 <td></td>
-<td><strong>X</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Kathy Campbell</td>
 <td></td>
 <td></td>
 <td></td>
@@ -4104,12 +4069,59 @@ Nita Iracema</p>
 <td></td>
 <td></td>
 <td></td>
-<td><strong>X</strong></td>
-<td></td>
-<td><strong>X</strong></td>
 <td></td>
 <td></td>
-<td><strong>X</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -4235,7 +4247,6 @@ Nita Iracema</p>
 <p><strong>OVERVOTES 1</strong></p>
 <p><strong>US SENATOR</strong></p>
 <p><strong>Cynthia Mckinney 4</strong></p>
-<p><strong>(Jim Doyle)</strong></p>
 <p><strong>Write-in 1</strong></p>
 <p><strong>UNDERVOTES 1</strong></p>
 <p><strong>OVERVOTES 1</strong></p>
@@ -4346,7 +4357,6 @@ UNDERVOTES 1</strong></p>
 <p><strong>OVERVOTES 1</strong></p>
 <p><strong>US SENATOR</strong></p>
 <p><strong>Cynthia Mckinney 4</strong></p>
-<p><strong>(Jim Doyle)</strong></p>
 <p><strong>Write-in 1</strong></p>
 <p><strong>UNDERVOTES 1</strong></p>
 <p><strong>OVERVOTES 1</strong></p>

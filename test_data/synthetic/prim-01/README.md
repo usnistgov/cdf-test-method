@@ -72,12 +72,14 @@ several test elections that has been developed.
 <td><strong>Republican Party</strong></td>
 </tr>
 <tr class="even">
-<td><p><strong>President of the United States</strong></p>
+<td><p><strong>President of the<br />
+United States</strong></p>
 <p>VOTE FOR ONE</p>
 <p>Gloria La Riva</p>
 <p>Eugene Puryear</p>
 <p>Write-In</p></td>
-<td><p><strong>President of the United States</strong></p>
+<td><p><strong>President of the<br />
+United States</strong></p>
 <p>VOTE FOR ONE</p>
 <p>Barack Obama</p>
 <p>Bill Richardson</p>
@@ -86,19 +88,22 @@ several test elections that has been developed.
 <p>Joe Biden</p>
 <p>John Edwards</p>
 <p>Write-In</p></td>
-<td><p><strong>President of the United States</strong></p>
+<td><p><strong>President of the<br />
+United States</strong></p>
 <p>VOTE FOR ONE</p>
 <p>Cynthia Mckinney</p>
 <p>Rosa Clemente</p>
 <p>Write-In</p></td>
-<td><p><strong>President of the United States</strong></p>
+<td><p><strong>President of the<br />
+United States</strong></p>
 <p>VOTE FOR ONE</p>
 <p>Bob Barr</p>
 <p>Wayne A. Boot</p>
 <p>Roger Calero</p>
 <p>Alyson Kennedy</p>
 <p>Write-In</p></td>
-<td><p><strong>President of the United States</strong></p>
+<td><p><strong>President of the<br />
+United States</strong></p>
 <p>VOTE FOR ONE</p>
 <p>John McCain</p>
 <p>Fred Thompson</p>
@@ -162,23 +167,28 @@ several test elections that has been developed.
 <p>Write-in</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Justices of the Supreme Court</strong></p>
+<td><p><strong>Justices of the<br />
+Supreme Court</strong></p>
 <p>VOTE FOR ONE</p>
 <p>Bill Dahn</p>
 <p>Write-in</p></td>
-<td><p><strong>Justices of the Supreme Court</strong></p>
+<td><p><strong>Justices of the<br />
+Supreme Court</strong></p>
 <p>VOTE FOR ONE</p>
 <p>Judith N. McMahon</p>
 <p>Write-in</p></td>
-<td><p><strong>Justices of the Supreme Court</strong></p>
+<td><p><strong>Justices of the<br />
+Supreme Court</strong></p>
 <p>VOTE FOR ONE</p>
 <p>Stephen Williams</p>
 <p>Write-in</p></td>
-<td><p><strong>Justices of the Supreme Court</strong></p>
+<td><p><strong>Justices of the<br />
+Supreme Court</strong></p>
 <p>VOTE FOR ONE</p>
 <p>Ben J. Glatzel</p>
 <p>Write-in</p></td>
-<td><p><strong>Justices of the Supreme Court</strong></p>
+<td><p><strong>Justices of the<br />
+Supreme Court</strong></p>
 <p>VOTE FOR ONE</p>
 <p>Philip S. Straniere</p>
 <p>Write-in</p></td>
