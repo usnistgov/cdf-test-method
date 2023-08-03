@@ -169,10 +169,11 @@ several test elections that has been developed.
 </tr>
 <tr class="odd">
 <td><p><strong>Recall Governor</strong></p>
-<p>Should the Governor of the State be Recalled for failure to perform his duties?</p>
+<p>Should the Governor of the State be Recalled</p>
+<p>for failure to perform his duties?</p>
 <p>Yes</p>
 <p>No</p>
-<p>If the Governor is to be replaced which candidate should replace him?</p>
+<p>If the Governor is to be replaced </p><p>which candidate should replace him?</p>
 <p>Ala Dee Smith - DEM</p>
 <p>Ben Baker - DEM</p>
 <p>Calvin Marino - REP</p>
@@ -243,12 +244,12 @@ several test elections that has been developed.
 <th><strong>B 17</strong></th>
 <th><strong>B 18</strong></th>
 <th><strong>B 19</strong></th>
-<th><strong>B 20</strong></th>
+<th><strong>B 20</strong></th> 
 <th><strong>B 21</strong></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr class="odd" colspan="3">
 <td><strong>President of the United States</strong></td>
 <td></td>
 <td></td>
