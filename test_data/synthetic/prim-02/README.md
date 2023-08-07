@@ -36,11 +36,11 @@ several test elections that has been developed.
 <li><p>Vote for N of M: Yes</p></li>
 <li><p>Recall issues, with options: No</p></li>
 <li><p>Cumulative voting: No</p></li>
-<li><p>Ranked order voting: No</p></li>
-<li><p>Provisional or challenged ballots: No</p></li>
-<li><p>Early Voting: No</p></li>
+<li><p>Ranked choice voting: No</p></li>
+<li></li>
+<li></li>
 </ul>
-<p><strong>This election was designed to functionally test the handling of multiple ballot styles, support for</strong> Primary presidential delegation nominations<strong>, support for two languages, support for complex voting variations, and audio support for multiple languages. The election will be an open primary election with one machine running for each precinct. Voting options for Over-voting, Under-voting and write-in voting will be exercised. Ballots 5 and 18 were selected for Spanish based language input. Ballots 8 and 17 were selected for casting of ballot using the ADA Audio capability. Ballot 20 was selected to test Cross Overvoting functionality in systems whose Open Primaries support multiple parties on a single ballot. Cross Overvoting occurs when a voter selects candidates in a contest for one party then selects a candidate in the same contest for another party on the ballot. If this occurs, the contest is considered overvoted and does not count for any party on the ballot. If the voting system under test does not support this functionality, Ballot 20 should be removed from test deck and adjust expected results as required. NOTE: Overvotes and undervotes are listed in results based upon the “Vote For” value of the contest. For Example: If a Vote For 3 contest is undervoted, it is counted as 3 undervotes.</strong></p></td>
+<p><strong>This election was designed to functionally test the handling of multiple ballot styles, support for</strong> Primary presidential delegation nominations<strong>,</strong> <strong>support for complex voting variations, and audio support for multiple languages. The election will be an open primary election with one machine running for each precinct.</strong> <strong>Voting options for Over-voting, Under-voting and write-in voting will be exercised.</strong> <strong>Ballot 20 was selected to test Cross Overvoting functionality in systems whose Open Primaries support multiple parties on a single ballot. Cross Overvoting occurs when a voter selects candidates in a contest for one party then selects a candidate in the same contest for another party on the ballot. If this occurs, the contest is considered overvoted and does not count for any party on the ballot.</strong> <strong>NOTE: Overvotes and undervotes are listed in results based upon the “Vote For” value of the contest. For Example: If a Vote For 3 contest is undervoted, it is counted as 3 undervotes.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Configuration:</strong></p>
@@ -50,7 +50,6 @@ several test elections that has been developed.
 <p><strong>1 machines used for voting in one precinct</strong></p>
 <p><strong>2 precincts</strong>: Fire station 7, Mountain Gap School</p>
 <p><strong>3 parties:</strong> Democrat, Libertarian, Republican</p>
-<p><strong>Languages:</strong> English, Spanish,</p>
 <p><strong>Contest Totals:</strong> 13</p>
 <p><strong>Contests as listed:</strong></p>
 <table>
@@ -165,7 +164,7 @@ Nita Iracema</p>
 <p>Vote for One</p></td>
 </tr>
 <tr class="even">
-<td colspan="3"><p><strong>Proposition 54</strong></p>
+<td><p><strong>Proposition 54</strong></p>
 <p><strong>Classification by Race, Ethnicity, Color, or National Origin,</strong></p>
 <p><strong>Initiative Constitutional Amendment</strong></p>
 <p>Prohibits state and local governments from classifying any person<br />
@@ -175,6 +174,8 @@ on the state and local governments.</p>
 <p>YES</p>
 <p>NO</p>
 <p>Vote for One</p></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table></td>
@@ -185,7 +186,7 @@ on the state and local governments.</p>
 </tr>
 <tr class="even">
 <td><p><strong>Test Deck Pattern:</strong></p>
-<p><strong>Ballots voted or pre-marked with the following pattern. Ballots 5 and 18 will be input using the Spanish language option. Ballots 8 and 17 will be input using the ADA audio capability. The following is the test pattern to be voted for the given precinct:</strong></p>
+<p><strong>Ballots voted or pre-marked with the following pattern. The following is the test pattern to be voted for the given precinct:</strong></p>
 <table>
 <thead>
 <tr class="header">
@@ -3797,7 +3798,8 @@ Libertarian National Convention</strong></p>
 <td></td>
 </tr>
 <tr class="odd">
-<td><strong>STATE REPRESENTATIVE DISTRICT 23</strong></td>
+<td><strong>STATE REPRESENTATIVE<br />
+DISTRICT 23</strong></td>
 <td></td>
 <td></td>
 <td></td>
@@ -4467,7 +4469,6 @@ UNDERVOTES 1</strong></p>
 <p><strong>OVERVOTES 2</strong></p>
 <p><strong>US SENATOR</strong></p>
 <p><strong>Cynthia Mckinney 8</strong></p>
-<p><strong>(Jim Doyle)</strong></p>
 <p><strong>Write-in 2</strong></p>
 <p><strong>UNDERVOTES 2</strong></p>
 <p><strong>OVERVOTES 2</strong></p>

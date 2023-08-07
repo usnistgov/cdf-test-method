@@ -36,11 +36,11 @@ several test elections that has been developed.
 <li><p>Vote for N of M: Yes</p></li>
 <li><p>Recall issues, with options: Yes</p></li>
 <li><p>Cumulative voting: No</p></li>
-<li><p>Ranked order voting: Yes</p></li>
-<li><p>Provisional or challenged ballots: No</p></li>
-<li><p>Early Voting: Yes</p></li>
+<li><p>Ranked choice voting: Yes</p></li>
+<li></li>
+<li></li>
 </ul>
-<p><strong>This election was designed to functionally test the handling of multiple ballot styles, support for ballot rotation, support for two languages, support for complex voting variations, and audio support for multiple languages. The election will be an early voting election with at least one machine running all precincts. Voting options for Over-voting and Under-voting will be exercised. Ballots 7 and 16 were selected for Spanish based language input. Ballots 13 and 17 were selected for casting of ballot using the ADA Audio capability.</strong></p></td>
+<p><strong>This election was designed to functionally test the handling of multiple ballot styles, support for ballot rotation, and</strong> <strong>support for complex voting variations.</strong> <strong>Voting options for Over-voting and Under-voting will be exercised.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Configuration:</strong></p>
@@ -50,7 +50,6 @@ several test elections that has been developed.
 <p><strong>3 machines used for voting one for Mooring, one for Hillwood and one for all precincts.</strong></p>
 <p><strong>3 precincts</strong>: Creekside, Mooring, Hillwood</p>
 <p><strong>2 parties:</strong> Democrat, Republican</p>
-<p><strong>Languages:</strong> English, Spanish</p>
 <p><strong>Contest Totals: 15</strong></p>
 <p><strong>Contests as listed:</strong></p>
 <table>
@@ -163,6 +162,7 @@ several test elections that has been developed.
 <p>Tabathia Song</p>
 <p>Vincent Gould</p>
 <p>Write-In</p>
+<p>Write-In</p>
 <p>Vote for Two</p></td>
 <td></td>
 <td></td>
@@ -170,10 +170,10 @@ several test elections that has been developed.
 <tr class="odd">
 <td><p><strong>Recall Governor</strong></p>
 <p>Should the Governor of the State be Recalled</p>
-<p>for failure to perform his duties?</p>
+<p> for failure to perform his duties?</p>
 <p>Yes</p>
 <p>No</p>
-<p>If the Governor is to be replaced </p><p>which candidate should replace him?</p>
+<p>If the Governor is to be replaced</p><p> which candidate should replace him?</p>
 <p>Ala Dee Smith - DEM</p>
 <p>Ben Baker - DEM</p>
 <p>Calvin Marino - REP</p>
@@ -220,7 +220,7 @@ several test elections that has been developed.
 </tr>
 <tr class="even">
 <td><p><strong>Test Deck Pattern:</strong></p>
-<p><strong>Ballots voted or pre-marked with the following pattern. Ballot 7 and 16 will be input using the Spanish language option. Ballots 13 and 17 will be input using the ADA audio capability. The following is the test pattern to be voted for the given precinct:</strong></p>
+<p><strong>Ballots voted or pre-marked with the following pattern.</strong> <strong>The following is the test pattern to be voted for the given precinct:</strong></p>
 <table>
 <thead>
 <tr class="header">
@@ -244,12 +244,12 @@ several test elections that has been developed.
 <th><strong>B 17</strong></th>
 <th><strong>B 18</strong></th>
 <th><strong>B 19</strong></th>
-<th><strong>B 20</strong></th> 
+<th><strong>B 20</strong></th>
 <th><strong>B 21</strong></th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd" colspan="3">
+<tr class="odd">
 <td><strong>President of the United States</strong></td>
 <td></td>
 <td></td>
@@ -4452,7 +4452,7 @@ several test elections that has been developed.
 <p><strong>Write-In 2</strong></p>
 <p><strong>Under Vote 2</strong></p>
 <p><strong>OverVote 2</strong></p>
-<p><strong>Member of Assemblyy Seat A</strong></p>
+<p><strong>Member of</strong> <strong>Assembly Seat A</strong></p>
 <p><strong>Maribeth Clark 9</strong></p>
 <p><strong>Nathan Johnson 9</strong></p>
 <p><strong>Write-In 0</strong></p>
@@ -4467,7 +4467,7 @@ several test elections that has been developed.
 <p><strong>Write-In 6</strong></p>
 <p><strong>Under Vote</strong> <strong>5</strong></p>
 <p><strong>OverVote</strong> <strong>2</strong></p>
-<p><strong>Recall Govenor</strong></p>
+<p><strong>Recall</strong> <strong>Governor</strong></p>
 <p><strong>Yes 13</strong></p>
 <p><strong>No 5</strong></p>
 <p><strong>Under Vote 2</strong></p>
@@ -4546,7 +4546,7 @@ several test elections that has been developed.
 <p><strong>Tabthia Song 3</strong></p>
 <p><strong>Vicent Gould 11</strong></p>
 <p><strong>Write-In 6</strong></p>
-<p><strong>Under Vote</strong> <strong>3</strong></p>
+<p><strong>Under Vote</strong> <strong>5</strong></p>
 <p><strong>OverVote</strong> <strong>2</strong></p>
 <p><strong>Recall</strong> <strong>Governor</strong></p>
 <p><strong>Yes 13</strong></p>
@@ -4627,9 +4627,9 @@ several test elections that has been developed.
 <p><strong>Tabthia Song 3</strong></p>
 <p><strong>Vicent Gould 11</strong></p>
 <p><strong>Write-In 6</strong></p>
-<p><strong>Under Vote 3</strong></p>
-<p><strong>OverVote 1</strong></p>
-<p><strong>Recall Govenor</strong></p>
+<p><strong>Under Vote</strong> <strong>5</strong></p>
+<p><strong>OverVote</strong> <strong>2</strong></p>
+<p><strong>Recall</strong> <strong>Governor</strong></p>
 <p><strong>Yes 13</strong></p>
 <p><strong>No 5</strong></p>
 <p><strong>Under Vote 2</strong></p>
@@ -4652,7 +4652,7 @@ several test elections that has been developed.
 <p><strong>No 10</strong></p>
 <p><strong>Under Vote 1</strong></p>
 <p><strong>OverVote 1</strong></p>
-<p><strong>Cumlative Totals</strong></p>
+<p><strong>Cumulative Totals</strong></p>
 <p><strong>President of the United States</strong></p>
 <p><strong>Albina Sepich 30</strong></p>
 <p><strong>Barbara Barett Hicks 21</strong></p>
@@ -4726,8 +4726,8 @@ several test elections that has been developed.
 <p><strong>Tabthia Song 9</strong></p>
 <p><strong>Vicent Gould 33</strong></p>
 <p><strong>Write-In 18</strong></p>
-<p><strong>Under Vote 9</strong></p>
-<p><strong>OverVote 3</strong></p>
+<p><strong>Under Vote</strong> <strong>15</strong></p>
+<p><strong>OverVote</strong> <strong>6</strong></p>
 <p><strong>Recall</strong> <strong>Governor</strong></p>
 <p><strong>Yes 39</strong></p>
 <p><strong>No 15</strong></p>

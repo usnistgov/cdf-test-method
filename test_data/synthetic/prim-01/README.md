@@ -23,8 +23,8 @@ several test elections that has been developed.
 <td><p><strong>Primary Election: PRIM-01</strong></p>
 <p>An open primary election in 2 precincts. This election contains 30 contests compiled into 5 ballot styles. Each ballot style contains 6 contests. The voting variations supported by this election are as follows:</p>
 <ul>
-<li><p>Closed Primary: Yes</p></li>
-<li><p>Open Primary: No</p></li>
+<li><p>Closed Primary: No</p></li>
+<li><p>Open Primary: Yes</p></li>
 <li><p>Partisan offices: Yes</p></li>
 <li><p>Non-Partisan offices: No</p></li>
 <li><p>Write-in voting: Yes</p></li>
@@ -37,20 +37,18 @@ several test elections that has been developed.
 <li><p>Recall issues, with options: No</p></li>
 <li><p>Cumulative voting: No</p></li>
 <li><p>Ranked order voting: No</p></li>
-<li><p>Provisional or challenged ballots: Yes</p></li>
-<li><p>Early Voting: No</p></li>
+<li></li>
+<li></li>
 </ul>
-<p><strong>This election designed to functionally test an open primary with multiple ballot styles, support for two languages, and support for common voting variations. Test patterns 5 and 18 are input in an alternative language. Test patterns 8 and 18 are input using an ADA audio device. These patterns were select to exercise the write-in functionality in a primary election.</strong></p></td>
+<p><strong>This election designed to functionally test an open primary with multiple ballot styles, and support for common voting variations.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Configuration:</strong></p>
 <p><strong>EMS computer is used to create ballots with the following characteristics:</strong></p>
 <p><strong>Election named:</strong>PRIM-01</p>
 <p><strong><span class="underline">Precinct Based Testing</span></strong></p>
-<p><strong>1 machines used for voting in one precinct</strong></p>
 <p><strong>2 precincts</strong>: Bibb County Court, Shelton Road Church</p>
 <p><strong>5 parties:</strong> Communist, Democrat, Green, Libertarian, Republican</p>
-<p><strong>Languages:</strong> English, Spanish</p>
 <p><strong>Contest Totals:</strong> 30</p>
 <p><strong>Contests as listed:</strong></p>
 <table>
@@ -255,7 +253,7 @@ Supreme Court</strong></p>
 </tr>
 <tr class="even">
 <td><p><strong>Test Deck Pattern:</strong></p>
-<p><strong>Ballots voted or pre-marked with the following pattern. Ballot 5 and 18 will be input using the Spanish language option. Ballots 8 and 17 will be input using the ADA audio capability. The following is the test pattern to be voted for the given precinct:</strong></p>
+<p><strong>Ballots voted or pre-marked with the following pattern.</strong> <strong>The following is the test pattern to be voted for the given precinct:</strong></p>
 <table>
 <thead>
 <tr class="header">

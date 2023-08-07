@@ -15,14 +15,11 @@ several test elections that has been developed.
 <table>
 <thead>
 <tr class="header">
-<th>THESE DEFINITIONS ARE DRAFT, SUBJECT TO REVISION, AND SHOULD NOT BE USED FOR CONFORMANCE WORK.</th>
+<th>ELECTION DEFINITION: PRIM-03</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>ELECTION DEFINITION: PRIM-03</td>
-</tr>
-<tr class="even">
 <td><p><strong>Primary Election</strong></p>
 <p>A basic election held in 2 precincts. This election contains 10 contests and is compiled into 2 ballot styles. 2 of the contests are in both ballot styles. The other 8 contests are split between the two parties’ ballots. The voting variations supported by this election are as follows:</p>
 <ul>
@@ -39,13 +36,11 @@ several test elections that has been developed.
 <li><p>Vote for N of M: Yes</p></li>
 <li><p>Recall issues, with options: No</p></li>
 <li><p>Cumulative voting: No</p></li>
-<li><p>Ranked order voting: No</p></li>
-<li><p>Provisional or challenged ballots: Yes</p></li>
-<li><p>Early Voting: No</p></li>
+<li><p>Ranked choice voting: No</p></li>
 </ul>
-<p>This election was designed to functionally test the handling of multiple ballot styles, support for at least three languages including a Ideographic based language, support for common voting variations, and audio support for at least three languages and a ADA binary input device. Test patterns 3 and 4 were chosen for input in the Spanish language because it is a basic voting pattern with a write-in. Test patterns 5 and 6 were chosen for audio input using the Spanish language to demonstrate support for write-in voting using an ADA device with and alternative language. Test pattern 7 was chosen for Ideographic based language input because it is a basic vote pattern using Chinese. Test pattern 8 was chosen for character based language using an ADA device to demonstrate support for Ideographic based ADA device support. Test pattern 9 was chosen for binary input to show support for ADA binary input device. Test pattern 10 was chosen for binary input using ADA audio deceive to show support for binary input and ADA support.</p></td>
+<p>This election was designed to functionally test the handling of multiple ballot styles, and support for common voting variations.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><strong>Configuration:</strong></p>
 <p><strong>EMS computer is used to create ballots with the following characteristics:</strong></p>
 <p><strong>General Election named:</strong> PRIM-03 Primary Election</p>
@@ -53,7 +48,6 @@ several test elections that has been developed.
 <p><strong>1 machine used for each precinct</strong></p>
 <p><strong>2 precincts</strong>: Middleton Community Center, First Baptist Church</p>
 <p><strong>2 parties:</strong> Democrat, Republican</p>
-<p><strong>Languages:</strong> English, Spanish, Chinese</p>
 <p><strong>Contest Totals:</strong> 8</p>
 <p><strong>Contests as listed:</strong></p>
 <table>
@@ -143,13 +137,13 @@ several test elections that has been developed.
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><strong>Applicable Voting Devices :</strong></p>
 <p><strong>OP Scanner, DRE, Central Count, EBM, and ADA device</strong></p></td>
 </tr>
-<tr class="odd">
-<td><p><strong>Test Deck Pattern: (**If binary input device not supported use audio input. If Ideographic based language not supported use Spanish language only**)</strong></p>
-<p><strong>Ballots voted or pre-marked with the following pattern. Ballots 3 and 4 will be input utilizing the Spanish language ballot. Ballots 5 and 6 will be input utilizing the Spanish language option on the ADA audio device. Ballot 7 will be input using the Chinese language. Ballot 8 will be input using the Chinese language and the ADA audio device. Ballot 9 will be input using the binary input device. Ballot 10 will be input using both the binary input device and the ADA audio option. The following is the test pattern to be voted for the given precinct:</strong></p>
+<tr class="even">
+<td><p><strong>Test Deck Pattern:</strong></p>
+<p><strong>The following is the test pattern to be voted for the given precinct:</strong></p>
 <table>
 <tbody>
 <tr class="odd">
@@ -1567,11 +1561,11 @@ several test elections that has been developed.
 <p>Heidi Hatzinger 4</p>
 <p>Write-In 4</p>
 <p><strong>Referendum A</strong></p>
-<p>For 10</p>
-<p>Against 0</p>
+<p>For 18</p>
+<p>Against 2</p>
 <p><strong>Referendum B</strong></p>
-<p>For 4</p>
-<p>Against 6</p></th>
+<p>For 12</p>
+<p>Against 8</p></th>
 </tr>
 </thead>
 <tbody>

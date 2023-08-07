@@ -15,16 +15,13 @@ several test elections that has been developed.
 <table>
 <thead>
 <tr class="header">
-<th>THESE DEFINITIONS ARE DRAFT, SUBJECT TO REVISION, AND SHOULD NOT BE USED FOR CONFORMANCE WORK.</th>
+<th>ELECTION DEFINITION: GEN-01</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>ELECTION DEFINITION: GEN-01</td>
-</tr>
-<tr class="even">
 <td><p><strong>General Election: GEN-01</strong></p>
-<p>A basic election held in 4 precincts one of which is a split precinct. This election contains 19 contests compiled into 4 ballot styles. 5 of the contests are in all 4 ballot styles. The other 15 contests are split between at least 2 of the precincts with a maximum of 4 different contest spread across the 4 precincts. The voting variations supported by this election are as follows:</p>
+<p>A basic election held in 4 precincts one of which is a split precinct. This election contains 19 contests compiled into 4 ballot styles. 5 of the contests are in all 4 ballot styles. The other 14 contests are split between at least 2 of the precincts with a maximum of 4 different contest spread across the 4 precincts. The voting variations supported by this election are as follows:</p>
 <ul>
 <li><p>Closed Primary: No</p></li>
 <li><p>Open Primary: No</p></li>
@@ -39,18 +36,17 @@ several test elections that has been developed.
 <li><p>Vote for N of M: Yes</p></li>
 <li><p>Recall issues, with options: No</p></li>
 <li><p>Cumulative voting: No</p></li>
-<li><p>Ranked order voting: No</p></li>
-<li><p>Provisional or challenged ballots: Yes</p></li>
-<li><p>Early Voting: No</p></li>
+<li><p>Ranked choice voting: No</p></li>
+<li></li>
+<li></li>
 </ul>
-<p>This election was designed to functionally test the handling of multiple ballot styles, support for at least two languages, support for common voting variations, and audio support for at least two languages. Test Pattern 8 was chosen for audio input in an alternative language because it is a basic voting pattern using an ADA device. Test pattern 9 was chosen for audio input to demonstrate support for write-in voting using an ADA device. Test Pattern 3 was chosen for Spanish language input because it is a basic vote pattern using Spanish. Test Pattern 10 was chosen for Spanish language input because it exercises write-in using Spanish.</p></td>
+<p>This election was designed to functionally test the handling of multiple ballot styles, and support for common voting variations. </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><strong>Configuration</strong></p>
 <p><strong>EMS computer is used to create ballots with the following characteristics:</strong></p>
 <p><strong>General Election named:</strong> GEN-01 General Election</p>
 <p><strong><span class="underline">Precinct Based Testing</span></strong></p>
-<p><strong>1 machine used for each precinct</strong></p>
 <p><strong>4 precincts</strong>: Precinct 1, Precinct 2a, Precinct 2b, Precinct 3</p>
 <p><strong>3 parties:</strong> Democrat, Libertarian, Republican</p>
 <p><strong>Languages:</strong> English, Spanish</p>
@@ -78,7 +74,7 @@ several test elections that has been developed.
 </tr>
 <tr class="even">
 <td><p><strong>President and Vice President</strong></p>
-<p><strong>of the United States</strong></p>
+ <p><strong>of the United States</strong></p>
 <p>Harry Brown LIB</p>
 <p>Jim Doyle</p>
 <p>George Bush REP</p>
@@ -151,28 +147,28 @@ several test elections that has been developed.
 <p>for road improvement?</p>
 <p>Yes</p>
 <p>No</p>
-<p>Vote for 1</p></td>
+<p>Vote for 1 </p></td>
 <td><p><strong>Proposal 1</strong></p>
 <p><strong>District 2a</strong></p>
 <p>Should the city fund</p>
 <p>the new stadium?</p>
 <p>Yes</p>
 <p>No</p>
-<p>Vote for 1</p></td>
+<p>Vote for 1 </p></td>
 <td><p><strong>Proposal 1</strong></p>
 <p><strong>District 2b</strong></p>
 <p>Should the sales tax</p>
 <p>be increased to 9%?</p>
 <p>Yes</p>
 <p>No</p>
-<p>Vote for 1</p></td>
+<p>Vote for 1 </p></td>
 <td><p><strong>Proposal 1</strong></p>
 <p><strong>District 2a</strong></p>
 <p>Should the city fund</p>
 <p>the new stadium?</p>
 <p>Yes</p>
 <p>No</p>
-<p>Vote for 1</p></td>
+<p>Vote for 1 </p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>County Commissioner</strong></p>
@@ -242,11 +238,11 @@ several test elections that has been developed.
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><strong>Applicable Voting Devices :</strong></p>
 <p><strong>OP Scanner, DRE, Central Count, EBM, and ADA device</strong></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><strong>Test Deck Pattern:</strong></p>
 <p><strong>Ballots voted or pre-marked with the following pattern. Ballots 8 and 9 will be cast utilizing the ADA audio capability with 8 being voted in an alternate language as well. Ballots 3 and 10 will be cast utilizing the Spanish language option. The following is the test pattern to be voted for the given precinct:</strong></p></td>
 </tr>
