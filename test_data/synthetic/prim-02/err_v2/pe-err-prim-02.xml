@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK-->
 <ElectionReport xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
    <Election>
       <BallotStyle>

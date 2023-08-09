@@ -539,7 +539,7 @@
 				<CandidateIds>can-ep</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-com-president-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>President of the United States</Name>
@@ -552,7 +552,7 @@
 				<CandidateIds>can-mgr</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-com-senate-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>U.S. Senator</Name>
@@ -565,7 +565,7 @@
 				<CandidateIds>can-mgo</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-com-congress-6-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>U.S. Representative - District 6</Name>
@@ -578,7 +578,7 @@
 				<CandidateIds>can-bdah</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-com-sc-justice-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>Justices of the Supreme Court</Name>
@@ -591,7 +591,7 @@
 				<CandidateIds>can-ju</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-com-state-senator-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>State Senator</Name>
@@ -604,7 +604,7 @@
 				<CandidateIds>can-aa</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-com-assembly-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>Member of Assembly</Name>
@@ -632,7 +632,7 @@
 				<CandidateIds>can-jed</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-dem-president-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>President of the United States</Name>
@@ -648,7 +648,7 @@
 				<CandidateIds>can-bl</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-dem-senate-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>U.S. Senator</Name>
@@ -664,7 +664,7 @@
 				<CandidateIds>can-jr</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-dem-congress-6-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>U.S. Representative - District 6</Name>
@@ -677,7 +677,7 @@
 				<CandidateIds>can-jmcm</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-dem-sc-justice-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>Justices of the Supreme Court</Name>
@@ -693,7 +693,7 @@
 				<CandidateIds>can-dm</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-dem-state-senator-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>State Senator</Name>
@@ -706,7 +706,7 @@
 				<CandidateIds>can-kc</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-dem-assembly-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>Member of Assembly</Name>
@@ -722,7 +722,7 @@
 				<CandidateIds>can-rcl</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-gre-president-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>President of the United States</Name>
@@ -735,7 +735,7 @@
 				<CandidateIds>can-ne</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-gre-senate-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>U.S. Senator</Name>
@@ -748,7 +748,7 @@
 				<CandidateIds>can-ltod</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-gre-congress-6-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>U.S. Representative - District 6</Name>
@@ -761,7 +761,7 @@
 				<CandidateIds>can-sw</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-gre-sc-justice-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>Justices of the Supreme Court</Name>
@@ -774,7 +774,7 @@
 				<CandidateIds>can-rv</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-gre-state-senator-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>State Senator</Name>
@@ -787,7 +787,7 @@
 				<CandidateIds>can-ws</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-gre-assembly-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>Member of Assembly</Name>
@@ -809,7 +809,7 @@
 				<CandidateIds>can-ak</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-lib-president-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>President of the United States</Name>
@@ -822,7 +822,7 @@
 				<CandidateIds>can-pe</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-lib-senate-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>U.S. Senator</Name>
@@ -835,7 +835,7 @@
 				<CandidateIds>can-tp</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-lib-congress-6-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>U.S. Representative - District 6</Name>
@@ -848,7 +848,7 @@
 				<CandidateIds>can-bg</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-lib-sc-justice-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>Justices of the Supreme Court</Name>
@@ -861,7 +861,7 @@
 				<CandidateIds>can-ce</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-lib-state-senator-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>State Senator</Name>
@@ -874,7 +874,7 @@
 				<CandidateIds>can-ltob</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-lib-assembly-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>Member of Assembly</Name>
@@ -902,7 +902,7 @@
 				<CandidateIds>can-rg</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-rep-president-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>President of the United States</Name>
@@ -918,7 +918,7 @@
 				<CandidateIds>can-jva</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-rep-senate-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>U.S. Senator</Name>
@@ -934,7 +934,7 @@
 				<CandidateIds>can-jvo</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-rep-congress-6-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>U.S. Representative - District 6</Name>
@@ -947,7 +947,7 @@
 				<CandidateIds>can-ps</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-rep-sc-justice-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>Justices of the Supreme Court</Name>
@@ -963,7 +963,7 @@
 				<CandidateIds>can-bdav</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-rep-state-senator-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>State Senator</Name>
@@ -976,7 +976,7 @@
 				<CandidateIds>can-al</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-rep-assembly-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county</ElectionDistrictId>
 			<Name>Member of Assembly</Name>

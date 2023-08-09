@@ -1071,7 +1071,7 @@
     "Name" : 
     { "Text" : 
      [ 
-      { "Content" : "GEN-01",
+      { "Content" : "GEN-01 General Election",
        "Language" : "en",
        "@type" : "BallotDefinition.LanguageString" } ],
      "@type" : "BallotDefinition.InternationalizedText" },

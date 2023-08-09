@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK-->
 <ElectionReport xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
    <Election>
       <BallotStyle>
@@ -682,7 +680,7 @@
                <Type>total</Type>
                <Count>2</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>President and Vice President of the United States</Name>
@@ -830,7 +828,7 @@
                <Type>total</Type>
                <Count>2</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>United State Senator</Name>
@@ -938,7 +936,7 @@
                <Type>total</Type>
                <Count>2</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Representative in Congress - District 1</Name>
@@ -1036,7 +1034,7 @@
                <Type>total</Type>
                <Count>2</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Representative in Congress - District 2</Name>
@@ -1086,7 +1084,7 @@
                <Type>total</Type>
                <Count>3</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>State Assembly - District 1</Name>
@@ -1141,7 +1139,7 @@
                <Type>total</Type>
                <Count>3</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>State Assembly - District 2</Name>
@@ -1191,7 +1189,7 @@
                <Type>total</Type>
                <Count>3</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>State Assembly - District 3</Name>
@@ -1395,7 +1393,7 @@
                <Type>total</Type>
                <Count>4</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>County Commissioner - District 1</Name>
@@ -1450,7 +1448,7 @@
                <Type>total</Type>
                <Count>4</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>County Commissioner - District 2</Name>
@@ -1500,7 +1498,7 @@
                <Type>total</Type>
                <Count>4</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>County Commissioner - District 3</Name>
@@ -1720,7 +1718,7 @@
                <Type>total</Type>
                <Count>4</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ContestSelection ObjectId="cs-county-assessor-db-wi2"
                            xsi:type="CandidateSelection">
@@ -1749,7 +1747,7 @@
                <Type>total</Type>
                <Count>2</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>County Assessor</Name>
@@ -1823,7 +1821,7 @@
                <Type>total</Type>
                <Count>3</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Supreme Court Justice - Seat A</Name>
@@ -1897,7 +1895,7 @@
                <Type>total</Type>
                <Count>3</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Supreme Court Justice - Seat B</Name>
@@ -1961,7 +1959,7 @@
                <Type>total</Type>
                <Count>3</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Supreme Court Justice - Seat C</Name>
@@ -2094,7 +2092,7 @@
                <Type>total</Type>
                <Count>2</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Dog Catcher</Name>

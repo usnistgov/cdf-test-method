@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK-->
 <ElectionReport xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
    <Election>
       <BallotStyle>
@@ -702,7 +700,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>President of the United States</Name>
@@ -752,7 +750,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Senator</Name>
@@ -802,7 +800,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Representative - District 6</Name>
@@ -862,7 +860,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Justices of the Supreme Court</Name>
@@ -922,7 +920,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>State Senator</Name>
@@ -982,7 +980,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Member of Assembly</Name>
@@ -1087,7 +1085,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>President of the United States</Name>
@@ -1166,7 +1164,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Senator</Name>
@@ -1245,7 +1243,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Representative - District 6</Name>
@@ -1305,7 +1303,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Justices of the Supreme Court</Name>
@@ -1374,7 +1372,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>State Senator</Name>
@@ -1434,7 +1432,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Member of Assembly</Name>
@@ -1503,7 +1501,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>President of the United States</Name>
@@ -1553,7 +1551,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Senator</Name>
@@ -1613,7 +1611,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Representative - District 6</Name>
@@ -1673,7 +1671,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Justices of the Supreme Court</Name>
@@ -1733,7 +1731,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>State Senator</Name>
@@ -1783,7 +1781,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Member of Assembly</Name>
@@ -1890,7 +1888,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>President of the United States</Name>
@@ -1950,7 +1948,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Senator</Name>
@@ -2010,7 +2008,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Representative - District 6</Name>
@@ -2070,7 +2068,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Justices of the Supreme Court</Name>
@@ -2120,7 +2118,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>State Senator</Name>
@@ -2170,7 +2168,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Member of Assembly</Name>
@@ -2285,7 +2283,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>President of the United States</Name>
@@ -2364,7 +2362,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Senator</Name>
@@ -2443,7 +2441,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Representative - District 6</Name>
@@ -2503,7 +2501,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Justices of the Supreme Court</Name>
@@ -2572,7 +2570,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>State Senator</Name>
@@ -2622,7 +2620,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Member of Assembly</Name>

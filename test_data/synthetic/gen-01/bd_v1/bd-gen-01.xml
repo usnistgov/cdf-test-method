@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK -->
 <BallotDefinition xmlns="http://itl.nist.gov/ns/voting/1500-20/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Election>
 		<BallotStyle>
@@ -154,42 +153,42 @@
 			<BallotName>
 				<Text Language="en">Harry Brown</Text>
 			</BallotName>
-			<IsTopTicket>true</IsTopTicket>
+			<IsTopTicket>1</IsTopTicket>
 			<PartyId>par-lib</PartyId>
 		</Candidate>
 		<Candidate ObjectId="can-jd">
 			<BallotName>
 				<Text Language="en">Jim Doyle</Text>
 			</BallotName>
-			<IsTopTicket>false</IsTopTicket>
+			<IsTopTicket>0</IsTopTicket>
 			<PartyId>par-lib</PartyId>
 		</Candidate>
 		<Candidate ObjectId="can-gb">
 			<BallotName>
 				<Text Language="en">George Bush</Text>
 			</BallotName>
-			<IsTopTicket>true</IsTopTicket>
+			<IsTopTicket>1</IsTopTicket>
 			<PartyId>par-rep</PartyId>
 		</Candidate>
 		<Candidate ObjectId="can-dc">
 			<BallotName>
 				<Text Language="en">Dick Cheney</Text>
 			</BallotName>
-			<IsTopTicket>false</IsTopTicket>
+			<IsTopTicket>0</IsTopTicket>
 			<PartyId>par-rep</PartyId>
 		</Candidate>
 		<Candidate ObjectId="can-ag">
 			<BallotName>
 				<Text Language="en">Al Gore</Text>
 			</BallotName>
-			<IsTopTicket>true</IsTopTicket>
+			<IsTopTicket>1</IsTopTicket>
 			<PartyId>par-dem</PartyId>
 		</Candidate>
 		<Candidate ObjectId="can-jl">
 			<BallotName>
 				<Text Language="en">Joe Liberman</Text>
 			</BallotName>
-			<IsTopTicket>false</IsTopTicket>
+			<IsTopTicket>0</IsTopTicket>
 			<PartyId>par-dem</PartyId>
 		</Candidate>
 		<Candidate ObjectId="can-ej">
@@ -402,7 +401,7 @@
 				<CandidateIds>can-ag can-jl</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-president-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
 			<Name>President and Vice President of the United States</Name>
@@ -420,7 +419,7 @@
 				<CandidateIds>can-kb</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-senate-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
 			<Name>United State Senator</Name>
@@ -438,7 +437,7 @@
 				<CandidateIds>can-mc</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-1-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-congress-1</ElectionDistrictId>
 			<Name>Representative in Congress - District 1</Name>
@@ -456,7 +455,7 @@
 				<CandidateIds>can-jh</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-2-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-congress-2</ElectionDistrictId>
 			<Name>Representative in Congress - District 2</Name>
@@ -468,7 +467,7 @@
 				<CandidateIds>can-mj</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-1-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-assembly-1</ElectionDistrictId>
 			<Name>State Assembly - District 1</Name>
@@ -480,7 +479,7 @@
 				<CandidateIds>can-pt</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-2-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-assembly-2</ElectionDistrictId>
 			<Name>State Assembly - District 2</Name>
@@ -492,7 +491,7 @@
 				<CandidateIds>can-yd</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-3-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-assembly-3</ElectionDistrictId>
 			<Name>State Assembly - District 3</Name>
@@ -558,7 +557,7 @@
 				<CandidateIds>can-ab</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs--wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county-commisioner-1</ElectionDistrictId>
 			<Name>County Commissioner - District 1</Name>
@@ -570,7 +569,7 @@
 				<CandidateIds>can-jackh</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-comissioner-2-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county-commisioner-2</ElectionDistrictId>
 			<Name>County Commissioner - District 2</Name>
@@ -582,7 +581,7 @@
 				<CandidateIds>can-js</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-comissioner-3-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county-commisioner-3</ElectionDistrictId>
 			<Name>County Commissioner - District 3</Name>
@@ -609,10 +608,10 @@
 				<CandidateIds>can-mm</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-assessor-db-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-county-assessor-db-wi2">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
 			<Name>County Assessor</Name>
@@ -627,7 +626,7 @@
 				<CandidateIds>can-garyb</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-sc-justice-a-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-supreme-court-a</ElectionDistrictId>
 			<Name>Supreme Court Justice - Seat A</Name>
@@ -642,7 +641,7 @@
 				<CandidateIds>can-by</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-sc-justice-b-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-supreme-court-b</ElectionDistrictId>
 			<Name>Supreme Court Justice - Seat B</Name>
@@ -657,7 +656,7 @@
 				<CandidateIds>can-rj</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-sc-justice-c-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-supreme-court-c</ElectionDistrictId>
 			<Name>Supreme Court Justice - Seat C</Name>
@@ -675,7 +674,7 @@
 				<CandidateIds>can-rg</CandidateIds>
 			</ContestOption>
 			<ContestOption xsi:type="CandidateOption" ObjectId="cs-dog-catcher-wi">
-				<IsWriteIn>true</IsWriteIn>
+				<IsWriteIn>1</IsWriteIn>
 			</ContestOption>
 			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
 			<Name>Dog Catcher</Name>
@@ -684,7 +683,7 @@
 		</Contest>
 		<ElectionScopeId>ru-county-1</ElectionScopeId>
 		<Name>
-			<Text Language="en">GEN-01</Text>
+			<Text Language="en">GEN-01 General Election</Text>
 		</Name>
 		<StartDate>2000-11-07</StartDate>
 		<EndDate>2000-11-07</EndDate>

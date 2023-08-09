@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK-->
 <ElectionReport xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
    <Election>
       <BallotStyle>
@@ -420,7 +418,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="co-president-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <HasRotation>1</HasRotation>
@@ -441,7 +439,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="co-senate-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <HasRotation>1</HasRotation>
@@ -462,7 +460,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="co-lt-governor-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <HasRotation>1</HasRotation>
@@ -483,7 +481,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="co-sos-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <HasRotation>1</HasRotation>
@@ -520,15 +518,15 @@
          </ContestSelection>
          <ContestSelection ObjectId="co-sherrif-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ContestSelection ObjectId="co-sherrif-wi2"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ContestSelection ObjectId="co-sherrif-wi3"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Sheriff of Morgan County</Name>
@@ -548,7 +546,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="co-state-house-1-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-state-house-1</ElectionDistrictId>
          <Name>State House of Representative - District 1</Name>
@@ -568,7 +566,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="co-state-house-2-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-state-house-2</ElectionDistrictId>
          <Name>State House of Representative - District 2</Name>
@@ -588,7 +586,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="co-assembly-a-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-assembly-a</ElectionDistrictId>
          <Name>Member of Assembly - Seat A</Name>
@@ -608,7 +606,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="co-assembly-b-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-assembly-b</ElectionDistrictId>
          <Name>Member of Assembly - Seat B</Name>
@@ -628,7 +626,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="co-assembly-c-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-assembly-c</ElectionDistrictId>
          <Name>Member of Assembly - Seat C</Name>
@@ -660,11 +658,11 @@
          </ContestSelection>
          <ContestSelection ObjectId="co-school-board-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ContestSelection ObjectId="co-school-board-wi2"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <HasRotation>1</HasRotation>
@@ -772,7 +770,7 @@
       <ElectionScopeId>ru-county-1</ElectionScopeId>
       <Name>
          <Text Language="en"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">GEN-02</Text>
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">GEN-02 General Election</Text>
       </Name>
       <StartDate>2000-11-07</StartDate>
       <EndDate>2000-11-07</EndDate>

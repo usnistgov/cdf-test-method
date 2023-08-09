@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK-->
 <CastVoteRecordReport xmlns="http://itl.nist.gov/ns/voting/1500-103/v1">
    <CVR>
       <BallotStyleId>b-1-prec-fs7</BallotStyleId>
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-1-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-1-prec-fs7">
+      <CVRSnapshot ObjectId="b-1-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -132,7 +131,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-2-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-2-prec-fs7">
+      <CVRSnapshot ObjectId="b-2-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -257,7 +257,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-3-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-3-prec-fs7">
+      <CVRSnapshot ObjectId="b-3-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -382,7 +383,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-4-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-4-prec-fs7">
+      <CVRSnapshot ObjectId="b-4-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -507,7 +509,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-5-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-5-prec-fs7">
+      <CVRSnapshot ObjectId="b-5-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -632,7 +635,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-6-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-6-prec-fs7">
+      <CVRSnapshot ObjectId="b-6-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -748,7 +752,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-7-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-7-prec-fs7">
+      <CVRSnapshot ObjectId="b-7-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -867,7 +872,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-8-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-8-prec-fs7">
+      <CVRSnapshot ObjectId="b-8-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -995,7 +1001,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-9-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-9-prec-fs7">
+      <CVRSnapshot ObjectId="b-9-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -1120,7 +1127,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-10-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-10-prec-fs7">
+      <CVRSnapshot ObjectId="b-10-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -1245,7 +1253,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-11-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-11-prec-fs7">
+      <CVRSnapshot ObjectId="b-11-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -1364,7 +1373,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-12-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-12-prec-fs7">
+      <CVRSnapshot ObjectId="b-12-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -1482,7 +1492,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-13-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-13-prec-fs7">
+      <CVRSnapshot ObjectId="b-13-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -1621,7 +1632,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-14-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-14-prec-fs7">
+      <CVRSnapshot ObjectId="b-14-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -1748,7 +1760,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-15-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-15-prec-fs7">
+      <CVRSnapshot ObjectId="b-15-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -1887,7 +1900,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-16-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-16-prec-fs7">
+      <CVRSnapshot ObjectId="b-16-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -2003,7 +2017,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-17-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-17-prec-fs7">
+      <CVRSnapshot ObjectId="b-17-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -2119,7 +2134,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-18-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-18-prec-fs7">
+      <CVRSnapshot ObjectId="b-18-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -2247,7 +2263,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-19-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-19-prec-fs7">
+      <CVRSnapshot ObjectId="b-19-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -2386,7 +2403,8 @@
       <BallotStyleUnitId>prec-fs7</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-20-prec-fs7</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-20-prec-fs7">
+      <CVRSnapshot ObjectId="b-20-prec-fs7"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -2603,7 +2621,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-1-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-1-prec-mgs">
+      <CVRSnapshot ObjectId="b-1-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -2728,7 +2747,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-2-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-2-prec-mgs">
+      <CVRSnapshot ObjectId="b-2-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -2853,7 +2873,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-3-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-3-prec-mgs">
+      <CVRSnapshot ObjectId="b-3-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -2978,7 +2999,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-4-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-4-prec-mgs">
+      <CVRSnapshot ObjectId="b-4-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -3103,7 +3125,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-5-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-5-prec-mgs">
+      <CVRSnapshot ObjectId="b-5-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -3228,7 +3251,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-6-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-6-prec-mgs">
+      <CVRSnapshot ObjectId="b-6-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -3344,7 +3368,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-7-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-7-prec-mgs">
+      <CVRSnapshot ObjectId="b-7-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>
@@ -3463,7 +3488,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-8-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-8-prec-mgs">
+      <CVRSnapshot ObjectId="b-8-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -3591,7 +3617,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-9-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-9-prec-mgs">
+      <CVRSnapshot ObjectId="b-9-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -3716,7 +3743,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-10-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-10-prec-mgs">
+      <CVRSnapshot ObjectId="b-10-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -3841,7 +3869,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-11-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-11-prec-mgs">
+      <CVRSnapshot ObjectId="b-11-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -3960,7 +3989,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-12-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-12-prec-mgs">
+      <CVRSnapshot ObjectId="b-12-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -4078,7 +4108,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-13-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-13-prec-mgs">
+      <CVRSnapshot ObjectId="b-13-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -4217,7 +4248,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-14-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-14-prec-mgs">
+      <CVRSnapshot ObjectId="b-14-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -4344,7 +4376,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-15-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-15-prec-mgs">
+      <CVRSnapshot ObjectId="b-15-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -4483,7 +4516,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-16-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-16-prec-mgs">
+      <CVRSnapshot ObjectId="b-16-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -4599,7 +4633,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-17-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-17-prec-mgs">
+      <CVRSnapshot ObjectId="b-17-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -4715,7 +4750,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-18-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-18-prec-mgs">
+      <CVRSnapshot ObjectId="b-18-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -4843,7 +4879,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-19-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-19-prec-mgs">
+      <CVRSnapshot ObjectId="b-19-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -4982,7 +5019,8 @@
       <BallotStyleUnitId>prec-mgs</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-20-prec-mgs</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-20-prec-mgs">
+      <CVRSnapshot ObjectId="b-20-prec-mgs"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
          <CVRContest>
             <ContestId>cc-dem-president</ContestId>
             <CVRContestSelection>

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK-->
 <ElectionReport xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
    <Election>
       <BallotStyle>
@@ -480,7 +478,7 @@
                <Type>total</Type>
                <Count>2</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>President of the United States</Name>
@@ -579,7 +577,7 @@
                <Type>total</Type>
                <Count>2</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Senator of the United States</Name>
@@ -678,7 +676,7 @@
                <Type>total</Type>
                <Count>1</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Lieutenant Governor</Name>
@@ -777,7 +775,7 @@
                <Type>total</Type>
                <Count>2</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Secretary of State</Name>
@@ -958,7 +956,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ContestSelection ObjectId="co-sherrif-wi2"
                            xsi:type="CandidateSelection">
@@ -980,7 +978,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ContestSelection ObjectId="co-sherrif-wi3"
                            xsi:type="CandidateSelection">
@@ -1002,7 +1000,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Sheriff of Morgan County</Name>
@@ -1051,7 +1049,7 @@
                <Type>total</Type>
                <Count>2</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>State House of Representative - District 1</Name>
@@ -1125,7 +1123,7 @@
                <Type>total</Type>
                <Count>2</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>State House of Representative - District 2</Name>
@@ -1184,7 +1182,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Member of Assembly - Seat A</Name>
@@ -1238,7 +1236,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Member of Assembly - Seat B</Name>
@@ -1292,7 +1290,7 @@
                <Type>total</Type>
                <Count>0</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Member of Assembly - Seat C</Name>
@@ -1453,7 +1451,7 @@
                <Type>total</Type>
                <Count>4</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ContestSelection ObjectId="co-school-board-wi2"
                            xsi:type="CandidateSelection">
@@ -1477,7 +1475,7 @@
                <Type>total</Type>
                <Count>2</Count>
             </VoteCounts>
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>School Board - District 21</Name>

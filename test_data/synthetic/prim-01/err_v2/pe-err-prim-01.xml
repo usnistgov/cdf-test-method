@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK-->
 <ElectionReport xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
    <Election>
       <BallotStyle>
@@ -667,7 +665,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-com-president-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>President of the United States</Name>
@@ -684,7 +682,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-com-senate-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Senator</Name>
@@ -701,7 +699,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-com-congress-6-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Representative - District 6</Name>
@@ -718,7 +716,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-com-sc-justice-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Justices of the Supreme Court</Name>
@@ -735,7 +733,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-com-state-senator-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>State Senator</Name>
@@ -752,7 +750,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-com-assembly-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Member of Assembly</Name>
@@ -789,7 +787,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-dem-president-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>President of the United States</Name>
@@ -810,7 +808,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-dem-senate-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Senator</Name>
@@ -831,7 +829,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-dem-congress-6-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Representative - District 6</Name>
@@ -848,7 +846,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-dem-sc-justice-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Justices of the Supreme Court</Name>
@@ -869,7 +867,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-dem-state-senator-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>State Senator</Name>
@@ -886,7 +884,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-dem-assembly-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Member of Assembly</Name>
@@ -907,7 +905,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-gre-president-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>President of the United States</Name>
@@ -924,7 +922,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-gre-senate-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Senator</Name>
@@ -941,7 +939,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-gre-congress-6-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Representative - District 6</Name>
@@ -958,7 +956,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-gre-sc-justice-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Justices of the Supreme Court</Name>
@@ -975,7 +973,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-gre-state-senator-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>State Senator</Name>
@@ -992,7 +990,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-gre-assembly-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Member of Assembly</Name>
@@ -1021,7 +1019,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-lib-president-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>President of the United States</Name>
@@ -1038,7 +1036,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-lib-senate-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Senator</Name>
@@ -1055,7 +1053,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-lib-congress-6-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Representative - District 6</Name>
@@ -1072,7 +1070,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-lib-sc-justice-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Justices of the Supreme Court</Name>
@@ -1089,7 +1087,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-lib-state-senator-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>State Senator</Name>
@@ -1106,7 +1104,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-lib-assembly-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Member of Assembly</Name>
@@ -1143,7 +1141,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-rep-president-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>President of the United States</Name>
@@ -1164,7 +1162,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-rep-senate-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Senator</Name>
@@ -1185,7 +1183,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-rep-congress-6-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>U.S. Representative - District 6</Name>
@@ -1202,7 +1200,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-rep-sc-justice-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Justices of the Supreme Court</Name>
@@ -1223,7 +1221,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-rep-state-senator-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>State Senator</Name>
@@ -1240,7 +1238,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-rep-assembly-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county</ElectionDistrictId>
          <Name>Member of Assembly</Name>

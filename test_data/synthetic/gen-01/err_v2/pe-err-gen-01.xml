@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK-->
 <ElectionReport xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
    <Election>
       <BallotStyle>
@@ -196,7 +194,7 @@
          <BallotName>
             <Text Language="en">Harry Brown</Text>
          </BallotName>
-         <IsTopTicket>true</IsTopTicket>
+         <IsTopTicket>1</IsTopTicket>
          <PartyId>par-lib</PartyId>
       </Candidate>
       <Candidate ObjectId="can-jd"
@@ -204,7 +202,7 @@
          <BallotName>
             <Text Language="en">Jim Doyle</Text>
          </BallotName>
-         <IsTopTicket>false</IsTopTicket>
+         <IsTopTicket>0</IsTopTicket>
          <PartyId>par-lib</PartyId>
       </Candidate>
       <Candidate ObjectId="can-gb"
@@ -212,7 +210,7 @@
          <BallotName>
             <Text Language="en">George Bush</Text>
          </BallotName>
-         <IsTopTicket>true</IsTopTicket>
+         <IsTopTicket>1</IsTopTicket>
          <PartyId>par-rep</PartyId>
       </Candidate>
       <Candidate ObjectId="can-dc"
@@ -220,7 +218,7 @@
          <BallotName>
             <Text Language="en">Dick Cheney</Text>
          </BallotName>
-         <IsTopTicket>false</IsTopTicket>
+         <IsTopTicket>0</IsTopTicket>
          <PartyId>par-rep</PartyId>
       </Candidate>
       <Candidate ObjectId="can-ag"
@@ -228,7 +226,7 @@
          <BallotName>
             <Text Language="en">Al Gore</Text>
          </BallotName>
-         <IsTopTicket>true</IsTopTicket>
+         <IsTopTicket>1</IsTopTicket>
          <PartyId>par-dem</PartyId>
       </Candidate>
       <Candidate ObjectId="can-jl"
@@ -236,7 +234,7 @@
          <BallotName>
             <Text Language="en">Joe Liberman</Text>
          </BallotName>
-         <IsTopTicket>false</IsTopTicket>
+         <IsTopTicket>0</IsTopTicket>
          <PartyId>par-dem</PartyId>
       </Candidate>
       <Candidate ObjectId="can-ej"
@@ -489,7 +487,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-president-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>President and Vice President of the United States</Name>
@@ -513,7 +511,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-senate-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>United State Senator</Name>
@@ -537,7 +535,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-congress-1-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-congress-1</ElectionDistrictId>
          <Name>Representative in Congress - District 1</Name>
@@ -561,7 +559,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-congress-2-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-congress-2</ElectionDistrictId>
          <Name>Representative in Congress - District 2</Name>
@@ -577,7 +575,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-assembly-1-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-assembly-1</ElectionDistrictId>
          <Name>State Assembly - District 1</Name>
@@ -593,7 +591,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-assembly-2-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-assembly-2</ElectionDistrictId>
          <Name>State Assembly - District 2</Name>
@@ -609,7 +607,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-assembly-3-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-assembly-3</ElectionDistrictId>
          <Name>State Assembly - District 3</Name>
@@ -691,7 +689,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs--wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-commisioner-1</ElectionDistrictId>
          <Name>County Commissioner - District 1</Name>
@@ -707,7 +705,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-county-comissioner-2-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-commisioner-2</ElectionDistrictId>
          <Name>County Commissioner - District 2</Name>
@@ -723,7 +721,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-county-comissioner-3-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-commisioner-3</ElectionDistrictId>
          <Name>County Commissioner - District 3</Name>
@@ -759,11 +757,11 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-county-assessor-db-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ContestSelection ObjectId="cs-county-assessor-db-wi2"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>County Assessor</Name>
@@ -783,7 +781,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-sc-justice-a-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-supreme-court-a</ElectionDistrictId>
          <Name>Supreme Court Justice - Seat A</Name>
@@ -803,7 +801,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-sc-justice-b-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-supreme-court-b</ElectionDistrictId>
          <Name>Supreme Court Justice - Seat B</Name>
@@ -823,7 +821,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-sc-justice-c-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-supreme-court-c</ElectionDistrictId>
          <Name>Supreme Court Justice - Seat C</Name>
@@ -847,7 +845,7 @@
          </ContestSelection>
          <ContestSelection ObjectId="cs-dog-catcher-wi"
                            xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
+            <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
          <ElectionDistrictId>ru-county-1</ElectionDistrictId>
          <Name>Dog Catcher</Name>
@@ -857,7 +855,7 @@
       <ElectionScopeId>ru-county-1</ElectionScopeId>
       <Name>
          <Text Language="en"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">GEN-01</Text>
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">GEN-01 General Election</Text>
       </Name>
       <StartDate>2000-11-07</StartDate>
       <EndDate>2000-11-07</EndDate>

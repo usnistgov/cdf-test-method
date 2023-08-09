@@ -397,7 +397,7 @@
     "Name" : 
     { "Text" : 
      [ 
-      { "Content" : "GEN-03",
+      { "Content" : "GEN-03 General Election",
        "Language" : "en",
        "@type" : "ElectionResults.LanguageString" } ],
      "@type" : "ElectionResults.InternationalizedText" },
