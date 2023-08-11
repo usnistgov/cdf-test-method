@@ -6,6 +6,7 @@ The directory for each test election is structured in the following manner.
 - `bd_v1` - JSON and XML files in the Ballot Definition v1 specification
 - `cvr_v1` - JSON and XML files in the Cast Vote Records v1 specification
   - Some elections may have an additional `raw` prefixed CVR; this CVR contains a CVRs before Straight Party and Open Primary overvoting contest rules have been applied.
+- `eel_v1` - JSON and XML files in the Election Event Logging v1 specification
 - `err_v2` - JSON and XML files in the Election Results Reporting v2 specification
   - `pe` prefixed ERR files are for pre-election use-case and do not contain counts
 
