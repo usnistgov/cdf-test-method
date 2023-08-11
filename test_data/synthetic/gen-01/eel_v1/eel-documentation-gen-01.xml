@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElectionEventLogDocumentation xmlns="http://itl.nist.gov/ns/voting/1500-101/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DeviceManufacturer>Acme Voting</DeviceManufacturer>
+	<DeviceModel>Acme Tabulator I</DeviceModel>
+	<!-- don't allow duplicate IDs? Not enforced in schema... -->
+	<EventIdDescription>
+		<Description>All totals are zero</Description>
+		<Id>VC-EE-TZ</Id>
+	</EventIdDescription>
+	<EventIdDescription>
+		<Description>Polls opened</Description>
+		<Id>VC-EE-PO</Id>
+	</EventIdDescription>
+	<EventIdDescription>
+		<Description>Polls closed</Description>
+		<Id>VC-EE-PC</Id>
+	</EventIdDescription>
+	<EventIdDescription>
+		<Description>Engaged supervisor mode</Description>
+		<Id>VC-SM-E</Id>
+	</EventIdDescription>
+	<EventIdDescription>
+		<Description>Exited supervisor mode</Description>
+		<Id>VC-SM-EE</Id>
+	</EventIdDescription>
+	<EventIdDescription>
+		<Description>Exited supervisor mode due to timeout</Description>
+		<Id>VC-SM-ET</Id>
+	</EventIdDescription>		
+	<EventIdDescription>
+		<Description>Battery low</Description>
+		<Id>VC-PW-BL</Id>
+	</EventIdDescription>
+		<EventIdDescription>
+		<Description>No battery detected</Description>
+		<Id>VC-PW-BM</Id>
+	</EventIdDescription>
+	<EventIdDescription>
+		<Description>No line power</Description>
+		<Id>VC-PW-LN</Id>
+	</EventIdDescription>
+	<EventIdDescription>
+		<Description>Line power restored </Description>
+		<Id>VC-PW-LR</Id>
+	</EventIdDescription>
+	<!-- General system functions -->
+	<EventTypeDescription>
+		<Description>Device generated error and exception messages</Description>
+		<Type>GSF-EEM</Type>
+	</EventTypeDescription>
+	<EventTypeDescription>
+		<Description>Critical system status messages</Description>
+		<Type>GSF-CSSM</Type>
+	</EventTypeDescription>
+	<EventTypeDescription>
+		<Description>Non-critical status messages</Description>
+		<Type>GSF-NCSM</Type>
+	</EventTypeDescription>
+	<EventTypeDescription>
+		<Description>Events that require election official intervention</Description>
+		<Type>GSF-EOI</Type>
+	</EventTypeDescription>
+	<EventTypeDescription>
+		<Description>Changes to system configuration settings</Description>
+		<Type>GSF-SCS</Type>
+	</EventTypeDescription>
+<!-- Authentication and access control -->	
+	<EventTypeDescription>
+		<Description>Authentication related events</Description>
+		<Type>AAC-ARE</Type>
+	</EventTypeDescription>
+	<GeneratedDate>2022-10-26</GeneratedDate>
+</ElectionEventLogDocumentation>

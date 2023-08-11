@@ -1,5 +1,6 @@
 # NIST Voting Common Data Format Test Data - Test Data Sets
 
+
 The directory for each test election is structured in the following manner.
 
 - `bd_v1` - JSON and XML files in the Ballot Definition v1 specification
@@ -7,6 +8,20 @@ The directory for each test election is structured in the following manner.
   - Some elections may have an additional `raw` prefixed CVR; this CVR contains a CVRs before Straight Party and Open Primary overvoting contest rules have been applied.
 - `err_v2` - JSON and XML files in the Election Results Reporting v2 specification
   - `pe` prefixed ERR files are for pre-election use-case and do not contain counts
+
+The table below lists the CDFs exercised by each test data set.
+
+| CDF                                        | Synthetic |        |        |         |         |         | Massachussetts |        |
+|--------------------------------------------|-----------|--------|--------|---------|---------|---------|----------------|--------|
+| Election                                   | GEN-01    | GEN-02 | GEN-03 | PRIM-01 | PRIM-02 | PRIM-03 | 22 PRIM        | 22 GEN |
+| Ballot Definition*                         | x         | x      | x      | x       | x       | x       |                |        |
+| Cast Vote Records                          | x         | x      | x      | x       | x       | x       |                |        |
+| Election Event Logging                     | x         |        |        |         |         |         |                |        |
+| Election Results Reporting v2 with Counts  | x         | x      | x      | x       | x       | x       | x              | x      |
+| Pre-Election Election Results Reporting v2 | x         | x      | x      | x       | x       | x       |                |        |
+| Voter Record Interchange                   |
+
+*Ballot Definition CDF is not currently referenced in VVSG 2.0
 
 The table below shows the different kinds of election types, voting methods and contest types included in each data set.
 
@@ -17,26 +32,28 @@ The table below shows the different kinds of election types, voting methods and 
 | Open Primary                                |           |        |        | x       | x       |         |                |        |
 | Partisan offices                            | x         | x      | x      | x       | x       | x       | x              | x      |
 | Non-Partisan offices                        | x         | x      | x      |         | x       | x       |                |        |
-| Write-in voting                             | x         | x      | x      | x       | x       | x       | ?              | x      |
+| Write-in voting                             | x         | x      | x      | x       | x       | x       |                | x      |
 | Primary presidential delegation nominations |           |        |        |         | x       |         |                |        |
 | Candidate Rotation                          |           | x      |        |         |         |         |                |        |
 | Straight Party Voting                       | x         |        |        |         |         |         |                |        |
 | Cross-party endorsement                     |           |        |        |         | x       |         |                |        |
 | Split Precincts                             | x         |        |        |         |         |         | x              | x      |
-| N-of-M, M>1                                 | x         | x      | x      |         | x       | x       | ?              | x      |
+| N-of-M, M>1                                 | x         | x      | x      |         | x       | x       |                | x      |
 | Recall issues, with options                 |           | x      |        |         |         |         |                |        |
 | Cumulative                                  |           |        |        |         |         |         |                |        |
 | RCV                                         |           | x      |        |         |         |         |                |        |
-| Addl Factors                                |           |        |        |         |         |         |                |        |
+| **Additional Factors**                      |           |        |        |         |         |         |                |        |
 | Tickets (multiple candidates same option)   | x         |        |        |         |         |         |                |        |
 | Combined Precincts                          | x         |        |        |         |         |         |                |        |
 | Headers                                     |           |        |        | x       | x       |         |                |        |
-| Languages                                   |           |        |        |         |         |         |                |        |
+| **Languages**                               |           |        |        |         |         |         |                |        |
 | Non-English Latin Alphabet*                 | x         | x      | x      | x       | x       | x       |                |        |
 | Logographic                                 |           |        |        |         |         |         |                |        |
-| XML Specific                                |           |        |        |         |         |         |                |        |
+| **XML Specific**                            |           |        |        |         |         |         |                |        |
 | Namespace Prefixes                          |           |        | x      |         |         | x       |                |        |
 | Boolean numeric substition                  | x         | x      |        | x       |         |         |                |        |
+
+* Non-Englush Latin Alphabet is limited to write-in names only.
 
 ## Classes Included in Data Sets
 
@@ -44,7 +61,7 @@ The provided tables describe the classes included in each data set, one table pe
 
 ### Ballot Definition
 
-| Factor                               | Synthetic |        |        |         |         |         |
+| Class                                | Synthetic |        |        |         |         |         |
 |--------------------------------------|-----------|--------|--------|---------|---------|---------|
 | Election                             | GEN-01    | GEN-02 | GEN-03 | PRIM-01 | PRIM-02 | PRIM-03 |
 | AnnotatedString                      |           |        |        |         |         |         |
@@ -107,7 +124,7 @@ The provided tables describe the classes included in each data set, one table pe
 
 ### Cast Vote Records
 
-| Factor                 | Synthetic |        |        |         |         |         |
+| Class                  | Synthetic |        |        |         |         |         |
 |------------------------|-----------|--------|--------|---------|---------|---------|
 | Election               | GEN-01    | GEN-02 | GEN-03 | PRIM-01 | PRIM-02 | PRIM-03 |
 | Annotation             |           |        |        |         |         |         |
@@ -139,9 +156,21 @@ The provided tables describe the classes included in each data set, one table pe
 | RetentionContest       |           |        |        |         |         |         |
 | SelectionPosition      | x         | x      | x      | x       | x       | x       |
 
+### Election Event Logging
+
+| Class                         | Synthetic |        |        |         |         |         |
+|-------------------------------|-----------|--------|--------|---------|---------|---------|
+| Election                      | GEN-01    | GEN-02 | GEN-03 | PRIM-01 | PRIM-02 | PRIM-03 |
+| Device                        | x         |        |        |         |         |         |
+| ElectionEventLog              | x         |        |        |         |         |         |
+| ElectionEventLogDocumentation | x         |        |        |         |         |         |
+| Event                         | x         |        |        |         |         |         |
+| EventIdDescription            | x         |        |        |         |         |         |
+| EventTypeDescription          | x         |
+
 ### Election Results Reporting
 
-| Factor                 | Synthetic |        |        |         |         |         | Massachussets |              |
+| Class                  | Synthetic |        |        |         |         |         | Massachussets |              |
 |------------------------|-----------|--------|--------|---------|---------|---------|---------------|--------------|
 | Election               | GEN-01    | GEN-02 | GEN-03 | PRIM-01 | PRIM-02 | PRIM-03 | 2022 Primary  | 2022 General |
 | AnnotatedString        |           |        |        |         |         |         |               |              |

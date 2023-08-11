@@ -1,0 +1,71 @@
+
+ { "DeviceManufacturer" : "Acme Voting",
+  "DeviceModel" : "Acme Tabulator I",
+  "EventIdDescription" : 
+  [ 
+   { "Description" : "All totals are zero",
+    "Id" : "VC-EE-TZ",
+    "@type" : "EventLogging.EventIdDescription" },
+   
+   { "Description" : "Polls opened",
+    "Id" : "VC-EE-PO",
+    "@type" : "EventLogging.EventIdDescription" },
+   
+   { "Description" : "Polls closed",
+    "Id" : "VC-EE-PC",
+    "@type" : "EventLogging.EventIdDescription" },
+   
+   { "Description" : "Engaged supervisor mode",
+    "Id" : "VC-SM-E",
+    "@type" : "EventLogging.EventIdDescription" },
+   
+   { "Description" : "Exited supervisor mode",
+    "Id" : "VC-SM-EE",
+    "@type" : "EventLogging.EventIdDescription" },
+   
+   { "Description" : "Exited supervisor mode due to timeout",
+    "Id" : "VC-SM-ET",
+    "@type" : "EventLogging.EventIdDescription" },
+   
+   { "Description" : "Battery low",
+    "Id" : "VC-PW-BL",
+    "@type" : "EventLogging.EventIdDescription" },
+   
+   { "Description" : "No battery detected",
+    "Id" : "VC-PW-BM",
+    "@type" : "EventLogging.EventIdDescription" },
+   
+   { "Description" : "No line power",
+    "Id" : "VC-PW-LN",
+    "@type" : "EventLogging.EventIdDescription" },
+   
+   { "Description" : "Line power restored ",
+    "Id" : "VC-PW-LR",
+    "@type" : "EventLogging.EventIdDescription" } ],
+  "EventTypeDescription" : 
+  [ 
+   { "Description" : "Device generated error and exception messages",
+    "Type" : "GSF-EEM",
+    "@type" : "EventLogging.EventTypeDescription" },
+   
+   { "Description" : "Critical system status messages",
+    "Type" : "GSF-CSSM",
+    "@type" : "EventLogging.EventTypeDescription" },
+   
+   { "Description" : "Non-critical status messages",
+    "Type" : "GSF-NCSM",
+    "@type" : "EventLogging.EventTypeDescription" },
+   
+   { "Description" : "Events that require election official intervention",
+    "Type" : "GSF-EOI",
+    "@type" : "EventLogging.EventTypeDescription" },
+   
+   { "Description" : "Changes to system configuration settings",
+    "Type" : "GSF-SCS",
+    "@type" : "EventLogging.EventTypeDescription" },
+   
+   { "Description" : "Authentication related events",
+    "Type" : "AAC-ARE",
+    "@type" : "EventLogging.EventTypeDescription" } ],
+  "GeneratedDate" : "2022-10-26",
+  "@type" : "EventLogging.ElectionEventLogDocumentation" }
