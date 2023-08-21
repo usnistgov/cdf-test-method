@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ElectionReport xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
+<ElectionReport xmlns="http://itl.nist.gov/ns/voting/1500-100/v2"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <Election>
       <BallotStyle>
          <ExternalIdentifier>
@@ -7,44 +8,34 @@
             <Value>Precinct 1</Value>
          </ExternalIdentifier>
          <GpUnitIds>cp-1-4-5-6</GpUnitIds>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>spc-1</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-president</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-senate</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-congress-1</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-assembly-1</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>bm-proposal-1</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-county-comissioner-1</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-county-assessor</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-sc-justice-a</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-dog-catcher</ContestId>
          </OrderedContent>
       </BallotStyle>
@@ -54,44 +45,34 @@
             <Value>Precinct 2a</Value>
          </ExternalIdentifier>
          <GpUnitIds>ps-2a</GpUnitIds>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>spc-1</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-president</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-senate</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-congress-2</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-assembly-2</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>bm-proposal-2</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-county-comissioner-2</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-county-assessor</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-sc-justice-b</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-dog-catcher</ContestId>
          </OrderedContent>
       </BallotStyle>
@@ -101,44 +82,34 @@
             <Value>Precinct 2b</Value>
          </ExternalIdentifier>
          <GpUnitIds>ps-2b</GpUnitIds>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>spc-1</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-president</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-senate</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-congress-2</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-assembly-2</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>bm-proposal-3</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-county-comissioner-2</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-county-assessor</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-sc-justice-b</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-dog-catcher</ContestId>
          </OrderedContent>
       </BallotStyle>
@@ -148,312 +119,264 @@
             <Value>Precinct 3</Value>
          </ExternalIdentifier>
          <GpUnitIds>cp-3-7-8-9</GpUnitIds>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>spc-1</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-president</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-senate</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-congress-1</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-assembly-3</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>bm-proposal-2</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-county-comissioner-3</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-county-assessor</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-sc-justice-c</ContestId>
          </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <OrderedContent xsi:type="OrderedContest">
             <ContestId>cc-dog-catcher</ContestId>
          </OrderedContent>
       </BallotStyle>
-      <Candidate ObjectId="can-hb"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-hb">
          <BallotName>
             <Text Language="en">Harry Brown</Text>
          </BallotName>
          <IsTopTicket>1</IsTopTicket>
          <PartyId>par-lib</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-jd"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-jd">
          <BallotName>
             <Text Language="en">Jim Doyle</Text>
          </BallotName>
          <IsTopTicket>0</IsTopTicket>
          <PartyId>par-lib</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-gb"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-gb">
          <BallotName>
             <Text Language="en">George Bush</Text>
          </BallotName>
          <IsTopTicket>1</IsTopTicket>
          <PartyId>par-rep</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-dc"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-dc">
          <BallotName>
             <Text Language="en">Dick Cheney</Text>
          </BallotName>
          <IsTopTicket>0</IsTopTicket>
          <PartyId>par-rep</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-ag"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-ag">
          <BallotName>
             <Text Language="en">Al Gore</Text>
          </BallotName>
          <IsTopTicket>1</IsTopTicket>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-jl"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-jl">
          <BallotName>
             <Text Language="en">Joe Liberman</Text>
          </BallotName>
          <IsTopTicket>0</IsTopTicket>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-ej"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-ej">
          <BallotName>
             <Text Language="en">Ed Johnson</Text>
          </BallotName>
          <PartyId>par-lib</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-jr"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-jr">
          <BallotName>
             <Text Language="en">John Rusco</Text>
          </BallotName>
          <PartyId>par-rep</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-kb"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-kb">
          <BallotName>
             <Text Language="en">Katie Bernstein</Text>
          </BallotName>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-jg"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-jg">
          <BallotName>
             <Text Language="en">Jim Gibbons</Text>
          </BallotName>
          <PartyId>par-lib</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-dl"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-dl">
          <BallotName>
             <Text Language="en">Daniel Laws</Text>
          </BallotName>
          <PartyId>par-rep</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-mc"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-mc">
          <BallotName>
             <Text Language="en">Mary Cahill</Text>
          </BallotName>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-hs"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-hs">
          <BallotName>
             <Text Language="en">Habib Smith</Text>
          </BallotName>
          <PartyId>par-lib</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-bw"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-bw">
          <BallotName>
             <Text Language="en">Bonnie Wyatt</Text>
          </BallotName>
          <PartyId>par-rep</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-jh"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-jh">
          <BallotName>
             <Text Language="en">Jim Hinkle</Text>
          </BallotName>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-mj"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-mj">
          <BallotName>
             <Text Language="en">Marcia Jones</Text>
          </BallotName>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-pt"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-pt">
          <BallotName>
             <Text Language="en">Pat Thomas</Text>
          </BallotName>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-yd"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-yd">
          <BallotName>
             <Text Language="en">Yevette Downs</Text>
          </BallotName>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-ab"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-ab">
          <BallotName>
             <Text Language="en">Arlyn Beal</Text>
          </BallotName>
          <PartyId>par-rep</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-jackh"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-jackh">
          <BallotName>
             <Text Language="en">Jack Howard</Text>
          </BallotName>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-js"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-js">
          <BallotName>
             <Text Language="en">Jay Scott</Text>
          </BallotName>
          <PartyId>par-lib</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-db"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-db">
          <BallotName>
             <Text Language="en">Dave Backus</Text>
          </BallotName>
          <PartyId>par-lib</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-daveb"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-daveb">
          <BallotName>
             <Text Language="en">Dave Backus</Text>
          </BallotName>
          <PartyId>par-lib</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-me"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-me">
          <BallotName>
             <Text Language="en">Myron Ensign</Text>
          </BallotName>
          <PartyId>par-lib</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-rs"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-rs">
          <BallotName>
             <Text Language="en">Ralph Savage</Text>
          </BallotName>
          <PartyId>par-rep</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-eb"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-eb">
          <BallotName>
             <Text Language="en">Ernie Banks</Text>
          </BallotName>
          <PartyId>par-rep</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-am"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-am">
          <BallotName>
             <Text Language="en">Angus McFarland</Text>
          </BallotName>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-mm"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-mm">
          <BallotName>
             <Text Language="en">Mick Manson</Text>
          </BallotName>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-rr"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-rr">
          <BallotName>
             <Text Language="en">Robert Rose</Text>
          </BallotName>
          <PartyId>par-lib</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-garyb"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-garyb">
          <BallotName>
             <Text Language="en">Gary Becker</Text>
          </BallotName>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-ld"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-ld">
          <BallotName>
             <Text Language="en">Laura Denise</Text>
          </BallotName>
          <PartyId>par-lib</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-by"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-by">
          <BallotName>
             <Text Language="en">Barbara Young</Text>
          </BallotName>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-mf"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-mf">
          <BallotName>
             <Text Language="en">Millie Farmer</Text>
          </BallotName>
          <PartyId>par-lib</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-rj"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-rj">
          <BallotName>
             <Text Language="en">Ray Jones</Text>
          </BallotName>
          <PartyId>par-dem</PartyId>
       </Candidate>
-      <Candidate ObjectId="can-bb"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-bb">
          <BallotName>
             <Text Language="en">Bill Bates</Text>
          </BallotName>
       </Candidate>
-      <Candidate ObjectId="can-ni"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-ni">
          <BallotName>
             <Text Language="en">Nancy Ingram</Text>
          </BallotName>
       </Candidate>
-      <Candidate ObjectId="can-rg"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Candidate ObjectId="can-rg">
          <BallotName>
             <Text Language="en">Roland Gustiv</Text>
          </BallotName>
       </Candidate>
       <Contest xsi:type="PartyContest"
-               ObjectId="spc-1"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="spc-1">
          <ContestSelection ObjectId="po-lib"
                            xsi:type="PartySelection">
             <PartyIds>par-lib</PartyIds>
@@ -471,8 +394,7 @@
          <VoteVariation>n-of-m</VoteVariation>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-president"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-president">
          <ContestSelection ObjectId="cs-president-hb"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-hb can-jd</CandidateIds>
@@ -495,8 +417,7 @@
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-senate"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-senate">
          <ContestSelection ObjectId="cs-senate-ej"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-ej</CandidateIds>
@@ -519,8 +440,7 @@
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-congress-1"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-congress-1">
          <ContestSelection ObjectId="cs-congress-1-jg"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-jg</CandidateIds>
@@ -543,8 +463,7 @@
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-congress-2"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-congress-2">
          <ContestSelection ObjectId="cs-congress-2-hs"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-hs</CandidateIds>
@@ -567,8 +486,7 @@
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-assembly-1"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-assembly-1">
          <ContestSelection ObjectId="cs-assembly-1-mj"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-mj</CandidateIds>
@@ -583,8 +501,7 @@
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-assembly-2"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-assembly-2">
          <ContestSelection ObjectId="cs-assembly-2-pt"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-pt</CandidateIds>
@@ -599,8 +516,7 @@
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-assembly-3"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-assembly-3">
          <ContestSelection ObjectId="cs-assembly-3-yd"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-yd</CandidateIds>
@@ -615,8 +531,7 @@
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="BallotMeasureContest"
-               ObjectId="bm-proposal-1"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="bm-proposal-1">
          <ContestSelection ObjectId="bm-proposal-1-yes"
                            xsi:type="BallotMeasureSelection">
             <Selection>
@@ -637,8 +552,7 @@
          </FullText>
       </Contest>
       <Contest xsi:type="BallotMeasureContest"
-               ObjectId="bm-proposal-2"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="bm-proposal-2">
          <ContestSelection ObjectId="bm-proposal-2-yes"
                            xsi:type="BallotMeasureSelection">
             <Selection>
@@ -659,8 +573,7 @@
          </FullText>
       </Contest>
       <Contest xsi:type="BallotMeasureContest"
-               ObjectId="bm-proposal-3"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="bm-proposal-3">
          <ContestSelection ObjectId="bm-proposal-3-yes"
                            xsi:type="BallotMeasureSelection">
             <Selection>
@@ -681,8 +594,7 @@
          </FullText>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-county-comissioner-1"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-county-comissioner-1">
          <ContestSelection ObjectId="cs-county-comissioner-1-ab"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-ab</CandidateIds>
@@ -697,8 +609,7 @@
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-county-comissioner-2"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-county-comissioner-2">
          <ContestSelection ObjectId="cs-county-comissioner-2-jh"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-jackh</CandidateIds>
@@ -713,8 +624,7 @@
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-county-comissioner-3"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-county-comissioner-3">
          <ContestSelection ObjectId="cs-county-comissioner-3-js"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-js</CandidateIds>
@@ -729,8 +639,7 @@
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-county-assessor"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-county-assessor">
          <ContestSelection ObjectId="cs-county-assessor-db"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-db</CandidateIds>
@@ -769,8 +678,7 @@
          <VotesAllowed>2</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-sc-justice-a"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-sc-justice-a">
          <ContestSelection ObjectId="cs-sc-justice-a-rr"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-rr</CandidateIds>
@@ -789,8 +697,7 @@
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-sc-justice-b"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-sc-justice-b">
          <ContestSelection ObjectId="cs-sc-justice-b-ld"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-ld</CandidateIds>
@@ -809,8 +716,7 @@
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-sc-justice-c"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-sc-justice-c">
          <ContestSelection ObjectId="cs-sc-justice-c-mf"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-mf</CandidateIds>
@@ -829,8 +735,7 @@
          <VotesAllowed>1</VotesAllowed>
       </Contest>
       <Contest xsi:type="CandidateContest"
-               ObjectId="cc-dog-catcher"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+               ObjectId="cc-dog-catcher">
          <ContestSelection ObjectId="cs-dog-catcher-bb"
                            xsi:type="CandidateSelection">
             <CandidateIds>can-bb</CandidateIds>
@@ -854,8 +759,7 @@
       </Contest>
       <ElectionScopeId>ru-county-1</ElectionScopeId>
       <Name>
-         <Text Language="en"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">GEN-01 General Election</Text>
+         <Text Language="en">GEN-01 General Election</Text>
       </Name>
       <StartDate>2000-11-07</StartDate>
       <EndDate>2000-11-07</EndDate>
@@ -864,8 +768,7 @@
    <Format>precinct-level</Format>
    <GeneratedDate>2023-07-14T13:32:09-04:00</GeneratedDate>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-congress-1"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="ru-congress-1">
       <ComposingGpUnitIds>prec-1 prec-3</ComposingGpUnitIds>
       <Name>
          <Text Language="en">1st Congressional District</Text>
@@ -874,8 +777,7 @@
       <Type>congressional</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-congress-2"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="ru-congress-2">
       <ComposingGpUnitIds>prec-2</ComposingGpUnitIds>
       <Name>
          <Text Language="en">2nd Congressional District</Text>
@@ -884,8 +786,7 @@
       <Type>congressional</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-assembly-1"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="ru-assembly-1">
       <ComposingGpUnitIds>prec-1</ComposingGpUnitIds>
       <Name>
          <Text Language="en">1st Assembly District</Text>
@@ -894,8 +795,7 @@
       <Type>state-house</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-assembly-2"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="ru-assembly-2">
       <ComposingGpUnitIds>prec-2</ComposingGpUnitIds>
       <Name>
          <Text Language="en">2nd Assembly District</Text>
@@ -904,8 +804,7 @@
       <Type>state-house</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-assembly-3"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="ru-assembly-3">
       <ComposingGpUnitIds>prec-3</ComposingGpUnitIds>
       <Name>
          <Text Language="en">3rd Assembly District</Text>
@@ -914,8 +813,7 @@
       <Type>state-house</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-county-commisioner-1"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="ru-county-commisioner-1">
       <ComposingGpUnitIds>prec-1</ComposingGpUnitIds>
       <Name>
          <Text Language="en">1st County Commissioner District</Text>
@@ -924,8 +822,7 @@
       <Type>county-council</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-county-commisioner-2"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="ru-county-commisioner-2">
       <ComposingGpUnitIds>prec-2</ComposingGpUnitIds>
       <Name>
          <Text Language="en">2nd County Commissioner District</Text>
@@ -934,8 +831,7 @@
       <Type>county-council</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-county-commisioner-3"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="ru-county-commisioner-3">
       <ComposingGpUnitIds>prec-3</ComposingGpUnitIds>
       <Name>
          <Text Language="en">3rd County Commissioner District</Text>
@@ -944,8 +840,7 @@
       <Type>county-council</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-supreme-court-a"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="ru-supreme-court-a">
       <ComposingGpUnitIds>prec-1</ComposingGpUnitIds>
       <Name>
          <Text Language="en">Supreme Court Justice - Seat A</Text>
@@ -954,8 +849,7 @@
       <Type>judicial</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-supreme-court-b"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="ru-supreme-court-b">
       <ComposingGpUnitIds>prec-2</ComposingGpUnitIds>
       <Name>
          <Text Language="en">Supreme Court Justice - Seat B</Text>
@@ -964,8 +858,7 @@
       <Type>judicial</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-supreme-court-c"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="ru-supreme-court-c">
       <ComposingGpUnitIds>prec-3</ComposingGpUnitIds>
       <Name>
          <Text Language="en">Supreme Court Justice - Seat C</Text>
@@ -974,8 +867,7 @@
       <Type>judicial</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-county-1"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="ru-county-1">
       <ComposingGpUnitIds>prec-1 prec-2 prec-3 prec-4 prec-5 prec-6 prec-7 prec-8 prec-9</ComposingGpUnitIds>
       <Name>
          <Text Language="en">Test County</Text>
@@ -983,8 +875,7 @@
       <Type>county</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-stadium"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="ru-stadium">
       <ComposingGpUnitIds>ps-2a prec-3</ComposingGpUnitIds>
       <Name>
          <Text Language="en">Stadium Improvement District</Text>
@@ -992,8 +883,7 @@
       <Type>special</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="cp-1-4-5-6"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="cp-1-4-5-6">
       <ComposingGpUnitIds>prec-1 prec-4 prec-5 prec-6</ComposingGpUnitIds>
       <Name>
          <Text Language="en">Combined Precincts 1,4,5,6</Text>
@@ -1001,8 +891,7 @@
       <Type>combined-precinct</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="cp-3-7-8-9"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="cp-3-7-8-9">
       <ComposingGpUnitIds>prec-3 prec-7 prec-8 prec-9</ComposingGpUnitIds>
       <Name>
          <Text Language="en">Combined Precincts 3,7,8,9</Text>
@@ -1010,16 +899,14 @@
       <Type>combined-precinct</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="prec-1"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="prec-1">
       <Name>
          <Text Language="en">Precinct 1</Text>
       </Name>
       <Type>precinct</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="prec-2"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="prec-2">
       <ComposingGpUnitIds>ps-2a ps-2b</ComposingGpUnitIds>
       <Name>
          <Text Language="en">Precinct 2</Text>
@@ -1027,93 +914,81 @@
       <Type>precinct</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="prec-3"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="prec-3">
       <Name>
          <Text Language="en">Precinct 3</Text>
       </Name>
       <Type>precinct</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ps-2a"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Name>
-         <Text Language="en">Precinct 2a</Text>
-      </Name>
-      <Type>split-precinct</Type>
-   </GpUnit>
-   <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ps-2b"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Name>
-         <Text Language="en">Precinct 2b</Text>
-      </Name>
-      <Type>precinct</Type>
-   </GpUnit>
-   <GpUnit xsi:type="ReportingUnit"
-           ObjectId="prec-4"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="prec-4">
       <Name>
          <Text Language="en">Precinct 4</Text>
       </Name>
       <Type>precinct</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="prec-5"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="prec-5">
       <Name>
          <Text Language="en">Precinct 5</Text>
       </Name>
       <Type>precinct</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="prec-6"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="prec-6">
       <Name>
          <Text Language="en">Precinct 6</Text>
       </Name>
       <Type>precinct</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="prec-7"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="prec-7">
       <Name>
          <Text Language="en">Precinct 7</Text>
       </Name>
       <Type>precinct</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="prec-8"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="prec-8">
       <Name>
          <Text Language="en">Precinct 8</Text>
       </Name>
       <Type>precinct</Type>
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
-           ObjectId="prec-9"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+           ObjectId="prec-9">
       <Name>
          <Text Language="en">Precinct 9</Text>
       </Name>
       <Type>precinct</Type>
    </GpUnit>
+   <GpUnit xsi:type="ReportingUnit"
+           ObjectId="ps-2a">
+      <Name>
+         <Text Language="en">Precinct 2a</Text>
+      </Name>
+      <Type>split-precinct</Type>
+   </GpUnit>
+   <GpUnit xsi:type="ReportingUnit"
+           ObjectId="ps-2b">
+      <Name>
+         <Text Language="en">Precinct 2b</Text>
+      </Name>
+      <Type>precinct</Type>
+   </GpUnit>
    <Issuer>National Institute of Standards and Technology</Issuer>
    <IssuerAbbreviation>NIST</IssuerAbbreviation>
-   <Party ObjectId="par-dem"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Party ObjectId="par-dem">
       <Name>
          <Text Language="en">Democrat</Text>
       </Name>
    </Party>
-   <Party ObjectId="par-lib"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Party ObjectId="par-lib">
       <Name>
          <Text Language="en">Libertarian</Text>
       </Name>
    </Party>
-   <Party ObjectId="par-rep"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Party ObjectId="par-rep">
       <Name>
          <Text Language="en">Republican</Text>
       </Name>

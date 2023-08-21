@@ -3,7 +3,8 @@
                           xmlns="http://itl.nist.gov/ns/voting/1500-103/v1"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-1-mcc-dem</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-1-mcc-dem</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Democratic</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-mcc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-1-mcc-dem</cdf:CurrentSnapshotId>
@@ -103,7 +104,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-2-mcc-rep</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-2-mcc-rep</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Republican</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-mcc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-2-mcc-rep</cdf:CurrentSnapshotId>
@@ -203,7 +205,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-3-mcc-dem</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-3-mcc-dem</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Democratic</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-mcc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-3-mcc-dem</cdf:CurrentSnapshotId>
@@ -306,7 +309,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-4-mcc-rep</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-4-mcc-rep</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Republican</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-mcc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-4-mcc-rep</cdf:CurrentSnapshotId>
@@ -406,7 +410,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-5-mcc-dem</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-5-mcc-dem</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Democratic</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-mcc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-5-mcc-dem</cdf:CurrentSnapshotId>
@@ -512,7 +517,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-6-mcc-rep</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-6-mcc-rep</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Republican</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-mcc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-6-mcc-rep</cdf:CurrentSnapshotId>
@@ -612,7 +618,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-7-par-dem</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-7-par-dem</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Democratic</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-mcc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-7-par-dem</cdf:CurrentSnapshotId>
@@ -712,7 +719,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-8-mcc-rep</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-8-mcc-rep</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Republican</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-mcc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-8-mcc-rep</cdf:CurrentSnapshotId>
@@ -815,7 +823,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-9-mcc-dem</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-9-mcc-dem</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Democratic</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-mcc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-9-mcc-dem</cdf:CurrentSnapshotId>
@@ -918,7 +927,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-10-mcc-rep</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-10-mcc-rep</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Republican</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-mcc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-10-mcc-rep</cdf:CurrentSnapshotId>
@@ -1021,7 +1031,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-1-fbc-dem</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-1-fbc-dem</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Democratic</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-fbc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-1-fbc-dem</cdf:CurrentSnapshotId>
@@ -1121,7 +1132,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-2-par-rep</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-2-par-rep</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Republican</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-fbc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-2-par-rep</cdf:CurrentSnapshotId>
@@ -1221,7 +1233,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-3-fbc-dem</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-3-fbc-dem</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Democratic</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-fbc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-3-fbc-dem</cdf:CurrentSnapshotId>
@@ -1324,7 +1337,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-4-fbc-rep</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-4-fbc-rep</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Republican</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-fbc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-4-fbc-rep</cdf:CurrentSnapshotId>
@@ -1424,7 +1438,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-5-fbc-dem</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-5-fbc-dem</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Democratic</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-fbc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-5-fbc-dem</cdf:CurrentSnapshotId>
@@ -1530,7 +1545,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-6-fbc-rep</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-6-fbc-rep</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Republican</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-fbc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-6-fbc-rep</cdf:CurrentSnapshotId>
@@ -1630,7 +1646,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-7-fbc-dem</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-7-fbc-dem</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Democratic</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-fbc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-7-fbc-dem</cdf:CurrentSnapshotId>
@@ -1733,7 +1750,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-8-fbc-rep</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-8-fbc-rep</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Republican</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-fbc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-8-fbc-rep</cdf:CurrentSnapshotId>
@@ -1836,7 +1854,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-9-fbc-dem</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-9-fbc-dem</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Democratic</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-fbc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-9-fbc-dem</cdf:CurrentSnapshotId>
@@ -1939,7 +1958,8 @@
       <cdf:ElectionId>election</cdf:ElectionId>
    </cdf:CVR>
    <cdf:CVR xmlns:cdf="http://itl.nist.gov/ns/voting/1500-103/v1">
-      <cdf:BallotStyleId>b-10-fbc-rep</cdf:BallotStyleId>
+      <cdf:BallotPrePrintedId>b-10-fbc-rep</cdf:BallotPrePrintedId>
+      <cdf:BallotStyleId>Republican</cdf:BallotStyleId>
       <cdf:BallotStyleUnitId>prec-fbc</cdf:BallotStyleUnitId>
       <cdf:CreatingDeviceId>rd</cdf:CreatingDeviceId>
       <cdf:CurrentSnapshotId>b-10-fbc-rep</cdf:CurrentSnapshotId>

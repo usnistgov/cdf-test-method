@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CastVoteRecordReport xmlns="http://itl.nist.gov/ns/voting/1500-103/v1">
+<CastVoteRecordReport xmlns="http://itl.nist.gov/ns/voting/1500-103/v1"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <CVR>
-      <BallotStyleId>b-1-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-1-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-1-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-1-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-1-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <CVRContestSelection>
@@ -225,12 +226,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-2-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-2-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-2-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-2-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-2-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -449,12 +450,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-3-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-3-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-3-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-3-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-3-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <CVRContestSelection>
@@ -670,12 +671,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-4-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-4-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-4-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-4-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-4-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -894,12 +895,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-5-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-5-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-5-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-5-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-5-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -1115,12 +1116,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-6-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-6-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-6-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-6-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-6-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -1339,12 +1340,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-7-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-7-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-7-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-7-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-7-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -1566,12 +1567,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-8-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-8-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-8-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-8-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-8-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -1787,12 +1788,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-9-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-9-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-9-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-9-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-9-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -2008,12 +2009,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-10-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-10-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-10-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-10-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-10-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -2232,12 +2233,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-11-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-11-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-11-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-11-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-11-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -2453,12 +2454,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-12-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-12-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-12-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-12-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-12-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -2677,12 +2678,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-13-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-13-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-13-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-13-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-13-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -2901,12 +2902,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-14-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-14-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-14-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-14-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-14-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <CVRContestSelection>
@@ -3125,12 +3126,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-15-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-15-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-15-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-15-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-15-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -3352,12 +3353,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-16-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-16-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-16-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-16-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-16-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -3576,12 +3577,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-17-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-17-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-17-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-17-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-17-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <CVRContestSelection>
@@ -3800,12 +3801,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-18-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-18-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-18-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-18-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-18-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -4024,12 +4025,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-19-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-19-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-19-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-19-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-19-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -4245,12 +4246,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-20-prec-bcch</BallotStyleId>
+      <BallotPrePrintedId>b-20-prec-bcch</BallotPrePrintedId>
+      <BallotStyleId>Bibb County Court House</BallotStyleId>
       <BallotStyleUnitId>prec-bcch</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-20-prec-bcch</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-20-prec-bcch"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-20-prec-bcch">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -4469,12 +4470,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-1-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-1-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-1-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-1-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-1-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <CVRContestSelection>
@@ -4693,12 +4694,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-2-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-2-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-2-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-2-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-2-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -4917,12 +4918,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-3-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-3-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-3-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-3-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-3-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <CVRContestSelection>
@@ -5138,12 +5139,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-4-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-4-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-4-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-4-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-4-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -5362,12 +5363,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-5-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-5-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-5-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-5-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-5-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -5583,12 +5584,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-6-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-6-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-6-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-6-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-6-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -5807,12 +5808,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-7-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-7-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-7-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-7-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-7-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -6034,12 +6035,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-8-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-8-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-8-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-8-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-8-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -6255,12 +6256,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-9-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-9-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-9-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-9-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-9-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -6476,12 +6477,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-10-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-10-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-10-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-10-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-10-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -6700,12 +6701,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-11-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-11-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-11-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-11-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-11-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -6921,12 +6922,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-12-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-12-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-12-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-12-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-12-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -7145,12 +7146,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-13-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-13-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-13-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-13-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-13-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -7369,12 +7370,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-14-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-14-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-14-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-14-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-14-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <CVRContestSelection>
@@ -7593,12 +7594,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-15-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-15-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-15-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-15-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-15-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -7820,12 +7821,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-16-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-16-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-16-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-16-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-16-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -8044,12 +8045,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-17-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-17-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-17-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-17-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-17-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <CVRContestSelection>
@@ -8268,12 +8269,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-18-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-18-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-18-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-18-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-18-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -8492,12 +8493,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-19-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-19-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-19-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-19-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-19-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -8713,12 +8714,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-20-prec-src</BallotStyleId>
+      <BallotPrePrintedId>b-20-prec-src</BallotPrePrintedId>
+      <BallotStyleId>Shelton Road Church</BallotStyleId>
       <BallotStyleUnitId>prec-src</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-20-prec-src</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-20-prec-src"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-20-prec-src">
          <CVRContest>
             <ContestId>cc-com-president</ContestId>
             <Overvotes>0</Overvotes>
@@ -8936,8 +8937,7 @@
       </CVRSnapshot>
       <ElectionId>election</ElectionId>
    </CVR>
-   <Election ObjectId="election"
-             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Election ObjectId="election">
       <Candidate ObjectId="can-gl">
          <Name>Gloria La Riva</Name>
          <PartyId>par-com</PartyId>
@@ -9679,45 +9679,36 @@
       <ElectionScopeId>ru-county</ElectionScopeId>
    </Election>
    <GeneratedDate>2023-07-14T13:32:09-04:00</GeneratedDate>
-   <GpUnit ObjectId="ru-county"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="ru-county">
       <Name>Bibb County</Name>
       <Type>other</Type>
       <OtherType>county</OtherType>
    </GpUnit>
-   <GpUnit ObjectId="prec-bcch"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="prec-bcch">
       <Name>Bibb County Court House</Name>
       <Type>precinct</Type>
    </GpUnit>
-   <GpUnit ObjectId="prec-src"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="prec-src">
       <Name>Shelton Road Church</Name>
       <Type>precinct</Type>
    </GpUnit>
-   <Party ObjectId="par-dem"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Party ObjectId="par-dem">
       <Name>Democratic</Name>
    </Party>
-   <Party ObjectId="par-rep"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Party ObjectId="par-rep">
       <Name>Republican</Name>
    </Party>
-   <Party ObjectId="par-com"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Party ObjectId="par-com">
       <Name>Communist</Name>
    </Party>
-   <Party ObjectId="par-gre"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Party ObjectId="par-gre">
       <Name>Green</Name>
    </Party>
-   <Party ObjectId="par-lib"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Party ObjectId="par-lib">
       <Name>Libertarian</Name>
    </Party>
    <ReportGeneratingDeviceIds>rd</ReportGeneratingDeviceIds>
-   <ReportingDevice ObjectId="rd"
-                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ReportingDevice ObjectId="rd">
       <Application>Test Data</Application>
       <Manufacturer>NIST</Manufacturer>
    </ReportingDevice>

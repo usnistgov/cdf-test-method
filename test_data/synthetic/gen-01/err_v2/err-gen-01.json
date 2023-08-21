@@ -2468,28 +2468,6 @@
        "@type" : "ElectionResults.LanguageString" } ],
      "@type" : "ElectionResults.InternationalizedText" } },
    
-   { "Type" : "split-precinct",
-    "@type" : "ElectionResults.ReportingUnit",
-    "@id" : "ps-2a",
-    "Name" : 
-    { "Text" : 
-     [ 
-      { "Content" : "Precinct 2a",
-       "Language" : "en-us",
-       "@type" : "ElectionResults.LanguageString" } ],
-     "@type" : "ElectionResults.InternationalizedText" } },
-   
-   { "Type" : "precinct",
-    "@type" : "ElectionResults.ReportingUnit",
-    "@id" : "ps-2b",
-    "Name" : 
-    { "Text" : 
-     [ 
-      { "Content" : "Precinct 2b",
-       "Language" : "en-us",
-       "@type" : "ElectionResults.LanguageString" } ],
-     "@type" : "ElectionResults.InternationalizedText" } },
-   
    { "Type" : "precinct",
     "@type" : "ElectionResults.ReportingUnit",
     "@id" : "prec-4",
@@ -2552,6 +2530,28 @@
     { "Text" : 
      [ 
       { "Content" : "Precinct 9",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "split-precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ps-2a",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 2a",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ps-2b",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 2b",
        "Language" : "en-us",
        "@type" : "ElectionResults.LanguageString" } ],
      "@type" : "ElectionResults.InternationalizedText" } } ],

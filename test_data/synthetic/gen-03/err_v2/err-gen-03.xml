@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<enr:ElectionReport xmlns:enr="http://itl.nist.gov/ns/voting/1500-100/v2">
+<enr:ElectionReport xmlns:enr="http://itl.nist.gov/ns/voting/1500-100/v2"
+                    xmlns="http://itl.nist.gov/ns/voting/1500-100/v2"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <enr:Election>
       <cdf:BallotStyle xmlns:cdf="http://itl.nist.gov/ns/voting/1500-100/v2">
          <cdf:ExternalIdentifier>
@@ -7,22 +9,22 @@
             <cdf:Value>Fire Station 23</cdf:Value>
          </cdf:ExternalIdentifier>
          <cdf:GpUnitIds>prec-fs-23</cdf:GpUnitIds>
-         <cdf:OrderedContent xsi:type="cdf:OrderedContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <cdf:OrderedContent xsi:type="cdf:OrderedContest">
             <cdf:ContestId>cc-president</cdf:ContestId>
          </cdf:OrderedContent>
-         <cdf:OrderedContent xsi:type="cdf:OrderedContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <cdf:OrderedContent xsi:type="cdf:OrderedContest">
             <cdf:ContestId>cc-senate</cdf:ContestId>
          </cdf:OrderedContent>
-         <cdf:OrderedContent xsi:type="cdf:OrderedContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <cdf:OrderedContent xsi:type="cdf:OrderedContest">
             <cdf:ContestId>cc-congress-1</cdf:ContestId>
          </cdf:OrderedContent>
-         <cdf:OrderedContent xsi:type="cdf:OrderedContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <cdf:OrderedContent xsi:type="cdf:OrderedContest">
             <cdf:ContestId>cc-assembly-1</cdf:ContestId>
          </cdf:OrderedContent>
-         <cdf:OrderedContent xsi:type="cdf:OrderedContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <cdf:OrderedContent xsi:type="cdf:OrderedContest">
             <cdf:ContestId>bm-22.6</cdf:ContestId>
          </cdf:OrderedContent>
-         <cdf:OrderedContent xsi:type="cdf:OrderedContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <cdf:OrderedContent xsi:type="cdf:OrderedContest">
             <cdf:ContestId>bm-25.3</cdf:ContestId>
          </cdf:OrderedContent>
       </cdf:BallotStyle>
@@ -32,99 +34,101 @@
             <cdf:Value>Aldersgate Church</cdf:Value>
          </cdf:ExternalIdentifier>
          <cdf:GpUnitIds>prec-ac</cdf:GpUnitIds>
-         <cdf:OrderedContent xsi:type="cdf:OrderedContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <cdf:OrderedContent xsi:type="cdf:OrderedContest">
             <cdf:ContestId>cc-president</cdf:ContestId>
          </cdf:OrderedContent>
-         <cdf:OrderedContent xsi:type="cdf:OrderedContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <cdf:OrderedContent xsi:type="cdf:OrderedContest">
             <cdf:ContestId>cc-senate</cdf:ContestId>
          </cdf:OrderedContent>
-         <cdf:OrderedContent xsi:type="cdf:OrderedContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <cdf:OrderedContent xsi:type="cdf:OrderedContest">
             <cdf:ContestId>cc-congress-2</cdf:ContestId>
          </cdf:OrderedContent>
-         <cdf:OrderedContent xsi:type="cdf:OrderedContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <cdf:OrderedContent xsi:type="cdf:OrderedContest">
             <cdf:ContestId>cc-assembly-2</cdf:ContestId>
          </cdf:OrderedContent>
-         <cdf:OrderedContent xsi:type="cdf:OrderedContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <cdf:OrderedContent xsi:type="cdf:OrderedContest">
             <cdf:ContestId>bm-22.6</cdf:ContestId>
          </cdf:OrderedContent>
-         <cdf:OrderedContent xsi:type="cdf:OrderedContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <cdf:OrderedContent xsi:type="cdf:OrderedContest">
             <cdf:ContestId>bm-25.3</cdf:ContestId>
          </cdf:OrderedContent>
       </cdf:BallotStyle>
-      <enr:Candidate ObjectId="can-ak" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <enr:Candidate ObjectId="can-ak">
          <enr:BallotName>
             <enr:Text Language="en-us">Arthur Kumar</enr:Text>
          </enr:BallotName>
          <enr:PartyId>par-rep</enr:PartyId>
       </enr:Candidate>
-      <enr:Candidate ObjectId="can-bg" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <enr:Candidate ObjectId="can-bg">
          <enr:BallotName>
             <enr:Text Language="en-us">Brian Getz</enr:Text>
          </enr:BallotName>
          <enr:PartyId>par-dem</enr:PartyId>
       </enr:Candidate>
-      <enr:Candidate ObjectId="can-cs" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <enr:Candidate ObjectId="can-cs">
          <enr:BallotName>
             <enr:Text Language="en-us">Chad Snow</enr:Text>
          </enr:BallotName>
          <enr:PartyId>par-rep</enr:PartyId>
       </enr:Candidate>
-      <enr:Candidate ObjectId="can-de" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <enr:Candidate ObjectId="can-de">
          <enr:BallotName>
             <enr:Text Language="en-us">Don Etler</enr:Text>
          </enr:BallotName>
          <enr:PartyId>par-dem</enr:PartyId>
       </enr:Candidate>
-      <enr:Candidate ObjectId="can-esheehy" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <enr:Candidate ObjectId="can-esheehy">
          <enr:BallotName>
             <enr:Text Language="en-us">Eric Sheehy</enr:Text>
          </enr:BallotName>
          <enr:PartyId>par-rep</enr:PartyId>
       </enr:Candidate>
-      <enr:Candidate ObjectId="can-ff" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <enr:Candidate ObjectId="can-ff">
          <enr:BallotName>
             <enr:Text Language="en-us">Fiero Finn</enr:Text>
          </enr:BallotName>
          <enr:PartyId>par-dem</enr:PartyId>
       </enr:Candidate>
-      <enr:Candidate ObjectId="can-esnyder" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <enr:Candidate ObjectId="can-esnyder">
          <enr:BallotName>
             <enr:Text Language="en-us">Ernest Snyder</enr:Text>
          </enr:BallotName>
          <enr:PartyId>par-rep</enr:PartyId>
       </enr:Candidate>
-      <enr:Candidate ObjectId="can-fm" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <enr:Candidate ObjectId="can-fm">
          <enr:BallotName>
             <enr:Text Language="en-us">Frank L. Matthews</enr:Text>
          </enr:BallotName>
          <enr:PartyId>par-dem</enr:PartyId>
       </enr:Candidate>
-      <enr:Candidate ObjectId="can-gc" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <enr:Candidate ObjectId="can-gc">
          <enr:BallotName>
             <enr:Text Language="en-us">Gloria Castle</enr:Text>
          </enr:BallotName>
          <enr:PartyId>par-rep</enr:PartyId>
       </enr:Candidate>
-      <enr:Candidate ObjectId="can-hs" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <enr:Candidate ObjectId="can-hs">
          <enr:BallotName>
             <enr:Text Language="en-us">Harry Sosses</enr:Text>
          </enr:BallotName>
          <enr:PartyId>par-dem</enr:PartyId>
       </enr:Candidate>
-      <enr:Candidate ObjectId="can-gcl" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <enr:Candidate ObjectId="can-gcl">
          <enr:BallotName>
             <enr:Text Language="en-us">Glenna P Cook-Lincoln</enr:Text>
          </enr:BallotName>
          <enr:PartyId>par-rep</enr:PartyId>
       </enr:Candidate>
-      <enr:Candidate ObjectId="can-hh" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <enr:Candidate ObjectId="can-hh">
          <enr:BallotName>
             <enr:Text Language="en-us">Heidi Hatzinger</enr:Text>
          </enr:BallotName>
          <enr:PartyId>par-dem</enr:PartyId>
       </enr:Candidate>
-      <enr:Contest ObjectId="cc-president" xsi:type="enr:CandidateContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
-         <enr:ContestSelection ObjectId="cs-president-ak" xsi:type="enr:CandidateSelection">
+      <enr:Contest ObjectId="cc-president"
+                   xsi:type="enr:CandidateContest">
+         <enr:ContestSelection ObjectId="cs-president-ak"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -142,7 +146,8 @@
             </enr:VoteCounts>
             <enr:CandidateIds>can-ak</enr:CandidateIds>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-president-bg" xsi:type="enr:CandidateSelection">
+         <enr:ContestSelection ObjectId="cs-president-bg"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -160,7 +165,8 @@
             </enr:VoteCounts>
             <enr:CandidateIds>can-bg</enr:CandidateIds>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-president-wi" xsi:type="enr:CandidateSelection">
+         <enr:ContestSelection ObjectId="cs-president-wi"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -192,8 +198,10 @@
          </enr:OtherCounts>
          <enr:VotesAllowed>1</enr:VotesAllowed>
       </enr:Contest>
-      <enr:Contest ObjectId="cc-senate" xsi:type="enr:CandidateContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
-         <enr:ContestSelection ObjectId="cs-senate-cs" xsi:type="enr:CandidateSelection">
+      <enr:Contest ObjectId="cc-senate"
+                   xsi:type="enr:CandidateContest">
+         <enr:ContestSelection ObjectId="cs-senate-cs"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -211,7 +219,8 @@
             </enr:VoteCounts>
             <enr:CandidateIds>can-cs</enr:CandidateIds>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-senate-de" xsi:type="enr:CandidateSelection">
+         <enr:ContestSelection ObjectId="cs-senate-de"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -229,7 +238,8 @@
             </enr:VoteCounts>
             <enr:CandidateIds>can-de</enr:CandidateIds>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-senate-wi" xsi:type="enr:CandidateSelection">
+         <enr:ContestSelection ObjectId="cs-senate-wi"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -266,8 +276,10 @@
          </enr:OtherCounts>
          <enr:VotesAllowed>1</enr:VotesAllowed>
       </enr:Contest>
-      <enr:Contest ObjectId="cc-congress-1" xsi:type="enr:CandidateContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
-         <enr:ContestSelection ObjectId="cs-congress-1-es" xsi:type="enr:CandidateSelection">
+      <enr:Contest ObjectId="cc-congress-1"
+                   xsi:type="enr:CandidateContest">
+         <enr:ContestSelection ObjectId="cs-congress-1-es"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -280,7 +292,8 @@
             </enr:VoteCounts>
             <enr:CandidateIds>can-esheehy</enr:CandidateIds>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-congress-1-ff" xsi:type="enr:CandidateSelection">
+         <enr:ContestSelection ObjectId="cs-congress-1-ff"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -293,7 +306,8 @@
             </enr:VoteCounts>
             <enr:CandidateIds>can-ff</enr:CandidateIds>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-congress-1-wi" xsi:type="enr:CandidateSelection">
+         <enr:ContestSelection ObjectId="cs-congress-1-wi"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -320,8 +334,10 @@
          </enr:OtherCounts>
          <enr:VotesAllowed>1</enr:VotesAllowed>
       </enr:Contest>
-      <enr:Contest ObjectId="cc-congress-2" xsi:type="enr:CandidateContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
-         <enr:ContestSelection ObjectId="cs-congress-2-es" xsi:type="enr:CandidateSelection">
+      <enr:Contest ObjectId="cc-congress-2"
+                   xsi:type="enr:CandidateContest">
+         <enr:ContestSelection ObjectId="cs-congress-2-es"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -334,7 +350,8 @@
             </enr:VoteCounts>
             <enr:CandidateIds>can-esnyder</enr:CandidateIds>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-congress-2-fm" xsi:type="enr:CandidateSelection">
+         <enr:ContestSelection ObjectId="cs-congress-2-fm"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -347,7 +364,8 @@
             </enr:VoteCounts>
             <enr:CandidateIds>can-fm</enr:CandidateIds>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-congress-2-wi" xsi:type="enr:CandidateSelection">
+         <enr:ContestSelection ObjectId="cs-congress-2-wi"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -374,8 +392,10 @@
          </enr:OtherCounts>
          <enr:VotesAllowed>1</enr:VotesAllowed>
       </enr:Contest>
-      <enr:Contest ObjectId="cc-assembly-1" xsi:type="enr:CandidateContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
-         <enr:ContestSelection ObjectId="cs-assembly-1-gc" xsi:type="enr:CandidateSelection">
+      <enr:Contest ObjectId="cc-assembly-1"
+                   xsi:type="enr:CandidateContest">
+         <enr:ContestSelection ObjectId="cs-assembly-1-gc"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -388,7 +408,8 @@
             </enr:VoteCounts>
             <enr:CandidateIds>can-gc</enr:CandidateIds>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-assembly-1-hs" xsi:type="enr:CandidateSelection">
+         <enr:ContestSelection ObjectId="cs-assembly-1-hs"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -401,7 +422,8 @@
             </enr:VoteCounts>
             <enr:CandidateIds>can-hs</enr:CandidateIds>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-assembly-1-wi" xsi:type="enr:CandidateSelection">
+         <enr:ContestSelection ObjectId="cs-assembly-1-wi"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -428,8 +450,10 @@
          </enr:OtherCounts>
          <enr:VotesAllowed>1</enr:VotesAllowed>
       </enr:Contest>
-      <enr:Contest ObjectId="cc-assembly-2" xsi:type="enr:CandidateContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
-         <enr:ContestSelection ObjectId="cs-assembly-2-gcl" xsi:type="enr:CandidateSelection">
+      <enr:Contest ObjectId="cc-assembly-2"
+                   xsi:type="enr:CandidateContest">
+         <enr:ContestSelection ObjectId="cs-assembly-2-gcl"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -442,7 +466,8 @@
             </enr:VoteCounts>
             <enr:CandidateIds>can-gcl</enr:CandidateIds>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-assembly-2-hh" xsi:type="enr:CandidateSelection">
+         <enr:ContestSelection ObjectId="cs-assembly-2-hh"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -455,7 +480,8 @@
             </enr:VoteCounts>
             <enr:CandidateIds>can-hh</enr:CandidateIds>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-assembly-2-wi" xsi:type="enr:CandidateSelection">
+         <enr:ContestSelection ObjectId="cs-assembly-2-wi"
+                               xsi:type="enr:CandidateSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -482,8 +508,10 @@
          </enr:OtherCounts>
          <enr:VotesAllowed>1</enr:VotesAllowed>
       </enr:Contest>
-      <enr:Contest ObjectId="bm-22.6" xsi:type="enr:BallotMeasureContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
-         <enr:ContestSelection ObjectId="cs-22.6-yes" xsi:type="enr:BallotMeasureSelection">
+      <enr:Contest ObjectId="bm-22.6"
+                   xsi:type="enr:BallotMeasureContest">
+         <enr:ContestSelection ObjectId="cs-22.6-yes"
+                               xsi:type="enr:BallotMeasureSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -503,7 +531,8 @@
                <enr:Text Language="en-us">YES</enr:Text>
             </enr:Selection>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-22.6-no" xsi:type="enr:BallotMeasureSelection">
+         <enr:ContestSelection ObjectId="cs-22.6-no"
+                               xsi:type="enr:BallotMeasureSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -541,8 +570,10 @@
             <enr:Undervotes>0</enr:Undervotes>
          </enr:OtherCounts>
       </enr:Contest>
-      <enr:Contest ObjectId="bm-25.3" xsi:type="enr:BallotMeasureContest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
-         <enr:ContestSelection ObjectId="cs-25.3-yes" xsi:type="enr:BallotMeasureSelection">
+      <enr:Contest ObjectId="bm-25.3"
+                   xsi:type="enr:BallotMeasureContest">
+         <enr:ContestSelection ObjectId="cs-25.3-yes"
+                               xsi:type="enr:BallotMeasureSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -562,7 +593,8 @@
                <enr:Text Language="en-us">YES</enr:Text>
             </enr:Selection>
          </enr:ContestSelection>
-         <enr:ContestSelection ObjectId="cs-25.3-no" xsi:type="enr:BallotMeasureSelection">
+         <enr:ContestSelection ObjectId="cs-25.3-no"
+                               xsi:type="enr:BallotMeasureSelection">
             <enr:VoteCounts>
                <enr:GpUnitId>ru-county-3</enr:GpUnitId>
                <enr:Type>total</enr:Type>
@@ -602,7 +634,7 @@
       </enr:Contest>
       <enr:ElectionScopeId>ru-county-3</enr:ElectionScopeId>
       <enr:Name>
-         <enr:Text Language="en-us" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Unnamed Election</enr:Text>
+         <enr:Text Language="en-us">Unnamed Election</enr:Text>
       </enr:Name>
       <enr:StartDate>2004-11-02</enr:StartDate>
       <enr:EndDate>2004-11-02</enr:EndDate>
@@ -610,19 +642,22 @@
    </enr:Election>
    <enr:Format>precinct-level</enr:Format>
    <enr:GeneratedDate>2023-07-14T13:32:09-04:00</enr:GeneratedDate>
-   <enr:GpUnit ObjectId="ru-county-3" xsi:type="enr:ReportingUnit" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
+   <enr:GpUnit ObjectId="ru-county-3"
+               xsi:type="enr:ReportingUnit">
       <enr:Name>
          <enr:Text Language="en-us">Test County</enr:Text>
       </enr:Name>
       <enr:Type>other</enr:Type>
    </enr:GpUnit>
-   <enr:GpUnit ObjectId="prec-fs-23" xsi:type="enr:ReportingUnit" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
+   <enr:GpUnit ObjectId="prec-fs-23"
+               xsi:type="enr:ReportingUnit">
       <enr:Name>
          <enr:Text Language="en-us">Fire Station 23</enr:Text>
       </enr:Name>
       <enr:Type>precinct</enr:Type>
    </enr:GpUnit>
-   <enr:GpUnit ObjectId="prec-ac" xsi:type="enr:ReportingUnit" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
+   <enr:GpUnit ObjectId="prec-ac"
+               xsi:type="enr:ReportingUnit">
       <enr:Name>
          <enr:Text Language="en-us">Aldersgate Church</enr:Text>
       </enr:Name>
@@ -630,12 +665,12 @@
    </enr:GpUnit>
    <enr:Issuer>National Institute of Standards and Technology</enr:Issuer>
    <enr:IssuerAbbreviation>NIST</enr:IssuerAbbreviation>
-   <enr:Party ObjectId="par-dem" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <enr:Party ObjectId="par-dem">
       <enr:Name>
          <enr:Text Language="en-us">Democrat</enr:Text>
       </enr:Name>
    </enr:Party>
-   <enr:Party ObjectId="par-rep" xmlns="http://itl.nist.gov/ns/voting/1500-100/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <enr:Party ObjectId="par-rep">
       <enr:Name>
          <enr:Text Language="en-us">Republican</enr:Text>
       </enr:Name>

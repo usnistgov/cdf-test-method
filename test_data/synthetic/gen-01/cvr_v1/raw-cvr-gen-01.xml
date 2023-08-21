@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CastVoteRecordReport xmlns="http://itl.nist.gov/ns/voting/1500-103/v1">
+<CastVoteRecordReport xmlns="http://itl.nist.gov/ns/voting/1500-103/v1"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <CVR>
-      <BallotStyleId>bs-1-prec-1</BallotStyleId>
+      <BallotPrePrintedId>bs-1-prec-1</BallotPrePrintedId>
+      <BallotStyleId>Precinct 1</BallotStyleId>
       <BallotStyleUnitId>cp-1-4-5-6</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>bs-1-prec-1</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="bs-1-prec-1"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="bs-1-prec-1">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
@@ -99,12 +100,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>bs-2-prec-1</BallotStyleId>
+      <BallotPrePrintedId>bs-2-prec-1</BallotPrePrintedId>
+      <BallotStyleId>Precinct 1</BallotStyleId>
       <BallotStyleUnitId>cp-1-4-5-6</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>bs-2-prec-1</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="bs-2-prec-1"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="bs-2-prec-1">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
@@ -197,12 +198,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>bs-3-prec-3</BallotStyleId>
+      <BallotPrePrintedId>bs-3-prec-3</BallotPrePrintedId>
+      <BallotStyleId>Precinct 1</BallotStyleId>
       <BallotStyleUnitId>cp-1-4-5-6</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>bs-3-prec-3</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="bs-3-prec-3"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="bs-3-prec-3">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
@@ -295,12 +296,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>bs-4-prec-1</BallotStyleId>
+      <BallotPrePrintedId>bs-4-prec-1</BallotPrePrintedId>
+      <BallotStyleId>Precinct 1</BallotStyleId>
       <BallotStyleUnitId>cp-1-4-5-6</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>bs-4-prec-1</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="bs-4-prec-1"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="bs-4-prec-1">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -457,12 +458,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>bs-5-prec-1</BallotStyleId>
+      <BallotPrePrintedId>bs-5-prec-1</BallotPrePrintedId>
+      <BallotStyleId>Precinct 1</BallotStyleId>
       <BallotStyleUnitId>cp-1-4-5-6</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>bs-5-prec-1</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="bs-5-prec-1"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="bs-5-prec-1">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -625,12 +626,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>bs-6-prec-1</BallotStyleId>
+      <BallotPrePrintedId>bs-6-prec-1</BallotPrePrintedId>
+      <BallotStyleId>Precinct 1</BallotStyleId>
       <BallotStyleUnitId>cp-1-4-5-6</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>bs-6-prec-1</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="bs-6-prec-1"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="bs-6-prec-1">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -790,12 +791,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>bs-7-prec-1</BallotStyleId>
+      <BallotPrePrintedId>bs-7-prec-1</BallotPrePrintedId>
+      <BallotStyleId>Precinct 1</BallotStyleId>
       <BallotStyleUnitId>cp-1-4-5-6</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>bs-7-prec-1</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="bs-7-prec-1"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="bs-7-prec-1">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -976,12 +977,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>bs-8-prec-1</BallotStyleId>
+      <BallotPrePrintedId>bs-8-prec-1</BallotPrePrintedId>
+      <BallotStyleId>Precinct 1</BallotStyleId>
       <BallotStyleUnitId>cp-1-4-5-6</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>bs-8-prec-1</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="bs-8-prec-1"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="bs-8-prec-1">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -1141,12 +1142,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>bs-9-prec-1</BallotStyleId>
+      <BallotPrePrintedId>bs-9-prec-1</BallotPrePrintedId>
+      <BallotStyleId>Precinct 1</BallotStyleId>
       <BallotStyleUnitId>cp-1-4-5-6</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>bs-9-prec-1</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="bs-9-prec-1"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="bs-9-prec-1">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -1303,12 +1304,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>bs-10-prec-1</BallotStyleId>
+      <BallotPrePrintedId>bs-10-prec-1</BallotPrePrintedId>
+      <BallotStyleId>Precinct 1</BallotStyleId>
       <BallotStyleUnitId>cp-1-4-5-6</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>bs-10-prec-1</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="bs-10-prec-1"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="bs-10-prec-1">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -1492,12 +1493,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-1-prec-2a</BallotStyleId>
+      <BallotPrePrintedId>b-1-prec-2a</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2a</BallotStyleId>
       <BallotStyleUnitId>ps-2a</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-1-prec-2a</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-1-prec-2a"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-1-prec-2a">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
@@ -1590,12 +1591,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-2-prec-2a</BallotStyleId>
+      <BallotPrePrintedId>b-2-prec-2a</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2a</BallotStyleId>
       <BallotStyleUnitId>ps-2a</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-2-prec-2a</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-2-prec-2a"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-2-prec-2a">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
@@ -1688,12 +1689,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-3-prec-2a</BallotStyleId>
+      <BallotPrePrintedId>b-3-prec-2a</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2a</BallotStyleId>
       <BallotStyleUnitId>ps-2a</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-3-prec-2a</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-3-prec-2a"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-3-prec-2a">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
@@ -1786,12 +1787,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-4-prec-2a</BallotStyleId>
+      <BallotPrePrintedId>b-4-prec-2a</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2a</BallotStyleId>
       <BallotStyleUnitId>ps-2a</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-4-prec-2a</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-4-prec-2a"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-4-prec-2a">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -1948,12 +1949,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-5-prec-2a</BallotStyleId>
+      <BallotPrePrintedId>b-5-prec-2a</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2a</BallotStyleId>
       <BallotStyleUnitId>ps-2a</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-5-prec-2a</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-5-prec-2a"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-5-prec-2a">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -2116,12 +2117,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-6-prec-2a</BallotStyleId>
+      <BallotPrePrintedId>b-6-prec-2a</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2a</BallotStyleId>
       <BallotStyleUnitId>ps-2a</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-6-prec-2a</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-6-prec-2a"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-6-prec-2a">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -2281,12 +2282,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-7-prec-2a</BallotStyleId>
+      <BallotPrePrintedId>b-7-prec-2a</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2a</BallotStyleId>
       <BallotStyleUnitId>ps-2a</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-7-prec-2a</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-7-prec-2a"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-7-prec-2a">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -2467,12 +2468,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-8-prec-2a</BallotStyleId>
+      <BallotPrePrintedId>b-8-prec-2a</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2a</BallotStyleId>
       <BallotStyleUnitId>ps-2a</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-8-prec-2a</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-8-prec-2a"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-8-prec-2a">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -2632,12 +2633,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-9-prec-2a</BallotStyleId>
+      <BallotPrePrintedId>b-9-prec-2a</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2a</BallotStyleId>
       <BallotStyleUnitId>ps-2a</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-9-prec-2a</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-9-prec-2a"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-9-prec-2a">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -2794,12 +2795,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-10-prec-2a</BallotStyleId>
+      <BallotPrePrintedId>b-10-prec-2a</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2a</BallotStyleId>
       <BallotStyleUnitId>ps-2a</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-10-prec-2a</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-10-prec-2a"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-10-prec-2a">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -2983,12 +2984,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-1-prec-2b</BallotStyleId>
+      <BallotPrePrintedId>b-1-prec-2b</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2b</BallotStyleId>
       <BallotStyleUnitId>ps-2b</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-1-prec-2b</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-1-prec-2b"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-1-prec-2b">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
@@ -3081,12 +3082,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-2-prec-2b</BallotStyleId>
+      <BallotPrePrintedId>b-2-prec-2b</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2b</BallotStyleId>
       <BallotStyleUnitId>ps-2b</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-2-prec-2b</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-2-prec-2b"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-2-prec-2b">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
@@ -3179,12 +3180,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-3-prec-2b</BallotStyleId>
+      <BallotPrePrintedId>b-3-prec-2b</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2b</BallotStyleId>
       <BallotStyleUnitId>ps-2b</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-3-prec-2b</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-3-prec-2b"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-3-prec-2b">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
@@ -3277,12 +3278,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-4-prec-2b</BallotStyleId>
+      <BallotPrePrintedId>b-4-prec-2b</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2b</BallotStyleId>
       <BallotStyleUnitId>ps-2b</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-4-prec-2b</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-4-prec-2b"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-4-prec-2b">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -3439,12 +3440,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-5-prec-2b</BallotStyleId>
+      <BallotPrePrintedId>b-5-prec-2b</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2b</BallotStyleId>
       <BallotStyleUnitId>ps-2b</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-5-prec-2b</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-5-prec-2b"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-5-prec-2b">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -3607,12 +3608,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-6-prec-2b</BallotStyleId>
+      <BallotPrePrintedId>b-6-prec-2b</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2b</BallotStyleId>
       <BallotStyleUnitId>ps-2b</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-6-prec-2b</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-6-prec-2b"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-6-prec-2b">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -3772,12 +3773,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-7-prec-2b</BallotStyleId>
+      <BallotPrePrintedId>b-7-prec-2b</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2b</BallotStyleId>
       <BallotStyleUnitId>ps-2b</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-7-prec-2b</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-7-prec-2b"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-7-prec-2b">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -3958,12 +3959,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-8-prec-2b</BallotStyleId>
+      <BallotPrePrintedId>b-8-prec-2b</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2b</BallotStyleId>
       <BallotStyleUnitId>ps-2b</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-8-prec-2b</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-8-prec-2b"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-8-prec-2b">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -4123,12 +4124,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-9-prec-2b</BallotStyleId>
+      <BallotPrePrintedId>b-9-prec-2b</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2b</BallotStyleId>
       <BallotStyleUnitId>ps-2b</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-9-prec-2b</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-9-prec-2b"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-9-prec-2b">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -4285,12 +4286,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-10-prec-2b</BallotStyleId>
+      <BallotPrePrintedId>b-10-prec-2b</BallotPrePrintedId>
+      <BallotStyleId>Precinct 2b</BallotStyleId>
       <BallotStyleUnitId>ps-2b</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-10-prec-2b</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-10-prec-2b"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-10-prec-2b">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -4474,12 +4475,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-1-prec-3</BallotStyleId>
+      <BallotPrePrintedId>b-1-prec-3</BallotPrePrintedId>
+      <BallotStyleId>Precinct 3</BallotStyleId>
       <BallotStyleUnitId>cp-3-7-8-9</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-1-prec-3</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-1-prec-3"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-1-prec-3">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
@@ -4572,12 +4573,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-2-prec-3</BallotStyleId>
+      <BallotPrePrintedId>b-2-prec-3</BallotPrePrintedId>
+      <BallotStyleId>Precinct 3</BallotStyleId>
       <BallotStyleUnitId>cp-3-7-8-9</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-2-prec-3</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-2-prec-3"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-2-prec-3">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
@@ -4670,12 +4671,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-3-prec-3</BallotStyleId>
+      <BallotPrePrintedId>b-3-prec-3</BallotPrePrintedId>
+      <BallotStyleId>Precinct 3</BallotStyleId>
       <BallotStyleUnitId>cp-3-7-8-9</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-3-prec-3</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-3-prec-3"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-3-prec-3">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <CVRContestSelection>
@@ -4768,12 +4769,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-4-prec-3</BallotStyleId>
+      <BallotPrePrintedId>b-4-prec-3</BallotPrePrintedId>
+      <BallotStyleId>Precinct 3</BallotStyleId>
       <BallotStyleUnitId>cp-3-7-8-9</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-4-prec-3</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-4-prec-3"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-4-prec-3">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -4930,12 +4931,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-5-prec-3</BallotStyleId>
+      <BallotPrePrintedId>b-5-prec-3</BallotPrePrintedId>
+      <BallotStyleId>Precinct 3</BallotStyleId>
       <BallotStyleUnitId>cp-3-7-8-9</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-5-prec-3</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-5-prec-3"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-5-prec-3">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -5098,12 +5099,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-6-prec-3</BallotStyleId>
+      <BallotPrePrintedId>b-6-prec-3</BallotPrePrintedId>
+      <BallotStyleId>Precinct 3</BallotStyleId>
       <BallotStyleUnitId>cp-3-7-8-9</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-6-prec-3</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-6-prec-3"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-6-prec-3">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -5263,12 +5264,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-7-prec-3</BallotStyleId>
+      <BallotPrePrintedId>b-7-prec-3</BallotPrePrintedId>
+      <BallotStyleId>Precinct 3</BallotStyleId>
       <BallotStyleUnitId>cp-3-7-8-9</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-7-prec-3</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-7-prec-3"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-7-prec-3">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -5449,12 +5450,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-8-prec-3</BallotStyleId>
+      <BallotPrePrintedId>b-8-prec-3</BallotPrePrintedId>
+      <BallotStyleId>Precinct 3</BallotStyleId>
       <BallotStyleUnitId>cp-3-7-8-9</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-8-prec-3</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-8-prec-3"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-8-prec-3">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -5614,12 +5615,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-9-prec-3</BallotStyleId>
+      <BallotPrePrintedId>b-9-prec-3</BallotPrePrintedId>
+      <BallotStyleId>Precinct 3</BallotStyleId>
       <BallotStyleUnitId>cp-3-7-8-9</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-9-prec-3</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-9-prec-3"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-9-prec-3">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -5776,12 +5777,12 @@
       <ElectionId>election</ElectionId>
    </CVR>
    <CVR>
-      <BallotStyleId>b-10-prec-3</BallotStyleId>
+      <BallotPrePrintedId>b-10-prec-3</BallotPrePrintedId>
+      <BallotStyleId>Precinct 3</BallotStyleId>
       <BallotStyleUnitId>cp-3-7-8-9</BallotStyleUnitId>
       <CreatingDeviceId>rd</CreatingDeviceId>
       <CurrentSnapshotId>b-10-prec-3</CurrentSnapshotId>
-      <CVRSnapshot ObjectId="b-10-prec-3"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <CVRSnapshot ObjectId="b-10-prec-3">
          <CVRContest>
             <ContestId>spc-1</ContestId>
             <Overvotes>0</Overvotes>
@@ -5964,8 +5965,7 @@
       </CVRSnapshot>
       <ElectionId>election</ElectionId>
    </CVR>
-   <Election ObjectId="election"
-             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Election ObjectId="election">
       <Candidate ObjectId="can-hb">
          <Name>Harry Brown</Name>
          <PartyId>par-lib</PartyId>
@@ -6456,92 +6456,74 @@
       <ElectionScopeId>ru-county-1</ElectionScopeId>
    </Election>
    <GeneratedDate>2023-07-14T13:32:09-04:00</GeneratedDate>
-   <GpUnit ObjectId="ru-county-1"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="ru-county-1">
       <Name>Test County</Name>
       <Type>other</Type>
       <OtherType>county</OtherType>
    </GpUnit>
-   <GpUnit ObjectId="cp-1-4-5-6"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="cp-1-4-5-6">
       <Name>Combined Precincts 1,4,5,6</Name>
       <Type>combined-precinct</Type>
    </GpUnit>
-   <GpUnit ObjectId="cp-3-7-8-9"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="cp-3-7-8-9">
       <Name>Combined Precincts 3,7,8,9</Name>
       <Type>combined-precinct</Type>
    </GpUnit>
-   <GpUnit ObjectId="prec-1"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="prec-1">
       <Name>Precinct 1</Name>
       <Type>precinct</Type>
    </GpUnit>
-   <GpUnit ObjectId="prec-2"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="prec-2">
       <Name>Precinct 2</Name>
       <Type>precinct</Type>
    </GpUnit>
-   <GpUnit ObjectId="prec-3"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="prec-3">
       <Name>Precinct 3</Name>
       <Type>precinct</Type>
    </GpUnit>
-   <GpUnit ObjectId="ps-2a"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Name>Precinct 2a</Name>
-      <Type>split-precinct</Type>
-   </GpUnit>
-   <GpUnit ObjectId="ps-2b"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Name>Precinct 2b</Name>
-      <Type>precinct</Type>
-   </GpUnit>
-   <GpUnit ObjectId="prec-4"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="prec-4">
       <Name>Precinct 4</Name>
       <Type>precinct</Type>
    </GpUnit>
-   <GpUnit ObjectId="prec-5"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="prec-5">
       <Name>Precinct 5</Name>
       <Type>precinct</Type>
    </GpUnit>
-   <GpUnit ObjectId="prec-6"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="prec-6">
       <Name>Precinct 6</Name>
       <Type>precinct</Type>
    </GpUnit>
-   <GpUnit ObjectId="prec-7"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="prec-7">
       <Name>Precinct 7</Name>
       <Type>precinct</Type>
    </GpUnit>
-   <GpUnit ObjectId="prec-8"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="prec-8">
       <Name>Precinct 8</Name>
       <Type>precinct</Type>
    </GpUnit>
-   <GpUnit ObjectId="prec-9"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="prec-9">
       <Name>Precinct 9</Name>
       <Type>precinct</Type>
    </GpUnit>
-   <Party ObjectId="par-dem"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <GpUnit ObjectId="ps-2a">
+      <Name>Precinct 2a</Name>
+      <Type>split-precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="ps-2b">
+      <Name>Precinct 2b</Name>
+      <Type>precinct</Type>
+   </GpUnit>
+   <Party ObjectId="par-dem">
       <Name>Democrat</Name>
    </Party>
-   <Party ObjectId="par-lib"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Party ObjectId="par-lib">
       <Name>Libertarian</Name>
    </Party>
-   <Party ObjectId="par-rep"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Party ObjectId="par-rep">
       <Name>Republican</Name>
    </Party>
    <ReportGeneratingDeviceIds>rd</ReportGeneratingDeviceIds>
-   <ReportingDevice ObjectId="rd"
-                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ReportingDevice ObjectId="rd">
       <Application>Test Data</Application>
       <Manufacturer>NIST</Manufacturer>
    </ReportingDevice>

@@ -1,7 +1,8 @@
 
  { "CVR" : 
   [ 
-   { "BallotStyleId" : "b-1-mcc-dem",
+   { "BallotPrePrintedId" : "b-1-mcc-dem",
+    "BallotStyleId" : "Democratic",
     "BallotStyleUnitId" : "prec-mcc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-1-mcc-dem",
@@ -116,7 +117,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-2-mcc-rep",
+   { "BallotPrePrintedId" : "b-2-mcc-rep",
+    "BallotStyleId" : "Republican",
     "BallotStyleUnitId" : "prec-mcc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-2-mcc-rep",
@@ -231,7 +233,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-3-mcc-dem",
+   { "BallotPrePrintedId" : "b-3-mcc-dem",
+    "BallotStyleId" : "Democratic",
     "BallotStyleUnitId" : "prec-mcc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-3-mcc-dem",
@@ -349,7 +352,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-4-mcc-rep",
+   { "BallotPrePrintedId" : "b-4-mcc-rep",
+    "BallotStyleId" : "Republican",
     "BallotStyleUnitId" : "prec-mcc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-4-mcc-rep",
@@ -464,7 +468,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-5-mcc-dem",
+   { "BallotPrePrintedId" : "b-5-mcc-dem",
+    "BallotStyleId" : "Democratic",
     "BallotStyleUnitId" : "prec-mcc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-5-mcc-dem",
@@ -585,7 +590,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-6-mcc-rep",
+   { "BallotPrePrintedId" : "b-6-mcc-rep",
+    "BallotStyleId" : "Republican",
     "BallotStyleUnitId" : "prec-mcc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-6-mcc-rep",
@@ -700,7 +706,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-7-par-dem",
+   { "BallotPrePrintedId" : "b-7-par-dem",
+    "BallotStyleId" : "Democratic",
     "BallotStyleUnitId" : "prec-mcc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-7-par-dem",
@@ -815,7 +822,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-8-mcc-rep",
+   { "BallotPrePrintedId" : "b-8-mcc-rep",
+    "BallotStyleId" : "Republican",
     "BallotStyleUnitId" : "prec-mcc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-8-mcc-rep",
@@ -933,7 +941,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-9-mcc-dem",
+   { "BallotPrePrintedId" : "b-9-mcc-dem",
+    "BallotStyleId" : "Democratic",
     "BallotStyleUnitId" : "prec-mcc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-9-mcc-dem",
@@ -1051,7 +1060,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-10-mcc-rep",
+   { "BallotPrePrintedId" : "b-10-mcc-rep",
+    "BallotStyleId" : "Republican",
     "BallotStyleUnitId" : "prec-mcc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-10-mcc-rep",
@@ -1169,7 +1179,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-1-fbc-dem",
+   { "BallotPrePrintedId" : "b-1-fbc-dem",
+    "BallotStyleId" : "Democratic",
     "BallotStyleUnitId" : "prec-fbc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-1-fbc-dem",
@@ -1284,7 +1295,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-2-par-rep",
+   { "BallotPrePrintedId" : "b-2-par-rep",
+    "BallotStyleId" : "Republican",
     "BallotStyleUnitId" : "prec-fbc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-2-par-rep",
@@ -1399,7 +1411,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-3-fbc-dem",
+   { "BallotPrePrintedId" : "b-3-fbc-dem",
+    "BallotStyleId" : "Democratic",
     "BallotStyleUnitId" : "prec-fbc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-3-fbc-dem",
@@ -1517,7 +1530,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-4-fbc-rep",
+   { "BallotPrePrintedId" : "b-4-fbc-rep",
+    "BallotStyleId" : "Republican",
     "BallotStyleUnitId" : "prec-fbc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-4-fbc-rep",
@@ -1632,7 +1646,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-5-fbc-dem",
+   { "BallotPrePrintedId" : "b-5-fbc-dem",
+    "BallotStyleId" : "Democratic",
     "BallotStyleUnitId" : "prec-fbc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-5-fbc-dem",
@@ -1753,7 +1768,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-6-fbc-rep",
+   { "BallotPrePrintedId" : "b-6-fbc-rep",
+    "BallotStyleId" : "Republican",
     "BallotStyleUnitId" : "prec-fbc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-6-fbc-rep",
@@ -1868,7 +1884,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-7-fbc-dem",
+   { "BallotPrePrintedId" : "b-7-fbc-dem",
+    "BallotStyleId" : "Democratic",
     "BallotStyleUnitId" : "prec-fbc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-7-fbc-dem",
@@ -1985,7 +2002,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-8-fbc-rep",
+   { "BallotPrePrintedId" : "b-8-fbc-rep",
+    "BallotStyleId" : "Republican",
     "BallotStyleUnitId" : "prec-fbc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-8-fbc-rep",
@@ -2103,7 +2121,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-9-fbc-dem",
+   { "BallotPrePrintedId" : "b-9-fbc-dem",
+    "BallotStyleId" : "Democratic",
     "BallotStyleUnitId" : "prec-fbc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-9-fbc-dem",
@@ -2221,7 +2240,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-10-fbc-rep",
+   { "BallotPrePrintedId" : "b-10-fbc-rep",
+    "BallotStyleId" : "Republican",
     "BallotStyleUnitId" : "prec-fbc",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-10-fbc-rep",

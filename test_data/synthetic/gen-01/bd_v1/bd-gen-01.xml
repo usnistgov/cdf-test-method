@@ -826,19 +826,6 @@
 		</Name>
 		<Type>precinct</Type>
 	</GpUnit>
-	<!-- begin precinct-splits -->
-	<GpUnit xsi:type="ReportingUnit" ObjectId="ps-2a">
-		<Name>
-			<Text Language="en">Precinct 2a</Text>
-		</Name>
-		<Type>split-precinct</Type>
-	</GpUnit>
-	<GpUnit xsi:type="ReportingUnit" ObjectId="ps-2b">
-		<Name>
-			<Text Language="en">Precinct 2b</Text>
-		</Name>
-		<Type>precinct</Type>
-	</GpUnit>
 	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-4">
 		<Name>
 			<Text Language="en">Precinct 4</Text>
@@ -872,6 +859,19 @@
 	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-9">
 		<Name>
 			<Text Language="en">Precinct 9</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<!-- begin precinct-splits -->
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ps-2a">
+		<Name>
+			<Text Language="en">Precinct 2a</Text>
+		</Name>
+		<Type>split-precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ps-2b">
+		<Name>
+			<Text Language="en">Precinct 2b</Text>
 		</Name>
 		<Type>precinct</Type>
 	</GpUnit>

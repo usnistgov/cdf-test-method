@@ -67,7 +67,6 @@ The provided tables describe the classes included in each data set, one table pe
 | Election                             | GEN-01    | GEN-02 | GEN-03 | PRIM-01 | PRIM-02 | PRIM-03 |
 | AnnotatedString                      |           |        |        |         |         |         |
 | AnnotatedUri                         |           |        |        |         |         |         |
-| BallotCounts                         |           |        |        |         |         |         |
 | BallotMeasureContest                 | x         | x      | x      |         | x       | x       |
 | BallotMeasureSelection               | x         | x      | x      |         | x       | x       |
 | BallotStyle                          | x         | x      | x      | x       | x       | x       |
@@ -78,10 +77,7 @@ The provided tables describe the classes included in each data set, one table pe
 | ContactInformation                   |           |        |        |         |         |         |
 | Contest                              | x         | x      | x      | x       | x       | x       |
 | ContestSelection                     | x         | x      | x      | x       | x       | x       |
-| Counts                               |           |        |        |         |         |         |
-| CountStatus                          |           |        |        |         |         |         |
 | DateTimeWithZone                     |           |        |        |         |         |         |
-| DeviceClass                          |           |        |        |         |         |         |
 | Election                             | x         | x      | x      | x       | x       | x       |
 | ElectionAdministration               |           |        |        |         |         |         |
 | ElectionReport                       |           |        |        |         |         |         |
@@ -98,13 +94,11 @@ The provided tables describe the classes included in each data set, one table pe
 | OrderedContent                       | x         | x      | x      | x       | x       | x       |
 | OrderedContest                       | x         | x      | x      | x       | x       | x       |
 | OrderedHeader                        |           |        |        | x       | x       |         |
-| OtherCounts                          |           |        |        |         |         |         |
 | Party                                | x         | x      | x      | x       | x       | x       |
 | PartyContest                         |           |        |        |         |         |         |
 | PartyRegistration                    |           |        |        |         |         |         |
 | PartySelection                       | x         |        |        |         |         |         |
 | Person                               |           |        |        |         |         |         |
-| ReportingDevice                      |           |        |        |         |         |         |
 | ReportingUnit                        | x         | x      | x      | x       | x       | x       |
 | RetentionContest                     |           |        |        |         |         |         |
 | Schedule                             |           |        |        |         |         |         |
@@ -113,7 +107,6 @@ The provided tables describe the classes included in each data set, one table pe
 | SpatialExtent                        |           |        |        |         |         |         |
 | Term                                 |           |        |        |         |         |         |
 | TimeWithZone                         |           |        |        |         |         |         |
-| VoteCounts                           |           |        |        |         |         |         |
 | **Ballot Definition Specific**       |           |        |        |         |         |         |
 | ActivationContest                    |           | x      |        |         |         |         |
 | ActivationOption                     |           | x      |        |         |         |         |

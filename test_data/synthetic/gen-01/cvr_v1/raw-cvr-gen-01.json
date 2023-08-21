@@ -1,7 +1,8 @@
 
  { "CVR" : 
   [ 
-   { "BallotStyleId" : "bs-1-prec-1",
+   { "BallotPrePrintedId" : "bs-1-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-1-prec-1",
@@ -114,7 +115,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-2-prec-1",
+   { "BallotPrePrintedId" : "bs-2-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-2-prec-1",
@@ -227,7 +229,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-3-prec-3",
+   { "BallotPrePrintedId" : "bs-3-prec-3",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-3-prec-3",
@@ -340,7 +343,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-4-prec-1",
+   { "BallotPrePrintedId" : "bs-4-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-4-prec-1",
@@ -524,7 +528,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-5-prec-1",
+   { "BallotPrePrintedId" : "bs-5-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-5-prec-1",
@@ -714,7 +719,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-6-prec-1",
+   { "BallotPrePrintedId" : "bs-6-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-6-prec-1",
@@ -901,7 +907,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-7-prec-1",
+   { "BallotPrePrintedId" : "bs-7-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-7-prec-1",
@@ -1109,7 +1116,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-8-prec-1",
+   { "BallotPrePrintedId" : "bs-8-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-8-prec-1",
@@ -1296,7 +1304,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-9-prec-1",
+   { "BallotPrePrintedId" : "bs-9-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-9-prec-1",
@@ -1479,7 +1488,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-10-prec-1",
+   { "BallotPrePrintedId" : "bs-10-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-10-prec-1",
@@ -1688,7 +1698,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-1-prec-2a",
+   { "BallotPrePrintedId" : "b-1-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-1-prec-2a",
@@ -1801,7 +1812,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-2-prec-2a",
+   { "BallotPrePrintedId" : "b-2-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-2-prec-2a",
@@ -1914,7 +1926,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-3-prec-2a",
+   { "BallotPrePrintedId" : "b-3-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-3-prec-2a",
@@ -2027,7 +2040,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-4-prec-2a",
+   { "BallotPrePrintedId" : "b-4-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-4-prec-2a",
@@ -2211,7 +2225,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-5-prec-2a",
+   { "BallotPrePrintedId" : "b-5-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-5-prec-2a",
@@ -2401,7 +2416,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-6-prec-2a",
+   { "BallotPrePrintedId" : "b-6-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-6-prec-2a",
@@ -2588,7 +2604,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-7-prec-2a",
+   { "BallotPrePrintedId" : "b-7-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-7-prec-2a",
@@ -2796,7 +2813,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-8-prec-2a",
+   { "BallotPrePrintedId" : "b-8-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-8-prec-2a",
@@ -2983,7 +3001,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-9-prec-2a",
+   { "BallotPrePrintedId" : "b-9-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-9-prec-2a",
@@ -3166,7 +3185,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-10-prec-2a",
+   { "BallotPrePrintedId" : "b-10-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-10-prec-2a",
@@ -3377,7 +3397,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-1-prec-2b",
+   { "BallotPrePrintedId" : "b-1-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-1-prec-2b",
@@ -3490,7 +3511,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-2-prec-2b",
+   { "BallotPrePrintedId" : "b-2-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-2-prec-2b",
@@ -3603,7 +3625,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-3-prec-2b",
+   { "BallotPrePrintedId" : "b-3-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-3-prec-2b",
@@ -3716,7 +3739,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-4-prec-2b",
+   { "BallotPrePrintedId" : "b-4-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-4-prec-2b",
@@ -3900,7 +3924,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-5-prec-2b",
+   { "BallotPrePrintedId" : "b-5-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-5-prec-2b",
@@ -4090,7 +4115,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-6-prec-2b",
+   { "BallotPrePrintedId" : "b-6-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-6-prec-2b",
@@ -4277,7 +4303,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-7-prec-2b",
+   { "BallotPrePrintedId" : "b-7-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-7-prec-2b",
@@ -4485,7 +4512,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-8-prec-2b",
+   { "BallotPrePrintedId" : "b-8-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-8-prec-2b",
@@ -4672,7 +4700,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-9-prec-2b",
+   { "BallotPrePrintedId" : "b-9-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-9-prec-2b",
@@ -4855,7 +4884,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-10-prec-2b",
+   { "BallotPrePrintedId" : "b-10-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-10-prec-2b",
@@ -5066,7 +5096,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-1-prec-3",
+   { "BallotPrePrintedId" : "b-1-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-1-prec-3",
@@ -5179,7 +5210,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-2-prec-3",
+   { "BallotPrePrintedId" : "b-2-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-2-prec-3",
@@ -5292,7 +5324,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-3-prec-3",
+   { "BallotPrePrintedId" : "b-3-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-3-prec-3",
@@ -5405,7 +5438,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-4-prec-3",
+   { "BallotPrePrintedId" : "b-4-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-4-prec-3",
@@ -5589,7 +5623,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-5-prec-3",
+   { "BallotPrePrintedId" : "b-5-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-5-prec-3",
@@ -5779,7 +5814,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-6-prec-3",
+   { "BallotPrePrintedId" : "b-6-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-6-prec-3",
@@ -5966,7 +6002,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-7-prec-3",
+   { "BallotPrePrintedId" : "b-7-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-7-prec-3",
@@ -6174,7 +6211,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-8-prec-3",
+   { "BallotPrePrintedId" : "b-8-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-8-prec-3",
@@ -6361,7 +6399,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-9-prec-3",
+   { "BallotPrePrintedId" : "b-9-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-9-prec-3",
@@ -6544,7 +6583,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-10-prec-3",
+   { "BallotPrePrintedId" : "b-10-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-10-prec-3",
@@ -7377,16 +7417,6 @@
     "Type" : "precinct",
     "@type" : "CVR.GpUnit" },
    
-   { "@id" : "ps-2a",
-    "Name" : "Precinct 2a",
-    "Type" : "split-precinct",
-    "@type" : "CVR.GpUnit" },
-   
-   { "@id" : "ps-2b",
-    "Name" : "Precinct 2b",
-    "Type" : "precinct",
-    "@type" : "CVR.GpUnit" },
-   
    { "@id" : "prec-4",
     "Name" : "Precinct 4",
     "Type" : "precinct",
@@ -7414,6 +7444,16 @@
    
    { "@id" : "prec-9",
     "Name" : "Precinct 9",
+    "Type" : "precinct",
+    "@type" : "CVR.GpUnit" },
+   
+   { "@id" : "ps-2a",
+    "Name" : "Precinct 2a",
+    "Type" : "split-precinct",
+    "@type" : "CVR.GpUnit" },
+   
+   { "@id" : "ps-2b",
+    "Name" : "Precinct 2b",
     "Type" : "precinct",
     "@type" : "CVR.GpUnit" } ],
   "Party" : 
