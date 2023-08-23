@@ -40,7 +40,7 @@
             </p:with-input>
             <p:with-input port="source" pipe="source@pipeline" />
         </p:validate-with-schematron>
-        <p:catch>
+        <p:catch xmlns:err="http://www.w3.org/ns/xproc-error" code="err:XD0049">
            <p:output port="report" primary="false" pipe="result@empty" sequence="true"  />
             <p:identity name="empty" message="Schematron Ruleset for {$schemaNS} not found">
                 <p:with-input>
