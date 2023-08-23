@@ -8,10 +8,10 @@ title: NIST Voting Common Data Format Test Method
 Reporting is provided in a standardized format called [XVRL](https://github.com/xproc/xvrl). This report contains validation events called *detections* that occur during one or more validation steps. Steps causing detections include include:
 
 - JSON Schema Validation
-- XML Schema Validation
 - Schematron Validation
+- XML Schema Validation
 
-The validations steps invoked depends on the serialization of the CDF instance (e.g. XML), the common data format, and if any business rulesets have been optionally provided. See [here](PIPELINE.md) for a technical overview of the validation pipelines.
+The validations steps invoked depends on the serialization of the CDF instance (e.g. XML), the common data format, and if any business (i.e. Schematron) rulesets have been optionally provided.
 
 Detections are categorized by severity, given below:
 
@@ -21,7 +21,7 @@ Detections are categorized by severity, given below:
 - `fatal-error`
 - `unspecified`
 
-By analyzing the detections appearing in a report output, decisions regarding conformance can be made. [give sample output?]
+By analyzing the detections appearing in a report output, decisions regarding conformance can be made. 
 
 The XVRL output is presented as a "report of reports". The XVRL provides metadata about the test run. Particularly useful metadata is highlighted below:
 
@@ -47,7 +47,7 @@ An example metadata section is given below
 </xvrl:metadata>
 ```
 
-Each report section corresponds to a different validation step in the run [Open ticket to make more informative??]. The digest [TBD!] gives the total number of detections by severity. It has its own metadata section as well, key attributes are described in the table below:
+Each report section corresponds to a different validation step in the run. The digest gives the total number of detections by severity. It has its own metadata section as well, key attributes are described in the table below:
 
 | Metadata        | Description                               |
 |-----------------|-------------------------------------------|
@@ -56,9 +56,9 @@ Each report section corresponds to a different validation step in the run [Open 
 | schema/@href    | The schema that was validated against     |
 | validator/@name | Name of the library performing validation |
 
-validator/@name correspond roughly to the following phases:
+validator/@name correspond roughly to the following phases of validation:
 
-| Validator                                          | Of          |
+| Validator Name                                     | Of          |
 |----------------------------------------------------|-------------|
 | networknt/json-schema-validator                    | JSON Schema |
 | org.apache.xerces.jaxp.validation.XMLSchemaFactory | XSD         |
@@ -84,7 +84,7 @@ Each `report` section relates to a single invocation of a validator.
 
 | Element            | Description                                          |
 |--------------------|------------------------------------------------------|
-| @severity          | Severity of detection. See table [x]                 |
+| @severity          | Severity of detection.                               |
 | location/@xpath    | XPath to location of detection                       |
 | location/@jsonpath | JSONPath to location of detection                    |
 | message            | Message related to detection (e.g. an error message) |
