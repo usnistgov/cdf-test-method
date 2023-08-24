@@ -38,5 +38,7 @@ navigation:
   url: /cdf-test-method/REPORT.html
 - text: FAQ
   url: /cdf-test-method/FAQ.html
+- text: Protocol
+  url: /cdf-test-method/PROTOCOL.md
 
 host: 0.0.0.0
