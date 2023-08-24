@@ -1,3 +1,8 @@
+---
+layout: default
+title: NIST Voting Common Data Format Test Method
+---
+
 # Testing Protocol
 
 The following test protocol is designed to support efficient testing of common data format interfaces required under VVSG 2.0. It allows CDF testing to be integrated with other functional testing by following the flow of such testing. This protocol will need to be adjusted to support the specific election programming, voting and tabulation processes of each particular voting system.
