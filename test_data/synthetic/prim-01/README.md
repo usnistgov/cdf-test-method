@@ -1,5 +1,5 @@
 # NIST Voting Common Data Format Test Method – Test Data  
-Synthetic Dataset – GEN-01
+Synthetic Dataset – PRIM-01
 
 The purpose of the test data dataset is to provide worked examples of
 the common data formats that are compact and comprehensive. This
@@ -258,7 +258,8 @@ Supreme Court</strong></p>
 <thead>
 <tr class="header">
 <th><strong>Bibb County Court House</strong></th>
-<th><p><strong>B 1</strong></p>
+<th><p><strong>B<br />
+1</strong></p>
 <p><strong>C</strong></p></th>
 <th><p><strong>B 2</strong></p>
 <p><strong>D</strong></p></th>

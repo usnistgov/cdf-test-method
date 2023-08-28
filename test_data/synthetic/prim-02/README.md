@@ -5,53 +5,85 @@ The purpose of the test data dataset is to provide worked examples of
 the common data formats that are compact and comprehensive. This
 document describes single election, test deck, and results. Common Data
 Format equivalents are provided at
-https://github.com/usnistgov/cdf-test-method/
+<https://github.com/usnistgov/cdf-test-method/>
 
 This election definition was provided by the Pro V\&V, a Voting System
 Test Lab (VSTL). It has been modified somewhat for purposes of
 supporting the production of Common Data Format examples. It is one of
 several test elections that has been developed.
 
-<table>
-<thead>
-<tr class="header">
-<th>ELECTION DEFINITION: PRIM-02</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>Open Primary Election</strong></p>
-<p>A basic election held in 2 precincts. This election contains 13 contests compiled into 3 ballot styles. 1 contest is in all 3 ballot styles all other contests are independent. The voting variations supported by this election are as follow:</p>
-<ul>
-<li><p>Closed Primary: No</p></li>
-<li><p>Open Primary: Yes</p></li>
-<li><p>Partisan offices: Yes</p></li>
-<li><p>Non-Partisan offices: Yes</p></li>
-<li><p>Write-in voting: Yes</p></li>
-<li><p>Primary presidential delegation nominations: Yes</p></li>
-<li><p>Ballot Rotation: No</p></li>
-<li><p>Straight Party voting: No</p></li>
-<li><p>Cross-party endorsement: Yes</p></li>
-<li><p>Split Precincts: No</p></li>
-<li><p>Vote for N of M: Yes</p></li>
-<li><p>Recall issues, with options: No</p></li>
-<li><p>Cumulative voting: No</p></li>
-<li><p>Ranked choice voting: No</p></li>
-<li></li>
-<li></li>
-</ul>
-<p><strong>This election was designed to functionally test the handling of multiple ballot styles, support for</strong> Primary presidential delegation nominations<strong>,</strong> <strong>support for complex voting variations, and audio support for multiple languages. The election will be an open primary election with one machine running for each precinct.</strong> <strong>Voting options for Over-voting, Under-voting and write-in voting will be exercised.</strong> <strong>Ballot 20 was selected to test Cross Overvoting functionality in systems whose Open Primaries support multiple parties on a single ballot. Cross Overvoting occurs when a voter selects candidates in a contest for one party then selects a candidate in the same contest for another party on the ballot. If this occurs, the contest is considered overvoted and does not count for any party on the ballot.</strong> <strong>NOTE: Overvotes and undervotes are listed in results based upon the “Vote For” value of the contest. For Example: If a Vote For 3 contest is undervoted, it is counted as 3 undervotes.</strong></p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Configuration:</strong></p>
-<p><strong>EMS computer is used to create ballots with the following characteristics:</strong></p>
-<p><strong>Election named:</strong> PRIM-02</p>
-<p><strong><span class="underline">Precinct Based Testing</span></strong></p>
-<p><strong>1 machines used for voting in one precinct</strong></p>
-<p><strong>2 precincts</strong>: Fire station 7, Mountain Gap School</p>
-<p><strong>3 parties:</strong> Democrat, Libertarian, Republican</p>
-<p><strong>Contest Totals:</strong> 13</p>
-<p><strong>Contests as listed:</strong></p>
+ELECTION DEFINITION: PRIM-02
+
+**Open Primary Election**
+
+A basic election held in 2 precincts. This election contains 13 contests
+compiled into 3 ballot styles. 1 contest is in all 3 ballot styles all
+other contests are independent. The voting variations supported by this
+election are as follow:
+
+  - Closed Primary: No
+
+  - Open Primary: Yes
+
+  - Partisan offices: Yes
+
+  - Non-Partisan offices: Yes
+
+  - Write-in voting: Yes
+
+  - Primary presidential delegation nominations: Yes
+
+  - Ballot Rotation: No
+
+  - Straight Party voting: No
+
+  - Cross-party endorsement: Yes
+
+  - Split Precincts: No
+
+  - Vote for N of M: Yes
+
+  - Recall issues, with options: No
+
+  - Cumulative voting: No
+
+  - Ranked choice voting: No
+
+**This election was designed to functionally test the handling of
+multiple ballot styles, support for** Primary presidential delegation
+nominations**, support for complex voting variations, and audio support
+for multiple languages. The election will be an open primary election
+with one machine running for each precinct. Voting options for
+Over-voting, Under-voting and write-in voting will be exercised. Ballot
+20 was selected to test Cross Overvoting functionality in systems whose
+Open Primaries support multiple parties on a single ballot. Cross
+Overvoting occurs when a voter selects candidates in a contest for one
+party then selects a candidate in the same contest for another party on
+the ballot. If this occurs, the contest is considered overvoted and does
+not count for any party on the ballot. NOTE: Overvotes and undervotes
+are listed in results based upon the “Vote For” value of the contest.
+For Example: If a Vote For 3 contest is undervoted, it is counted as 3
+undervotes.**
+
+**Configuration:**
+
+**EMS computer is used to create ballots with the following
+characteristics:**
+
+**Election named:** PRIM-02
+
+**<span class="underline">Precinct Based Testing</span>**
+
+**1 machines used for voting in one precinct**
+
+**2 precincts**: Fire station 7, Mountain Gap School
+
+**3 parties:** Democrat, Libertarian, Republican
+
+**Contest Totals:** 13
+
+**Contests as listed:**
+
 <table>
 <thead>
 <tr class="header">
@@ -178,15 +210,17 @@ on the state and local governments.</p>
 <td></td>
 </tr>
 </tbody>
-</table></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Applicable Voting Devices:</strong></p>
-<p><strong>OP Scanner, DRE, Central Count, EBM, and ADA device</strong></p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Test Deck Pattern:</strong></p>
-<p><strong>Ballots voted or pre-marked with the following pattern. The following is the test pattern to be voted for the given precinct:</strong></p>
+</table>
+
+**Applicable Voting Devices:**
+
+**OP Scanner, DRE, Central Count, EBM, and ADA device**
+
+**Test Deck Pattern:**
+
+**Ballots voted or pre-marked with the following pattern. The following
+is the test pattern to be voted for the given precinct:**
+
 <table>
 <thead>
 <tr class="header">
@@ -659,167 +693,6 @@ Democratic National Convention</strong></p>
 <td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td><strong>Proposition 54</strong></td>
 <td></td>
 <td></td>
@@ -842,7 +715,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>YES</strong></td>
 <td><strong>X</strong></td>
 <td></td>
@@ -865,7 +738,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>NO</strong></td>
 <td></td>
 <td><strong>X</strong></td>
@@ -888,7 +761,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td><strong>X</strong></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Libertarian Party Ballot</strong></td>
 <td></td>
 <td></td>
@@ -911,7 +784,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>US PRESIDENT</strong></td>
 <td></td>
 <td></td>
@@ -934,7 +807,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Bob Barr</td>
 <td></td>
 <td></td>
@@ -957,7 +830,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td><strong>X</strong></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Wayne A. Boot</td>
 <td></td>
 <td></td>
@@ -980,7 +853,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Roger Calero</td>
 <td></td>
 <td></td>
@@ -1003,7 +876,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Alyson Kennedy</td>
 <td></td>
 <td></td>
@@ -1026,7 +899,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Write-In</td>
 <td></td>
 <td></td>
@@ -1049,7 +922,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>US SENATOR</strong></td>
 <td></td>
 <td></td>
@@ -1072,8 +945,8 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
-<td>Cynthia Mckinney </td>
+<tr class="odd">
+<td>Cynthia Mckinney</td>
 <td></td>
 <td></td>
 <td></td>
@@ -1095,7 +968,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td><strong>X</strong></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Write-in</td>
 <td></td>
 <td></td>
@@ -1118,7 +991,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>STATE REPRESENTATIVE<br />
 DISTRICT 23</strong></td>
 <td></td>
@@ -1142,7 +1015,7 @@ DISTRICT 23</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Tim Peterson</td>
 <td></td>
 <td></td>
@@ -1165,7 +1038,7 @@ DISTRICT 23</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Write-in</td>
 <td></td>
 <td></td>
@@ -1188,7 +1061,7 @@ DISTRICT 23</strong></td>
 <td></td>
 <td><strong>X</strong></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><strong>Delegates to the<br />
 Libertarian National Convention</strong></p>
 <p><em>(Grouped)</em></p></td>
@@ -1213,7 +1086,7 @@ Libertarian National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>Dorthy Baran</p>
 <p>Wendy Fuentes</p>
 <p>Don Cunningham</p></td>
@@ -1238,7 +1111,7 @@ Libertarian National Convention</strong></p>
 <td></td>
 <td><strong>X</strong></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>Jennifer L. Mann</p>
 <p>Robert McCord</p>
 <p>Julius F. Cordisco</p></td>
@@ -1254,167 +1127,6 @@ Libertarian National Convention</strong></p>
 <td></td>
 <td><strong>X</strong></td>
 <td><strong>OX</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -1961,167 +1673,6 @@ Republican National Convention</strong></p>
 <td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td><strong>Proposition 54</strong></td>
 <td></td>
 <td></td>
@@ -2144,7 +1695,7 @@ Republican National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>YES</strong></td>
 <td></td>
 <td></td>
@@ -2167,7 +1718,7 @@ Republican National Convention</strong></p>
 <td><strong>X</strong></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>NO</strong></td>
 <td></td>
 <td></td>
@@ -2192,6 +1743,7 @@ Republican National Convention</strong></p>
 </tr>
 </tbody>
 </table>
+
 <table>
 <thead>
 <tr class="header">
@@ -2664,167 +2216,6 @@ Democratic National Convention</strong></p>
 <td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td><strong>Proposition 54</strong></td>
 <td></td>
 <td></td>
@@ -2847,7 +2238,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>YES</strong></td>
 <td><strong>X</strong></td>
 <td></td>
@@ -2870,7 +2261,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>NO</strong></td>
 <td></td>
 <td><strong>X</strong></td>
@@ -2893,7 +2284,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td><strong>X</strong></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Libertarian Party Ballot</strong></td>
 <td></td>
 <td></td>
@@ -2916,7 +2307,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>US PRESIDENT</strong></td>
 <td></td>
 <td></td>
@@ -2939,7 +2330,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Bob Barr</td>
 <td></td>
 <td></td>
@@ -2962,7 +2353,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td><strong>X</strong></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Wayne A. Boot</td>
 <td></td>
 <td></td>
@@ -2985,7 +2376,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Roger Calero</td>
 <td></td>
 <td></td>
@@ -3008,7 +2399,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Alyson Kennedy</td>
 <td></td>
 <td></td>
@@ -3031,7 +2422,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Write-In</td>
 <td></td>
 <td></td>
@@ -3054,7 +2445,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>US SENATOR</strong></td>
 <td></td>
 <td></td>
@@ -3077,8 +2468,8 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
-<td>Cynthia Mckinney </td>
+<tr class="odd">
+<td>Cynthia Mckinney</td>
 <td></td>
 <td></td>
 <td></td>
@@ -3100,7 +2491,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td><strong>X</strong></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Write-in</td>
 <td></td>
 <td></td>
@@ -3123,7 +2514,7 @@ Democratic National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>STATE REPRESENTATIVE<br />
 DISTRICT 23</strong></td>
 <td></td>
@@ -3147,7 +2538,7 @@ DISTRICT 23</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Tim Peterson</td>
 <td></td>
 <td></td>
@@ -3170,7 +2561,7 @@ DISTRICT 23</strong></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Write-in</td>
 <td></td>
 <td></td>
@@ -3193,7 +2584,7 @@ DISTRICT 23</strong></td>
 <td></td>
 <td><strong>X</strong></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><strong>Delegates to the<br />
 Libertarian National Convention</strong></p>
 <p><em>(Grouped)</em></p></td>
@@ -3218,7 +2609,7 @@ Libertarian National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>Dorthy Baran</p>
 <p>Wendy Fuentes</p>
 <p>Don Cunningham</p></td>
@@ -3243,7 +2634,7 @@ Libertarian National Convention</strong></p>
 <td></td>
 <td><strong>X</strong></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>Jennifer L. Mann</p>
 <p>Robert McCord</p>
 <p>Julius F. Cordisco</p></td>
@@ -3259,167 +2650,6 @@ Libertarian National Convention</strong></p>
 <td></td>
 <td><strong>X</strong></td>
 <td><strong>OX</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -3966,167 +3196,6 @@ Republican National Convention</strong></p>
 <td></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td><strong>Proposition 54</strong></td>
 <td></td>
 <td></td>
@@ -4149,7 +3218,7 @@ Republican National Convention</strong></p>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>YES</strong></td>
 <td></td>
 <td></td>
@@ -4172,7 +3241,7 @@ Republican National Convention</strong></p>
 <td><strong>X</strong></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>NO</strong></td>
 <td></td>
 <td></td>
@@ -4196,344 +3265,673 @@ Republican National Convention</strong></p>
 <td><strong>X</strong></td>
 </tr>
 </tbody>
-</table></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Test Results:</strong></p>
-<p><strong>Fire Station 7</strong></p>
-<p><strong>DEM</strong></p>
-<p><strong>US PRESIDENT</strong></p>
-<p><strong>Barack Obama 1</strong></p>
-<p><strong>Bill Richardson 1</strong></p>
-<p><strong>Dennis Kucinich 1</strong></p>
-<p><strong>Hillary Clinton 1</strong></p>
-<p><strong>Joe Biden 1</strong></p>
-<p><strong>John Edwards 1</strong></p>
-<p><strong>Write-In 1</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>US SENATOR</strong></p>
-<p><strong>Cynthia Mckinney 7</strong></p>
-<p><strong>Write-in 0</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>STATE REPRESENTATIVE DISTRICT 23</strong></p>
-<p><strong>Jon ErpenBach 5</strong></p>
-<p><strong>Janis Ringhand 1</strong></p>
-<p><strong>Write-in 0</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>Delegates to the Democratic National Convention</strong></p>
-<p><strong>(Grouped)</strong></p>
-<p><strong>Micheal Fegley</strong></p>
-<p><strong>Bliar Johnston</strong></p>
-<p><strong>Kathy Campbell 3</strong></p>
-<p><strong>Iris N. Linares</strong></p>
-<p><strong>Thomas A. Wallitsch</strong></p>
-<p><strong>Joseph J. Russo 3</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>Proposition 54</strong></p>
-<p><strong>YES 4</strong></p>
-<p><strong>NO</strong> <strong>4</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES</strong> <strong>0</strong></p>
-<p><strong>LIB</strong></p>
-<p><strong>US PRESIDENT</strong></p>
-<p><strong>Bob Barr 2</strong></p>
-<p><strong>Wayne A. Boot 1</strong></p>
-<p><strong>Roger Calero</strong> <strong>0</strong></p>
-<p><strong>Alyson Kennedy 2</strong></p>
-<p><strong>Write-In 0</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>US SENATOR</strong></p>
-<p><strong>Cynthia Mckinney 4</strong></p>
-<p><strong>Write-in 1</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>STATE REPRESENTATIVE DISTRICT 23</strong></p>
-<p><strong>Tim Peterson 3</strong></p>
-<p><strong>Write-in 1</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>Delegates to the Libertarian National Convention</strong></p>
-<p><strong>(Grouped)</strong></p>
-<p><strong>Dorthy Baran</strong></p>
-<p><strong>Wendy Fuentes</strong></p>
-<p><strong>Don Cunningham 3</strong></p>
-<p><strong>Jennifer L. Mann</strong></p>
-<p><strong>Robert McCord</strong></p>
-<p><strong>Julius F. Cordisco 2</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>Proposition 54</strong></p>
-<p><strong>YES 2</strong></p>
-<p><strong>NO 4</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES</strong> <strong>0</strong></p>
-<p><strong>REP</strong></p>
-<p><strong>US PRESIDENT</strong></p>
-<p><strong>John McCain 3</strong></p>
-<p><strong>Fred Thompson 0</strong></p>
-<p><strong>Mike Huckabee 0</strong></p>
-<p><strong>Ron Paul 1</strong></p>
-<p><strong>Mitt Romney 0</strong></p>
-<p><strong>Rudy Giuliani 0</strong></p>
-<p><strong>Write-In 1</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>US SENATOR</strong></p>
-<p><strong>Jean Hundertmark 1</strong></p>
-<p><strong>J. B. Van Hollen 3</strong></p>
-<p><strong>Write-in 0</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>STATE REPRESENTATIVE DISTRICT 23</strong></p>
-<p>Sandy Sullivan 4</p>
-<p>Jack C. Vought 0</p>
-<p><strong>Write-in 0</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>Delegates to the Republican National Convention</strong></p>
-<p><strong>(Grouped)</strong></p>
-<p><strong>Dennis Morrison-Wesley</strong></p>
-<p><strong>Jack Wagner 2</strong></p>
-<p><strong>John M. Morganelli</strong></p>
-<p><strong>Lilijana Xitlalli Dragović</strong></p>
-<p><strong>Amaru Nehuén 3</strong></p>
-<p><strong>Nita Iracema</strong> <strong><br />
-UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>Proposition 54</strong></p>
-<p><strong>YES 3</strong></p>
-<p><strong>NO 3</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES</strong> <strong>0</strong></p>
-<p><strong>Mountain Gap School</strong></p>
-<p><strong>DEM</strong></p>
-<p><strong>US PRESIDENT</strong></p>
-<p><strong>Barack Obama 1</strong></p>
-<p><strong>Bill Richardson 1</strong></p>
-<p><strong>Dennis Kucinich 1</strong></p>
-<p><strong>Hillary Clinton 1</strong></p>
-<p><strong>Joe Biden 1</strong></p>
-<p><strong>John Edwards 1</strong></p>
-<p><strong>Write-In 1</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>US SENATOR</strong></p>
-<p><strong>Cynthia Mckinney 7</strong></p>
-<p><strong>Write-in 0</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>STATE REPRESENTATIVE DISTRICT 23</strong></p>
-<p><strong>Jon ErpenBach 5</strong></p>
-<p><strong>Janis Ringhand 1</strong></p>
-<p><strong>Write-in 0</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>Delegates to the Democratic National Convention</strong></p>
-<p><strong>(Grouped)</strong></p>
-<p><strong>Micheal Fegley</strong></p>
-<p><strong>Bliar Johnston</strong></p>
-<p><strong>Kathy Campbell 3</strong></p>
-<p><strong>Iris N. Linares</strong></p>
-<p><strong>Thomas A. Wallitsch</strong></p>
-<p><strong>Joseph J. Russo 3</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>Proposition 54</strong></p>
-<p><strong>YES 4</strong></p>
-<p><strong>NO</strong> <strong>4</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES</strong> <strong>0</strong></p>
-<p><strong>LIB</strong></p>
-<p><strong>US PRESIDENT</strong></p>
-<p><strong>Bob Barr 2</strong></p>
-<p><strong>Wayne A. Boot 1</strong></p>
-<p><strong>Roger Calero</strong> <strong>0</strong></p>
-<p><strong>Alyson Kennedy 2</strong></p>
-<p><strong>Write-In 0</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>US SENATOR</strong></p>
-<p><strong>Cynthia Mckinney 4</strong></p>
-<p><strong>Write-in 1</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>STATE REPRESENTATIVE DISTRICT 23</strong></p>
-<p><strong>Tim Peterson 3</strong></p>
-<p><strong>Write-in 1</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>Delegates to the Libertarian National Convention</strong></p>
-<p><strong>(Grouped)</strong></p>
-<p><strong>Dorthy Baran</strong></p>
-<p><strong>Wendy Fuentes</strong></p>
-<p><strong>Don Cunningham 3</strong></p>
-<p><strong>Jennifer L. Mann</strong></p>
-<p><strong>Robert McCord</strong></p>
-<p><strong>Julius F. Cordisco 2</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>Proposition 54</strong></p>
-<p><strong>YES 2</strong></p>
-<p><strong>NO 4</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES</strong> <strong>0</strong></p>
-<p><strong>REP</strong></p>
-<p><strong>US PRESIDENT</strong></p>
-<p><strong>John McCain 3</strong></p>
-<p><strong>Fred Thompson 0</strong></p>
-<p><strong>Mike Huckabee 0</strong></p>
-<p><strong>Ron Paul 1</strong></p>
-<p><strong>Mitt Romney 0</strong></p>
-<p><strong>Rudy Giuliani 0</strong></p>
-<p><strong>Write-In 1</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>US SENATOR</strong></p>
-<p><strong>Jean Hundertmark 1</strong></p>
-<p><strong>J. B. Van Hollen 3</strong></p>
-<p><strong>Write-in 0</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>STATE REPRESENTATIVE DISTRICT 23</strong></p>
-<p>Sandy Sullivan 4</p>
-<p>Jack C. Vought 0</p>
-<p><strong>Write-in 0</strong></p>
-<p><strong>UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>Delegates to the Republican National Convention</strong></p>
-<p><strong>(Grouped)</strong></p>
-<p><strong>Dennis Morrison-Wesley</strong></p>
-<p><strong>Jack Wagner 2</strong></p>
-<p><strong>John M. Morganelli</strong></p>
-<p><strong>Lilijana Xitlalli Dragović</strong></p>
-<p><strong>Amaru Nehuén 3</strong></p>
-<p><strong>Nita Iracema</strong> <strong><br />
-UNDERVOTES 1</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>Proposition 54</strong></p>
-<p><strong>YES 3</strong></p>
-<p><strong>NO 3</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES 1</strong></p>
-<p><strong>Cumulative Totals</strong></p>
-<p><strong>DEM</strong></p>
-<p><strong>US PRESIDENT</strong></p>
-<p><strong>Barack Obama 2</strong></p>
-<p><strong>Bill Richardson 2</strong></p>
-<p><strong>Dennis Kucinich 2</strong></p>
-<p><strong>Hillary Clinton 2</strong></p>
-<p><strong>Joe Biden 2</strong></p>
-<p><strong>John Edwards 2</strong></p>
-<p><strong>Write-In 2</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>US SENATOR</strong></p>
-<p><strong>Cynthia Mckinney 14</strong></p>
-<p><strong>Write-in 0</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>STATE REPRESENTATIVE DISTRICT 23</strong></p>
-<p><strong>Jon ErpenBach 10</strong></p>
-<p><strong>Janis Ringhand 2</strong></p>
-<p><strong>Write-in 0</strong></p>
-<p><strong>UNDERVOTES 2</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>Delegates to the Democratic National Convention</strong></p>
-<p><strong>(Grouped)</strong></p>
-<p><strong>Micheal Fegley</strong></p>
-<p><strong>Bliar Johnston</strong></p>
-<p><strong>Kathy Campbell 6</strong></p>
-<p><strong>Iris N. Linares</strong></p>
-<p><strong>Thomas A. Wallitsch</strong></p>
-<p><strong>Joseph J. Russo 6</strong></p>
-<p><strong>UNDERVOTES 2</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>Proposition 54</strong></p>
-<p><strong>YES</strong> <strong>8</strong></p>
-<p><strong>NO</strong> <strong>8</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES</strong> <strong>0</strong></p>
-<p><strong>LIB</strong></p>
-<p><strong>US PRESIDENT</strong></p>
-<p><strong>Bob Barr 4</strong></p>
-<p><strong>Wayne A. Boot 2</strong></p>
-<p><strong>Roger Calero</strong> <strong>0</strong></p>
-<p><strong>Alyson Kennedy 4</strong></p>
-<p><strong>Write-In 0</strong></p>
-<p><strong>UNDERVOTES 2</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>US SENATOR</strong></p>
-<p><strong>Cynthia Mckinney 8</strong></p>
-<p><strong>Write-in 2</strong></p>
-<p><strong>UNDERVOTES 2</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>STATE REPRESENTATIVE DISTRICT 23</strong></p>
-<p><strong>Tim Peterson 6</strong></p>
-<p><strong>Write-in 2</strong></p>
-<p><strong>UNDERVOTES 2</strong></p>
-<p><strong>OVERVOTES 4</strong></p>
-<p><strong>Delegates to the Libertarian National Convention</strong></p>
-<p><strong>(Grouped)</strong></p>
-<p><strong>Dorthy Baran</strong></p>
-<p><strong>Wendy Fuentes</strong></p>
-<p><strong>Don Cunningham 6</strong></p>
-<p><strong>Jennifer L. Mann</strong></p>
-<p><strong>Robert McCord</strong></p>
-<p><strong>Julius F. Cordisco 4</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES 4</strong></p>
-<p><strong>Proposition 54</strong></p>
-<p><strong>YES</strong> <strong>4</strong></p>
-<p><strong>NO 8</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES</strong> <strong>0</strong></p>
-<p><strong>REP</strong></p>
-<p><strong>US PRESIDENT</strong></p>
-<p><strong>John McCain 6</strong></p>
-<p><strong>Fred Thompson 0</strong></p>
-<p><strong>Mike Huckabee 0</strong></p>
-<p><strong>Ron Paul 2</strong></p>
-<p><strong>Mitt Romney 0</strong></p>
-<p><strong>Rudy Giuliani 0</strong></p>
-<p><strong>Write-In 2</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES 4</strong></p>
-<p><strong>US SENATOR</strong></p>
-<p><strong>Jean Hundertmark 2</strong></p>
-<p><strong>J. B. Van Hollen 6</strong></p>
-<p><strong>Write-in 0</strong></p>
-<p><strong>UNDERVOTES 2</strong></p>
-<p><strong>OVERVOTES 4</strong></p>
-<p><strong>STATE REPRESENTATIVE DISTRICT 23</strong></p>
-<p>Sandy Sullivan 8</p>
-<p>Jack C. Vought 0</p>
-<p><strong>Write-in 0</strong></p>
-<p><strong>UNDERVOTES 2</strong></p>
-<p><strong>OVERVOTES 4</strong></p>
-<p><strong>Delegates to the Republican National Convention</strong></p>
-<p><strong>(Grouped)</strong></p>
-<p><strong>Dennis Morrison-Wesley</strong></p>
-<p><strong>Jack Wagner 4</strong></p>
-<p><strong>John M. Morganelli</strong></p>
-<p><strong>Lilijana Xitlalli Dragović</strong></p>
-<p><strong>Amaru Nehuén 6</strong></p>
-<p><strong>Nita Iracema<br />
-</strong> <strong>UNDERVOTES 2</strong></p>
-<p><strong>OVERVOTES 2</strong></p>
-<p><strong>Proposition 54</strong></p>
-<p><strong>YES 6</strong></p>
-<p><strong>NO 6</strong></p>
-<p><strong>UNDERVOTES 0</strong></p>
-<p><strong>OVERVOTES</strong> <strong>0</strong></p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Criteria For Evaluation of Test Results:</strong></p>
-<p>The results of this test will be accepted if the stated election definition can be input into the EMS, the election transferred to the voting machine, voted according to the test vote pattern, and the results reported and audited to match the expected results. During the execution of this election all errors need to be logged and analyzed by qualified personal to determine if the error is an actual error or another issue.</p></td>
-</tr>
-</tbody>
 </table>
+
+**Test Results:**
+
+**Fire Station 7**
+
+**DEM**
+
+**US PRESIDENT**
+
+**Barack Obama 1**
+
+**Bill Richardson 1**
+
+**Dennis Kucinich 1**
+
+**Hillary Clinton 1**
+
+**Joe Biden 1**
+
+**John Edwards 1**
+
+**Write-In 1**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 1**
+
+**US SENATOR**
+
+**Cynthia Mckinney 7**
+
+**Write-in 0**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 1**
+
+**STATE REPRESENTATIVE DISTRICT 23**
+
+**Jon ErpenBach 5**
+
+**Janis Ringhand 1**
+
+**Write-in 0**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 1**
+
+**Delegates to the Democratic National Convention**
+
+**(Grouped)**
+
+**Micheal Fegley**
+
+**Bliar Johnston**
+
+**Kathy Campbell 3**
+
+**Iris N. Linares**
+
+**Thomas A. Wallitsch**
+
+**Joseph J. Russo 3**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 1**
+
+**Proposition 54**
+
+**YES 4**
+
+**NO 4**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 0**
+
+**LIB**
+
+**US PRESIDENT**
+
+**Bob Barr 2**
+
+**Wayne A. Boot 1**
+
+**Roger Calero 0**
+
+**Alyson Kennedy 2**
+
+**Write-In 0**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 1**
+
+**US SENATOR**
+
+**Cynthia Mckinney 4**
+
+**Write-in 1**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 1**
+
+**STATE REPRESENTATIVE DISTRICT 23**
+
+**Tim Peterson 3**
+
+**Write-in 1**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 2**
+
+**Delegates to the Libertarian National Convention**
+
+**(Grouped)**
+
+**Dorthy Baran**
+
+**Wendy Fuentes**
+
+**Don Cunningham 3**
+
+**Jennifer L. Mann**
+
+**Robert McCord**
+
+**Julius F. Cordisco 2**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 2**
+
+**Proposition 54**
+
+**YES 2**
+
+**NO 4**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 0**
+
+**REP**
+
+**US PRESIDENT**
+
+**John McCain 3**
+
+**Fred Thompson 0**
+
+**Mike Huckabee 0**
+
+**Ron Paul 1**
+
+**Mitt Romney 0**
+
+**Rudy Giuliani 0**
+
+**Write-In 1**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 2**
+
+**US SENATOR**
+
+**Jean Hundertmark 1**
+
+**J. B. Van Hollen 3**
+
+**Write-in 0**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 2**
+
+**STATE REPRESENTATIVE DISTRICT 23**
+
+Sandy Sullivan 4
+
+Jack C. Vought 0
+
+**Write-in 0**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 2**
+
+**Delegates to the Republican National Convention**
+
+**(Grouped)**
+
+**Dennis Morrison-Wesley**
+
+**Jack Wagner 2**
+
+**John M. Morganelli**
+
+**Lilijana Xitlalli Dragović**
+
+**Amaru Nehuén 3**
+
+**Nita Iracema  
+UNDERVOTES 1**
+
+**OVERVOTES 1**
+
+**Proposition 54**
+
+**YES 3**
+
+**NO 3**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 0**
+
+**Mountain Gap School**
+
+**DEM**
+
+**US PRESIDENT**
+
+**Barack Obama 1**
+
+**Bill Richardson 1**
+
+**Dennis Kucinich 1**
+
+**Hillary Clinton 1**
+
+**Joe Biden 1**
+
+**John Edwards 1**
+
+**Write-In 1**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 1**
+
+**US SENATOR**
+
+**Cynthia Mckinney 7**
+
+**Write-in 0**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 1**
+
+**STATE REPRESENTATIVE DISTRICT 23**
+
+**Jon ErpenBach 5**
+
+**Janis Ringhand 1**
+
+**Write-in 0**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 1**
+
+**Delegates to the Democratic National Convention**
+
+**(Grouped)**
+
+**Micheal Fegley**
+
+**Bliar Johnston**
+
+**Kathy Campbell 3**
+
+**Iris N. Linares**
+
+**Thomas A. Wallitsch**
+
+**Joseph J. Russo 3**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 1**
+
+**Proposition 54**
+
+**YES 4**
+
+**NO 4**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 0**
+
+**LIB**
+
+**US PRESIDENT**
+
+**Bob Barr 2**
+
+**Wayne A. Boot 1**
+
+**Roger Calero 0**
+
+**Alyson Kennedy 2**
+
+**Write-In 0**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 1**
+
+**US SENATOR**
+
+**Cynthia Mckinney 4**
+
+**Write-in 1**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 1**
+
+**STATE REPRESENTATIVE DISTRICT 23**
+
+**Tim Peterson 3**
+
+**Write-in 1**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 2**
+
+**Delegates to the Libertarian National Convention**
+
+**(Grouped)**
+
+**Dorthy Baran**
+
+**Wendy Fuentes**
+
+**Don Cunningham 3**
+
+**Jennifer L. Mann**
+
+**Robert McCord**
+
+**Julius F. Cordisco 2**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 2**
+
+**Proposition 54**
+
+**YES 2**
+
+**NO 4**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 0**
+
+**REP**
+
+**US PRESIDENT**
+
+**John McCain 3**
+
+**Fred Thompson 0**
+
+**Mike Huckabee 0**
+
+**Ron Paul 1**
+
+**Mitt Romney 0**
+
+**Rudy Giuliani 0**
+
+**Write-In 1**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 2**
+
+**US SENATOR**
+
+**Jean Hundertmark 1**
+
+**J. B. Van Hollen 3**
+
+**Write-in 0**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 2**
+
+**STATE REPRESENTATIVE DISTRICT 23**
+
+Sandy Sullivan 4
+
+Jack C. Vought 0
+
+**Write-in 0**
+
+**UNDERVOTES 1**
+
+**OVERVOTES 2**
+
+**Delegates to the Republican National Convention**
+
+**(Grouped)**
+
+**Dennis Morrison-Wesley**
+
+**Jack Wagner 2**
+
+**John M. Morganelli**
+
+**Lilijana Xitlalli Dragović**
+
+**Amaru Nehuén 3**
+
+**Nita Iracema  
+UNDERVOTES 1**
+
+**OVERVOTES 1**
+
+**Proposition 54**
+
+**YES 3**
+
+**NO 3**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 1**
+
+**Cumulative Totals**
+
+**DEM**
+
+**US PRESIDENT**
+
+**Barack Obama 2**
+
+**Bill Richardson 2**
+
+**Dennis Kucinich 2**
+
+**Hillary Clinton 2**
+
+**Joe Biden 2**
+
+**John Edwards 2**
+
+**Write-In 2**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 2**
+
+**US SENATOR**
+
+**Cynthia Mckinney 14**
+
+**Write-in 0**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 2**
+
+**STATE REPRESENTATIVE DISTRICT 23**
+
+**Jon ErpenBach 10**
+
+**Janis Ringhand 2**
+
+**Write-in 0**
+
+**UNDERVOTES 2**
+
+**OVERVOTES 2**
+
+**Delegates to the Democratic National Convention**
+
+**(Grouped)**
+
+**Micheal Fegley**
+
+**Bliar Johnston**
+
+**Kathy Campbell 6**
+
+**Iris N. Linares**
+
+**Thomas A. Wallitsch**
+
+**Joseph J. Russo 6**
+
+**UNDERVOTES 2**
+
+**OVERVOTES 2**
+
+**Proposition 54**
+
+**YES 8**
+
+**NO 8**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 0**
+
+**LIB**
+
+**US PRESIDENT**
+
+**Bob Barr 4**
+
+**Wayne A. Boot 2**
+
+**Roger Calero 0**
+
+**Alyson Kennedy 4**
+
+**Write-In 0**
+
+**UNDERVOTES 2**
+
+**OVERVOTES 2**
+
+**US SENATOR**
+
+**Cynthia Mckinney 8**
+
+**Write-in 2**
+
+**UNDERVOTES 2**
+
+**OVERVOTES 2**
+
+**STATE REPRESENTATIVE DISTRICT 23**
+
+**Tim Peterson 6**
+
+**Write-in 2**
+
+**UNDERVOTES 2**
+
+**OVERVOTES 4**
+
+**Delegates to the Libertarian National Convention**
+
+**(Grouped)**
+
+**Dorthy Baran**
+
+**Wendy Fuentes**
+
+**Don Cunningham 6**
+
+**Jennifer L. Mann**
+
+**Robert McCord**
+
+**Julius F. Cordisco 4**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 4**
+
+**Proposition 54**
+
+**YES 4**
+
+**NO 8**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 0**
+
+**REP**
+
+**US PRESIDENT**
+
+**John McCain 6**
+
+**Fred Thompson 0**
+
+**Mike Huckabee 0**
+
+**Ron Paul 2**
+
+**Mitt Romney 0**
+
+**Rudy Giuliani 0**
+
+**Write-In 2**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 4**
+
+**US SENATOR**
+
+**Jean Hundertmark 2**
+
+**J. B. Van Hollen 6**
+
+**Write-in 0**
+
+**UNDERVOTES 2**
+
+**OVERVOTES 4**
+
+**STATE REPRESENTATIVE DISTRICT 23**
+
+Sandy Sullivan 8
+
+Jack C. Vought 0
+
+**Write-in 0**
+
+**UNDERVOTES 2**
+
+**OVERVOTES 4**
+
+**Delegates to the Republican National Convention**
+
+**(Grouped)**
+
+**Dennis Morrison-Wesley**
+
+**Jack Wagner 4**
+
+**John M. Morganelli**
+
+**Lilijana Xitlalli Dragović**
+
+**Amaru Nehuén 6**
+
+**Nita Iracema  
+UNDERVOTES 2**
+
+**OVERVOTES 2**
+
+**Proposition 54**
+
+**YES 6**
+
+**NO 6**
+
+**UNDERVOTES 0**
+
+**OVERVOTES 0**
+
+**Criteria For Evaluation of Test Results:**
+
+The results of this test will be accepted if the stated election
+definition can be input into the EMS, the election transferred to the
+voting machine, voted according to the test vote pattern, and the
+results reported and audited to match the expected results. During the
+execution of this election all errors need to be logged and analyzed by
+qualified personal to determine if the error is an actual error or
+another issue.

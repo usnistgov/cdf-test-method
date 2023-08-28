@@ -12,44 +12,66 @@ Test Lab (VSTL). It has been modified somewhat for purposes of
 supporting the production of Common Data Format examples. It is one of
 several test elections that has been developed.
 
-<table>
-<thead>
-<tr class="header">
-<th>ELECTION DEFINITION: PRIM-03</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>Primary Election</strong></p>
-<p>A basic election held in 2 precincts. This election contains 10 contests and is compiled into 2 ballot styles. 2 of the contests are in both ballot styles. The other 8 contests are split between the two parties’ ballots. The voting variations supported by this election are as follows:</p>
-<ul>
-<li><p>Closed Primary: Yes</p></li>
-<li><p>Open Primary: No</p></li>
-<li><p>Partisan offices: Yes</p></li>
-<li><p>Non-Partisan offices: Yes</p></li>
-<li><p>Write-in voting: Yes</p></li>
-<li><p>Primary presidential delegation nominations: No</p></li>
-<li><p>Ballot Rotation: No</p></li>
-<li><p>Straight Party voting: No</p></li>
-<li><p>Cross-party endorsement: No</p></li>
-<li><p>Split Precincts: No</p></li>
-<li><p>Vote for N of M: Yes</p></li>
-<li><p>Recall issues, with options: No</p></li>
-<li><p>Cumulative voting: No</p></li>
-<li><p>Ranked choice voting: No</p></li>
-</ul>
-<p>This election was designed to functionally test the handling of multiple ballot styles, and support for common voting variations.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Configuration:</strong></p>
-<p><strong>EMS computer is used to create ballots with the following characteristics:</strong></p>
-<p><strong>General Election named:</strong> PRIM-03 Primary Election</p>
-<p><strong><span class="underline">Precinct Based Testing</span></strong></p>
-<p><strong>1 machine used for each precinct</strong></p>
-<p><strong>2 precincts</strong>: Middleton Community Center, First Baptist Church</p>
-<p><strong>2 parties:</strong> Democrat, Republican</p>
-<p><strong>Contest Totals:</strong> 8</p>
-<p><strong>Contests as listed:</strong></p>
+ELECTION DEFINITION: PRIM-03
+
+**Primary Election**
+
+A basic election held in 2 precincts. This election contains 10 contests
+and is compiled into 2 ballot styles. 2 of the contests are in both
+ballot styles. The other 8 contests are split between the two parties’
+ballots. The voting variations supported by this election are as
+follows:
+
+  - Closed Primary: Yes
+
+  - Open Primary: No
+
+  - Partisan offices: Yes
+
+  - Non-Partisan offices: Yes
+
+  - Write-in voting: Yes
+
+  - Primary presidential delegation nominations: No
+
+  - Ballot Rotation: No
+
+  - Straight Party voting: No
+
+  - Cross-party endorsement: No
+
+  - Split Precincts: No
+
+  - Vote for N of M: Yes
+
+  - Recall issues, with options: No
+
+  - Cumulative voting: No
+
+  - Ranked choice voting: No
+
+This election was designed to functionally test the handling of multiple
+ballot styles, and support for common voting variations.
+
+**Configuration:**
+
+**EMS computer is used to create ballots with the following
+characteristics:**
+
+**General Election named:** PRIM-03 Primary Election
+
+**<span class="underline">Precinct Based Testing</span>**
+
+**1 machine used for each precinct**
+
+**2 precincts**: Middleton Community Center, First Baptist Church
+
+**2 parties:** Democrat, Republican
+
+**Contest Totals:** 8
+
+**Contests as listed:**
+
 <table>
 <thead>
 <tr class="header">
@@ -135,15 +157,17 @@ several test elections that has been developed.
 <td></td>
 </tr>
 </tbody>
-</table></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Applicable Voting Devices :</strong></p>
-<p><strong>OP Scanner, DRE, Central Count, EBM, and ADA device</strong></p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Test Deck Pattern:</strong></p>
-<p><strong>The following is the test pattern to be voted for the given precinct:</strong></p>
+</table>
+
+**Applicable Voting Devices :**
+
+**OP Scanner, DRE, Central Count, EBM, and ADA device**
+
+**Test Deck Pattern:**
+
+**The following is the test pattern to be voted for the given
+precinct:**
+
 <table>
 <tbody>
 <tr class="odd">
@@ -782,6 +806,7 @@ several test elections that has been developed.
 </tr>
 </tbody>
 </table>
+
 <table>
 <tbody>
 <tr class="odd">
@@ -1417,9 +1442,6 @@ several test elections that has been developed.
 <td>X </td>
 <td></td>
 <td>X</td>
-</tr>
-</tbody>
-</table></td>
 </tr>
 </tbody>
 </table>
