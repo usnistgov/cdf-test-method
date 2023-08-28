@@ -167,105 +167,103 @@ characteristics:**
 
 **The following is the test pattern to be voted for the given
 precinct:**
-| Middleton Community Center              | B-1 | B-2 | B-3 | B-4 | B-5 | B-6 | B-7 | B-8 | B-9 | B-10 |
-|-----------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
-|                                         | D   | R   | D   | R   | D   | R   | D   | R   | D   | R    |
-| DEM                                     |     |     |     |     |     |     |     |     |     |      |
-| President of the United States          |     |     |     |     |     |     |     |     |     |      |
-| Anne Neet                               | X   |     |  X  |     |     |     |     |     | X   |      |
-| Ben Baker                               |     |     |     |     | X   |     | X   |     |     |      |
-| Write-In                                |     |     |     |     |     |     |     |     |     |      |
-| United States Senator                   |     |     |     |     |     |     |     |     |     |      |
-| Chad Snow                               | X   |     | X   |     |     |     |  X  |     | X   |      |
-| Don Etler                               |     |     |     |     | X   |     |     |     |     |      |
-| Write-In                                |     |     |     |     |     |     |     |     |     |      |
-| Representative in Congress District 12  |     |     |     |     |     |     |     |     |     |      |
-| Eric Sheehy                             | X   |     | X   |     |     |     | X   |     |     |      |
-| Fiero Finn                              |     |     |     |     |     |     |     |     | X   |      |
-| Write-In                                |     |     |     |     |  X  |     |     |     |     |      |
-| State Assembly District 26              |     |     |     |     |     |     |     |     |     |      |
-| Shlomo Archibald                        | X   |     |     |     |     |     |     |     |     |      |
-| Write-In                                |     |     | X   |     | X   |     | X   |     | X   |      |
-|                                         |     |     |     |     |     |     |     |     |     |      |
-| Referendum A                            |     |     |     |     |     |     |     |     |     |      |
-| For                                     | X   |     | X   |     |     |     | X   |     | X   |      |
-| Against                                 |     |     |     |     | X   |     |     |     |     |      |
-| Referendum B                            |     |     |     |     |     |     |     |     |     |      |
-| For                                     | X   |     | X   |     | X   |     |     |     | X   |      |
-| Against                                 |     |     |     |     |     |     | X   |     |     |      |
-|                                         |     |     |     |     |     |     |     |     |     |      |
-| REP                                     |     |     |     |     |     |     |     |     |     |      |
-| President of the United States          |     |     |     |     |     |     |     |     |     |      |
-| Andre Nina                              |     | X   |     |     |     | X   |     |     |     | X    |
-| Brent Gilley                            |     |     |     | X   |     |     |     | X   |     |      |
-| Write-In                                |     |     |     |     |     |     |     |     |     |      |
-| United States Senator                   |     |     |     |     |     |     |     |     |     |      |
-| Carol Cross                             |     | X   |     |     |     | X   |     | X   |     |  X   |
-| David Cox                               |     |     |     | X   |     |     |     |     |     |      |
-| Write-in                                |     |     |     |     |     |     |     |     |     |      |
-| Representative in Congress District 12  |     |     |     |     |     |     |     |     |     |      |
-| Ernest Snyder                           |     | X   |     |     |     |     |     |     |     | X    |
-| Frank L. Matthews                       |     |     |     | X   |     | X   |     | X   |     |      |
-| Write-In                                |     |     |     |     |     |     |     |     |     |      |
-| State Assembly District 26              |     |     |     |     |     |     |     |     |     |      |
-| Glenna P Cook-Lincoln                   |     |     |     | X   |     |     |     |     |     |      |
-| Heidi Hatzinger                         |     | X   |     |     |     | X   |     |     |     |      |
-| Write-In                                |     |     |     |     |     |     |     | X   |     | X    |
-| Referendum A                            |     |     |     |     |     |     |     |     |     |      |
-| For                                     |     | X   |     | X   |     | X   |     | X   |     | X    |
-| Against                                 |     |     |     |     |     |     |     |     |     |      |
-| Referendum B                            |     |     |     |     |     |     |     |     |     |      |
-| For                                     |     | X   |     | X   |     |     |     |     |     |      |
-| Against                                 |     |     |     |     |     | X   |     | X   |     | X    |
+| **Middleton Community Center**              | B-1 | B-2 | B-3 | B-4 | B-5 | B-6 | B-7 | B-8 | B-9 | B-10 |
+|---------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+|                                             | D   | R   | D   | R   | D   | R   | D   | R   | D   | R    |
+| **DEM**                                     |     |     |     |     |     |     |     |     |     |      |
+| **President of the United States**          |     |     |     |     |     |     |     |     |     |      |
+| Anne Neet                                   | X   |     |  X  |     |     |     |     |     | X   |      |
+| Ben Baker                                   |     |     |     |     | X   |     | X   |     |     |      |
+| Write-In                                    |     |     |     |     |     |     |     |     |     |      |
+| **United States Senator**                   |     |     |     |     |     |     |     |     |     |      |
+| Chad Snow                                   | X   |     | X   |     |     |     |  X  |     | X   |      |
+| Don Etler                                   |     |     |     |     | X   |     |     |     |     |      |
+| Write-In                                    |     |     |     |     |     |     |     |     |     |      |
+| **Representative in Congress District 12**  |     |     |     |     |     |     |     |     |     |      |
+| Eric Sheehy                                 | X   |     | X   |     |     |     | X   |     |     |      |
+| Fiero Finn                                  |     |     |     |     |     |     |     |     | X   |      |
+| Write-In                                    |     |     |     |     |  X  |     |     |     |     |      |
+| **State Assembly District 26**              |     |     |     |     |     |     |     |     |     |      |
+| Shlomo Archibald                            | X   |     |     |     |     |     |     |     |     |      |
+| Write-In                                    |     |     | X   |     | X   |     | X   |     | X   |      |
+| **Referendum A**                            |     |     |     |     |     |     |     |     |     |      |
+| For                                         | X   |     | X   |     |     |     | X   |     | X   |      |
+| Against                                     |     |     |     |     | X   |     |     |     |     |      |
+| **Referendum B**                            |     |     |     |     |     |     |     |     |     |      |
+| For                                         | X   |     | X   |     | X   |     |     |     | X   |      |
+| Against                                     |     |     |     |     |     |     | X   |     |     |      |
+| **REP**                                     |     |     |     |     |     |     |     |     |     |      |
+| **President of the United States**          |     |     |     |     |     |     |     |     |     |      |
+| Andre Nina                                  |     | X   |     |     |     | X   |     |     |     | X    |
+| Brent Gilley                                |     |     |     | X   |     |     |     | X   |     |      |
+| Write-In                                    |     |     |     |     |     |     |     |     |     |      |
+| **United States Senator**                   |     |     |     |     |     |     |     |     |     |      |
+| Carol Cross                                 |     | X   |     |     |     | X   |     | X   |     |  X   |
+| David Cox                                   |     |     |     | X   |     |     |     |     |     |      |
+| Write-in                                    |     |     |     |     |     |     |     |     |     |      |
+| **Representative in Congress District 12**  |     |     |     |     |     |     |     |     |     |      |
+| Ernest Snyder                               |     | X   |     |     |     |     |     |     |     | X    |
+| Frank L. Matthews                           |     |     |     | X   |     | X   |     | X   |     |      |
+| Write-In                                    |     |     |     |     |     |     |     |     |     |      |
+| **State Assembly District 26**              |     |     |     |     |     |     |     |     |     |      |
+| Glenna P Cook-Lincoln                       |     |     |     | X   |     |     |     |     |     |      |
+| Heidi Hatzinger                             |     | X   |     |     |     | X   |     |     |     |      |
+| Write-In                                    |     |     |     |     |     |     |     | X   |     | X    |
+| **Referendum A**                            |     |     |     |     |     |     |     |     |     |      |
+| For                                         |     | X   |     | X   |     | X   |     | X   |     | X    |
+| Against                                     |     |     |     |     |     |     |     |     |     |      |
+| **Referendum B**                            |     |     |     |     |     |     |     |     |     |      |
+| For                                         |     | X   |     | X   |     |     |     |     |     |      |
+| Against                                     |     |     |     |     |     | X   |     | X   |     | X    |
 
-| Middleton Community Center              | B-1 | B-2 | B-3 | B-4 | B-5 | B-6 | B-7 | B-8 | B-9 | B-10 |
-|-----------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
-|                                         | D   | R   | D   | R   | D   | R   | D   | R   | D   | R    |
-| DEM                                     |     |     |     |     |     |     |     |     |     |      |
-| President of the United States          |     |     |     |     |     |     |     |     |     |      |
-| Anne Neet                               | X   |     |  X  |     |     |     |     |     | X   |      |
-| Ben Baker                               |     |     |     |     | X   |     | X   |     |     |      |
-| Write-In                                |     |     |     |     |     |     |     |     |     |      |
-| United States Senator                   |     |     |     |     |     |     |     |     |     |      |
-| Chad Snow                               | X   |     | X   |     |     |     |  X  |     | X   |      |
-| Don Etler                               |     |     |     |     | X   |     |     |     |     |      |
-| Write-In                                |     |     |     |     |     |     |     |     |     |      |
-| Representative in Congress District 12  |     |     |     |     |     |     |     |     |     |      |
-| Eric Sheehy                             | X   |     | X   |     |     |     | X   |     |     |      |
-| Fiero Finn                              |     |     |     |     |     |     |     |     | X   |      |
-| Write-In                                |     |     |     |     |  X  |     |     |     |     |      |
-| State Assembly District 26              |     |     |     |     |     |     |     |     |     |      |
-| Shlomo Archibald                        | X   |     |     |     |     |     |     |     |     |      |
-| Write-In                                |     |     | X   |     | X   |     | X   |     | X   |      |
-| Referendum A                            |     |     |     |     |     |     |     |     |     |      |
-| For                                     | X   |     | X   |     |     |     | X   |     | X   |      |
-| Against                                 |     |     |     |     | X   |     |     |     |     |      |
-| Referendum B                            |     |     |     |     |     |     |     |     |     |      |
-| For                                     | X   |     | X   |     | X   |     |     |     | X   |      |
-| Against                                 |     |     |     |     |     |     | X   |     |     |      |
-| REP                                     |     |     |     |     |     |     |     |     |     |      |
-| President of the United States          |     |     |     |     |     |     |     |     |     |      |
-| Andre Nina                              |     | X   |     |     |     | X   |     |     |     | X    |
-| Brent Gilley                            |     |     |     | X   |     |     |     | X   |     |      |
-| Write-In                                |     |     |     |     |     |     |     |     |     |      |
-| United States Senator                   |     |     |     |     |     |     |     |     |     |      |
-| Carol Cross                             |     | X   |     |     |     | X   |     | X   |     |  X   |
-| David Cox                               |     |     |     | X   |     |     |     |     |     |      |
-| Write-in                                |     |     |     |     |     |     |     |     |     |      |
-| Representative in Congress District 12  |     |     |     |     |     |     |     |     |     |      |
-| Ernest Snyder                           |     | X   |     |     |     |     |     |     |     | X    |
-| Frank L. Matthews                       |     |     |     | X   |     | X   |     | X   |     |      |
-| Write-In                                |     |     |     |     |     |     |     |     |     |      |
-| State Assembly District 26              |     |     |     |     |     |     |     |     |     |      |
-| Glenna P Cook-Lincoln                   |     |     |     | X   |     |     |     |     |     |      |
-| Heidi Hatzinger                         |     | X   |     |     |     | X   |     |     |     |      |
-| Write-In                                |     |     |     |     |     |     |     | X   |     | X    |
-| Referendum A                            |     |     |     |     |     |     |     |     |     |      |
-| For                                     |     | X   |     | X   |     | X   |     | X   |     | X    |
-| Against                                 |     |     |     |     |     |     |     |     |     |      |
-| Referendum B                            |     |     |     |     |     |     |     |     |     |      |
-| For                                     |     | X   |     | X   |     |     |     |     |     |      |
-| Against                                 |     |     |     |     |     | X   |     | X   |     | X    |
+| **Middleton Community Center**              | B-1 | B-2 | B-3 | B-4 | B-5 | B-6 | B-7 | B-8 | B-9 | B-10 |
+|---------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+|                                             | D   | R   | D   | R   | D   | R   | D   | R   | D   | R    |
+| **DEM**                                     |     |     |     |     |     |     |     |     |     |      |
+| **President of the United States**          |     |     |     |     |     |     |     |     |     |      |
+| Anne Neet                                   | X   |     |  X  |     |     |     |     |     | X   |      |
+| Ben Baker                                   |     |     |     |     | X   |     | X   |     |     |      |
+| Write-In                                    |     |     |     |     |     |     |     |     |     |      |
+| **United States Senator**                   |     |     |     |     |     |     |     |     |     |      |
+| Chad Snow                                   | X   |     | X   |     |     |     |  X  |     | X   |      |
+| Don Etler                                   |     |     |     |     | X   |     |     |     |     |      |
+| Write-In                                    |     |     |     |     |     |     |     |     |     |      |
+| **Representative in Congress District 12**  |     |     |     |     |     |     |     |     |     |      |
+| Eric Sheehy                                 | X   |     | X   |     |     |     | X   |     |     |      |
+| Fiero Finn                                  |     |     |     |     |     |     |     |     | X   |      |
+| Write-In                                    |     |     |     |     |  X  |     |     |     |     |      |
+| **State Assembly District 26**              |     |     |     |     |     |     |     |     |     |      |
+| Shlomo Archibald                            | X   |     |     |     |     |     |     |     |     |      |
+| Write-In                                    |     |     | X   |     | X   |     | X   |     | X   |      |
+| **Referendum A**                            |     |     |     |     |     |     |     |     |     |      |
+| For                                         | X   |     | X   |     |     |     | X   |     | X   |      |
+| Against                                     |     |     |     |     | X   |     |     |     |     |      |
+| **Referendum B**                            |     |     |     |     |     |     |     |     |     |      |
+| For                                         | X   |     | X   |     | X   |     |     |     | X   |      |
+| Against                                     |     |     |     |     |     |     | X   |     |     |      |
+| **REP**                                     |     |     |     |     |     |     |     |     |     |      |
+| **President of the United States**          |     |     |     |     |     |     |     |     |     |      |
+| Andre Nina                                  |     | X   |     |     |     | X   |     |     |     | X    |
+| Brent Gilley                                |     |     |     | X   |     |     |     | X   |     |      |
+| Write-In                                    |     |     |     |     |     |     |     |     |     |      |
+| **United States Senator**                   |     |     |     |     |     |     |     |     |     |      |
+| Carol Cross                                 |     | X   |     |     |     | X   |     | X   |     |  X   |
+| David Cox                                   |     |     |     | X   |     |     |     |     |     |      |
+| Write-in                                    |     |     |     |     |     |     |     |     |     |      |
+| **Representative in Congress District 12**  |     |     |     |     |     |     |     |     |     |      |
+| Ernest Snyder                               |     | X   |     |     |     |     |     |     |     | X    |
+| Frank L. Matthews                           |     |     |     | X   |     | X   |     | X   |     |      |
+| Write-In                                    |     |     |     |     |     |     |     |     |     |      |
+| **State Assembly District 26**              |     |     |     |     |     |     |     |     |     |      |
+| Glenna P Cook-Lincoln                       |     |     |     | X   |     |     |     |     |     |      |
+| Heidi Hatzinger                             |     | X   |     |     |     | X   |     |     |     |      |
+| Write-In                                    |     |     |     |     |     |     |     | X   |     | X    |
+| **Referendum A**                            |     |     |     |     |     |     |     |     |     |      |
+| For                                         |     | X   |     | X   |     | X   |     | X   |     | X    |
+| Against                                     |     |     |     |     |     |     |     |     |     |      |
+| **Referendum B**                            |     |     |     |     |     |     |     |     |     |      |
+| For                                         |     | X   |     | X   |     |     |     |     |     |      |
+| Against                                     |     |     |     |     |     | X   |     | X   |     | X    |
 
 **Test Results:**
 
