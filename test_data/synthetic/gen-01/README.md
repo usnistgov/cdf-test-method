@@ -229,15 +229,12 @@ characteristics:**
 <p>Vote for 1</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Dog Catcher</strong></p>
+<td colspan="4"><p><strong>Dog Catcher</strong></p>
 <p>Bill Bates</p>
 <p>Nancy Ingram</p>
 <p>Roland Gustiv</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>
