@@ -219,180 +219,180 @@ on the state and local governments.</p>
 **Ballots voted or pre-marked with the following pattern. The following
 is the test pattern to be voted for the given precinct:**
 
-| Fire station  7                 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
-|---------------------------------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
-| Democratic Party Ballot         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Barack Obama                    | X |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
-| Bill Richardson                 |   | X |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Dennis Kucinich                 |   |   | X |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Hillary Clinton                 |   |   |   | X |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Joe Biden                       |   |   |   |   | X |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| John Edwards                    |   |   |   |   |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Write-In                        |   |   |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| US SENATOR                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Cynthia Mckinney                | X | X | X | X | X | X | X |   |   |    |    |    |    |    |    |    |    |    |    | X  |
-| Write-in                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| STATE REPRESENTATIVE            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| DISTRICT 23                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Jon ErpenBach                   | X | X | X | X | X | U |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Janis Ringhand                  |   |   |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    | X  |
-| Write-in                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Delegates to the                |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Democratic National Convention  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| (Grouped)                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Micheal Fegley                  | X |   | X |   | X |   | U |   |   |    |    |    |    |    |    |    |    |    |    | X  |
-| Bliar Johnston                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Kathy Campbell                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Iris N. Linares                 |   | X |   | X |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Thomas A. Wallitsch             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Joseph J. Russo                 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Proposition 54                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| YES                             | X |   | X |   | X |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| NO                              |   | X |   | X |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
-| Libertarian Party Ballot        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| US PRESIDENT                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Bob Barr                        |   |   |   |   |   |   |   | X |   |    | U  |    | X  |    |    |    |    |    |    | X  |
-| Wayne A. Boot                   |   |   |   |   |   |   |   |   | X |    |    |    |    |    |    |    |    |    |    |    |
-| Roger Calero                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Alyson Kennedy                  |   |   |   |   |   |   |   |   |   | X  |    | X  |    |    |    |    |    |    |    |    |
-| Write-In                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| US SENATOR                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Cynthia Mckinney                |   |   |   |   |   |   |   |   | X | X  | X  | U  | X  |    |    |    |    |    |    | X  |
-| Write-in                        |   |   |   |   |   |   |   | X |   |    |    |    |    |    |    |    |    |    |    |    |
-| STATE REPRESENTATIVE            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| DISTRICT 23                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Tim Peterson                    |   |   |   |   |   |   |   | X | X | X  |    | U  | X  |    |    |    |    |    |    |    |
-| Write-in                        |   |   |   |   |   |   |   |   |   |    | X  |    | OX |    |    |    |    |    |    | X  |
-| Delegates to the                |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Libertarian National Convention |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| (Grouped)                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Dorthy Baran                    |   |   |   |   |   |   |   | X |   | X  |    | X  | X  |    |    |    |    |    |    | X  |
-| Wendy Fuentes                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Don Cunningham                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Jennifer L. Mann                |   |   |   |   |   |   |   |   | X |    | X  | OX |    |    |    |    |    |    |    |    |
-| Robert McCord                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Julius F. Cordisco              |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Proposition 54                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| YES                             |   |   |   |   |   |   |   |   | X |    |    |    | X  |    |    |    |    |    |    |    |
-| NO                              |   |   |   |   |   |   |   | X |   | X  | X  | X  |    |    |    |    |    |    |    | X  |
-| Republican Party Ballot         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| US PRESIDENT                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| John McCain                     |   |   |   |   |   |   |   |   |   |    |    |    |    | X  | X  |    | X  |    | X  | X  |
-| Fred Thompson                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Mike Huckabee                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Ron Paul                        |   |   |   |   |   |   |   |   |   |    |    |    |    | OX |    | X  |    |    |    |    |
-| Mitt Romney                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Rudy Giuliani                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Write-In                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    | X  |    |    |
-| US SENATOR                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Jean Hundertmark                |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  | U  | X  |    |    | X  |
-| J. B. Van Hollen                |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    |    |    | X  | X  |    |
-| Write-in                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    | OX |    |    |    |    |    |
-| STATE REPRESENTATIVE            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| DISTRICT 23                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Sandy Sullivan                  |   |   |   |   |   |   |   |   |   |    |    |    |    | U  | X  | X  | X  | X  | X  |    |
-| Jack C. Vought                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
-| Write-in                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    | OX |    |
-| Delegates to the                |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Republican National Convention  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| (Grouped)                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Dennis Morrison-Wesley          |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    | U  | X  |    | X  |
-| Jack Wagner                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| John M. Morganelli              |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Micheal Fegley                  |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    | X  |    |    | X  |    |
-| Bliar Johnston                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Kathy Campbell                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Proposition 54                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| YES                             |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    | X  |    | X  |    |
-| NO                              |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    | X  |    | X  |    | X  |
+| **Fire station  7**                 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+|-------------------------------------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
+| **Democratic Party Ballot**         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Barack Obama                        | X |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| Bill Richardson                     |   | X |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Dennis Kucinich                     |   |   | X |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Hillary Clinton                     |   |   |   | X |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Joe Biden                           |   |   |   |   | X |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| John Edwards                        |   |   |   |   |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                            |   |   |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **US SENATOR**                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Cynthia Mckinney                    | X | X | X | X | X | X | X |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| Write-in                            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **STATE REPRESENTATIVE**            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **DISTRICT 23**                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jon ErpenBach                       | X | X | X | X | X | U |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Janis Ringhand                      |   |   |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| Write-in                            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Delegates to the**                |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Democratic National Convention**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **(Grouped)**                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Micheal Fegley                      | X |   | X |   | X |   | U |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| Bliar Johnston                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Kathy Campbell                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Iris N. Linares                     |   | X |   | X |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Thomas A. Wallitsch                 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Joseph J. Russo                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Proposition 54**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| YES                                 | X |   | X |   | X |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| NO                                  |   | X |   | X |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| **Libertarian Party Ballot**        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **US PRESIDENT**                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Bob Barr                            |   |   |   |   |   |   |   | X |   |    | U  |    | X  |    |    |    |    |    |    | X  |
+| Wayne A. Boot                       |   |   |   |   |   |   |   |   | X |    |    |    |    |    |    |    |    |    |    |    |
+| Roger Calero                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Alyson Kennedy                      |   |   |   |   |   |   |   |   |   | X  |    | X  |    |    |    |    |    |    |    |    |
+| Write-In                            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **US SENATOR**                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Cynthia Mckinney                    |   |   |   |   |   |   |   |   | X | X  | X  | U  | X  |    |    |    |    |    |    | X  |
+| Write-in                            |   |   |   |   |   |   |   | X |   |    |    |    |    |    |    |    |    |    |    |    |
+| **STATE REPRESENTATIVE**            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **DISTRICT 23**                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Tim Peterson                        |   |   |   |   |   |   |   | X | X | X  |    | U  | X  |    |    |    |    |    |    |    |
+| Write-in                            |   |   |   |   |   |   |   |   |   |    | X  |    | OX |    |    |    |    |    |    | X  |
+| **Delegates to the**                |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Libertarian National Convention** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **(Grouped)**                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Dorthy Baran                        |   |   |   |   |   |   |   | X |   | X  |    | X  | X  |    |    |    |    |    |    | X  |
+| Wendy Fuentes                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Don Cunningham                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jennifer L. Mann                    |   |   |   |   |   |   |   |   | X |    | X  | OX |    |    |    |    |    |    |    |    |
+| Robert McCord                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Julius F. Cordisco                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Proposition 54**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| YES                                 |   |   |   |   |   |   |   |   | X |    |    |    | X  |    |    |    |    |    |    |    |
+| NO                                  |   |   |   |   |   |   |   | X |   | X  | X  | X  |    |    |    |    |    |    |    | X  |
+| **Republican Party Ballot**         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **US PRESIDENT**                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| John McCain                         |   |   |   |   |   |   |   |   |   |    |    |    |    | X  | X  |    | X  |    | X  | X  |
+| Fred Thompson                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Mike Huckabee                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Ron Paul                            |   |   |   |   |   |   |   |   |   |    |    |    |    | OX |    | X  |    |    |    |    |
+| Mitt Romney                         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Rudy Giuliani                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    | X  |    |    |
+| **US SENATOR**                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jean Hundertmark                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  | U  | X  |    |    | X  |
+| J. B. Van Hollen                    |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    |    |    | X  | X  |    |
+| Write-in                            |   |   |   |   |   |   |   |   |   |    |    |    |    |    | OX |    |    |    |    |    |
+| **STATE REPRESENTATIVE**            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **DISTRICT 23**                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Sandy Sullivan                      |   |   |   |   |   |   |   |   |   |    |    |    |    | U  | X  | X  | X  | X  | X  |    |
+| Jack C. Vought                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| Write-in                            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    | OX |    |
+| **Delegates to the**                |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Republican National Convention**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **(Grouped)**                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Dennis Morrison-Wesley              |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    | U  | X  |    | X  |
+| Jack Wagner                         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| John M. Morganelli                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Micheal Fegley                      |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    | X  |    |    | X  |    |
+| Bliar Johnston                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Kathy Campbell                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Proposition 54**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| YES                                 |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    | X  |    | X  |    |
+| NO                                  |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    | X  |    | X  |    | X  |
 
-| Mountain Gap School             | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
-|---------------------------------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
-| Democratic Party Ballot         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| US PRESIDENT                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Barack Obama                    | X |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
-| Bill Richardson                 |   | X |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Dennis Kucinich                 |   |   | X |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Hillary Clinton                 |   |   |   | X |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Joe Biden                       |   |   |   |   | X |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| John Edwards                    |   |   |   |   |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Write-In                        |   |   |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| US SENATOR                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Cynthia Mckinney                | X | X | X | X | X | X | X |   |   |    |    |    |    |    |    |    |    |    |    | X  |
-| Write-in                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| STATE REPRESENTATIVE            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| DISTRICT 23                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Jon ErpenBach                   | X | X | X | X | X | U |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Janis Ringhand                  |   |   |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    | X  |
-| Write-in                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Delegates to the                |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Democratic National Convention  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| (Grouped)                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Micheal Fegley                  | X |   | X |   | X |   | U |   |   |    |    |    |    |    |    |    |    |    |    | X  |
-| Bliar Johnston                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Kathy Campbell                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Iris N. Linares                 |   | X |   | X |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Thomas A. Wallitsch             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Joseph J. Russo                 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Proposition 54                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| YES                             | X |   | X |   | X |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| NO                              |   | X |   | X |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
-| Libertarian Party Ballot        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| US PRESIDENT                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Bob Barr                        |   |   |   |   |   |   |   | X |   |    | U  |    | X  |    |    |    |    |    |    | X  |
-| Wayne A. Boot                   |   |   |   |   |   |   |   |   | X |    |    |    |    |    |    |    |    |    |    |    |
-| Roger Calero                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Alyson Kennedy                  |   |   |   |   |   |   |   |   |   | X  |    | X  |    |    |    |    |    |    |    |    |
-| Write-In                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| US SENATOR                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Cynthia Mckinney                |   |   |   |   |   |   |   |   | X | X  | X  | U  | X  |    |    |    |    |    |    | X  |
-| Write-in                        |   |   |   |   |   |   |   | X |   |    |    |    |    |    |    |    |    |    |    |    |
-| STATE REPRESENTATIVE            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| DISTRICT 23                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Tim Peterson                    |   |   |   |   |   |   |   | X | X | X  |    | U  | X  |    |    |    |    |    |    |    |
-| Write-in                        |   |   |   |   |   |   |   |   |   |    | X  |    | OX |    |    |    |    |    |    | X  |
-| Delegates to the                |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Libertarian National Convention |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| (Grouped)                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Dorthy Baran                    |   |   |   |   |   |   |   | X |   | X  |    | X  | X  |    |    |    |    |    |    | X  |
-| Wendy Fuentes                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Don Cunningham                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Jennifer L. Mann                |   |   |   |   |   |   |   |   | X |    | X  | OX |    |    |    |    |    |    |    |    |
-| Robert McCord                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Julius F. Cordisco              |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Proposition 54                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| YES                             |   |   |   |   |   |   |   |   | X |    |    |    | X  |    |    |    |    |    |    |    |
-| NO                              |   |   |   |   |   |   |   | X |   | X  | X  | X  |    |    |    |    |    |    |    | X  |
-| Republican Party Ballot         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| US PRESIDENT                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| John McCain                     |   |   |   |   |   |   |   |   |   |    |    |    |    | X  | X  |    | X  |    | X  | X  |
-| Fred Thompson                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Mike Huckabee                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Ron Paul                        |   |   |   |   |   |   |   |   |   |    |    |    |    | OX |    | X  |    |    |    |    |
-| Mitt Romney                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Rudy Giuliani                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Write-In                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    | X  |    |    |
-| US SENATOR                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Jean Hundertmark                |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  | U  | X  |    |    | X  |
-| J. B. Van Hollen                |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    |    |    | X  | X  |    |
-| Write-in                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    | OX |    |    |    |    |    |
-| STATE REPRESENTATIVE            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| DISTRICT 23                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Sandy Sullivan                  |   |   |   |   |   |   |   |   |   |    |    |    |    | U  | X  | X  | X  | X  | X  |    |
-| Jack C. Vought                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
-| Write-in                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    | OX |    |
-| Delegates to the                |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Republican National Convention  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| (Grouped)                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Dennis Morrison-Wesley          |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    | U  | X  |    | X  |
-| Jack Wagner                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| John M. Morganelli              |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Micheal Fegley                  |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    | X  |    |    | X  |    |
-| Bliar Johnston                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Kathy Campbell                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| Proposition 54                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
-| YES                             |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    | X  |    | X  |    |
-| NO                              |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    | X  |    | X  |    | X  |
+| **Mountain Gap School               | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+|-------------------------------------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
+| **Democratic Party Ballot**         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **US PRESIDENT**                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Barack Obama                        | X |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| Bill Richardson                     |   | X |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Dennis Kucinich                     |   |   | X |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Hillary Clinton                     |   |   |   | X |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Joe Biden                           |   |   |   |   | X |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| John Edwards                        |   |   |   |   |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                            |   |   |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **US SENATOR**                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Cynthia Mckinney                    | X | X | X | X | X | X | X |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| Write-in                            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **STATE REPRESENTATIVE**            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **DISTRICT 23**                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jon ErpenBach                       | X | X | X | X | X | U |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Janis Ringhand                      |   |   |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| Write-in                            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Delegates to the**                |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Democratic National Convention**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **(Grouped)**                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Micheal Fegley                      | X |   | X |   | X |   | U |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| Bliar Johnston                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Kathy Campbell                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Iris N. Linares                     |   | X |   | X |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Thomas A. Wallitsch                 |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Joseph J. Russo                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Proposition 54**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| YES                                 | X |   | X |   | X |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| NO                                  |   | X |   | X |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| **Libertarian Party Ballot**        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **US PRESIDENT**                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Bob Barr                            |   |   |   |   |   |   |   | X |   |    | U  |    | X  |    |    |    |    |    |    | X  |
+| Wayne A. Boot                       |   |   |   |   |   |   |   |   | X |    |    |    |    |    |    |    |    |    |    |    |
+| Roger Calero                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Alyson Kennedy                      |   |   |   |   |   |   |   |   |   | X  |    | X  |    |    |    |    |    |    |    |    |
+| Write-In                            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **US SENATOR**                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Cynthia Mckinney                    |   |   |   |   |   |   |   |   | X | X  | X  | U  | X  |    |    |    |    |    |    | X  |
+| Write-in                            |   |   |   |   |   |   |   | X |   |    |    |    |    |    |    |    |    |    |    |    |
+| **STATE REPRESENTATIVE**            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **DISTRICT 23**                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Tim Peterson                        |   |   |   |   |   |   |   | X | X | X  |    | U  | X  |    |    |    |    |    |    |    |
+| Write-in                            |   |   |   |   |   |   |   |   |   |    | X  |    | OX |    |    |    |    |    |    | X  |
+| **Delegates to the**                |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Libertarian National Convention** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **(Grouped)**                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Dorthy Baran                        |   |   |   |   |   |   |   | X |   | X  |    | X  | X  |    |    |    |    |    |    | X  |
+| Wendy Fuentes                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Don Cunningham                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jennifer L. Mann                    |   |   |   |   |   |   |   |   | X |    | X  | OX |    |    |    |    |    |    |    |    |
+| Robert McCord                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Julius F. Cordisco                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Proposition 54**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| YES                                 |   |   |   |   |   |   |   |   | X |    |    |    | X  |    |    |    |    |    |    |    |
+| NO                                  |   |   |   |   |   |   |   | X |   | X  | X  | X  |    |    |    |    |    |    |    | X  |
+| **Republican Party Ballot**         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| US PRESIDENT                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| John McCain                         |   |   |   |   |   |   |   |   |   |    |    |    |    | X  | X  |    | X  |    | X  | X  |
+| Fred Thompson                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Mike Huckabee                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Ron Paul                            |   |   |   |   |   |   |   |   |   |    |    |    |    | OX |    | X  |    |    |    |    |
+| Mitt Romney                         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Rudy Giuliani                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    | X  |    |    |
+| **US SENATOR**                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jean Hundertmark                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  | U  | X  |    |    | X  |
+| J. B. Van Hollen                    |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    |    |    | X  | X  |    |
+| Write-in                            |   |   |   |   |   |   |   |   |   |    |    |    |    |    | OX |    |    |    |    |    |
+| **STATE REPRESENTATIVE**            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **DISTRICT 23**                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Sandy Sullivan                      |   |   |   |   |   |   |   |   |   |    |    |    |    | U  | X  | X  | X  | X  | X  |    |
+| Jack C. Vought                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| Write-in                            |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    | OX |    |
+| **Delegates to the**                |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Republican National Convention**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **(Grouped)**                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Dennis Morrison-Wesley              |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    | U  | X  |    | X  |
+| Jack Wagner                         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| John M. Morganelli                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Micheal Fegley                      |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    | X  |    |    | X  |    |
+| Bliar Johnston                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Kathy Campbell                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Proposition 54**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| YES                                 |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    | X  |    | X  |    |
+| NO                                  |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    | X  |    | X  |    | X  |
 
 **Test Results:**
 
