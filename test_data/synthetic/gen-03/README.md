@@ -14,8 +14,6 @@ several test elections that has been developed.
 
 ELECTION DEFINITION: GEN-03
 
-**General Election**
-
 A basic election held in 2 precincts. This election contains 8 contests
 and compiled into 2 ballot styles. 4 of the contests are in both ballot
 styles. The other 4 contests are split between the two precincts. The
@@ -80,20 +78,18 @@ characteristics:**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>President of the United States</strong></p>
+<td colspan="2"><p><strong>President of the United States</strong></p>
 <p>Arthur Kumar REP</p>
 <p>Brian Getz DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
 </tr>
 <tr class="even">
-<td><p><strong>United States Senator</strong></p>
+<td colspan="2"><p><strong>United States Senator</strong></p>
 <p>Chad Snow REP</p>
 <p>Don Etler DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Representative in Congress</strong></p>
@@ -124,7 +120,7 @@ characteristics:**
 <p>Vote for 1</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Measure 22.6</strong></p>
+<td colspan="2"><p><strong>Measure 22.6</strong></p>
 <p><strong>Exchange of Certain Property</strong></p>
 <p>Shall the proposed amendment to Article XIV, section 1 of the Constitution,</p>
 <p>authorizing the conveyance of approximately ten acres of State Land in</p>
@@ -133,10 +129,9 @@ characteristics:**
 <p>Yes</p>
 <p>No</p>
 <p>Vote for one</p></td>
-<td></td>
 </tr>
 <tr class="even">
-<td><p><strong>Measure 25.3</strong></p>
+<td colspan="2"><p><strong>Measure 25.3</strong></p>
 <p><strong>County Charter</strong></p>
 <p>Shall there be approved and adopted in the County, a Local Law</p>
 <p>passed by the Board of the County on August 19, 1974 entitled</p>
@@ -147,7 +142,6 @@ characteristics:**
 <p>Yes</p>
 <p>No</p>
 <p>Vote for one</p></td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -215,101 +209,184 @@ is the test pattern to be voted for the given precinct:**
 | Yes                                       | X       |         | X       |         | X       |         | X       |         | X       |          |
 | No                                        |         | X       |         | X       |         | X       |         | X       |         | X        |
 
-<table>
-<thead>
-<tr class="header">
-<th><p><strong>Test Results:</strong></p>
-<p><strong>Fire Station 23</strong></p>
-<p><strong>President of the United States</strong></p>
-<p>Arthur Kumar REP 5</p>
-<p>Brian Getz DEM 4</p>
-<p>Write-In 1</p>
-<p><strong>United States Senator</strong></p>
-<p>Chad Snow REP 5</p>
-<p>Don Etler DEM 4</p>
-<p>Write-In 1</p>
-<p><strong>Representative in Congress</strong></p>
-<p><strong>District 1</strong></p>
-<p>Eric Sheehy REP 4</p>
-<p>Fiero Finn DEM 5</p>
-<p>Write-In 1</p>
-<p><strong>State Assembly</strong></p>
-<p><strong>District 1</strong></p>
-<p>Gloria Castle REP 3</p>
-<p>Harry Sosses DEM 3</p>
-<p>Write-In 4</p>
-<p><strong>Measure 22.6</strong></p>
-<p>Yes 5</p>
-<p>No 5</p>
-<p><strong>Measure 25.3</strong></p>
-<p>Yes 5</p>
-<p>No 5</p>
-<p><strong>AldersGate Church</strong></p>
-<p><strong>President of the United States</strong></p>
-<p>Arthur Kumar REP 5</p>
-<p>Brian Getz DEM 5</p>
-<p>Write-In 0</p>
-<p><strong>United States Senator</strong></p>
-<p>Chad Snow REP 5</p>
-<p>Don Etler DEM 4</p>
-<p>Write-In 1</p>
-<p><strong>Representative in Congress</strong></p>
-<p><strong>District 2</strong></p>
-<p>Ernest Snyder REP 4</p>
-<p>Frank L. Matthews DEM 5</p>
-<p>Write-In 1</p>
-<p><strong>State Assembly</strong></p>
-<p><strong>District 2</strong></p>
-<p>Glenna P Cook-Lincoln REP 3</p>
-<p>Heidi Hatzinger DEM 3</p>
-<p>Write-In 4</p>
-<p><strong>Measure 22.6</strong></p>
-<p>Yes 5</p>
-<p>No 5</p>
-<p><strong>Measure 25.3</strong></p>
-<p>Yes 5</p>
-<p>No 5</p>
-<p>Cumulative Totals:</p>
-<p><strong>President of the United States</strong></p>
-<p>Arthur Kumar REP 10</p>
-<p>Brian Getz DEM 9</p>
-<p>Write-In 1</p>
-<p><strong>United States Senator</strong></p>
-<p>Chad Snow REP 10</p>
-<p>Don Etler DEM 8</p>
-<p>Write-In 2</p>
-<p><strong>Representative in Congress</strong></p>
-<p><strong>District 1</strong></p>
-<p>Eric Sheehy REP 8</p>
-<p>Fiero Finn DEM 10</p>
-<p>Write-In 2</p>
-<p><strong>Representative in Congress</strong></p>
-<p><strong>District 2</strong></p>
-<p>Ernest Snyder REP 4</p>
-<p>Frank L. Matthews DEM 5</p>
-<p>Write-In 1</p>
-<p><strong>State Assembly</strong></p>
-<p><strong>District 1</strong></p>
-<p>Gloria Castle REP 3</p>
-<p>Harry Sosses DEM 3</p>
-<p>Write-In 4</p>
-<p><strong>State Assembly</strong></p>
-<p><strong>District 2</strong></p>
-<p>Glenna P Cook-Lincoln REP 3</p>
-<p>Heidi Hatzinger DEM 3</p>
-<p>Write-In 4</p>
-<p><strong>Measure 22.6</strong></p>
-<p>Yes 10</p>
-<p>No 10</p>
-<p><strong>Measure 25.3</strong></p>
-<p>Yes 10</p>
-<p>No 10</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>Criteria For Evaluation of Test Results:</strong></p>
-<p>The results of this test will be accepted if the stated election definition can be input into the EMS, the election transferred to the voting machine, voted according to the test vote pattern, and the results reported and audited to match the expected results. During the execution of this election all errors need to be logged and analyzed by qualified personal to determine if the error is an actual error or another issue.</p></td>
-</tr>
-</tbody>
-</table>
+**Test Results:**
+
+**Fire Station 23**
+
+**President of the United States**
+
+Arthur Kumar REP 5
+
+Brian Getz DEM 4
+
+Write-In 1
+
+**United States Senator**
+
+Chad Snow REP 5
+
+Don Etler DEM 4
+
+Write-In 1
+
+**Representative in Congress**
+
+**District 1**
+
+Eric Sheehy REP 4
+
+Fiero Finn DEM 5
+
+Write-In 1
+
+**State Assembly**
+
+**District 1**
+
+Gloria Castle REP 3
+
+Harry Sosses DEM 3
+
+Write-In 4
+
+**Measure 22.6**
+
+Yes 5
+
+No 5
+
+**Measure 25.3**
+
+Yes 5
+
+No 5
+
+**AldersGate Church**
+
+**President of the United States**
+
+Arthur Kumar REP 5
+
+Brian Getz DEM 5
+
+Write-In 0
+
+**United States Senator**
+
+Chad Snow REP 5
+
+Don Etler DEM 4
+
+Write-In 1
+
+**Representative in Congress**
+
+**District 2**
+
+Ernest Snyder REP 4
+
+Frank L. Matthews DEM 5
+
+Write-In 1
+
+**State Assembly**
+
+**District 2**
+
+Glenna P Cook-Lincoln REP 3
+
+Heidi Hatzinger DEM 3
+
+Write-In 4
+
+**Measure 22.6**
+
+Yes 5
+
+No 5
+
+**Measure 25.3**
+
+Yes 5
+
+No 5
+
+Cumulative Totals:
+
+**President of the United States**
+
+Arthur Kumar REP 10
+
+Brian Getz DEM 9
+
+Write-In 1
+
+**United States Senator**
+
+Chad Snow REP 10
+
+Don Etler DEM 8
+
+Write-In 2
+
+**Representative in Congress**
+
+**District 1**
+
+Eric Sheehy REP 8
+
+Fiero Finn DEM 10
+
+Write-In 2
+
+**Representative in Congress**
+
+**District 2**
+
+Ernest Snyder REP 4
+
+Frank L. Matthews DEM 5
+
+Write-In 1
+
+**State Assembly**
+
+**District 1**
+
+Gloria Castle REP 3
+
+Harry Sosses DEM 3
+
+Write-In 4
+
+**State Assembly**
+
+**District 2**
+
+Glenna P Cook-Lincoln REP 3
+
+Heidi Hatzinger DEM 3
+
+Write-In 4
+
+**Measure 22.6**
+
+Yes 10
+
+No 10
+
+**Measure 25.3**
+
+Yes 10
+
+No 10
+
+**Criteria For Evaluation of Test Results:**
+
+The results of this test will be accepted if the stated election
+definition can be input into the EMS, the election transferred to the
+voting machine, voted according to the test vote pattern, and the
+results reported and audited to match the expected results. During the
+execution of this election all errors need to be logged and analyzed by
+qualified personal to determine if the error is an actual error or
+another issue.
