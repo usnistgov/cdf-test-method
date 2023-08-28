@@ -260,248 +260,245 @@ Supreme Court</strong></p>
 **Ballots voted or pre-marked with the following pattern. The following
 is the test pattern to be voted for the given precinct:**
 
-| Bibb County Court House        | B   | B 2 | B 3 | B 4 | B 5 | B 6 | B 7 | B 8 | B 9 | B 10 | B 11 | B 12 | B 13 | B 14 | B 15 | B 16 | B 17 | B 18 | B 19 | B 20 |
-|--------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|------|------|------|------|------|------|------|------|------|------|
-|                                | 1   | D   | C   | L   | R   | G   | D   | D   | R   | R    | L    | G    | D    | C    | R    | L    | C    | G    | G    | L    |
-|                                | C   |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Communist Party Ballot         |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| President of the United States |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Gloria La Riva                 | X   |     | X   |     |     |     |     |     |     |      |      |      |      |      |      |      | X    |      |      |      |
-| Eugene Puryear                 |     |     |     |     |     |     |     |     |     |      |      |      |      | X    |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Senator                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Mark Green                     | X   |     | X   |     |     |     |     |     |     |      |      |      |      | X    |      |      | X    |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Representative District 6 |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Matt Gonzalez                  | X   |     | X   |     |     |     |     |     |     |      |      |      |      | X    |      |      | X    |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Justices of the Supreme Court  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Bill Dahn                      |     |     | X   |     |     |     |     |     |     |      |      |      |      | X    |      |      | X    |      |      |      |
-| Write-In                       | X   |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| State Senator                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Jack Uldrich                   | X   |     | X   |     |     |     |     |     |     |      |      |      |      | X    |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      | X    |      |      |      |
-| Member of Assembly             |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Albert J. Albanese             | X   |     | X   |     |     |     |     |     |     |      |      |      |      |      |      |      | X    |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      | X    |      |      |      |      |      |      |
-| Democratic Party Ballot        |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| President of the United States |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Barack Obama                   |     | X   |     |     |     |     | X   |     |     |      |      |      | X    |      |      |      |      |      |      |      |
-| Bill Richardson                |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Dennis Kucinich                |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Hillary Clinton                |     |     |     |     |     |     |     | X   |     |      |      |      |      |      |      |      |      |      |      |      |
-| Joe Biden                      |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| John Edwards                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Senator                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Jim Doyle                      |     | X   |     |     |     |     | X   |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Barbara C. Lawton              |     |     |     |     |     |     |     | X   |     |      |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      | X    |      |      |      |      |      |      |      |
-| U.S. Representative District 6 |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Jon ErpenBach                  |     | X   |     |     |     |     |     |     |     |      |      |      | X    |      |      |      |      |      |      |      |
-| Janis RingHand                 |     |     |     |     |     |     |     | X   |     |      |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     | X   |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Justices of the Supreme Court  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Judith N. McMahon              |     |     |     |     |     |     | X   | X   |     |      |      |      | X    |      |      |      |      |      |      |      |
-| Write-In                       |     | X   |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| State Senator                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Tammy Baldwin                  |     | X   |     |     |     |     | X   |     |     |      |      |      | X    |      |      |      |      |      |      |      |
-| David J. Mahoney               |     |     |     |     |     |     |     | X   |     |      |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Member of Assembly             |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Kristi Chlebowski              |     | X   |     |     |     |     |     | X   |     |      |      |      | X    |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     | X   |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Green Party Ballot             |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| President of the United States |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Cynthia Mckinney               |     |     |     |     |     | X   |     |     |     |      |      | X    |      |      |      |      |      | X    |      |      |
-| Rosa Clemente                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      | X    |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Senator                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Nelson Eisman                  |     |     |     |     |     | X   |     |     |     |      |      | X    |      |      |      |      |      | X    | X    |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Representative District 6 |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Leon Todd                      |     |     |     |     |     | X   |     |     |     |      |      | X    |      |      |      |      |      |      | X    |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      | X    |      |      |
-| Justices of the Supreme Court  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Stephen Williams               |     |     |     |     |     |     |     |     |     |      |      | X    |      |      |      |      |      | X    | X    |      |
-| Write-In                       |     |     |     |     |     | X   |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| State Senator                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Rae Vogeler                    |     |     |     |     |     | X   |     |     |     |      |      |      |      |      |      |      |      | X    | X    |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      | X    |      |      |      |      |      |      |      |      |
-| Member of Assembly             |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Winston Sephus Jr.             |     |     |     |     |     | X   |     |     |     |      |      | X    |      |      |      |      |      | X    | X    |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Libertarian Party Ballot       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| President of the United States |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Bob Barr                       |     |     |     | X   |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Wayne A. Boot                  |     |     |     |     |     |     |     |     |     |      | X    |      |      |      |      |      |      |      |      |      |
-| Roger Calero                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      | X    |      |      |      |      |
-| Alyson Kennedy                 |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      | X    |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Senator                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Peter Ellestad                 |     |     |     | X   |     |     |     |     |     |      | X    |      |      |      |      | X    |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      | X    |
-| U.S. Representative District 6 |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Tim Peterson                   |     |     |     | X   |     |     |     |     |     |      | X    |      |      |      |      |      |      |      |      | X    |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      | X    |      |      |      |      |
-| Justices of the Supreme Court  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Ben J. Glatzel                 |     |     |     |     |     |     |     |     |     |      | X    |      |      |      |      | X    |      |      |      | X    |
-| Write-In                       |     |     |     | X   |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| State Senator                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Carlo R. Esqueda               |     |     |     | X   |     |     |     |     |     |      | X    |      |      |      |      | X    |      |      |      | X    |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Member of Assembly             |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Lou Tobacco                    |     |     |     | X   |     |     |     |     |     |      | X    |      |      |      |      | X    |      |      |      | X    |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Republican Party Ballot        |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| President of the United States |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| John McCain                    |     |     |     |     | X   |     |     |     | X   |      |      |      |      |      |      |      |      |      |      |      |
-| Fred Thompson                  |     |     |     |     |     |     |     |     |     | X    |      |      |      |      |      |      |      |      |      |      |
-| Mike Huckabee                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Ron Paul                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      | X    |      |      |      |      |      |
-| Mitt Romney                    |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Rudy Giuliani                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Senator                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Jean Hundertmark               |     |     |     |     | X   |     |     |     | X   |      |      |      |      |      |      |      |      |      |      |      |
-| J.B. Van Hollen                |     |     |     |     |     |     |     |     |     | X    |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      | X    |      |      |      |      |      |
-| U.S. Representative District 6 |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Sandy Sullivan                 |     |     |     |     | X   |     |     |     |     | X    |      |      |      |      |      |      |      |      |      |      |
-| Jack C, Vought                 |     |     |     |     |     |     |     |     | X   |      |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      | X    |      |      |      |      |      |
-| Justices of the Supreme Court  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Philip S. Straniere            |     |     |     |     | X   |     |     |     | X   |      |      |      |      |      | X    |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     | X    |      |      |      |      |      |      |      |      |      |      |
-| State Senator                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Mike Hanson                    |     |     |     |     | X   |     |     |     | X   |      |      |      |      |      | X    |      |      |      |      |      |
-| Brett Davis                    |     |     |     |     |     |     |     |     |     | X    |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Member of Assembly             |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Andrew J. Lanza                |     |     |     |     | X   |     |     |     | X   | X    |      |      |      |      | X    |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-|                                |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Shelton Road Church            | B 1 | B 2 | B 3 | B 4 | B 5 | B 6 | B 7 | B 8 | B 9 | B 10 | B 11 | B 12 | B 13 | B 14 | B 15 | B 16 | B 17 | B 18 | B 19 | B 20 |
-|                                | C   | D   | C   | L   | R   | G   | D   | D   | R   | R    | L    | G    | D    | C    | R    | L    | C    | G    | G    | L    |
-| Communist Party Ballot         |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| President of the United States |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Gloria La Riva                 | X   |     | X   |     |     |     |     |     |     |      |      |      |      |      |      |      | X    |      |      |      |
-| Eugene Puryear                 |     |     |     |     |     |     |     |     |     |      |      |      |      | X    |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Senator                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Mark Green                     | X   |     | X   |     |     |     |     |     |     |      |      |      |      | X    |      |      | X    |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Representative District 6 |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Matt Gonzalez                  | X   |     | X   |     |     |     |     |     |     |      |      |      |      | X    |      |      | X    |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Justices of the Supreme Court  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Bill Dahn                      |     |     | X   |     |     |     |     |     |     |      |      |      |      | X    |      |      | X    |      |      |      |
-| Write-In                       | X   |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| State Senator                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Jack Uldrich                   | X   |     | X   |     |     |     |     |     |     |      |      |      |      | X    |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      | X    |      |      |      |
-| Member of Assembly             |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Albert J. Albanese             | X   |     | X   |     |     |     |     |     |     |      |      |      |      |      |      |      | X    |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      | X    |      |      |      |      |      |      |
-| Democratic Party Ballot        |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| President of the United States |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Barack Obama                   |     | X   |     |     |     |     | X   |     |     |      |      |      | X    |      |      |      |      |      |      |      |
-| Bill Richardson                |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Dennis Kucinich                |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Hillary Clinton                |     |     |     |     |     |     |     | X   |     |      |      |      |      |      |      |      |      |      |      |      |
-| Joe Biden                      |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| John Edwards                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Senator                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Jim Doyle                      |     | X   |     |     |     |     | X   |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Barbara C. Lawton              |     |     |     |     |     |     |     | X   |     |      |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      | X    |      |      |      |      |      |      |      |
-| U.S. Representative District 6 |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Jon ErpenBach                  |     | X   |     |     |     |     |     |     |     |      |      |      | X    |      |      |      |      |      |      |      |
-| Janis RingHand                 |     |     |     |     |     |     |     | X   |     |      |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     | X   |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Justices of the Supreme Court  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Judith N. McMahon              |     |     |     |     |     |     | X   | X   |     |      |      |      | X    |      |      |      |      |      |      |      |
-| Write-In                       |     | X   |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| State Senator                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Tammy Baldwin                  |     | X   |     |     |     |     | X   |     |     |      |      |      | X    |      |      |      |      |      |      |      |
-| David J. Mahoney               |     |     |     |     |     |     |     | X   |     |      |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Member of Assembly             |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Kristi Chlebowski              |     | X   |     |     |     |     |     | X   |     |      |      |      | X    |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     | X   |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Green Party Ballot             |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| President of the United States |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Cynthia Mckinney               |     |     |     |     |     | X   |     |     |     |      |      | X    |      |      |      |      |      | X    |      |      |
-| Rosa Clemente                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      | X    |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Senator                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Nelson Eisman                  |     |     |     |     |     | X   |     |     |     |      |      | X    |      |      |      |      |      | X    | X    |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Representative District 6 |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Leon Todd                      |     |     |     |     |     | X   |     |     |     |      |      | X    |      |      |      |      |      |      | X    |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      | X    |      |      |
-| Justices of the Supreme Court  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Stephen Williams               |     |     |     |     |     |     |     |     |     |      |      | X    |      |      |      |      |      | X    | X    |      |
-| Write-In                       |     |     |     |     |     | X   |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| State Senator                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Rae Vogeler                    |     |     |     |     |     | X   |     |     |     |      |      |      |      |      |      |      |      | X    | X    |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      | X    |      |      |      |      |      |      |      |      |
-| Member of Assembly             |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Winston Sephus Jr.             |     |     |     |     |     | X   |     |     |     |      |      | X    |      |      |      |      |      | X    | X    |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Libertarian Party Ballot       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| President of the United States |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Bob Barr                       |     |     |     | X   |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Wayne A. Boot                  |     |     |     |     |     |     |     |     |     |      | X    |      |      |      |      |      |      |      |      |      |
-| Roger Calero                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      | X    |      |      |      |      |
-| Alyson Kennedy                 |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      | X    |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Senator                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Peter Ellestad                 |     |     |     | X   |     |     |     |     |     |      | X    |      |      |      |      | X    |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      | X    |
-| U.S. Representative District 6 |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Tim Peterson                   |     |     |     | X   |     |     |     |     |     |      | X    |      |      |      |      |      |      |      |      | X    |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      | X    |      |      |      |      |
-| Justices of the Supreme Court  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Ben J. Glatzel                 |     |     |     |     |     |     |     |     |     |      | X    |      |      |      |      | X    |      |      |      | X    |
-| Write-In                       |     |     |     | X   |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| State Senator                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Carlo R. Esqueda               |     |     |     | X   |     |     |     |     |     |      | X    |      |      |      |      | X    |      |      |      | X    |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Member of Assembly             |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Lou Tobacco                    |     |     |     | X   |     |     |     |     |     |      | X    |      |      |      |      | X    |      |      |      | X    |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Republican Party Ballot        |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| President of the United States |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| John McCain                    |     |     |     |     | X   |     |     |     | X   |      |      |      |      |      |      |      |      |      |      |      |
-| Fred Thompson                  |     |     |     |     |     |     |     |     |     | X    |      |      |      |      |      |      |      |      |      |      |
-| Mike Huckabee                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Ron Paul                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      | X    |      |      |      |      |      |
-| Mitt Romney                    |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Rudy Giuliani                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| U.S. Senator                   |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Jean Hundertmark               |     |     |     |     | X   |     |     |     | X   |      |      |      |      |      |      |      |      |      |      |      |
-| J.B. Van Hollen                |     |     |     |     |     |     |     |     |     | X    |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      | X    |      |      |      |      |      |
-| U.S. Representative District 6 |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Sandy Sullivan                 |     |     |     |     | X   |     |     |     |     | X    |      |      |      |      |      |      |      |      |      |      |
-| Jack C. Vought                 |     |     |     |     |     |     |     |     | X   |      |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      | X    |      |      |      |      |      |
-| Justices of the Supreme Court  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Philip S. Straniere            |     |     |     |     | X   |     |     |     | X   |      |      |      |      |      | X    |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     | X    |      |      |      |      |      |      |      |      |      |      |
-| State Senator                  |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Mike Hanson                    |     |     |     |     | X   |     |     |     | X   |      |      |      |      |      | X    |      |      |      |      |      |
-| Brett Davis                    |     |     |     |     |     |     |     |     |     | X    |      |      |      |      |      |      |      |      |      |      |
-| Write-In                       |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Member of Assembly             |     |     |     |     |     |     |     |     |     |      |      |      |      |      |      |      |      |      |      |      |
-| Andrew J. Lanza                |     |     |     |     | X   |     |     |     | X   | X    |      |      |      |      | X    |      |      |      |      |      |
-| Write-In                       |
+| **Bibb County Court House**        | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+|------------------------------------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
+|                                    | C | D | C | L | R | G | D | D | R | R  | L  | G  | D  | C  | R  | L  | C  | G  | G  | L  |
+| **Communist Party Ballot**         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **President of the United States** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Gloria La Riva                     | X |   | X |   |   |   |   |   |   |    |    |    |    |    |    |    | X  |    |    |    |
+| Eugene Puryear                     |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **U.S. Senator**                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Mark Green                         | X |   | X |   |   |   |   |   |   |    |    |    |    | X  |    |    | X  |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **U.S. Representative District 6** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Matt Gonzalez                      | X |   | X |   |   |   |   |   |   |    |    |    |    | X  |    |    | X  |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Justices of the Supreme Court**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Bill Dahn                          |   |   | X |   |   |   |   |   |   |    |    |    |    | X  |    |    | X  |    |    |    |
+| Write-In                           | X |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **State Senator**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jack Uldrich                       | X |   | X |   |   |   |   |   |   |    |    |    |    | X  |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    | X  |    |    |    |
+| **Member of Assembly**             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Albert J. Albanese                 | X |   | X |   |   |   |   |   |   |    |    |    |    |    |    |    | X  |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    |    |    |    |    |    |
+| **Democratic Party Ballot**        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **President of the United States** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Barack Obama                       |   | X |   |   |   |   | X |   |   |    |    |    | X  |    |    |    |    |    |    |    |
+| Bill Richardson                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Dennis Kucinich                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Hillary Clinton                    |   |   |   |   |   |   |   | X |   |    |    |    |    |    |    |    |    |    |    |    |
+| Joe Biden                          |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| John Edwards                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **U.S. Senator**                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jim Doyle                          |   | X |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Barbara C. Lawton                  |   |   |   |   |   |   |   | X |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    | X  |    |    |    |    |    |    |    |
+| **U.S. Representative District 6** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jon ErpenBach                      |   | X |   |   |   |   |   |   |   |    |    |    | X  |    |    |    |    |    |    |    |
+| Janis RingHand                     |   |   |   |   |   |   |   | X |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Justices of the Supreme Court**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Judith N. McMahon                  |   |   |   |   |   |   | X | X |   |    |    |    | X  |    |    |    |    |    |    |    |
+| Write-In                           |   | X |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **State Senator**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Tammy Baldwin                      |   | X |   |   |   |   | X |   |   |    |    |    | X  |    |    |    |    |    |    |    |
+| David J. Mahoney                   |   |   |   |   |   |   |   | X |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Member of Assembly**             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Kristi Chlebowski                  |   | X |   |   |   |   |   | X |   |    |    |    | X  |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Green Party Ballot**             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **President of the United States** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Cynthia Mckinney                   |   |   |   |   |   | X |   |   |   |    |    | X  |    |    |    |    |    | X  |    |    |
+| Rosa Clemente                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    | X  |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **U.S. Senator**                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Nelson Eisman                      |   |   |   |   |   | X |   |   |   |    |    | X  |    |    |    |    |    | X  | X  |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **U.S. Representative District 6** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Leon Todd                          |   |   |   |   |   | X |   |   |   |    |    | X  |    |    |    |    |    |    | X  |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    | X  |    |    |
+| **Justices of the Supreme Court**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Stephen Williams                   |   |   |   |   |   |   |   |   |   |    |    | X  |    |    |    |    |    | X  | X  |    |
+| Write-In                           |   |   |   |   |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **State Senator**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Rae Vogeler                        |   |   |   |   |   | X |   |   |   |    |    |    |    |    |    |    |    | X  | X  |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    | X  |    |    |    |    |    |    |    |    |
+| **Member of Assembly**             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Winston Sephus Jr.                 |   |   |   |   |   | X |   |   |   |    |    | X  |    |    |    |    |    | X  | X  |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Libertarian Party Ballot**       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **President of the United States** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Bob Barr                           |   |   |   | X |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Wayne A. Boot                      |   |   |   |   |   |   |   |   |   |    | X  |    |    |    |    |    |    |    |    |    |
+| Roger Calero                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    | X  |    |    |    |    |
+| Alyson Kennedy                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **U.S. Senator**                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Peter Ellestad                     |   |   |   | X |   |   |   |   |   |    | X  |    |    |    |    | X  |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| **U.S. Representative District 6** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Tim Peterson                       |   |   |   | X |   |   |   |   |   |    | X  |    |    |    |    |    |    |    |    | X  |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    | X  |    |    |    |    |
+| **Justices of the Supreme Court**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Ben J. Glatzel                     |   |   |   |   |   |   |   |   |   |    | X  |    |    |    |    | X  |    |    |    | X  |
+| Write-In                           |   |   |   | X |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **State Senator**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Carlo R. Esqueda                   |   |   |   | X |   |   |   |   |   |    | X  |    |    |    |    | X  |    |    |    | X  |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Member of Assembly**             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Lou Tobacco                        |   |   |   | X |   |   |   |   |   |    | X  |    |    |    |    | X  |    |    |    | X  |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Republican Party Ballot**        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **President of the United States** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| John McCain                        |   |   |   |   | X |   |   |   | X |    |    |    |    |    |    |    |    |    |    |    |
+| Fred Thompson                      |   |   |   |   |   |   |   |   |   | X  |    |    |    |    |    |    |    |    |    |    |
+| Mike Huckabee                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Ron Paul                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    |    |    |    |    |
+| Mitt Romney                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Rudy Giuliani                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **U.S. Senator**                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jean Hundertmark                   |   |   |   |   | X |   |   |   | X |    |    |    |    |    |    |    |    |    |    |    |
+| J.B. Van Hollen                    |   |   |   |   |   |   |   |   |   | X  |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    |    |    |    |    |
+| **U.S. Representative District 6** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Sandy Sullivan                     |   |   |   |   | X |   |   |   |   | X  |    |    |    |    |    |    |    |    |    |    |
+| Jack C, Vought                     |   |   |   |   |   |   |   |   | X |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    |    |    |    |    |
+| **Justices of the Supreme Court**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Philip S. Straniere                |   |   |   |   | X |   |   |   | X |    |    |    |    |    | X  |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   | X  |    |    |    |    |    |    |    |    |    |    |
+| **State Senator**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Mike Hanson                        |   |   |   |   | X |   |   |   | X |    |    |    |    |    | X  |    |    |    |    |    |
+| Brett Davis                        |   |   |   |   |   |   |   |   |   | X  |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Member of Assembly**             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Andrew J. Lanza                    |   |   |   |   | X |   |   |   | X | X  |    |    |    |    | X  |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
 
-
-
+| **Shelton Road Church**            | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+|------------------------------------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
+|                                    | C | D | C | L | R | G | D | D | R | R  | L  | G  | D  | C  | R  | L  | C  | G  | G  | L  |
+| **Communist Party Ballot**         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **President of the United States** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Gloria La Riva                     | X |   | X |   |   |   |   |   |   |    |    |    |    |    |    |    | X  |    |    |    |
+| Eugene Puryear                     |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| U.S. Senator                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Mark Green                         | X |   | X |   |   |   |   |   |   |    |    |    |    | X  |    |    | X  |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **U.S. Representative District 6** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Matt Gonzalez                      | X |   | X |   |   |   |   |   |   |    |    |    |    | X  |    |    | X  |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Justices of the Supreme Court**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Bill Dahn                          |   |   | X |   |   |   |   |   |   |    |    |    |    | X  |    |    | X  |    |    |    |
+| Write-In                           | X |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **State Senator**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jack Uldrich                       | X |   | X |   |   |   |   |   |   |    |    |    |    | X  |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    | X  |    |    |    |
+| **Member of Assembly**             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Albert J. Albanese                 | X |   | X |   |   |   |   |   |   |    |    |    |    |    |    |    | X  |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    |    |    |    |    |    |
+| **Democratic Party Ballot**        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **President of the United States** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Barack Obama                       |   | X |   |   |   |   | X |   |   |    |    |    | X  |    |    |    |    |    |    |    |
+| Bill Richardson                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Dennis Kucinich                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Hillary Clinton                    |   |   |   |   |   |   |   | X |   |    |    |    |    |    |    |    |    |    |    |    |
+| Joe Biden                          |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| John Edwards                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **U.S. Senator**                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jim Doyle                          |   | X |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Barbara C. Lawton                  |   |   |   |   |   |   |   | X |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    | X  |    |    |    |    |    |    |    |
+| **U.S. Representative District 6** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jon ErpenBach                      |   | X |   |   |   |   |   |   |   |    |    |    | X  |    |    |    |    |    |    |    |
+| Janis RingHand                     |   |   |   |   |   |   |   | X |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Justices of the Supreme Court**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Judith N. McMahon                  |   |   |   |   |   |   | X | X |   |    |    |    | X  |    |    |    |    |    |    |    |
+| Write-In                           |   | X |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **State Senator**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Tammy Baldwin                      |   | X |   |   |   |   | X |   |   |    |    |    | X  |    |    |    |    |    |    |    |
+| David J. Mahoney                   |   |   |   |   |   |   |   | X |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Member of Assembly**             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Kristi Chlebowski                  |   | X |   |   |   |   |   | X |   |    |    |    | X  |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   | X |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Green Party Ballot**             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **President of the United States** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Cynthia Mckinney                   |   |   |   |   |   | X |   |   |   |    |    | X  |    |    |    |    |    | X  |    |    |
+| Rosa Clemente                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    | X  |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **U.S. Senator**                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Nelson Eisman                      |   |   |   |   |   | X |   |   |   |    |    | X  |    |    |    |    |    | X  | X  |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **U.S. Representative District 6** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Leon Todd                          |   |   |   |   |   | X |   |   |   |    |    | X  |    |    |    |    |    |    | X  |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    | X  |    |    |
+| **Justices of the Supreme Court**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Stephen Williams                   |   |   |   |   |   |   |   |   |   |    |    | X  |    |    |    |    |    | X  | X  |    |
+| Write-In                           |   |   |   |   |   | X |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **State Senator**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Rae Vogeler                        |   |   |   |   |   | X |   |   |   |    |    |    |    |    |    |    |    | X  | X  |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    | X  |    |    |    |    |    |    |    |    |
+| **Member of Assembly**             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Winston Sephus Jr.                 |   |   |   |   |   | X |   |   |   |    |    | X  |    |    |    |    |    | X  | X  |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Libertarian Party Ballot**       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **President of the United States** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Bob Barr                           |   |   |   | X |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Wayne A. Boot                      |   |   |   |   |   |   |   |   |   |    | X  |    |    |    |    |    |    |    |    |    |
+| Roger Calero                       |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    | X  |    |    |    |    |
+| Alyson Kennedy                     |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **U.S. Senator**                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Peter Ellestad                     |   |   |   | X |   |   |   |   |   |    | X  |    |    |    |    | X  |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    | X  |
+| **U.S. Representative District 6** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Tim Peterson                       |   |   |   | X |   |   |   |   |   |    | X  |    |    |    |    |    |    |    |    | X  |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    | X  |    |    |    |    |
+| **Justices of the Supreme Court**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Ben J. Glatzel                     |   |   |   |   |   |   |   |   |   |    | X  |    |    |    |    | X  |    |    |    | X  |
+| Write-In                           |   |   |   | X |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **State Senator**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Carlo R. Esqueda                   |   |   |   | X |   |   |   |   |   |    | X  |    |    |    |    | X  |    |    |    | X  |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Member of Assembly**             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Lou Tobacco                        |   |   |   | X |   |   |   |   |   |    | X  |    |    |    |    | X  |    |    |    | X  |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Republican Party Ballot**        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **President of the United States** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| John McCain                        |   |   |   |   | X |   |   |   | X |    |    |    |    |    |    |    |    |    |    |    |
+| Fred Thompson                      |   |   |   |   |   |   |   |   |   | X  |    |    |    |    |    |    |    |    |    |    |
+| Mike Huckabee                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Ron Paul                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    |    |    |    |    |
+| Mitt Romney                        |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Rudy Giuliani                      |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **U.S. Senator**                   |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Jean Hundertmark                   |   |   |   |   | X |   |   |   | X |    |    |    |    |    |    |    |    |    |    |    |
+| J.B. Van Hollen                    |   |   |   |   |   |   |   |   |   | X  |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    |    |    |    |    |
+| **U.S. Representative District 6** |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Sandy Sullivan                     |   |   |   |   | X |   |   |   |   | X  |    |    |    |    |    |    |    |    |    |    |
+| Jack C. Vought                     |   |   |   |   |   |   |   |   | X |    |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    |    |    |    |    |
+| **Justices of the Supreme Court**  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Philip S. Straniere                |   |   |   |   | X |   |   |   | X |    |    |    |    |    | X  |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   | X  |    |    |    |    |    |    |    |    |    |    |
+| **State Senator**                  |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Mike Hanson                        |   |   |   |   | X |   |   |   | X |    |    |    |    |    | X  |    |    |    |    |    |
+| Brett Davis                        |   |   |   |   |   |   |   |   |   | X  |    |    |    |    |    |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| **Member of Assembly**             |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
+| Andrew J. Lanza                    |   |   |   |   | X |   |   |   | X | X  |    |    |    |    | X  |    |    |    |    |    |
+| Write-In                           |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
 
 **Test Results:**
 
