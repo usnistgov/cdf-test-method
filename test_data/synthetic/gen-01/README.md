@@ -14,8 +14,6 @@ several test elections that has been developed.
 
 ELECTION DEFINITION: GEN-01
 
-**General Election: GEN-01**
-
 A basic election held in 4 precincts one of which is a split precinct.
 This election contains 19 contests compiled into 4 ballot styles. 5 of
 the contests are in all 4 ballot styles. The other 14 contests are split
@@ -84,17 +82,14 @@ characteristics:**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Straight Party</strong></p>
+<td colspan="4"><p><strong>Straight Party</strong></p>
 <p>Libertarian</p>
 <p>Republican</p>
 <p>Democrat</p>
 <p>Vote for one</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
-<td><p><strong>President and Vice President of the United States</strong></p>
+<td colspan="4"><p><strong>President and Vice President of the United States</strong></p>
 <p>Harry Brown LIB</p>
 <p>Jim Doyle</p>
 <p>George Bush REP</p>
@@ -103,20 +98,14 @@ characteristics:**
 <p>Joe Liberman</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="odd">
-<td><p><strong>United States Senator</strong></p>
+<td colspan="4"><p><strong>United States Senator</strong></p>
 <p>Ed Johnson LIB</p>
 <p>John Rusco REP</p>
 <p>Katie Bernstein DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
 <td><p><strong>Representative in Congress</strong></p>
@@ -126,7 +115,7 @@ characteristics:**
 <p>Mary Cahill DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td><p><strong>Representative in Congress</strong></p>
+<td colspan="2"><p><strong>Representative in Congress</strong></p>
 <p>District 2</p>
 <p>Habib Smith LIB</p>
 <p>Bonnie Wyatt REP</p>
@@ -140,7 +129,6 @@ characteristics:**
 <p>Mary Cahill DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>State Assembly</strong></p>
@@ -148,7 +136,7 @@ characteristics:**
 <p>Marcia Jones DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td><p><strong>State Assembly</strong></p>
+<td colspan="2"><p><strong>State Assembly</strong></p>
 <p><strong>District 2</strong></p>
 <p>Pat Thomas DEM</p>
 <p>Write-In</p>
@@ -158,7 +146,7 @@ characteristics:**
 <p>Yevette Downs DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
+
 </tr>
 <tr class="even">
 <td><p><strong>Proposal 1</strong></p>
@@ -196,7 +184,7 @@ characteristics:**
 <p>Arlyn Beal REP</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td><p><strong>County Commissioner</strong></p>
+<td colspan="2"><p><strong>County Commissioner</strong></p>
 <p><strong>District 2</strong></p>
 <p>Jack Howard DEM</p>
 <p>Write-In</p>
@@ -209,7 +197,7 @@ characteristics:**
 <td></td>
 </tr>
 <tr class="even">
-<td><p><strong>County Assessor</strong></p>
+<td colspan="4"><p><strong>County Assessor</strong></p>
 <p>Dave Backus LIB</p>
 <p>Myron Ensign LIB</p>
 <p>Ralph Savage REP</p>
@@ -219,9 +207,6 @@ characteristics:**
 <p>Write-In</p>
 <p>Write-In</p>
 <p>Vote for 2</p></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Supreme Court Justice</strong></p>
@@ -230,7 +215,7 @@ characteristics:**
 <p>Gary Becker DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td><p><strong>Supreme Court Justice</strong></p>
+<td colspan="2"><p><strong>Supreme Court Justice</strong></p>
 <p><strong>Seat B</strong></p>
 <p>Laura Denise LIB</p>
 <p>Barbara Young DEM</p>
@@ -242,7 +227,6 @@ characteristics:**
 <p>Ray Jones DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
 </tr>
 <tr class="even">
 <td><p><strong>Dog Catcher</strong></p>
@@ -270,9 +254,8 @@ an alternate language as well. Ballots 3 and 10 will be cast utilizing
 the Spanish language option. The following is the test pattern to be
 voted for the given precinct:**
 
-|                                                   |     |     |     |     |     |     |     |     |     |      |
-| ------------------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- |
 | **Precinct 1**                                    | B-1 | B-2 | B-3 | B-4 | B-5 | B-6 | B-7 | B-8 | B-9 | B-10 |
+| ------------------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- |
 | **Straight Party**                                |     |     |     |     |     |     |     |     |     |      |
 | Libertarian                                       | X   |     |     |     |     |     |     |     |     |      |
 | Republican                                        |     | X   |     |     |     |     |     |     |     |      |
@@ -320,9 +303,8 @@ voted for the given precinct:**
 | Roland Gustiv                                     |     |     | X   |     |     | X   |     |     |     |      |
 | Write-In                                          |     |     |     |     |     |     | X   |     |     | X    |
 
-|                                                   |     |     |     |     |     |     |     |     |     |      |
-| ------------------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- |
 | Precinct 2a                                       | B-1 | B-2 | B-3 | B-4 | B-5 | B-6 | B-7 | B-8 | B-9 | B-10 |
+| ------------------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- |
 | **Straight Party**                                |     |     |     |     |     |     |     |     |     |      |
 | Libertarian                                       | X   |     |     |     |     |     |     |     |     |      |
 | Republican                                        |     | X   |     |     |     |     |     |     |     |      |
@@ -371,9 +353,8 @@ voted for the given precinct:**
 | Roland Gustiv                                     |     |     | X   |     |     | X   |     |     |     |      |
 | Write-In                                          |     |     |     |     |     |     | X   |     |     | X    |
 
-|                                                   |     |     |     |     |     |     |     |     |     |      |
-| ------------------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- |
 | Precinct 2b                                       | B-1 | B-2 | B-3 | B-4 | B-5 | B-6 | B-7 | B-8 | B-9 | B-10 |
+| ------------------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- |
 | **Straight Party**                                |     |     |     |     |     |     |     |     |     |      |
 | Libertarian                                       | X   |     |     |     |     |     |     |     |     |      |
 | Republican                                        |     | X   |     |     |     |     |     |     |     |      |
@@ -422,9 +403,8 @@ voted for the given precinct:**
 | Roland Gustiv                                     |     |     | X   |     |     | X   |     |     |     |      |
 | Write-In                                          |     |     |     |     |     |     | X   |     |     | X    |
 
-|                                                   |     |     |     |     |     |     |     |     |     |      |
-| ------------------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- |
 | Precinct 3                                        | B-1 | B-2 | B-3 | B-4 | B-5 | B-6 | B-7 | B-8 | B-9 | B-10 |
+| ------------------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---- |
 | **Straight Party**                                |     |     |     |     |     |     |     |     |     |      |
 | Libertarian                                       | X   |     |     |     |     |     |     |     |     |      |
 | Republican                                        |     | X   |     |     |     |     |     |     |     |      |
