@@ -146,7 +146,6 @@ characteristics:**
 <p>Yevette Downs DEM</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-
 </tr>
 <tr class="even">
 <td><p><strong>Proposal 1</strong></p>
