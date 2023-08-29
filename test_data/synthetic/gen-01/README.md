@@ -194,7 +194,6 @@ characteristics:**
 <p>Jay Scott LIB</p>
 <p>Write-In</p>
 <p>Vote for 1</p></td>
-<td></td>
 </tr>
 <tr class="even">
 <td colspan="4"><p><strong>County Assessor</strong></p>

@@ -49,9 +49,9 @@ election are as follow:
 
   - Ranked choice voting: No
 
-**This election was designed to functionally test the handling of
-multiple ballot styles, support for** Primary presidential delegation
-nominations**, support for complex voting variations, and audio support
+This election was designed to functionally test the handling of
+multiple ballot styles, support for Primary presidential delegation
+nominations, support for complex voting variations, and audio support
 for multiple languages. The election will be an open primary election
 with one machine running for each precinct. Voting options for
 Over-voting, Under-voting and write-in voting will be exercised. Ballot
@@ -63,7 +63,7 @@ the ballot. If this occurs, the contest is considered overvoted and does
 not count for any party on the ballot. NOTE: Overvotes and undervotes
 are listed in results based upon the “Vote For” value of the contest.
 For Example: If a Vote For 3 contest is undervoted, it is counted as 3
-undervotes.**
+undervotes.
 
 **Configuration:**
 
@@ -306,7 +306,7 @@ is the test pattern to be voted for the given precinct:**
 | YES                                 |   |   |   |   |   |   |   |   |   |    |    |    |    |    | X  |    | X  |    | X  |    |
 | NO                                  |   |   |   |   |   |   |   |   |   |    |    |    |    | X  |    | X  |    | X  |    | X  |
 
-| **Mountain Gap School               | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+| **Mountain Gap School**             | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
 |-------------------------------------|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
 | **Democratic Party Ballot**         |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |
 | **US PRESIDENT**                    |   |   |   |   |   |   |   |   |   |    |    |    |    |    |    |    |    |    |    |    |

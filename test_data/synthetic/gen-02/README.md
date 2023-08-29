@@ -253,7 +253,7 @@ is the test pattern to be voted for the given precinct:**
 | Write-In                           |   |   |   |   |    |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
 | Write-In                           |   |   |   |   |    |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
 | **State House of Representative**  |   |   |   |   |    |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
-| **District 1*                      |   |   |   |   |    |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+| **District 1**                     |   |   |   |   |    |   |   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
 | Kay Raab                           | X | X | X | X | X  | X | X | U  | X  |    |    |    |    |    |    |    |    |    |    |    |    |
 | Laurie Cioffi                      |   |   |   |   |    |   |   |    | OX |    | X  | X  | X  | X  | X  | X  | X  | X  | X  | U  |    |
 | Write-In                           |   |   |   |   |    |   |   |    |    | X  |    |    |    |    |    |    |    |    | OX |    | X  |

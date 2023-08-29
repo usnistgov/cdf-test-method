@@ -14,8 +14,6 @@ several test elections that has been developed.
 
 ELECTION DEFINITION:PRIM-01
 
-**Primary Election: PRIM-01**
-
 An open primary election in 2 precincts. This election contains 30
 contests compiled into 5 ballot styles. Each ballot style contains 6
 contests. The voting variations supported by this election are as
@@ -57,7 +55,7 @@ multiple ballot styles, and support for common voting variations.**
 **EMS computer is used to create ballots with the following
 characteristics:**
 
-**Election named:**PRIM-01
+**Election named**: PRIM-01
 
 **Precinct Based Testing**
 

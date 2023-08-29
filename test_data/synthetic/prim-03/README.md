@@ -132,7 +132,7 @@ characteristics:**
 <p>Vote for 1</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Referendum A</strong></p>
+<td colspan="2"><p><strong>Referendum A</strong></p>
 <p><strong>Bond Issue</strong></p>
 <p>To promote and assure the preservation and improvement of essential rail</p>
 <p>passenger and freight services to the inhabitants of the state, shall section</p>
@@ -142,10 +142,9 @@ characteristics:**
 <p>For</p>
 <p>Against</p>
 <p>Vote for 1</p></td>
-<td></td>
 </tr>
 <tr class="even">
-<td><p><strong>Referendum B</strong></p>
+<td colspan="2"><p><strong>Referendum B</strong></p>
 <p><strong>Exchange or Certain Property</strong></p>
 <p>Shall the proposed amendment to Article XIV, section 1 of the Constitution,</p>
 <p>authorizing the conveyance of approximately ten acres of State Land in</p>
@@ -154,7 +153,6 @@ characteristics:**
 <p>For</p>
 <p>Against</p>
 <p>Vote for 1</p></td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -216,7 +214,7 @@ precinct:**
 | For                                         |     | X   |     | X   |     |     |     |     |     |      |
 | Against                                     |     |     |     |     |     | X   |     | X   |     | X    |
 
-| **Middleton Community Center**              | B-1 | B-2 | B-3 | B-4 | B-5 | B-6 | B-7 | B-8 | B-9 | B-10 |
+| First Baptist Church                        | B-1 | B-2 | B-3 | B-4 | B-5 | B-6 | B-7 | B-8 | B-9 | B-10 |
 |---------------------------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
 |                                             | D   | R   | D   | R   | D   | R   | D   | R   | D   | R    |
 | **DEM**                                     |     |     |     |     |     |     |     |     |     |      |
@@ -264,6 +262,7 @@ precinct:**
 | **Referendum B**                            |     |     |     |     |     |     |     |     |     |      |
 | For                                         |     | X   |     | X   |     |     |     |     |     |      |
 | Against                                     |     |     |     |     |     | X   |     | X   |     | X    |
+
 
 **Test Results:**
 
