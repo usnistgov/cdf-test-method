@@ -54,7 +54,7 @@ The table below shows the different kinds of election types, voting methods and 
 | Namespace Prefixes                          |           |        | x      |         |         | x       |                |        |
 | Boolean numeric substition                  | x         | x      |        | x       |         |         |                |        |
 
-* Non-Englush Latin Alphabet is limited to write-in names only.
+* Non-English Latin Alphabet is limited to write-in names only.
 
 ## Classes Included in Data Sets
 
