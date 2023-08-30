@@ -40,5 +40,7 @@ navigation:
   url: /cdf-test-method/FAQ.html
 - text: Protocol
   url: /cdf-test-method/PROTOCOL.html
+- text: Test Data
+  url: https://github.com/usnistgov/cdf-test-method/tree/main/test_data
 
 host: 0.0.0.0
