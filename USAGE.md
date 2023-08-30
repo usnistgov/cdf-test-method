@@ -48,7 +48,7 @@ Other flags:
 Notes:
 
 - If a path for `-output:report` is not specified, then the report will be provided on the *standard output*.
-- Any existing data that is the target of an output port (e.g. `-output:report`) will be overwritten with new content on test method execution.
+- Any existing data that is the target of an output port (e.g. `-output:report`) will be overwritten with new content upon test method execution.
 - It is important to pick the correct pipeline for the given input. The tool cannot automatically detect which validation pipeline to use, so be careful!
 
 [^eel]: EEL require an additional parameter to be passed. See `-input:documentation` above.
@@ -80,7 +80,7 @@ The test method cannot change the return code of the underlying XProc processor.
 
 As the TM is primarily a validation tool, it is important to distinguish between validation errors of files provided to the test method and runtime errors of the test method tool itself. The former will appear in an [XVRL Report](REPORT.md), the latter will appear using the [c:error vocabulary](https://spec.xproc.org/3.0/xproc/#cv.errors). In rare cases, the TM may terminate abnormally (i.e. with a non-zero return code).
 
-The kinds of runtime errors that may occur are hard to predict but usually involve environmental factors of the test method's execution. A runtime error might occur if the input provided was not in the correct format, the wrong pipeline was utilized for the given input, among others.
+The kinds of runtime errors that may occur are hard to predict but usually involve factors of the test method's execution environment. A runtime error might occur if the input provided was not in the correct format, the wrong pipeline was utilized for the given input, among others.
 
 Example `c:error`:
 

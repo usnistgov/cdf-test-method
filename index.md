@@ -11,7 +11,7 @@ The Test Method supports CDFs referenced by the Voluntary Voting System Guidelin
 
 ## Releases
 
-Prepackaged releases are available on GitHub and contain all required supporting files. Consult the release notes for any changes between versions.
+Prepackaged releases are [available on GitHub](https://github.com/usnistgov/cdf-test-method/releases) and contain all required supporting files. Consult the release notes for any changes between versions.
 
 ## Prerequisites
 
@@ -19,12 +19,12 @@ Prepackaged releases are available on GitHub and contain all required supporting
 
 The following system configurations have been tested:
 
-- Windows 11 with OpenJDK 1.8.0_345 (64-bit)
+- Windows 11 with OpenJDK 17.0.6 (64-bit)
 - Debian Linux 11.6 with OpenJDK 11.0.16 (64-bit)
 
 ## Memory Use
 
-The amount of memory required to run this tool is proportionate to the size of the input. The ratio ranges from 10:1 to 50:1 (i.e. 10 bytes of memory is required to process 1 byte of input). Running the tool with inadequate amount of memory for the input provided may lead to system stability issues, and may jeopardize accurate test results.
+The amount of memory required to run this tool is proportional to the size of the input. The ratio ranges from 10:1 to 50:1 (e.g. 10 bytes of memory is required to process 1 byte of input). Running the tool with inadequate amount of memory for the input provided may lead to system stability issues, and may jeopardize accurate test results.
 
 ## Getting Started
 
