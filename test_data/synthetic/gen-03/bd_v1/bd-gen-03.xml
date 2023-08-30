@@ -1,330 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK -->
-<BallotDefinition xmlns="http://itl.nist.gov/ns/voting/1500-20/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Election>
-		<BallotStyle>
-			<ExternalIdentifier>
-				<Type>local-level</Type>
-				<Value>Fire Station 23</Value>
-			</ExternalIdentifier>
-			<GpUnitIds>prec-fs-23</GpUnitIds>
-			<OrderedContent xsi:type="OrderedContest">
-				<ContestId>cc-president</ContestId>
-			</OrderedContent>
-			<OrderedContent xsi:type="OrderedContest">
-				<ContestId>cc-senate</ContestId>
-			</OrderedContent>
-			<OrderedContent xsi:type="OrderedContest">
-				<ContestId>cc-congress-1</ContestId>
-			</OrderedContent>
-			<OrderedContent xsi:type="OrderedContest">
-				<ContestId>cc-assembly-1</ContestId>
-			</OrderedContent>
-			<OrderedContent xsi:type="OrderedContest">
-				<ContestId>bm-22.6</ContestId>
-			</OrderedContent>
-			<OrderedContent xsi:type="OrderedContest">
-				<ContestId>bm-25.3</ContestId>
-			</OrderedContent>
-		</BallotStyle>
-		<BallotStyle>
-			<ExternalIdentifier>
-				<Type>local-level</Type>
-				<Value>Aldersgate Church</Value>
-			</ExternalIdentifier>
-			<GpUnitIds>prec-ac</GpUnitIds>
-			<OrderedContent xsi:type="OrderedContest">
-				<ContestId>cc-president</ContestId>
-			</OrderedContent>
-			<OrderedContent xsi:type="OrderedContest">
-				<ContestId>cc-senate</ContestId>
-			</OrderedContent>
-			<OrderedContent xsi:type="OrderedContest">
-				<ContestId>cc-congress-2</ContestId>
-			</OrderedContent>
-			<OrderedContent xsi:type="OrderedContest">
-				<ContestId>cc-assembly-2</ContestId>
-			</OrderedContent>
-			<OrderedContent xsi:type="OrderedContest">
-				<ContestId>bm-22.6</ContestId>
-			</OrderedContent>
-			<OrderedContent xsi:type="OrderedContest">
-				<ContestId>bm-25.3</ContestId>
-			</OrderedContent>
-		</BallotStyle>
-		<Candidate ObjectId="can-ak">
-			<BallotName>
-				<Text Language="en">Arthur Kumar</Text>
-			</BallotName>
-			<PartyId>par-rep</PartyId>
-		</Candidate>
-		<Candidate ObjectId="can-bg">
-			<BallotName>
-				<Text Language="en">Brian Getz</Text>
-			</BallotName>
-			<PartyId>par-dem</PartyId>
-		</Candidate>
-		<Candidate ObjectId="can-cs">
-			<BallotName>
-				<Text Language="en">Chad Snow</Text>
-			</BallotName>
-			<PartyId>par-rep</PartyId>
-		</Candidate>
-		<Candidate ObjectId="can-de">
-			<BallotName>
-				<Text Language="en">Don Etler</Text>
-			</BallotName>
-			<PartyId>par-dem</PartyId>
-		</Candidate>
-		<Candidate ObjectId="can-esheehy">
-			<BallotName>
-				<Text Language="en">Eric Sheehy</Text>
-			</BallotName>
-			<PartyId>par-rep</PartyId>
-		</Candidate>
-		<Candidate ObjectId="can-ff">
-			<BallotName>
-				<Text Language="en">Fiero Finn</Text>
-			</BallotName>
-			<PartyId>par-dem</PartyId>
-		</Candidate>
-		<Candidate ObjectId="can-esnyder">
-			<BallotName>
-				<Text Language="en">Ernest Snyder</Text>
-			</BallotName>
-			<PartyId>par-rep</PartyId>
-		</Candidate>
-		<Candidate ObjectId="can-fm">
-			<BallotName>
-				<Text Language="en">Frank L. Matthews</Text>
-			</BallotName>
-			<PartyId>par-dem</PartyId>
-		</Candidate>
-		<Candidate ObjectId="can-gc">
-			<BallotName>
-				<Text Language="en">Gloria Castle</Text>
-			</BallotName>
-			<PartyId>par-rep</PartyId>
-		</Candidate>
-		<Candidate ObjectId="can-hs">
-			<BallotName>
-				<Text Language="en">Harry Sosses</Text>
-			</BallotName>
-			<PartyId>par-dem</PartyId>
-		</Candidate>
-		<Candidate ObjectId="can-gcl">
-			<BallotName>
-				<Text Language="en">Glenna P Cook-Lincoln</Text>
-			</BallotName>
-			<PartyId>par-rep</PartyId>
-		</Candidate>
-		<Candidate ObjectId="can-hh">
-			<BallotName>
-				<Text Language="en">Heidi Hatzinger</Text>
-			</BallotName>
-			<PartyId>par-dem</PartyId>
-		</Candidate>
-		<Contest xsi:type="CandidateContest" ObjectId="cc-president">
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-president-ak">
-				<CandidateIds>can-ak</CandidateIds>
-			</ContestOption>
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-president-bg">
-				<CandidateIds>can-bg</CandidateIds>
-			</ContestOption>
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-president-wi">
-				<IsWriteIn>true</IsWriteIn>
-			</ContestOption>
-			<ElectionDistrictId>ru-county-3</ElectionDistrictId>
-			<Name>President of the United States</Name>
-			<VoteVariation>n-of-m</VoteVariation>
-			<VotesAllowed>1</VotesAllowed>
-		</Contest>
-		<Contest xsi:type="CandidateContest" ObjectId="cc-senate">
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-senate-cs">
-				<CandidateIds>can-cs</CandidateIds>
-			</ContestOption>
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-senate-de">
-				<CandidateIds>can-de</CandidateIds>
-			</ContestOption>
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-senate-wi">
-				<IsWriteIn>true</IsWriteIn>
-			</ContestOption>
-			<ElectionDistrictId>ru-county-3</ElectionDistrictId>
-			<Name>United State Senator</Name>
-			<VoteVariation>n-of-m</VoteVariation>
-			<VotesAllowed>1</VotesAllowed>
-		</Contest>
-		<Contest xsi:type="CandidateContest" ObjectId="cc-congress-1">
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-1-es">
-				<CandidateIds>can-esheehy</CandidateIds>
-			</ContestOption>
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-1-ff">
-				<CandidateIds>can-ff</CandidateIds>
-			</ContestOption>
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-1-wi">
-				<IsWriteIn>true</IsWriteIn>
-			</ContestOption>
-			<ElectionDistrictId>ru-congress-1</ElectionDistrictId>
-			<Name>Representative in Congress - District 1</Name>
-			<VoteVariation>n-of-m</VoteVariation>
-			<VotesAllowed>1</VotesAllowed>
-		</Contest>
-		<Contest xsi:type="CandidateContest" ObjectId="cc-congress-2">
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-2-es">
-				<CandidateIds>can-esnyder</CandidateIds>
-			</ContestOption>
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-2-fm">
-				<CandidateIds>can-fm</CandidateIds>
-			</ContestOption>
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-congress-2-wi">
-				<IsWriteIn>true</IsWriteIn>
-			</ContestOption>
-			<ElectionDistrictId>ru-congress-2</ElectionDistrictId>
-			<Name>Representative in Congress - District 2</Name>
-			<VoteVariation>n-of-m</VoteVariation>
-			<VotesAllowed>1</VotesAllowed>
-		</Contest>
-		<Contest xsi:type="CandidateContest" ObjectId="cc-assembly-1">
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-1-gc">
-				<CandidateIds>can-gc</CandidateIds>
-			</ContestOption>
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-1-hs">
-				<CandidateIds>can-hs</CandidateIds>
-			</ContestOption>
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-1-wi">
-				<IsWriteIn>true</IsWriteIn>
-			</ContestOption>
-			<ElectionDistrictId>ru-assembly-1</ElectionDistrictId>
-			<Name>State Assembly - District 1</Name>
-			<VoteVariation>n-of-m</VoteVariation>
-			<VotesAllowed>1</VotesAllowed>
-		</Contest>
-		<Contest xsi:type="CandidateContest" ObjectId="cc-assembly-2">
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-2-gcl">
-				<CandidateIds>can-gcl</CandidateIds>
-			</ContestOption>
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-2-hh">
-				<CandidateIds>can-hh</CandidateIds>
-			</ContestOption>
-			<ContestOption xsi:type="CandidateOption" ObjectId="cs-assembly-2-wi">
-				<IsWriteIn>true</IsWriteIn>
-			</ContestOption>
-			<ElectionDistrictId>ru-assembly-2</ElectionDistrictId>
-			<Name>State Assembly - District 2</Name>
-			<VoteVariation>n-of-m</VoteVariation>
-			<VotesAllowed>1</VotesAllowed>
-		</Contest>
-		<Contest xsi:type="BallotMeasureContest" ObjectId="bm-22.6">
-			<ContestOption xsi:type="BallotMeasureOption" ObjectId="cs-22.6-yes">
-				<Selection>
-					<Text Language="en">YES</Text>
-				</Selection>
-			</ContestOption>
-			<ContestOption xsi:type="BallotMeasureOption" ObjectId="cs-22.6-no">
-				<Selection>
-					<Text Language="en">NO</Text>
-				</Selection>
-			</ContestOption>
-			<ElectionDistrictId>ru-county-3</ElectionDistrictId>
-			<Name>Measure 22.6 - Exchange of Certain Property</Name>
-			<VoteVariation>n-of-m</VoteVariation>
-			<FullText>
-				<Text Language="en">Shall the proposed amendment to Article XIV, section 1 of the Constitution, authorizing the conveyance of approximately ten acres of State Land in exchange for approximately two hundred acres of wild forest land in order to facilitate the preservation of certain historic buildings, be approved?</Text>
-			</FullText>
-		</Contest>
-		<Contest xsi:type="BallotMeasureContest" ObjectId="bm-25.3">
-			<ContestOption xsi:type="BallotMeasureOption" ObjectId="cs-25.3-yes">
-				<Selection>
-					<Text Language="en">YES</Text>
-				</Selection>
-			</ContestOption>
-			<ContestOption xsi:type="BallotMeasureOption" ObjectId="cs-25.3-no">
-				<Selection>
-					<Text Language="en">NO</Text>
-				</Selection>
-			</ContestOption>
-			<ElectionDistrictId>ru-county-3</ElectionDistrictId>
-			<Name>Measure 25.3 - County Charter</Name>
-			<VoteVariation>n-of-m</VoteVariation>
-			<FullText>
-				<Text Language="en">Shall there be approved and adopted in the County, a Local Law passed by the Board of the County on August 19, 1974 entitled "A Local Law to amend section six (a) of Article II of the County Charter - changing the elected term of the County Board to four years," which enlarges the term of office of each member of the County Board of Legislators from two (2) years to four (4) years?</Text>
-			</FullText>
-		</Contest>
-		<ElectionScopeId>ru-county-3</ElectionScopeId>
-		<Name>
-			<Text Language="en">GEN-03</Text>
-		</Name>
-		<StartDate>2004-11-02</StartDate>
-		<EndDate>2004-11-02</EndDate>
-		<Type>general</Type>
-	</Election>
-	<GeneratedDate>2023-05-31T00:00:00Z</GeneratedDate>
-	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-congress-1">
-		<ComposingGpUnitIds>prec-fs-23</ComposingGpUnitIds>
-		<Name>
-			<Text Language="en">1st Congressional District</Text>
-		</Name>
-		<Number>2</Number>
-		<Type>congressional</Type>
-	</GpUnit>
-	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-congress-2">
-		<ComposingGpUnitIds>prec-ac</ComposingGpUnitIds>
-		<Name>
-			<Text Language="en">2nd Congressional District</Text>
-		</Name>
-		<Number>2</Number>
-		<Type>congressional</Type>
-	</GpUnit>
-	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-assembly-1">
-		<ComposingGpUnitIds>prec-fs-23</ComposingGpUnitIds>
-		<Name>
-			<Text Language="en">1st Assembly District</Text>
-		</Name>
-		<Number>1</Number>
-		<Type>state-house</Type>
-	</GpUnit>
-	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-assembly-2">
-		<ComposingGpUnitIds>prec-ac</ComposingGpUnitIds>
-		<Name>
-			<Text Language="en">2nd Assembly District</Text>
-		</Name>
-		<Number>2</Number>
-		<Type>state-house</Type>
-	</GpUnit>
-	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-county-3">
-		<ComposingGpUnitIds>prec-fs-23 prec-ac</ComposingGpUnitIds>
-		<Name>
-			<Text Language="en">Test County</Text>
-		</Name>
-		<Type>county</Type>
-	</GpUnit>
+<cdf:BallotDefinition xmlns:cdf="http://itl.nist.gov/ns/voting/1500-20/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cdf:Election>
+		<cdf:BallotStyle>
+			<cdf:ExternalIdentifier>
+				<cdf:Type>local-level</cdf:Type>
+				<cdf:Value>Fire Station 23</cdf:Value>
+			</cdf:ExternalIdentifier>
+			<cdf:GpUnitIds>prec-fs-23</cdf:GpUnitIds>
+			<cdf:OrderedContent xsi:type="cdf:OrderedContest">
+				<cdf:ContestId>cc-president</cdf:ContestId>
+			</cdf:OrderedContent>
+			<cdf:OrderedContent xsi:type="cdf:OrderedContest">
+				<cdf:ContestId>cc-senate</cdf:ContestId>
+			</cdf:OrderedContent>
+			<cdf:OrderedContent xsi:type="cdf:OrderedContest">
+				<cdf:ContestId>cc-congress-1</cdf:ContestId>
+			</cdf:OrderedContent>
+			<cdf:OrderedContent xsi:type="cdf:OrderedContest">
+				<cdf:ContestId>cc-assembly-1</cdf:ContestId>
+			</cdf:OrderedContent>
+			<cdf:OrderedContent xsi:type="cdf:OrderedContest">
+				<cdf:ContestId>bm-22.6</cdf:ContestId>
+			</cdf:OrderedContent>
+			<cdf:OrderedContent xsi:type="cdf:OrderedContest">
+				<cdf:ContestId>bm-25.3</cdf:ContestId>
+			</cdf:OrderedContent>
+		</cdf:BallotStyle>
+		<cdf:BallotStyle>
+			<cdf:ExternalIdentifier>
+				<cdf:Type>local-level</cdf:Type>
+				<cdf:Value>Aldersgate Church</cdf:Value>
+			</cdf:ExternalIdentifier>
+			<cdf:GpUnitIds>prec-ac</cdf:GpUnitIds>
+			<cdf:OrderedContent xsi:type="cdf:OrderedContest">
+				<cdf:ContestId>cc-president</cdf:ContestId>
+			</cdf:OrderedContent>
+			<cdf:OrderedContent xsi:type="cdf:OrderedContest">
+				<cdf:ContestId>cc-senate</cdf:ContestId>
+			</cdf:OrderedContent>
+			<cdf:OrderedContent xsi:type="cdf:OrderedContest">
+				<cdf:ContestId>cc-congress-2</cdf:ContestId>
+			</cdf:OrderedContent>
+			<cdf:OrderedContent xsi:type="cdf:OrderedContest">
+				<cdf:ContestId>cc-assembly-2</cdf:ContestId>
+			</cdf:OrderedContent>
+			<cdf:OrderedContent xsi:type="cdf:OrderedContest">
+				<cdf:ContestId>bm-22.6</cdf:ContestId>
+			</cdf:OrderedContent>
+			<cdf:OrderedContent xsi:type="cdf:OrderedContest">
+				<cdf:ContestId>bm-25.3</cdf:ContestId>
+			</cdf:OrderedContent>
+		</cdf:BallotStyle>
+		<cdf:Candidate ObjectId="can-ak">
+			<cdf:BallotName>
+				<cdf:Text Language="en">Arthur Kumar</cdf:Text>
+			</cdf:BallotName>
+			<cdf:PartyId>par-rep</cdf:PartyId>
+		</cdf:Candidate>
+		<cdf:Candidate ObjectId="can-bg">
+			<cdf:BallotName>
+				<cdf:Text Language="en">Brian Getz</cdf:Text>
+			</cdf:BallotName>
+			<cdf:PartyId>par-dem</cdf:PartyId>
+		</cdf:Candidate>
+		<cdf:Candidate ObjectId="can-cs">
+			<cdf:BallotName>
+				<cdf:Text Language="en">Chad Snow</cdf:Text>
+			</cdf:BallotName>
+			<cdf:PartyId>par-rep</cdf:PartyId>
+		</cdf:Candidate>
+		<cdf:Candidate ObjectId="can-de">
+			<cdf:BallotName>
+				<cdf:Text Language="en">Don Etler</cdf:Text>
+			</cdf:BallotName>
+			<cdf:PartyId>par-dem</cdf:PartyId>
+		</cdf:Candidate>
+		<cdf:Candidate ObjectId="can-esheehy">
+			<cdf:BallotName>
+				<cdf:Text Language="en">Eric Sheehy</cdf:Text>
+			</cdf:BallotName>
+			<cdf:PartyId>par-rep</cdf:PartyId>
+		</cdf:Candidate>
+		<cdf:Candidate ObjectId="can-ff">
+			<cdf:BallotName>
+				<cdf:Text Language="en">Fiero Finn</cdf:Text>
+			</cdf:BallotName>
+			<cdf:PartyId>par-dem</cdf:PartyId>
+		</cdf:Candidate>
+		<cdf:Candidate ObjectId="can-esnyder">
+			<cdf:BallotName>
+				<cdf:Text Language="en">Ernest Snyder</cdf:Text>
+			</cdf:BallotName>
+			<cdf:PartyId>par-rep</cdf:PartyId>
+		</cdf:Candidate>
+		<cdf:Candidate ObjectId="can-fm">
+			<cdf:BallotName>
+				<cdf:Text Language="en">Frank L. Matthews</cdf:Text>
+			</cdf:BallotName>
+			<cdf:PartyId>par-dem</cdf:PartyId>
+		</cdf:Candidate>
+		<cdf:Candidate ObjectId="can-gc">
+			<cdf:BallotName>
+				<cdf:Text Language="en">Gloria Castle</cdf:Text>
+			</cdf:BallotName>
+			<cdf:PartyId>par-rep</cdf:PartyId>
+		</cdf:Candidate>
+		<cdf:Candidate ObjectId="can-hs">
+			<cdf:BallotName>
+				<cdf:Text Language="en">Harry Sosses</cdf:Text>
+			</cdf:BallotName>
+			<cdf:PartyId>par-dem</cdf:PartyId>
+		</cdf:Candidate>
+		<cdf:Candidate ObjectId="can-gcl">
+			<cdf:BallotName>
+				<cdf:Text Language="en">Glenna P Cook-Lincoln</cdf:Text>
+			</cdf:BallotName>
+			<cdf:PartyId>par-rep</cdf:PartyId>
+		</cdf:Candidate>
+		<cdf:Candidate ObjectId="can-hh">
+			<cdf:BallotName>
+				<cdf:Text Language="en">Heidi Hatzinger</cdf:Text>
+			</cdf:BallotName>
+			<cdf:PartyId>par-dem</cdf:PartyId>
+		</cdf:Candidate>
+		<cdf:Contest xsi:type="cdf:CandidateContest" ObjectId="cc-president">
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-president-ak">
+				<cdf:CandidateIds>can-ak</cdf:CandidateIds>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-president-bg">
+				<cdf:CandidateIds>can-bg</cdf:CandidateIds>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-president-wi">
+				<cdf:IsWriteIn>true</cdf:IsWriteIn>
+			</cdf:ContestOption>
+			<cdf:ElectionDistrictId>ru-county-3</cdf:ElectionDistrictId>
+			<cdf:Name>President of the United States</cdf:Name>
+			<cdf:VoteVariation>n-of-m</cdf:VoteVariation>
+			<cdf:VotesAllowed>1</cdf:VotesAllowed>
+		</cdf:Contest>
+		<cdf:Contest xsi:type="cdf:CandidateContest" ObjectId="cc-senate">
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-senate-cs">
+				<cdf:CandidateIds>can-cs</cdf:CandidateIds>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-senate-de">
+				<cdf:CandidateIds>can-de</cdf:CandidateIds>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-senate-wi">
+				<cdf:IsWriteIn>true</cdf:IsWriteIn>
+			</cdf:ContestOption>
+			<cdf:ElectionDistrictId>ru-county-3</cdf:ElectionDistrictId>
+			<cdf:Name>United State Senator</cdf:Name>
+			<cdf:VoteVariation>n-of-m</cdf:VoteVariation>
+			<cdf:VotesAllowed>1</cdf:VotesAllowed>
+		</cdf:Contest>
+		<cdf:Contest xsi:type="cdf:CandidateContest" ObjectId="cc-congress-1">
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-congress-1-es">
+				<cdf:CandidateIds>can-esheehy</cdf:CandidateIds>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-congress-1-ff">
+				<cdf:CandidateIds>can-ff</cdf:CandidateIds>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-congress-1-wi">
+				<cdf:IsWriteIn>true</cdf:IsWriteIn>
+			</cdf:ContestOption>
+			<cdf:ElectionDistrictId>ru-congress-1</cdf:ElectionDistrictId>
+			<cdf:Name>Representative in Congress - District 1</cdf:Name>
+			<cdf:VoteVariation>n-of-m</cdf:VoteVariation>
+			<cdf:VotesAllowed>1</cdf:VotesAllowed>
+		</cdf:Contest>
+		<cdf:Contest xsi:type="cdf:CandidateContest" ObjectId="cc-congress-2">
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-congress-2-es">
+				<cdf:CandidateIds>can-esnyder</cdf:CandidateIds>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-congress-2-fm">
+				<cdf:CandidateIds>can-fm</cdf:CandidateIds>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-congress-2-wi">
+				<cdf:IsWriteIn>true</cdf:IsWriteIn>
+			</cdf:ContestOption>
+			<cdf:ElectionDistrictId>ru-congress-2</cdf:ElectionDistrictId>
+			<cdf:Name>Representative in Congress - District 2</cdf:Name>
+			<cdf:VoteVariation>n-of-m</cdf:VoteVariation>
+			<cdf:VotesAllowed>1</cdf:VotesAllowed>
+		</cdf:Contest>
+		<cdf:Contest xsi:type="cdf:CandidateContest" ObjectId="cc-assembly-1">
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-assembly-1-gc">
+				<cdf:CandidateIds>can-gc</cdf:CandidateIds>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-assembly-1-hs">
+				<cdf:CandidateIds>can-hs</cdf:CandidateIds>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-assembly-1-wi">
+				<cdf:IsWriteIn>true</cdf:IsWriteIn>
+			</cdf:ContestOption>
+			<cdf:ElectionDistrictId>ru-assembly-1</cdf:ElectionDistrictId>
+			<cdf:Name>State Assembly - District 1</cdf:Name>
+			<cdf:VoteVariation>n-of-m</cdf:VoteVariation>
+			<cdf:VotesAllowed>1</cdf:VotesAllowed>
+		</cdf:Contest>
+		<cdf:Contest xsi:type="cdf:CandidateContest" ObjectId="cc-assembly-2">
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-assembly-2-gcl">
+				<cdf:CandidateIds>can-gcl</cdf:CandidateIds>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-assembly-2-hh">
+				<cdf:CandidateIds>can-hh</cdf:CandidateIds>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:CandidateOption" ObjectId="cs-assembly-2-wi">
+				<cdf:IsWriteIn>true</cdf:IsWriteIn>
+			</cdf:ContestOption>
+			<cdf:ElectionDistrictId>ru-assembly-2</cdf:ElectionDistrictId>
+			<cdf:Name>State Assembly - District 2</cdf:Name>
+			<cdf:VoteVariation>n-of-m</cdf:VoteVariation>
+			<cdf:VotesAllowed>1</cdf:VotesAllowed>
+		</cdf:Contest>
+		<cdf:Contest xsi:type="cdf:BallotMeasureContest" ObjectId="bm-22.6">
+			<cdf:ContestOption xsi:type="cdf:BallotMeasureOption" ObjectId="cs-22.6-yes">
+				<cdf:Selection>
+					<cdf:Text Language="en">YES</cdf:Text>
+				</cdf:Selection>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:BallotMeasureOption" ObjectId="cs-22.6-no">
+				<cdf:Selection>
+					<cdf:Text Language="en">NO</cdf:Text>
+				</cdf:Selection>
+			</cdf:ContestOption>
+			<cdf:ElectionDistrictId>ru-county-3</cdf:ElectionDistrictId>
+			<cdf:Name>Measure 22.6 - Exchange of Certain Property</cdf:Name>
+			<cdf:VoteVariation>n-of-m</cdf:VoteVariation>
+			<cdf:FullText>
+				<cdf:Text Language="en">Shall the proposed amendment to Article XIV, section 1 of the Constitution, authorizing the conveyance of approximately ten acres of State Land in exchange for approximately two hundred acres of wild forest land in order to facilitate the preservation of certain historic buildings, be approved?</cdf:Text>
+			</cdf:FullText>
+		</cdf:Contest>
+		<cdf:Contest xsi:type="cdf:BallotMeasureContest" ObjectId="bm-25.3">
+			<cdf:ContestOption xsi:type="cdf:BallotMeasureOption" ObjectId="cs-25.3-yes">
+				<cdf:Selection>
+					<cdf:Text Language="en">YES</cdf:Text>
+				</cdf:Selection>
+			</cdf:ContestOption>
+			<cdf:ContestOption xsi:type="cdf:BallotMeasureOption" ObjectId="cs-25.3-no">
+				<cdf:Selection>
+					<cdf:Text Language="en">NO</cdf:Text>
+				</cdf:Selection>
+			</cdf:ContestOption>
+			<cdf:ElectionDistrictId>ru-county-3</cdf:ElectionDistrictId>
+			<cdf:Name>Measure 25.3 - County Charter</cdf:Name>
+			<cdf:VoteVariation>n-of-m</cdf:VoteVariation>
+			<cdf:FullText>
+				<cdf:Text Language="en">Shall there be approved and adopted in the County, a Local Law passed by the Board of the County on August 19, 1974 entitled "A Local Law to amend section six (a) of Article II of the County Charter - changing the elected term of the County Board to four years," which enlarges the term of office of each member of the County Board of Legislators from two (2) years to four (4) years?</cdf:Text>
+			</cdf:FullText>
+		</cdf:Contest>
+		<cdf:ElectionScopeId>ru-county-3</cdf:ElectionScopeId>
+		<cdf:Name>
+			<cdf:Text Language="en">GEN-03 General Election</cdf:Text>
+		</cdf:Name>
+		<cdf:StartDate>2004-11-02</cdf:StartDate>
+		<cdf:EndDate>2004-11-02</cdf:EndDate>
+		<cdf:Type>general</cdf:Type>
+	</cdf:Election>
+	<cdf:GeneratedDate>2023-07-14T13:32:09-04:00</cdf:GeneratedDate>
+	<cdf:GpUnit xsi:type="cdf:ReportingUnit" ObjectId="ru-congress-1">
+		<cdf:ComposingGpUnitIds>prec-fs-23</cdf:ComposingGpUnitIds>
+		<cdf:Name>
+			<cdf:Text Language="en">1st Congressional District</cdf:Text>
+		</cdf:Name>
+		<cdf:Number>2</cdf:Number>
+		<cdf:Type>congressional</cdf:Type>
+	</cdf:GpUnit>
+	<cdf:GpUnit xsi:type="cdf:ReportingUnit" ObjectId="ru-congress-2">
+		<cdf:ComposingGpUnitIds>prec-ac</cdf:ComposingGpUnitIds>
+		<cdf:Name>
+			<cdf:Text Language="en">2nd Congressional District</cdf:Text>
+		</cdf:Name>
+		<cdf:Number>2</cdf:Number>
+		<cdf:Type>congressional</cdf:Type>
+	</cdf:GpUnit>
+	<cdf:GpUnit xsi:type="cdf:ReportingUnit" ObjectId="ru-assembly-1">
+		<cdf:ComposingGpUnitIds>prec-fs-23</cdf:ComposingGpUnitIds>
+		<cdf:Name>
+			<cdf:Text Language="en">1st Assembly District</cdf:Text>
+		</cdf:Name>
+		<cdf:Number>1</cdf:Number>
+		<cdf:Type>state-house</cdf:Type>
+	</cdf:GpUnit>
+	<cdf:GpUnit xsi:type="cdf:ReportingUnit" ObjectId="ru-assembly-2">
+		<cdf:ComposingGpUnitIds>prec-ac</cdf:ComposingGpUnitIds>
+		<cdf:Name>
+			<cdf:Text Language="en">2nd Assembly District</cdf:Text>
+		</cdf:Name>
+		<cdf:Number>2</cdf:Number>
+		<cdf:Type>state-house</cdf:Type>
+	</cdf:GpUnit>
+	<cdf:GpUnit xsi:type="cdf:ReportingUnit" ObjectId="ru-county-3">
+		<cdf:ComposingGpUnitIds>prec-fs-23 prec-ac</cdf:ComposingGpUnitIds>
+		<cdf:Name>
+			<cdf:Text Language="en">Test County</cdf:Text>
+		</cdf:Name>
+		<cdf:Type>county</cdf:Type>
+	</cdf:GpUnit>
 	<!-- begin precincts -->
-	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-fs-23">
-		<Name>
-			<Text Language="en">Fire Station 23</Text>
-		</Name>
-		<Type>precinct</Type>
-	</GpUnit>
-	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-ac">
-		<Name>
-			<Text Language="en">Aldersgate Church</Text>
-		</Name>
-		<Type>precinct</Type>
-	</GpUnit>
-	<Issuer>National Institute of Standards and Technology</Issuer>
-	<IssuerAbbreviation>NIST</IssuerAbbreviation>
-	<Party ObjectId="par-dem">
-		<Name>
-			<Text Language="en">Democrat</Text>
-		</Name>
-	</Party>
-	<Party ObjectId="par-rep">
-		<Name>
-			<Text Language="en">Republican</Text>
-		</Name>
-	</Party>
-	<SequenceStart>1</SequenceStart>
-	<SequenceEnd>1</SequenceEnd>
-	<VendorApplicationId>NIST Test Data</VendorApplicationId>
-	<Version>1.0.0</Version>
-</BallotDefinition>
+	<cdf:GpUnit xsi:type="cdf:ReportingUnit" ObjectId="prec-fs-23">
+		<cdf:Name>
+			<cdf:Text Language="en">Fire Station 23</cdf:Text>
+		</cdf:Name>
+		<cdf:Type>precinct</cdf:Type>
+	</cdf:GpUnit>
+	<cdf:GpUnit xsi:type="cdf:ReportingUnit" ObjectId="prec-ac">
+		<cdf:Name>
+			<cdf:Text Language="en">Aldersgate Church</cdf:Text>
+		</cdf:Name>
+		<cdf:Type>precinct</cdf:Type>
+	</cdf:GpUnit>
+	<cdf:Issuer>National Institute of Standards and Technology</cdf:Issuer>
+	<cdf:IssuerAbbreviation>NIST</cdf:IssuerAbbreviation>
+	<cdf:Party ObjectId="par-dem">
+		<cdf:Name>
+			<cdf:Text Language="en">Democrat</cdf:Text>
+		</cdf:Name>
+	</cdf:Party>
+	<cdf:Party ObjectId="par-rep">
+		<cdf:Name>
+			<cdf:Text Language="en">Republican</cdf:Text>
+		</cdf:Name>
+	</cdf:Party>
+	<cdf:SequenceStart>1</cdf:SequenceStart>
+	<cdf:SequenceEnd>1</cdf:SequenceEnd>
+	<cdf:VendorApplicationId>NIST Test Data</cdf:VendorApplicationId>
+	<cdf:Version>1.0.0</cdf:Version>
+</cdf:BallotDefinition>

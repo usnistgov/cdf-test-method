@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK -->
 <BallotDefinition xmlns="http://itl.nist.gov/ns/voting/1500-20/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Election>
 		<BallotStyle>
@@ -307,7 +306,7 @@
 		</Contest>
 		<ElectionScopeId>ru-county</ElectionScopeId>
 		<Name>
-			<Text Language="en">PRIM-03</Text>
+			<Text Language="en">PRIM-03 Primary Election</Text>
 		</Name>
 		<StartDate>2012-03-06</StartDate>
 		<EndDate>2012-03-06</EndDate>

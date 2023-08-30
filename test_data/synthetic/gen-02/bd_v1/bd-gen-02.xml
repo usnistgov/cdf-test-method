@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BallotDefinition xmlns="http://itl.nist.gov/ns/voting/1500-20/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Election>
+		<BallotStyle>
+			<ExternalIdentifier>
+				<Type>local-level</Type>
+				<Value>Creekside</Value>
+			</ExternalIdentifier>
+			<GpUnitIds>prec-creekside</GpUnitIds>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-president</ContestId>
+				<OrderedContestOptionIds>co-president-as co-president-bh co-president-wi</OrderedContestOptionIds>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-senate</ContestId>
+				<OrderedContestOptionIds>co-senate-cm co-senate-dh co-senate-wi</OrderedContestOptionIds>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-lt-governor</ContestId>
+				<OrderedContestOptionIds>co-lt-governor-eb co-lt-governor-ff co-lt-governor-wi</OrderedContestOptionIds>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-sos</ContestId>
+				<OrderedContestOptionIds>co-sos-gk co-sos-hl co-sos-wi</OrderedContestOptionIds>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-sherrif</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-state-house-1</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-assembly-a</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-school-board</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>ac-recall-governor</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-recall-governor</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>bm-proposal-a</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>bm-proposal-b</ContestId>
+			</OrderedContent>
+		</BallotStyle>
+		<BallotStyle>
+			<ExternalIdentifier>
+				<Type>local-level</Type>
+				<Value>Mooring</Value>
+			</ExternalIdentifier>
+			<GpUnitIds>prec-mooring</GpUnitIds>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-president</ContestId>
+				<OrderedContestOptionIds>co-president-bh co-president-as co-president-wi</OrderedContestOptionIds>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-senate</ContestId>
+				<OrderedContestOptionIds>co-senate-dh co-senate-cm co-senate-wi</OrderedContestOptionIds>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-lt-governor</ContestId>
+				<OrderedContestOptionIds>co-lt-governor-ff co-lt-governor-eb co-lt-governor-wi</OrderedContestOptionIds>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-sos</ContestId>
+				<OrderedContestOptionIds>co-sos-hl co-sos-gk co-sos-wi</OrderedContestOptionIds>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-sherrif</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-state-house-2</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-assembly-b</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-school-board</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>ac-recall-governor</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-recall-governor</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>bm-proposal-a</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>bm-proposal-b</ContestId>
+			</OrderedContent>
+		</BallotStyle>
+		<BallotStyle>
+			<ExternalIdentifier>
+				<Type>local-level</Type>
+				<Value>Hillwood</Value>
+			</ExternalIdentifier>
+			<GpUnitIds>prec-hillwood</GpUnitIds>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-president</ContestId>
+				<OrderedContestOptionIds>co-president-as co-president-bh co-president-wi</OrderedContestOptionIds>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-senate</ContestId>
+				<OrderedContestOptionIds>co-senate-cm co-senate-dh co-senate-wi</OrderedContestOptionIds>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-lt-governor</ContestId>
+				<OrderedContestOptionIds>co-lt-governor-eb co-lt-governor-ff co-lt-governor-wi</OrderedContestOptionIds>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-sos</ContestId>
+				<OrderedContestOptionIds>co-sos-gk co-sos-hl co-sos-wi</OrderedContestOptionIds>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-sherrif</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-state-house-2</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-assembly-c</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-school-board</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>ac-recall-governor</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>cc-recall-governor</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>bm-proposal-a</ContestId>
+			</OrderedContent>
+			<OrderedContent xsi:type="OrderedContest">
+				<ContestId>bm-proposal-b</ContestId>
+			</OrderedContent>
+		</BallotStyle>
+		<Candidate ObjectId="can-as">
+			<BallotName>
+				<Text Language="en">Albina Sepich</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-bh">
+			<BallotName>
+				<Text Language="en">Barbara Barrett Hicks</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-cm">
+			<BallotName>
+				<Text Language="en">Carl Moore</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-dh">
+			<BallotName>
+				<Text Language="en">David Heroux</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-eb">
+			<BallotName>
+				<Text Language="en">Edwin Best</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-ff">
+			<BallotName>
+				<Text Language="en">Fiero Finn</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-gk">
+			<BallotName>
+				<Text Language="en">Gail Keefe</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-hl">
+			<BallotName>
+				<Text Language="en">Harry Levin</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-ir">
+			<BallotName>
+				<Text Language="en">Imran Rashid</Text>
+			</BallotName>
+		</Candidate>
+		<Candidate ObjectId="can-jb">
+			<BallotName>
+				<Text Language="en">Jack "Duke" Brodisky</Text>
+			</BallotName>
+		</Candidate>
+		<Candidate ObjectId="can-ka">
+			<BallotName>
+				<Text Language="en">Ken Anderson</Text>
+			</BallotName>
+		</Candidate>
+		<Candidate ObjectId="can-lcr">
+			<BallotName>
+				<Text Language="en">Leo Cross</Text>
+			</BallotName>
+		</Candidate>
+		<Candidate ObjectId="can-mb">
+			<BallotName>
+				<Text Language="en">Mary Burke</Text>
+			</BallotName>
+		</Candidate>
+		<Candidate ObjectId="can-nk">
+			<BallotName>
+				<Text Language="en">Nora Kling</Text>
+			</BallotName>
+		</Candidate>
+		<Candidate ObjectId="can-kr">
+			<BallotName>
+				<Text Language="en">Kay Raab</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-lc">
+			<BallotName>
+				<Text Language="en">Laurie Cioffi</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-ks">
+			<BallotName>
+				<Text Language="en">Keith Satterwhite</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-ls">
+			<BallotName>
+				<Text Language="en">Laurie St Laurent</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-mc">
+			<BallotName>
+				<Text Language="en">Maribeth Clark</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-nj">
+			<BallotName>
+				<Text Language="en">Nathan Johnson</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-mh">
+			<BallotName>
+				<Text Language="en">Marjorie Hall</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-nc">
+			<BallotName>
+				<Text Language="en">Neil Carey</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-mj">
+			<BallotName>
+				<Text Language="en">Marsha Johnson</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-np">
+			<BallotName>
+				<Text Language="en">Neil Pitzsimmons</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-ps">
+			<BallotName>
+				<Text Language="en">Patricia Smallmon</Text>
+			</BallotName>
+		</Candidate>
+		<Candidate ObjectId="can-rb">
+			<BallotName>
+				<Text Language="en">R Nicholas Burton</Text>
+			</BallotName>
+		</Candidate>
+		<Candidate ObjectId="can-sp">
+			<BallotName>
+				<Text Language="en">Sam Patel</Text>
+			</BallotName>
+		</Candidate>
+		<Candidate ObjectId="can-ts">
+			<BallotName>
+				<Text Language="en">Tabathia Song</Text>
+			</BallotName>
+		</Candidate>
+		<Candidate ObjectId="can-vg">
+			<BallotName>
+				<Text Language="en">Vincent Gould</Text>
+			</BallotName>
+		</Candidate>
+		<Candidate ObjectId="can-ads">
+			<BallotName>
+				<Text Language="en">Ala Dee Smith</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-bb">
+			<BallotName>
+				<Text Language="en">Ben Baker</Text>
+			</BallotName>
+			<PartyId>par-dem</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-cma">
+			<BallotName>
+				<Text Language="en">Calvin Marino</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-dc">
+			<BallotName>
+				<Text Language="en">David Cox</Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Candidate ObjectId="can-et">
+			<BallotName>
+				<Text Language="en">Edris Thomas </Text>
+			</BallotName>
+			<PartyId>par-rep</PartyId>
+		</Candidate>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-president">
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-president-as">
+				<CandidateIds>can-as</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-president-bh">
+				<CandidateIds>can-bh</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-president-wi">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<HasRotation>1</HasRotation>
+			<Name>President of the United States</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-senate">
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-senate-cm">
+				<CandidateIds>can-cm</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-senate-dh">
+				<CandidateIds>can-dh</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-senate-wi">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<HasRotation>1</HasRotation>
+			<Name>Senator of the United States</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-lt-governor">
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-lt-governor-eb">
+				<CandidateIds>can-eb</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-lt-governor-ff">
+				<CandidateIds>can-ff</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-lt-governor-wi">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<HasRotation>1</HasRotation>
+			<Name>Lieutenant Governor</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-sos">
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-sos-gk">
+				<CandidateIds>can-gk</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-sos-hl">
+				<CandidateIds>can-hl</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-sos-wi">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<HasRotation>1</HasRotation>
+			<Name>Secretary of State</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-sherrif">
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-sherrif-ir">
+				<CandidateIds>can-ir</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-sherrif-jb">
+				<CandidateIds>can-jb</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-sherrif-ka">
+				<CandidateIds>can-ka</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-sherrif-lcr">
+				<CandidateIds>can-lcr</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-sherrif-mb">
+				<CandidateIds>can-mb</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-sherrif-nk">
+				<CandidateIds>can-nk</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-sherrif-wi">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-sherrif-wi2">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-sherrif-wi3">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<Name>Sheriff of Morgan County</Name>
+			<VoteVariation>rcv</VoteVariation>
+			<RanksAllowed>3</RanksAllowed>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-state-house-1">
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-state-house-1-kr">
+				<CandidateIds>can-kr</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-state-house-1-lc">
+				<CandidateIds>can-lc</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-state-house-1-wi">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-state-house-1</ElectionDistrictId>
+			<Name>State House of Representative - District 1</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-state-house-2">
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-state-house-2-ks">
+				<CandidateIds>can-ks</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-state-house-2-ls">
+				<CandidateIds>can-ls</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-state-house-2-wi">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-state-house-2</ElectionDistrictId>
+			<Name>State House of Representative - District 2</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-assembly-a">
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-assembly-a-mc">
+				<CandidateIds>can-mc</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-assembly-a-nj">
+				<CandidateIds>can-nj</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-assembly-a-wi">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-assembly-a</ElectionDistrictId>
+			<Name>Member of Assembly - Seat A</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-assembly-b">
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-assembly-b-mh">
+				<CandidateIds>can-mh</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-assembly-b-nc">
+				<CandidateIds>can-nc</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-assembly-b-wi">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-assembly-b</ElectionDistrictId>
+			<Name>Member of Assembly - Seat B</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-assembly-c">
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-assembly-c-mj">
+				<CandidateIds>can-mj</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-assembly-c-np">
+				<CandidateIds>can-np</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-assembly-c-wi">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-assembly-c</ElectionDistrictId>
+			<Name>Member of Assembly - Seat C</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-school-board">
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-school-board-ps">
+				<CandidateIds>can-ps</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-school-board-rb">
+				<CandidateIds>can-rb</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-school-board-sp">
+				<CandidateIds>can-sp</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-school-board-ts">
+				<CandidateIds>can-ts</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-school-board-vg">
+				<CandidateIds>can-vg</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-school-board-wi">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-school-board-wi2">
+				<IsWriteIn>1</IsWriteIn>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<HasRotation>1</HasRotation>
+			<Name>School Board - District 21</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>2</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="ActivationContest" ObjectId="ac-recall-governor">
+			<ContestOption xsi:type="ActivationOption" ObjectId="ao-recall-governor-yes">
+				<CausesActivation>1</CausesActivation>
+				<Selection>
+					<Text Language="en">Yes</Text>
+				</Selection>
+			</ContestOption>
+			<ContestOption xsi:type="ActivationOption" ObjectId="ao-recall-governor-no">
+				<CausesActivation>0</CausesActivation>
+				<Selection>
+					<Text Language="en">No</Text>
+				</Selection>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<Name>Recall Governor</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<ControlledContestIds>cc-recall-governor</ControlledContestIds>
+			<SummaryText>
+				<Text Language="en">Should the Governor of the State be Recalled for failure to perform his duties?</Text>
+			</SummaryText>
+		</Contest>
+		<Contest xsi:type="CandidateContest" ObjectId="cc-recall-governor">
+			<BallotSubTitle>
+				<Text Language="en">If the Governor is to be replaced which candidate should replace him?</Text>
+			</BallotSubTitle>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-recall-governor-ads">
+				<CandidateIds>can-ads</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-recall-governor-bb">
+				<CandidateIds>can-bb</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-recall-governor-cma">
+				<CandidateIds>can-cma</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-recall-governor-dc">
+				<CandidateIds>can-dc</CandidateIds>
+			</ContestOption>
+			<ContestOption xsi:type="CandidateOption" ObjectId="co-recall-governor-et">
+				<CandidateIds>can-et</CandidateIds>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<Name>Replacement Governor</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<VotesAllowed>1</VotesAllowed>
+		</Contest>
+		<Contest xsi:type="BallotMeasureContest" ObjectId="bm-proposal-a">
+			<ContestOption xsi:type="BallotMeasureOption" ObjectId="bmo-proposal-a-yes">
+				<Selection>
+					<Text Language="en">Yes</Text>
+				</Selection>
+			</ContestOption>
+			<ContestOption xsi:type="BallotMeasureOption" ObjectId="bmo-proposal-a-no">
+				<Selection>
+					<Text Language="en">No</Text>
+				</Selection>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<Name>Proposal A - County Charter</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<FullText>
+				<Text Language="en">Shall there be approved and adopted in the County, a Local Law passed by the Board of the County on August 19, 1974 entitled "A Local Law to amend section six (a) of Article II of the County Charter - changing the elected term of the County Board to four years," which enlarges the term of office of each member of the County Board of Legislators from two (2) years to four (4) years?</Text>
+			</FullText>
+		</Contest>
+		<Contest xsi:type="BallotMeasureContest" ObjectId="bm-proposal-b">
+			<ContestOption xsi:type="BallotMeasureOption" ObjectId="bmo-proposal-b-yes">
+				<Selection>
+					<Text Language="en">Yes</Text>
+				</Selection>
+			</ContestOption>
+			<ContestOption xsi:type="BallotMeasureOption" ObjectId="bmo-proposal-b-no">
+				<Selection>
+					<Text Language="en">No</Text>
+				</Selection>
+			</ContestOption>
+			<ElectionDistrictId>ru-county-1</ElectionDistrictId>
+			<Name>Proposal B - Exchange of Certain Property</Name>
+			<VoteVariation>n-of-m</VoteVariation>
+			<FullText>
+				<Text Language="en">Shall the proposed amendment to Article XIV, section 1 of the Constitution, authorizing the conveyance of approximately ten acres of State Land in exchange for approximately two hundred acres of wild forest land in order to facilitate the preservation of certain historic buildings, be approved?</Text>
+			</FullText>
+		</Contest>
+		<ElectionScopeId>ru-county-1</ElectionScopeId>
+		<Name>
+			<Text Language="en">GEN-02 General Election</Text>
+		</Name>
+		<StartDate>2000-11-07</StartDate>
+		<EndDate>2000-11-07</EndDate>
+		<Type>general</Type>
+	</Election>
+	<GeneratedDate>2023-07-03T00:00:00Z</GeneratedDate>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-creekside">
+		<Name>
+			<Text Language="en">Creekside</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-mooring">
+		<Name>
+			<Text Language="en">Mooring</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="prec-hillwood">
+		<Name>
+			<Text Language="en">Hillwood</Text>
+		</Name>
+		<Type>precinct</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-county-1">
+		<ComposingGpUnitIds>prec-creekside prec-hillwood prec-mooring</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">Test County</Text>
+		</Name>
+		<Type>county</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-state-house-1">
+		<ComposingGpUnitIds>prec-creekside</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">State House of Representatives - District 1</Text>
+		</Name>
+		<Number>1</Number>
+		<Type>state-house</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-state-house-2">
+		<ComposingGpUnitIds>prec-mooring prec-hillwood</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">State House of Representatives - District 2</Text>
+		</Name>
+		<Number>2</Number>
+		<Type>state-house</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-assembly-a">
+		<ComposingGpUnitIds>prec-creekside</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">Assembly - Seat A</Text>
+		</Name>
+		<Number>A</Number>
+		<Type>county-council</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-assembly-b">
+		<ComposingGpUnitIds>prec-mooring</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">Assembly - Seat B</Text>
+		</Name>
+		<Number>B</Number>
+		<Type>county-council</Type>
+	</GpUnit>
+	<GpUnit xsi:type="ReportingUnit" ObjectId="ru-assembly-c">
+		<ComposingGpUnitIds>prec-hillwood</ComposingGpUnitIds>
+		<Name>
+			<Text Language="en">Assembly - Seat C</Text>
+		</Name>
+		<Number>C</Number>
+		<Type>county-council</Type>
+	</GpUnit>
+	<Issuer>National Institute of Standards and Technology</Issuer>
+	<IssuerAbbreviation>NIST</IssuerAbbreviation>
+	<Party ObjectId="par-dem">
+		<Name>
+			<Text Language="en">Democrat</Text>
+		</Name>
+	</Party>
+	<Party ObjectId="par-rep">
+		<Name>
+			<Text Language="en">Republican</Text>
+		</Name>
+	</Party>
+	<SequenceStart>1</SequenceStart>
+	<SequenceEnd>1</SequenceEnd>
+	<VendorApplicationId>NIST Test Data</VendorApplicationId>
+	<Version>1.0.0</Version>
+</BallotDefinition>

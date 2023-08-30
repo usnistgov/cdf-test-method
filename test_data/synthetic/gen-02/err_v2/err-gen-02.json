@@ -1,0 +1,2230 @@
+
+ { "Election" : 
+  [ 
+   { "BallotStyle" : 
+    [ 
+     { "ExternalIdentifier" : 
+      [ 
+       { "Type" : "local-level",
+        "Value" : "Creekside",
+        "@type" : "ElectionResults.ExternalIdentifier" } ],
+      "GpUnitIds" : 
+      [ "prec-creekside" ],
+      "OrderedContent" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "OrderedContestSelectionIds" : 
+        [ "co-president-as",
+         "co-president-bh",
+         "co-president-wi" ],
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-senate",
+        "OrderedContestSelectionIds" : 
+        [ "co-senate-cm",
+         "co-senate-dh",
+         "co-senate-wi" ],
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-lt-governor",
+        "OrderedContestSelectionIds" : 
+        [ "co-lt-governor-eb",
+         "co-lt-governor-ff",
+         "co-lt-governor-wi" ],
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-sos",
+        "OrderedContestSelectionIds" : 
+        [ "co-sos-gk",
+         "co-sos-hl",
+         "co-sos-wi" ],
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-sherrif",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-state-house-1",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-assembly-a",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-school-board",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "ac-recall-governor",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-recall-governor",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-a",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-b",
+        "@type" : "ElectionResults.OrderedContest" } ],
+      "@type" : "ElectionResults.BallotStyle" },
+     
+     { "ExternalIdentifier" : 
+      [ 
+       { "Type" : "local-level",
+        "Value" : "Mooring",
+        "@type" : "ElectionResults.ExternalIdentifier" } ],
+      "GpUnitIds" : 
+      [ "prec-mooring" ],
+      "OrderedContent" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "OrderedContestSelectionIds" : 
+        [ "co-president-bh",
+         "co-president-as",
+         "co-president-wi" ],
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-senate",
+        "OrderedContestSelectionIds" : 
+        [ "co-senate-dh",
+         "co-senate-cm",
+         "co-senate-wi" ],
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-lt-governor",
+        "OrderedContestSelectionIds" : 
+        [ "co-lt-governor-ff",
+         "co-lt-governor-eb",
+         "co-lt-governor-wi" ],
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-sos",
+        "OrderedContestSelectionIds" : 
+        [ "co-sos-hl",
+         "co-sos-gk",
+         "co-sos-wi" ],
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-sherrif",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-state-house-2",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-assembly-b",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-school-board",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "ac-recall-governor",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-recall-governor",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-a",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-b",
+        "@type" : "ElectionResults.OrderedContest" } ],
+      "@type" : "ElectionResults.BallotStyle" },
+     
+     { "ExternalIdentifier" : 
+      [ 
+       { "Type" : "local-level",
+        "Value" : "Hillwood",
+        "@type" : "ElectionResults.ExternalIdentifier" } ],
+      "GpUnitIds" : 
+      [ "prec-hillwood" ],
+      "OrderedContent" : 
+      [ 
+       { "ContestId" : "cc-president",
+        "OrderedContestSelectionIds" : 
+        [ "co-president-as",
+         "co-president-bh",
+         "co-president-wi" ],
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-senate",
+        "OrderedContestSelectionIds" : 
+        [ "co-senate-cm",
+         "co-senate-dh",
+         "co-senate-wi" ],
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-lt-governor",
+        "OrderedContestSelectionIds" : 
+        [ "co-lt-governor-eb",
+         "co-lt-governor-ff",
+         "co-lt-governor-wi" ],
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-sos",
+        "OrderedContestSelectionIds" : 
+        [ "co-sos-gk",
+         "co-sos-hl",
+         "co-sos-wi" ],
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-sherrif",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-state-house-2",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-assembly-c",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-school-board",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "ac-recall-governor",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "cc-recall-governor",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-a",
+        "@type" : "ElectionResults.OrderedContest" },
+       
+       { "ContestId" : "bm-proposal-b",
+        "@type" : "ElectionResults.OrderedContest" } ],
+      "@type" : "ElectionResults.BallotStyle" } ],
+    "Candidate" : 
+    [ 
+     { "@id" : "can-as",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Albina Sepich",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-bh",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Barbara Barrett Hicks",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-cm",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Carl Moore",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-dh",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "David Heroux",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-eb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Edwin Best",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ff",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Fiero Finn",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-gk",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Gail Keefe",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-hl",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Harry Levin",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ir",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Imran Rashid",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-jb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Jack \"Duke\" Brodisky",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ka",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Ken Anderson",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-lcr",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Leo Cross",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-mb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Mary Burke",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-nk",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Nora Kling",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-kr",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Kay Raab",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-lc",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Laurie Cioffi",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ks",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Keith Satterwhite",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ls",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Laurie St Laurent",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-mc",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Maribeth Clark",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-nj",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Nathan Johnson",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-mh",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Marjorie Hall",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-nc",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Neil Carey",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-mj",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Marsha Johnson",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-np",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Neil Pitzsimmons",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ps",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Patricia Smallmon",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-rb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "R Nicholas Burton",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-sp",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Sam Patel",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ts",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Tabathia Song",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-vg",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Vincent Gould",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-ads",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Ala Dee Smith",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-bb",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Ben Baker",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-dem",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-cma",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Calvin Marino",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-dc",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "David Cox",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" },
+     
+     { "@id" : "can-et",
+      "BallotName" : 
+      { "Text" : 
+       [ 
+        { "Content" : "Edris Thomas ",
+         "Language" : "en-us",
+         "@type" : "ElectionResults.LanguageString" } ],
+       "@type" : "ElectionResults.InternationalizedText" },
+      "PartyId" : "par-rep",
+      "@type" : "ElectionResults.Candidate" } ],
+    "Contest" : 
+    [ 
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-president",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-as" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-president-as",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 30,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-bh" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-president-bh",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 21,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-president-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "President of the United States",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 3,
+        "Undervotes" : 3,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-creekside",
+        "Overvotes" : 1,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mooring",
+        "Overvotes" : 1,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-hillwood",
+        "Overvotes" : 1,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-senate",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-cm" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-senate-cm",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 30,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-dh" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-senate-dh",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 15,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 5,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 5,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 5,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-senate-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Senator of the United States",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 0,
+        "Undervotes" : 12,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-creekside",
+        "Overvotes" : 0,
+        "Undervotes" : 4,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mooring",
+        "Overvotes" : 0,
+        "Undervotes" : 4,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-hillwood",
+        "Overvotes" : 0,
+        "Undervotes" : 4,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-lt-governor",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-eb" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-lt-governor-eb",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 21,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-ff" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-lt-governor-ff",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 30,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-lt-governor-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Lieutenant Governor",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 6,
+        "Undervotes" : 3,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-creekside",
+        "Overvotes" : 2,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mooring",
+        "Overvotes" : 2,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-hillwood",
+        "Overvotes" : 2,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-sos",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-gk" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-sos-gk",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 24,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 8,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 8,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 8,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-hl" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-sos-hl",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 21,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-sos-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Secretary of State",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 9,
+        "Undervotes" : 3,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-creekside",
+        "Overvotes" : 3,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mooring",
+        "Overvotes" : 3,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-hillwood",
+        "Overvotes" : 3,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-sherrif",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-ir" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-sherrif-ir",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Round" : 0,
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-jb" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-sherrif-jb",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Round" : 0,
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-ka" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-sherrif-ka",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Round" : 0,
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-lcr" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-sherrif-lcr",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Round" : 0,
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-mb" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-sherrif-mb",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Round" : 0,
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-nk" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-sherrif-nk",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Round" : 0,
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-sherrif-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Round" : 0,
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-sherrif-wi2",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Round" : 0,
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-sherrif-wi3",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Round" : 0,
+          "Type" : "total" },
+         
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Round" : 0,
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Sheriff of Morgan County" },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-state-house-1",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-kr" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-state-house-1-kr",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-lc" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-state-house-1-lc",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 8,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 8,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-state-house-1-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "State House of Representative - District 1",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 2,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-creekside",
+        "Overvotes" : 2,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-state-house-2",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-ks" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-state-house-2-ks",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 14,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 7,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-ls" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-state-house-2-ls",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 16,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 8,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 8,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-state-house-2-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "State House of Representative - District 2",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 4,
+        "Undervotes" : 4,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mooring",
+        "Overvotes" : 2,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-hillwood",
+        "Overvotes" : 2,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-assembly-a",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-mc" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-assembly-a-mc",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-nj" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-assembly-a-nj",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-assembly-a-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Member of Assembly - Seat A",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 1,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-creekside",
+        "Overvotes" : 1,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-assembly-b",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-mh" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-assembly-b-mh",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-nc" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-assembly-b-nc",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-assembly-b-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Member of Assembly - Seat B",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 1,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mooring",
+        "Overvotes" : 1,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-assembly-c",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-mj" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-assembly-c-mj",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-np" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-assembly-c-np",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-assembly-c-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Member of Assembly - Seat C",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 1,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-hillwood",
+        "Overvotes" : 1,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 2,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-school-board",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-ps" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-school-board-ps",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 18,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-rb" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-school-board-rb",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 12,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-sp" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-school-board-sp",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 15,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 5,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 5,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 5,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-ts" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-school-board-ts",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-vg" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-school-board-vg",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 33,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 11,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 11,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 11,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-school-board-wi",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 12,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 4,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "IsWriteIn" : true,
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-school-board-wi2",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 2,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "School Board - District 21",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 6,
+        "Undervotes" : 15,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-creekside",
+        "Overvotes" : 2,
+        "Undervotes" : 5,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mooring",
+        "Overvotes" : 2,
+        "Undervotes" : 5,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-hillwood",
+        "Overvotes" : 2,
+        "Undervotes" : 5,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "@type" : "ElectionResults.BallotMeasureContest",
+      "@id" : "ac-recall-governor",
+      "ContestSelection" : 
+      [ 
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "Yes",
+           "Language" : "en-us",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "ao-recall-governor-yes",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 39,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 13,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 13,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 13,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "No",
+           "Language" : "en-us",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "ao-recall-governor-no",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 15,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 5,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 5,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 5,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Recall Governor",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 3,
+        "Undervotes" : 6,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-creekside",
+        "Overvotes" : 1,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mooring",
+        "Overvotes" : 1,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-hillwood",
+        "Overvotes" : 1,
+        "Undervotes" : 2,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "VotesAllowed" : 1,
+      "@type" : "ElectionResults.CandidateContest",
+      "@id" : "cc-recall-governor",
+      "ContestSelection" : 
+      [ 
+       { "CandidateIds" : 
+        [ "can-ads" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-recall-governor-ads",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 30,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-bb" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-recall-governor-bb",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 18,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 6,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-cma" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-recall-governor-cma",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-dc" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-recall-governor-dc",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 3,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 1,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "CandidateIds" : 
+        [ "can-et" ],
+        "@type" : "ElectionResults.CandidateSelection",
+        "@id" : "co-recall-governor-et",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 0,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Replacement Governor",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 0,
+        "Undervotes" : 3,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-creekside",
+        "Overvotes" : 0,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mooring",
+        "Overvotes" : 0,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-hillwood",
+        "Overvotes" : 0,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "@type" : "ElectionResults.BallotMeasureContest",
+      "@id" : "bm-proposal-a",
+      "ContestSelection" : 
+      [ 
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "Yes",
+           "Language" : "en-us",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bmo-proposal-a-yes",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 24,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 8,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 8,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 8,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "No",
+           "Language" : "en-us",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bmo-proposal-a-no",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 27,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Proposal A - County Charter",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 3,
+        "Undervotes" : 9,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-creekside",
+        "Overvotes" : 1,
+        "Undervotes" : 3,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mooring",
+        "Overvotes" : 1,
+        "Undervotes" : 3,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-hillwood",
+        "Overvotes" : 1,
+        "Undervotes" : 3,
+        "@type" : "ElectionResults.OtherCounts" } ] },
+     
+     { "@type" : "ElectionResults.BallotMeasureContest",
+      "@id" : "bm-proposal-b",
+      "ContestSelection" : 
+      [ 
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "Yes",
+           "Language" : "en-us",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bmo-proposal-b-yes",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 27,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 9,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] },
+       
+       { "Selection" : 
+        { "Text" : 
+         [ 
+          { "Content" : "No",
+           "Language" : "en-us",
+           "@type" : "ElectionResults.LanguageString" } ],
+         "@type" : "ElectionResults.InternationalizedText" },
+        "@type" : "ElectionResults.BallotMeasureSelection",
+        "@id" : "bmo-proposal-b-no",
+        "VoteCounts" : 
+        [ 
+         { "Count" : 30,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "ru-county-1",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-creekside",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-mooring",
+          "Type" : "total" },
+         
+         { "Count" : 10,
+          "@type" : "ElectionResults.VoteCounts",
+          "GpUnitId" : "prec-hillwood",
+          "Type" : "total" } ] } ],
+      "ElectionDistrictId" : "ru-county-1",
+      "Name" : "Proposal B - Exchange of Certain Property",
+      "OtherCounts" : 
+      [ 
+       { "GpUnitId" : "ru-county-1",
+        "Overvotes" : 3,
+        "Undervotes" : 3,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-creekside",
+        "Overvotes" : 1,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-mooring",
+        "Overvotes" : 1,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-hillwood",
+        "Overvotes" : 1,
+        "Undervotes" : 1,
+        "@type" : "ElectionResults.OtherCounts" } ] } ],
+    "ElectionScopeId" : "ru-county-1",
+    "EndDate" : "2000-11-07",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Unnamed Election",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" },
+    "StartDate" : "2000-11-07",
+    "Type" : "general",
+    "@type" : "ElectionResults.Election" } ],
+  "Format" : "precinct-level",
+  "GeneratedDate" : "2023-07-03T00:00:00Z",
+  "GpUnit" : 
+  [ 
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-creekside",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Creekside",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-mooring",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Mooring",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "prec-hillwood",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Hillwood",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "other",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ru-county-1",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Test County",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } } ],
+  "Issuer" : "National Institute of Standards and Technology",
+  "IssuerAbbreviation" : "NIST",
+  "Party" : 
+  [ 
+   { "@id" : "par-dem",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Democrat",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" },
+    "@type" : "ElectionResults.Party" },
+   
+   { "@id" : "par-rep",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Republican",
+       "Language" : "en-us",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" },
+    "@type" : "ElectionResults.Party" } ],
+  "SequenceEnd" : 1,
+  "SequenceStart" : 1,
+  "Status" : "unofficial-complete",
+  "VendorApplicationId" : "XSLT Tabulator 1.0 Beta 3",
+  "@type" : "ElectionResults.ElectionReport" }

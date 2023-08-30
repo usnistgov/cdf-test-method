@@ -250,11 +250,6 @@
           "GpUnitId" : "ru-county-3",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-ac",
-          "Type" : "total" },
-         
          { "Count" : 1,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "prec-fs-23",
@@ -264,6 +259,16 @@
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county-3",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-ac",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fs-23",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -341,6 +346,16 @@
        { "GpUnitId" : "ru-county-3",
         "Overvotes" : 0,
         "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-ac",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fs-23",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "VotesAllowed" : 1,
@@ -359,11 +374,6 @@
           "GpUnitId" : "ru-county-3",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-ac",
-          "Type" : "total" },
-         
          { "Count" : 4,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "prec-fs-23",
@@ -378,11 +388,6 @@
          { "Count" : 5,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ru-county-3",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-ac",
           "Type" : "total" },
          
          { "Count" : 5,
@@ -400,11 +405,6 @@
           "GpUnitId" : "ru-county-3",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-ac",
-          "Type" : "total" },
-         
          { "Count" : 1,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "prec-fs-23",
@@ -414,6 +414,11 @@
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county-3",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fs-23",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -437,11 +442,6 @@
          { "Count" : 4,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "prec-ac",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-fs-23",
           "Type" : "total" } ] },
        
        { "CandidateIds" : 
@@ -458,11 +458,6 @@
          { "Count" : 5,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "prec-ac",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-fs-23",
           "Type" : "total" } ] },
        
        { "IsWriteIn" : true,
@@ -478,17 +473,17 @@
          { "Count" : 1,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "prec-ac",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-fs-23",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county-3",
       "Name" : "Representative in Congress - District 2",
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county-3",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-ac",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -509,11 +504,6 @@
           "GpUnitId" : "ru-county-3",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-ac",
-          "Type" : "total" },
-         
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "prec-fs-23",
@@ -528,11 +518,6 @@
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "ru-county-3",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-ac",
           "Type" : "total" },
          
          { "Count" : 3,
@@ -550,11 +535,6 @@
           "GpUnitId" : "ru-county-3",
           "Type" : "total" },
          
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-ac",
-          "Type" : "total" },
-         
          { "Count" : 4,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "prec-fs-23",
@@ -564,6 +544,11 @@
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county-3",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fs-23",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -587,11 +572,6 @@
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "prec-ac",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-fs-23",
           "Type" : "total" } ] },
        
        { "CandidateIds" : 
@@ -608,11 +588,6 @@
          { "Count" : 3,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "prec-ac",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-fs-23",
           "Type" : "total" } ] },
        
        { "IsWriteIn" : true,
@@ -628,17 +603,17 @@
          { "Count" : 4,
           "@type" : "ElectionResults.VoteCounts",
           "GpUnitId" : "prec-ac",
-          "Type" : "total" },
-         
-         { "Count" : 0,
-          "@type" : "ElectionResults.VoteCounts",
-          "GpUnitId" : "prec-fs-23",
           "Type" : "total" } ] } ],
       "ElectionDistrictId" : "ru-county-3",
       "Name" : "State Assembly - District 2",
       "OtherCounts" : 
       [ 
        { "GpUnitId" : "ru-county-3",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-ac",
         "Overvotes" : 0,
         "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
@@ -705,6 +680,16 @@
        { "GpUnitId" : "ru-county-3",
         "Overvotes" : 0,
         "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-ac",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fs-23",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] },
      
      { "@type" : "ElectionResults.BallotMeasureContest",
@@ -769,6 +754,16 @@
        { "GpUnitId" : "ru-county-3",
         "Overvotes" : 0,
         "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-ac",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
+        "@type" : "ElectionResults.OtherCounts" },
+       
+       { "GpUnitId" : "prec-fs-23",
+        "Overvotes" : 0,
+        "Undervotes" : 0,
         "@type" : "ElectionResults.OtherCounts" } ] } ],
     "ElectionScopeId" : "ru-county-3",
     "EndDate" : "2004-11-02",
@@ -783,7 +778,7 @@
     "Type" : "general",
     "@type" : "ElectionResults.Election" } ],
   "Format" : "precinct-level",
-  "GeneratedDate" : "2023-06-07T15:44:14-04:00",
+  "GeneratedDate" : "2023-07-14T13:32:09-04:00",
   "GpUnit" : 
   [ 
    { "Type" : "other",
@@ -843,6 +838,6 @@
     "@type" : "ElectionResults.Party" } ],
   "SequenceEnd" : 1,
   "SequenceStart" : 1,
-  "Status" : "unofficial-partial",
-  "VendorApplicationId" : "XSLT Tabulator Prototype 1.0",
+  "Status" : "unofficial-complete",
+  "VendorApplicationId" : "XSLT Tabulator 1.0 Beta 3",
   "@type" : "ElectionResults.ElectionReport" }

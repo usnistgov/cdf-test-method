@@ -1055,7 +1055,7 @@
     "Name" : 
     { "Text" : 
      [ 
-      { "Content" : "GEN-01",
+      { "Content" : "GEN-01 General Election",
        "Language" : "en",
        "@type" : "ElectionResults.LanguageString" } ],
      "@type" : "ElectionResults.InternationalizedText" },
@@ -1063,7 +1063,7 @@
     "Type" : "general",
     "@type" : "ElectionResults.Election" } ],
   "Format" : "precinct-level",
-  "GeneratedDate" : "2023-05-08T00:00:00Z",
+  "GeneratedDate" : "2023-07-14T13:32:09-04:00",
   "GpUnit" : 
   [ 
    { "Number" : "2",
@@ -1324,28 +1324,6 @@
        "@type" : "ElectionResults.LanguageString" } ],
      "@type" : "ElectionResults.InternationalizedText" } },
    
-   { "Type" : "split-precinct",
-    "@type" : "ElectionResults.ReportingUnit",
-    "@id" : "ps-2a",
-    "Name" : 
-    { "Text" : 
-     [ 
-      { "Content" : "Precinct 2a",
-       "Language" : "en",
-       "@type" : "ElectionResults.LanguageString" } ],
-     "@type" : "ElectionResults.InternationalizedText" } },
-   
-   { "Type" : "precinct",
-    "@type" : "ElectionResults.ReportingUnit",
-    "@id" : "ps-2b",
-    "Name" : 
-    { "Text" : 
-     [ 
-      { "Content" : "Precinct 2b",
-       "Language" : "en",
-       "@type" : "ElectionResults.LanguageString" } ],
-     "@type" : "ElectionResults.InternationalizedText" } },
-   
    { "Type" : "precinct",
     "@type" : "ElectionResults.ReportingUnit",
     "@id" : "prec-4",
@@ -1408,6 +1386,28 @@
     { "Text" : 
      [ 
       { "Content" : "Precinct 9",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "split-precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ps-2a",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 2a",
+       "Language" : "en",
+       "@type" : "ElectionResults.LanguageString" } ],
+     "@type" : "ElectionResults.InternationalizedText" } },
+   
+   { "Type" : "precinct",
+    "@type" : "ElectionResults.ReportingUnit",
+    "@id" : "ps-2b",
+    "Name" : 
+    { "Text" : 
+     [ 
+      { "Content" : "Precinct 2b",
        "Language" : "en",
        "@type" : "ElectionResults.LanguageString" } ],
      "@type" : "ElectionResults.InternationalizedText" } } ],

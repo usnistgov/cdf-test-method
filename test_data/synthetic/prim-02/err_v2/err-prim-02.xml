@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElectionReport xmlns="http://itl.nist.gov/ns/voting/1500-100/v2"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Election>
+      <BallotStyle>
+         <ExternalIdentifier>
+            <Type>local-level</Type>
+            <Value>First Station 7</Value>
+         </ExternalIdentifier>
+         <GpUnitIds>prec-fs7</GpUnitIds>
+         <OrderedContent xsi:type="OrderedHeader">
+            <HeaderId>h-dem</HeaderId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-dem-president</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-dem-senate</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-dem-state-rep-23</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-delegates-dnc</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedHeader">
+            <HeaderId>h-lib</HeaderId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-lib-president</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-lib-senate</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-lib-state-rep-23</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-delegates-lnc</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedHeader">
+            <HeaderId>h-rep</HeaderId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-rep-president</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-rep-senate</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-rep-state-rep-23</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-delegates-rnc</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>bmc-proposition-54</ContestId>
+         </OrderedContent>
+      </BallotStyle>
+      <BallotStyle>
+         <ExternalIdentifier>
+            <Type>local-level</Type>
+            <Value>Mountain Gap School</Value>
+         </ExternalIdentifier>
+         <GpUnitIds>prec-mgs</GpUnitIds>
+         <OrderedContent xsi:type="OrderedHeader">
+            <HeaderId>h-dem</HeaderId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-dem-president</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-dem-senate</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-dem-state-rep-23</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-delegates-dnc</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedHeader">
+            <HeaderId>h-lib</HeaderId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-lib-president</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-lib-senate</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-lib-state-rep-23</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-delegates-lnc</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedHeader">
+            <HeaderId>h-rep</HeaderId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-rep-president</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-rep-senate</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-rep-state-rep-23</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>cc-delegates-rnc</ContestId>
+         </OrderedContent>
+         <OrderedContent xsi:type="OrderedContest">
+            <ContestId>bmc-proposition-54</ContestId>
+         </OrderedContent>
+      </BallotStyle>
+      <Candidate ObjectId="can-bo">
+         <BallotName>
+            <Text Language="en-us">Barack Obama</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-br">
+         <BallotName>
+            <Text Language="en-us">Bill Richardson</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-dk">
+         <BallotName>
+            <Text Language="en-us">Dennis Kucinich</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-hc">
+         <BallotName>
+            <Text Language="en-us">Hillary Clinton</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jb">
+         <BallotName>
+            <Text Language="en-us">Joe Biden</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jed">
+         <BallotName>
+            <Text Language="en-us">John Edwards</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-cm">
+         <BallotName>
+            <Text Language="en-us">Cynthia Mckinney</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jer">
+         <BallotName>
+            <Text Language="en-us">Jon ErpenBach</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jri">
+         <BallotName>
+            <Text Language="en-us">Janis Ringhand</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-mf">
+         <BallotName>
+            <Text Language="en-us">Micheal Fegley</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-bj">
+         <BallotName>
+            <Text Language="en-us">Bliar Johnston</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-kc">
+         <BallotName>
+            <Text Language="en-us">Kathy Campbell</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-il">
+         <BallotName>
+            <Text Language="en-us">Iris N. Linares</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-tw">
+         <BallotName>
+            <Text Language="en-us">Thomas A. Wallitsch</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jru">
+         <BallotName>
+            <Text Language="en-us">Joseph J. Russo</Text>
+         </BallotName>
+         <PartyId>par-dem</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-bb">
+         <BallotName>
+            <Text Language="en-us">Bob Barr</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-wb">
+         <BallotName>
+            <Text Language="en-us">Wayne A. Boot</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-rca">
+         <BallotName>
+            <Text Language="en-us">Roger Calero</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-ak">
+         <BallotName>
+            <Text Language="en-us">Alyson Kennedy</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-tp">
+         <BallotName>
+            <Text Language="en-us">Tim Peterson</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-db">
+         <BallotName>
+            <Text Language="en-us">Dorthy Baran</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-wf">
+         <BallotName>
+            <Text Language="en-us">Wendy Fuentes</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-dc">
+         <BallotName>
+            <Text Language="en-us">Don Cunningham</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jma">
+         <BallotName>
+            <Text Language="en-us">Jennifer L. Mann</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-rm">
+         <BallotName>
+            <Text Language="en-us">Robert McCord</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jc">
+         <BallotName>
+            <Text Language="en-us">Julius F. Cordisco</Text>
+         </BallotName>
+         <PartyId>par-lib</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jmcc">
+         <BallotName>
+            <Text Language="en-us">John McCain</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-ft">
+         <BallotName>
+            <Text Language="en-us">Fred Thompson</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-mhu">
+         <BallotName>
+            <Text Language="en-us">Mike Huckabee</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-rp">
+         <BallotName>
+            <Text Language="en-us">Ron Paul</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-mr">
+         <BallotName>
+            <Text Language="en-us">Mitt Romney</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-rg">
+         <BallotName>
+            <Text Language="en-us">Rudy Giuliani</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jh">
+         <BallotName>
+            <Text Language="en-us">Jean Hundertmark</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jva">
+         <BallotName>
+            <Text Language="en-us">J. B. Van Hollen</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-ss">
+         <BallotName>
+            <Text Language="en-us">Sandy Sullivan</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jvo">
+         <BallotName>
+            <Text Language="en-us">Jack C. Vought</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-dw">
+         <BallotName>
+            <Text Language="en-us">Dennis Morrison-Wesley</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jw">
+         <BallotName>
+            <Text Language="en-us">Jack Wagner</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-jmo">
+         <BallotName>
+            <Text Language="en-us">John M. Morganelli</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-ld">
+         <BallotName>
+            <Text Language="en-us">Lilijana Xitlalli Dragović</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-an">
+         <BallotName>
+            <Text Language="en-us">Amaru Nehuén</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Candidate ObjectId="can-ni">
+         <BallotName>
+            <Text Language="en-us">Nita Iracema</Text>
+         </BallotName>
+         <PartyId>par-rep</PartyId>
+      </Candidate>
+      <Contest ObjectId="cc-dem-president"
+               xsi:type="CandidateContest">
+         <ContestSelection ObjectId="cs-dem-president-bo"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <CandidateIds>can-bo</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-dem-president-br"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <CandidateIds>can-br</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-dem-president-dk"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <CandidateIds>can-dk</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-dem-president-hc"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <CandidateIds>can-hc</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-dem-president-jb"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <CandidateIds>can-jb</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-dem-president-jed"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <CandidateIds>can-jed</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-dem-president-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county</ElectionDistrictId>
+         <Name>President of the United States</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-mgs</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-fs7</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-dem-senate"
+               xsi:type="CandidateContest">
+         <ContestSelection ObjectId="cs-dem-senate-cm"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>14</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>7</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>7</Count>
+            </VoteCounts>
+            <CandidateIds>can-cm</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-dem-senate-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county</ElectionDistrictId>
+         <Name>Senate</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-mgs</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-fs7</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-dem-state-rep-23"
+               xsi:type="CandidateContest">
+         <ContestSelection ObjectId="cs-dem-state-rep-23-je"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>10</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>5</Count>
+            </VoteCounts>
+            <CandidateIds>can-jer</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-dem-state-rep-23-jr"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <CandidateIds>can-jri</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-dem-state-rep-23-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county</ElectionDistrictId>
+         <Name>State Representative - District 23</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>2</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-mgs</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-fs7</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-delegates-dnc"
+               xsi:type="CandidateContest">
+         <ContestSelection ObjectId="cs-delegates-dnc-group-1"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-mf can-bj can-kc</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-delegates-dnc-group-2"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-il can-tw can-jru</CandidateIds>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county</ElectionDistrictId>
+         <Name>Delegates to the Democratic National Convention</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>2</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-mgs</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-fs7</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-lib-president"
+               xsi:type="CandidateContest">
+         <ContestSelection ObjectId="cs-lib-president-bb"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <CandidateIds>can-bb</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-lib-president-wb"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <CandidateIds>can-wb</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-lib-president-rca"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-rca</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-lib-president-ak"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <CandidateIds>can-ak</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-lib-president-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county</ElectionDistrictId>
+         <Name>President of the United States</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>2</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-mgs</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-fs7</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-lib-senate"
+               xsi:type="CandidateContest">
+         <ContestSelection ObjectId="cs-lib-senate-cm"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <CandidateIds>can-cm</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-lib-senate-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county</ElectionDistrictId>
+         <Name>Senate</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>2</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-mgs</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-fs7</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-lib-state-rep-23"
+               xsi:type="CandidateContest">
+         <ContestSelection ObjectId="cs-lib-state-rep-23-tp"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-tp</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-lib-state-rep-23-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county</ElectionDistrictId>
+         <Name>State Representative - District 23</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county</GpUnitId>
+            <Overvotes>4</Overvotes>
+            <Undervotes>2</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-mgs</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-fs7</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-delegates-lnc"
+               xsi:type="CandidateContest">
+         <ContestSelection ObjectId="cs-delegates-lnc-group-1"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-db can-wf can-dc</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-delegates-lnc-group-2"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <CandidateIds>can-jma can-rm can-jc</CandidateIds>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county</ElectionDistrictId>
+         <Name>Delegates to the Libertarian National Convention</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county</GpUnitId>
+            <Overvotes>4</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-mgs</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-fs7</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-rep-president"
+               xsi:type="CandidateContest">
+         <ContestSelection ObjectId="cs-rep-president-jmcc"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-jmcc</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-rep-president-ft"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-ft</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-rep-president-mhu"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-mhu</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-rep-president-rp"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <CandidateIds>can-rp</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-rep-president-mr"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-mr</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-rep-president-rg"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-rg</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-rep-president-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county</ElectionDistrictId>
+         <Name>President of the United States</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county</GpUnitId>
+            <Overvotes>4</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-mgs</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-fs7</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-rep-senate"
+               xsi:type="CandidateContest">
+         <ContestSelection ObjectId="cs-rep-senate-jh"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>1</Count>
+            </VoteCounts>
+            <CandidateIds>can-jh</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-rep-senate-jva"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-jva</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-rep-senate-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county</ElectionDistrictId>
+         <Name>Senate</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county</GpUnitId>
+            <Overvotes>4</Overvotes>
+            <Undervotes>2</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-mgs</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-fs7</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-rep-state-rep-23"
+               xsi:type="CandidateContest">
+         <ContestSelection ObjectId="cs-rep-state-rep-23-ss"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>8</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <CandidateIds>can-ss</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-rep-state-rep-23-jvo"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <CandidateIds>can-jvo</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-rep-state-rep-23-wi"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>0</Count>
+            </VoteCounts>
+            <IsWriteIn>true</IsWriteIn>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county</ElectionDistrictId>
+         <Name>State Representative - District 23</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county</GpUnitId>
+            <Overvotes>4</Overvotes>
+            <Undervotes>2</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-mgs</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-fs7</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="cc-delegates-rnc"
+               xsi:type="CandidateContest">
+         <ContestSelection ObjectId="cs-delegates-rnc-group-1"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>4</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>2</Count>
+            </VoteCounts>
+            <CandidateIds>can-dw can-jw can-jmo</CandidateIds>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-delegates-rnc-group-2"
+                           xsi:type="CandidateSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>6</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>3</Count>
+            </VoteCounts>
+            <CandidateIds>can-ld can-an can-ni</CandidateIds>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county</ElectionDistrictId>
+         <Name>Delegates to the Republican National Convention</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county</GpUnitId>
+            <Overvotes>2</Overvotes>
+            <Undervotes>2</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-mgs</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-fs7</GpUnitId>
+            <Overvotes>1</Overvotes>
+            <Undervotes>1</Undervotes>
+         </OtherCounts>
+         <VotesAllowed>1</VotesAllowed>
+      </Contest>
+      <Contest ObjectId="bmc-proposition-54"
+               xsi:type="BallotMeasureContest">
+         <ContestSelection ObjectId="cs-proposition-54-yes"
+                           xsi:type="BallotMeasureSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>18</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>9</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>9</Count>
+            </VoteCounts>
+            <Selection>
+               <Text Language="en-us">YES</Text>
+            </Selection>
+         </ContestSelection>
+         <ContestSelection ObjectId="cs-proposition-54-no"
+                           xsi:type="BallotMeasureSelection">
+            <VoteCounts>
+               <GpUnitId>ru-county</GpUnitId>
+               <Type>total</Type>
+               <Count>22</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-mgs</GpUnitId>
+               <Type>total</Type>
+               <Count>11</Count>
+            </VoteCounts>
+            <VoteCounts>
+               <GpUnitId>prec-fs7</GpUnitId>
+               <Type>total</Type>
+               <Count>11</Count>
+            </VoteCounts>
+            <Selection>
+               <Text Language="en-us">NO</Text>
+            </Selection>
+         </ContestSelection>
+         <ElectionDistrictId>ru-county</ElectionDistrictId>
+         <Name>Proposition 54 - Classification by Race, Ethnicity, Color, or National Origin, Initiative Constitutional Amendment</Name>
+         <OtherCounts>
+            <GpUnitId>ru-county</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-mgs</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+         <OtherCounts>
+            <GpUnitId>prec-fs7</GpUnitId>
+            <Overvotes>0</Overvotes>
+            <Undervotes>0</Undervotes>
+         </OtherCounts>
+      </Contest>
+      <ElectionScopeId>ru-county</ElectionScopeId>
+      <Name>
+         <Text Language="en-us">Unnamed Election</Text>
+      </Name>
+      <StartDate>2008-02-19</StartDate>
+      <EndDate>2008-02-19</EndDate>
+      <Type>partisan-primary-open</Type>
+   </Election>
+   <Format>precinct-level</Format>
+   <GeneratedDate>2023-07-12T00:00:00+00:00</GeneratedDate>
+   <GpUnit ObjectId="ru-county"
+           xsi:type="ReportingUnit">
+      <Name>
+         <Text Language="en-us">Test County</Text>
+      </Name>
+      <Type>other</Type>
+   </GpUnit>
+   <GpUnit ObjectId="prec-fs7"
+           xsi:type="ReportingUnit">
+      <Name>
+         <Text Language="en-us">Fire station 7</Text>
+      </Name>
+      <Type>precinct</Type>
+   </GpUnit>
+   <GpUnit ObjectId="prec-mgs"
+           xsi:type="ReportingUnit">
+      <Name>
+         <Text Language="en-us">Mountain Gap School</Text>
+      </Name>
+      <Type>precinct</Type>
+   </GpUnit>
+   <Header ObjectId="h-dem">
+      <Name>
+         <Text Language="en">Democractic Party</Text>
+      </Name>
+   </Header>
+   <Header ObjectId="h-lib">
+      <Name>
+         <Text Language="en">Libertarian Party</Text>
+      </Name>
+   </Header>
+   <Header ObjectId="h-rep">
+      <Name>
+         <Text Language="en">Republican Party</Text>
+      </Name>
+   </Header>
+   <Issuer>National Institute of Standards and Technology</Issuer>
+   <IssuerAbbreviation>NIST</IssuerAbbreviation>
+   <Party ObjectId="par-dem">
+      <Name>
+         <Text Language="en-us">Democratic</Text>
+      </Name>
+   </Party>
+   <Party ObjectId="par-rep">
+      <Name>
+         <Text Language="en-us">Republican</Text>
+      </Name>
+   </Party>
+   <Party ObjectId="par-lib">
+      <Name>
+         <Text Language="en-us">Libertarian</Text>
+      </Name>
+   </Party>
+   <SequenceStart>1</SequenceStart>
+   <SequenceEnd>1</SequenceEnd>
+   <Status>unofficial-complete</Status>
+   <VendorApplicationId>XSLT Tabulator 1.0 Beta 3</VendorApplicationId>
+</ElectionReport>

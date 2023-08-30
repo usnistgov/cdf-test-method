@@ -491,7 +491,7 @@
     "Name" : 
     { "Text" : 
      [ 
-      { "Content" : "PRIM-03",
+      { "Content" : "PRIM-03 Primary Election",
        "Language" : "en",
        "@type" : "ElectionResults.LanguageString" } ],
      "@type" : "ElectionResults.InternationalizedText" },

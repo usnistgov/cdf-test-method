@@ -1,7 +1,8 @@
 
  { "CVR" : 
   [ 
-   { "BallotStyleId" : "bs-1-prec-1",
+   { "BallotPrePrintedId" : "bs-1-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-1-prec-1",
@@ -14,6 +15,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "po-lib",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -28,21 +30,29 @@
        
        { "ContestId" : "cc-president",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-senate",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-congress-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-assembly-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -50,6 +60,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-1-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -64,16 +75,22 @@
        
        { "ContestId" : "cc-county-comissioner-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-county-assessor",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 2,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-sc-justice-a",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -81,6 +98,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-bb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -97,7 +115,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-2-prec-1",
+   { "BallotPrePrintedId" : "bs-2-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-2-prec-1",
@@ -110,6 +129,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "po-rep",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -124,21 +144,29 @@
        
        { "ContestId" : "cc-president",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-senate",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-congress-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-assembly-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -146,6 +174,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-1-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -160,16 +189,22 @@
        
        { "ContestId" : "cc-county-comissioner-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-county-assessor",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 2,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-sc-justice-a",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -177,6 +212,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-ni",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -193,7 +229,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-3-prec-3",
+   { "BallotPrePrintedId" : "bs-3-prec-3",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-3-prec-3",
@@ -206,6 +243,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "po-dem",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -220,21 +258,29 @@
        
        { "ContestId" : "cc-president",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-senate",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-congress-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-assembly-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -242,6 +288,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-1-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -256,16 +303,22 @@
        
        { "ContestId" : "cc-county-comissioner-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-county-assessor",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 2,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-sc-justice-a",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -273,6 +326,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-rg",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -289,7 +343,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-4-prec-1",
+   { "BallotPrePrintedId" : "bs-4-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-4-prec-1",
@@ -300,6 +355,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -307,6 +364,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-hb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -323,6 +381,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-ej",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -339,6 +398,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-jg",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -355,6 +415,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-mj",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -371,6 +432,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-1-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -387,6 +449,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-1-ab",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -403,6 +466,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -413,6 +477,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-me",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -429,6 +494,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-a-rr",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -445,6 +511,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-bb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -461,7 +528,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-5-prec-1",
+   { "BallotPrePrintedId" : "bs-5-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-5-prec-1",
@@ -472,6 +540,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -479,6 +549,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-gb",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -495,6 +566,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-jr",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -511,6 +583,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-dl",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -527,6 +600,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -546,6 +620,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-1-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -562,6 +637,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs--wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -581,6 +657,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-rs",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -591,6 +668,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-eb",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -607,6 +685,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-a-gb",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -623,6 +702,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-ni",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -639,7 +719,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-6-prec-1",
+   { "BallotPrePrintedId" : "bs-6-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-6-prec-1",
@@ -650,6 +731,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -657,6 +740,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ag",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -673,6 +757,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-kb",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -689,6 +774,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-mc",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -705,6 +791,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-mj",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -721,6 +808,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-1-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -737,6 +825,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-1-ab",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -753,6 +842,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-am",
+          "OptionPosition" : 5,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -763,6 +853,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-mm",
+          "OptionPosition" : 6,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -779,6 +870,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-a-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -798,6 +890,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-rg",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -814,7 +907,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-7-prec-1",
+   { "BallotPrePrintedId" : "bs-7-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-7-prec-1",
@@ -825,6 +919,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -832,6 +928,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -851,6 +948,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -870,6 +968,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -889,6 +988,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -908,6 +1008,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-1-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -924,6 +1025,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs--wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -943,6 +1045,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -956,6 +1059,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi2",
+          "OptionPosition" : 8,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -975,6 +1079,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-a-rr",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -991,6 +1096,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1010,7 +1116,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-8-prec-1",
+   { "BallotPrePrintedId" : "bs-8-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-8-prec-1",
@@ -1021,6 +1128,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -1028,6 +1137,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-hb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1044,6 +1154,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-ej",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1060,6 +1171,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-jg",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1076,6 +1188,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-mj",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1092,6 +1205,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-1-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1108,6 +1222,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-1-ab",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1124,6 +1239,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1134,6 +1250,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1153,6 +1270,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-a-gb",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1169,6 +1287,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-bb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1185,7 +1304,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-9-prec-1",
+   { "BallotPrePrintedId" : "bs-9-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-9-prec-1",
@@ -1196,6 +1316,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -1203,6 +1325,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-gb",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1219,6 +1342,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-jr",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1235,6 +1359,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-dl",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1249,6 +1374,8 @@
        
        { "ContestId" : "cc-assembly-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -1256,6 +1383,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-1-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1272,6 +1400,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs--wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1291,6 +1420,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-me",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1301,6 +1431,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1320,6 +1451,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-a-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1339,6 +1471,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-ni",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1355,7 +1488,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "bs-10-prec-1",
+   { "BallotPrePrintedId" : "bs-10-prec-1",
+    "BallotStyleId" : "Precinct 1",
     "BallotStyleUnitId" : "cp-1-4-5-6",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "bs-10-prec-1",
@@ -1366,6 +1500,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -1373,6 +1509,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1392,6 +1529,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1411,6 +1549,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1430,6 +1569,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-1-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1449,6 +1589,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-1-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1465,6 +1606,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs--wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1484,6 +1626,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1496,6 +1639,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi2",
+          "OptionPosition" : 8,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1514,6 +1658,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-a-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1533,6 +1678,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -1552,7 +1698,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-1-prec-2a",
+   { "BallotPrePrintedId" : "b-1-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-1-prec-2a",
@@ -1565,6 +1712,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "po-lib",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1579,21 +1727,29 @@
        
        { "ContestId" : "cc-president",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-senate",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-congress-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-assembly-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -1601,6 +1757,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1615,16 +1772,22 @@
        
        { "ContestId" : "cc-county-comissioner-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-county-assessor",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 2,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-sc-justice-b",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -1632,6 +1795,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-bb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1648,7 +1812,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-2-prec-2a",
+   { "BallotPrePrintedId" : "b-2-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-2-prec-2a",
@@ -1661,6 +1826,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "po-rep",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1675,21 +1841,29 @@
        
        { "ContestId" : "cc-president",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-senate",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-congress-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-assembly-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -1697,6 +1871,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1711,16 +1886,22 @@
        
        { "ContestId" : "cc-county-comissioner-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-county-assessor",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 2,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-sc-justice-b",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -1728,6 +1909,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-ni",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1744,7 +1926,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-3-prec-2a",
+   { "BallotPrePrintedId" : "b-3-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-3-prec-2a",
@@ -1757,6 +1940,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "po-dem",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1771,21 +1955,29 @@
        
        { "ContestId" : "cc-president",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-senate",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-congress-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-assembly-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -1793,6 +1985,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1807,16 +2000,22 @@
        
        { "ContestId" : "cc-county-comissioner-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-county-assessor",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 2,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-sc-justice-b",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -1824,6 +2023,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-rg",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1840,7 +2040,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-4-prec-2a",
+   { "BallotPrePrintedId" : "b-4-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-4-prec-2a",
@@ -1851,6 +2052,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -1858,6 +2061,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-hb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1874,6 +2078,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-ej",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1890,6 +2095,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-hs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1906,6 +2112,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-pt",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1922,6 +2129,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1938,6 +2146,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-jh",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1954,6 +2163,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1964,6 +2174,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-me",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1980,6 +2191,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-ld",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -1996,6 +2208,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-bb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2012,7 +2225,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-5-prec-2a",
+   { "BallotPrePrintedId" : "b-5-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-5-prec-2a",
@@ -2023,6 +2237,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -2030,6 +2246,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-gb",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2046,6 +2263,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-jr",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2062,6 +2280,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-bw",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2078,6 +2297,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2097,6 +2317,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2113,6 +2334,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2132,6 +2354,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-rs",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2142,6 +2365,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-eb",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2158,6 +2382,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-by",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2174,6 +2399,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-ni",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2190,7 +2416,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-6-prec-2a",
+   { "BallotPrePrintedId" : "b-6-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-6-prec-2a",
@@ -2201,6 +2428,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -2208,6 +2437,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ag",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2224,6 +2454,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-kb",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2240,6 +2471,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-jh",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2256,6 +2488,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-pt",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2272,6 +2505,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2288,6 +2522,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-jh",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2304,6 +2539,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-am",
+          "OptionPosition" : 5,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2314,6 +2550,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-mm",
+          "OptionPosition" : 6,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2330,6 +2567,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2349,6 +2587,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-rg",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2365,7 +2604,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-7-prec-2a",
+   { "BallotPrePrintedId" : "b-7-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-7-prec-2a",
@@ -2376,6 +2616,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -2383,6 +2625,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2402,6 +2645,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2421,6 +2665,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2440,6 +2685,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2459,6 +2705,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2475,6 +2722,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2494,6 +2742,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2507,6 +2756,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi2",
+          "OptionPosition" : 8,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2526,6 +2776,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-ld",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2542,6 +2793,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2561,7 +2813,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-8-prec-2a",
+   { "BallotPrePrintedId" : "b-8-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-8-prec-2a",
@@ -2572,6 +2825,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -2579,6 +2834,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-hb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2595,6 +2851,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-ej",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2611,6 +2868,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-hs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2627,6 +2885,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-pt",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2643,6 +2902,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2659,6 +2919,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-jh",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2675,6 +2936,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2685,6 +2947,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2704,6 +2967,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-by",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2720,6 +2984,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-bb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2736,7 +3001,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-9-prec-2a",
+   { "BallotPrePrintedId" : "b-9-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-9-prec-2a",
@@ -2747,6 +3013,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -2754,6 +3022,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-gb",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2770,6 +3039,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-jr",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2786,6 +3056,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-bw",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2800,6 +3071,8 @@
        
        { "ContestId" : "cc-assembly-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -2807,6 +3080,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2823,6 +3097,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2842,6 +3117,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-me",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2852,6 +3128,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2871,6 +3148,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2890,6 +3168,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-ni",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -2906,7 +3185,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-10-prec-2a",
+   { "BallotPrePrintedId" : "b-10-prec-2a",
+    "BallotStyleId" : "Precinct 2a",
     "BallotStyleUnitId" : "ps-2a",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-10-prec-2a",
@@ -2917,6 +3197,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -2924,6 +3206,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2943,6 +3226,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2962,6 +3246,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -2981,6 +3266,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -3000,6 +3286,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3016,6 +3303,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -3035,6 +3323,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -3048,6 +3337,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi2",
+          "OptionPosition" : 8,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -3067,6 +3357,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -3086,6 +3377,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -3105,7 +3397,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-1-prec-2b",
+   { "BallotPrePrintedId" : "b-1-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-1-prec-2b",
@@ -3118,6 +3411,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "po-lib",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3132,21 +3426,29 @@
        
        { "ContestId" : "cc-president",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-senate",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-congress-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-assembly-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -3154,6 +3456,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3168,16 +3471,22 @@
        
        { "ContestId" : "cc-county-comissioner-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-county-assessor",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 2,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-sc-justice-b",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -3185,6 +3494,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-bb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3201,7 +3511,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-2-prec-2b",
+   { "BallotPrePrintedId" : "b-2-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-2-prec-2b",
@@ -3214,6 +3525,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "po-rep",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3228,21 +3540,29 @@
        
        { "ContestId" : "cc-president",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-senate",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-congress-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-assembly-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -3250,6 +3570,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3264,16 +3585,22 @@
        
        { "ContestId" : "cc-county-comissioner-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-county-assessor",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 2,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-sc-justice-b",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -3281,6 +3608,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-ni",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3297,7 +3625,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-3-prec-2b",
+   { "BallotPrePrintedId" : "b-3-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-3-prec-2b",
@@ -3310,6 +3639,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "po-dem",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3324,21 +3654,29 @@
        
        { "ContestId" : "cc-president",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-senate",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-congress-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-assembly-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -3346,6 +3684,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3360,16 +3699,22 @@
        
        { "ContestId" : "cc-county-comissioner-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-county-assessor",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 2,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-sc-justice-b",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -3377,6 +3722,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-rg",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3393,7 +3739,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-4-prec-2b",
+   { "BallotPrePrintedId" : "b-4-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-4-prec-2b",
@@ -3404,6 +3751,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -3411,6 +3760,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-hb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3427,6 +3777,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-ej",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3443,6 +3794,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-hs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3459,6 +3811,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-pt",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3475,6 +3828,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3491,6 +3845,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-jh",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3507,6 +3862,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3517,6 +3873,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-me",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3533,6 +3890,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-ld",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3549,6 +3907,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-bb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3565,7 +3924,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-5-prec-2b",
+   { "BallotPrePrintedId" : "b-5-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-5-prec-2b",
@@ -3576,6 +3936,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -3583,6 +3945,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-gb",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3599,6 +3962,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-jr",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3615,6 +3979,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-bw",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3631,6 +3996,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -3650,6 +4016,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3666,6 +4033,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -3685,6 +4053,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-rs",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3695,6 +4064,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-eb",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3711,6 +4081,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-by",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3727,6 +4098,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-ni",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3743,7 +4115,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-6-prec-2b",
+   { "BallotPrePrintedId" : "b-6-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-6-prec-2b",
@@ -3754,6 +4127,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -3761,6 +4136,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ag",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3777,6 +4153,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-kb",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3793,6 +4170,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-jh",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3809,6 +4187,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-pt",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3825,6 +4204,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3841,6 +4221,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-jh",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3857,6 +4238,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-am",
+          "OptionPosition" : 5,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3867,6 +4249,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-mm",
+          "OptionPosition" : 6,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3883,6 +4266,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -3902,6 +4286,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-rg",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -3918,7 +4303,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-7-prec-2b",
+   { "BallotPrePrintedId" : "b-7-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-7-prec-2b",
@@ -3929,6 +4315,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -3936,6 +4324,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -3955,6 +4344,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -3974,6 +4364,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -3993,6 +4384,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4012,6 +4404,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4028,6 +4421,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4047,6 +4441,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4060,6 +4455,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi2",
+          "OptionPosition" : 8,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4079,6 +4475,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-ld",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4095,6 +4492,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4114,7 +4512,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-8-prec-2b",
+   { "BallotPrePrintedId" : "b-8-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-8-prec-2b",
@@ -4125,6 +4524,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -4132,6 +4533,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-hb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4148,6 +4550,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-ej",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4164,6 +4567,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-hs",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4180,6 +4584,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-pt",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4196,6 +4601,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4212,6 +4618,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-jh",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4228,6 +4635,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4238,6 +4646,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4257,6 +4666,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-by",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4273,6 +4683,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-bb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4289,7 +4700,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-9-prec-2b",
+   { "BallotPrePrintedId" : "b-9-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-9-prec-2b",
@@ -4300,6 +4712,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -4307,6 +4721,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-gb",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4323,6 +4738,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-jr",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4339,6 +4755,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-bw",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4353,6 +4770,8 @@
        
        { "ContestId" : "cc-assembly-2",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -4360,6 +4779,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-3-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4376,6 +4796,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4395,6 +4816,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-me",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4405,6 +4827,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4424,6 +4847,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4443,6 +4867,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-ni",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4459,7 +4884,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-10-prec-2b",
+   { "BallotPrePrintedId" : "b-10-prec-2b",
+    "BallotStyleId" : "Precinct 2b",
     "BallotStyleUnitId" : "ps-2b",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-10-prec-2b",
@@ -4470,6 +4896,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -4477,6 +4905,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4496,6 +4925,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4515,6 +4945,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-2-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4534,6 +4965,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4553,6 +4985,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-3-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4569,6 +5002,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-2-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4588,6 +5022,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4601,6 +5036,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi2",
+          "OptionPosition" : 8,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4620,6 +5056,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-b-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4639,6 +5076,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -4658,7 +5096,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-1-prec-3",
+   { "BallotPrePrintedId" : "b-1-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-1-prec-3",
@@ -4671,6 +5110,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "po-lib",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4685,21 +5125,29 @@
        
        { "ContestId" : "cc-president",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-senate",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-congress-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-assembly-3",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -4707,6 +5155,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4721,16 +5170,22 @@
        
        { "ContestId" : "cc-county-comissioner-3",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-county-assessor",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 2,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-sc-justice-c",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -4738,6 +5193,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-bb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4754,7 +5210,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-2-prec-3",
+   { "BallotPrePrintedId" : "b-2-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-2-prec-3",
@@ -4767,6 +5224,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "po-rep",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4781,21 +5239,29 @@
        
        { "ContestId" : "cc-president",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-senate",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-congress-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-assembly-3",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -4803,6 +5269,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4817,16 +5284,22 @@
        
        { "ContestId" : "cc-county-comissioner-3",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-county-assessor",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 2,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-sc-justice-c",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -4834,6 +5307,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-ni",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4850,7 +5324,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-3-prec-3",
+   { "BallotPrePrintedId" : "b-3-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-3-prec-3",
@@ -4863,6 +5338,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "po-dem",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4877,21 +5353,29 @@
        
        { "ContestId" : "cc-president",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-senate",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-congress-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-assembly-3",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -4899,6 +5383,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4913,16 +5398,22 @@
        
        { "ContestId" : "cc-county-comissioner-3",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-county-assessor",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 2,
         "@type" : "CVR.CVRContest" },
        
        { "ContestId" : "cc-sc-justice-c",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -4930,6 +5421,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-rg",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4946,7 +5438,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-4-prec-3",
+   { "BallotPrePrintedId" : "b-4-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-4-prec-3",
@@ -4957,6 +5450,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -4964,6 +5459,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-hb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4980,6 +5476,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-ej",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -4996,6 +5493,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-jg",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5012,6 +5510,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-3-yd",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5028,6 +5527,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5044,6 +5544,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-3-js",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5060,6 +5561,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5070,6 +5572,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-me",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5086,6 +5589,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-c-mf",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5102,6 +5606,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-bb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5118,7 +5623,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-5-prec-3",
+   { "BallotPrePrintedId" : "b-5-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-5-prec-3",
@@ -5129,6 +5635,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -5136,6 +5644,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-gb",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5152,6 +5661,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-jr",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5168,6 +5678,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-dl",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5184,6 +5695,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-3-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5203,6 +5715,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5219,6 +5732,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-3-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5238,6 +5752,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-rs",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5248,6 +5763,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-eb",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5264,6 +5780,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-c-rj",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5280,6 +5797,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-ni",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5296,7 +5814,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-6-prec-3",
+   { "BallotPrePrintedId" : "b-6-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-6-prec-3",
@@ -5307,6 +5826,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -5314,6 +5835,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-ag",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5330,6 +5852,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-kb",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5346,6 +5869,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-mc",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5362,6 +5886,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-3-yd",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5378,6 +5903,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5394,6 +5920,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-3-js",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5410,6 +5937,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-am",
+          "OptionPosition" : 5,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5420,6 +5948,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-mm",
+          "OptionPosition" : 6,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5436,6 +5965,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-c-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5455,6 +5985,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-rg",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5471,7 +6002,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-7-prec-3",
+   { "BallotPrePrintedId" : "b-7-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-7-prec-3",
@@ -5482,6 +6014,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -5489,6 +6023,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5508,6 +6043,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5527,6 +6063,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5546,6 +6083,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-3-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5565,6 +6103,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5581,6 +6120,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-3-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5600,6 +6140,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5613,6 +6154,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi2",
+          "OptionPosition" : 8,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5632,6 +6174,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-c-mf",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5648,6 +6191,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5667,7 +6211,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-8-prec-3",
+   { "BallotPrePrintedId" : "b-8-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-8-prec-3",
@@ -5678,6 +6223,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -5685,6 +6232,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-hb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5701,6 +6249,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-ej",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5717,6 +6266,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-jg",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5733,6 +6283,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-3-yd",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5749,6 +6300,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5765,6 +6317,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-3-js",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5781,6 +6334,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5791,6 +6345,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5810,6 +6365,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-c-rj",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5826,6 +6382,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-bb",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5842,7 +6399,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-9-prec-3",
+   { "BallotPrePrintedId" : "b-9-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-9-prec-3",
@@ -5853,6 +6411,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -5860,6 +6420,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-gb",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5876,6 +6437,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-jr",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5892,6 +6454,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-dl",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5906,6 +6469,8 @@
        
        { "ContestId" : "cc-assembly-3",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -5913,6 +6478,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-no",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5929,6 +6495,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-3-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5948,6 +6515,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-me",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -5958,6 +6526,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5977,6 +6546,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-c-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -5996,6 +6566,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-ni",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -6012,7 +6583,8 @@
     "ElectionId" : "election",
     "@type" : "CVR.CVR" },
    
-   { "BallotStyleId" : "b-10-prec-3",
+   { "BallotPrePrintedId" : "b-10-prec-3",
+    "BallotStyleId" : "Precinct 3",
     "BallotStyleUnitId" : "cp-3-7-8-9",
     "CreatingDeviceId" : "rd",
     "CurrentSnapshotId" : "b-10-prec-3",
@@ -6023,6 +6595,8 @@
       [ 
        { "ContestId" : "spc-1",
         "Overvotes" : 0,
+        "Status" : 
+        [ "undervoted" ],
         "Undervotes" : 1,
         "@type" : "CVR.CVRContest" },
        
@@ -6030,6 +6604,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-president-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -6049,6 +6624,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-senate-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -6068,6 +6644,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-congress-1-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -6087,6 +6664,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-assembly-3-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -6106,6 +6684,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "bm-proposal-2-yes",
+          "OptionPosition" : 1,
           "SelectionPosition" : 
           [ 
            { "HasIndication" : "yes",
@@ -6122,6 +6701,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-comissioner-3-wi",
+          "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -6141,6 +6721,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-county-assessor-db-wi",
+          "OptionPosition" : 7,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -6154,6 +6735,7 @@
           "@type" : "CVR.CVRContestSelection" },
          
          { "ContestSelectionId" : "cs-county-assessor-db-wi2",
+          "OptionPosition" : 8,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -6173,6 +6755,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-sc-justice-c-wi",
+          "OptionPosition" : 3,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -6192,6 +6775,7 @@
         "CVRContestSelection" : 
         [ 
          { "ContestSelectionId" : "cs-dog-catcher-wi",
+          "OptionPosition" : 4,
           "SelectionPosition" : 
           [ 
            { "CVRWriteIn" : 
@@ -6799,7 +7383,7 @@
       "VoteVariation" : "n-of-m" } ],
     "ElectionScopeId" : "ru-county-1",
     "@type" : "CVR.Election" } ],
-  "GeneratedDate" : "2023-05-08T00:00:00Z",
+  "GeneratedDate" : "2023-07-14T13:32:09-04:00",
   "GpUnit" : 
   [ 
    { "@id" : "ru-county-1",
@@ -6833,16 +7417,6 @@
     "Type" : "precinct",
     "@type" : "CVR.GpUnit" },
    
-   { "@id" : "ps-2a",
-    "Name" : "Precinct 2a",
-    "Type" : "split-precinct",
-    "@type" : "CVR.GpUnit" },
-   
-   { "@id" : "ps-2b",
-    "Name" : "Precinct 2b",
-    "Type" : "precinct",
-    "@type" : "CVR.GpUnit" },
-   
    { "@id" : "prec-4",
     "Name" : "Precinct 4",
     "Type" : "precinct",
@@ -6870,6 +7444,16 @@
    
    { "@id" : "prec-9",
     "Name" : "Precinct 9",
+    "Type" : "precinct",
+    "@type" : "CVR.GpUnit" },
+   
+   { "@id" : "ps-2a",
+    "Name" : "Precinct 2a",
+    "Type" : "split-precinct",
+    "@type" : "CVR.GpUnit" },
+   
+   { "@id" : "ps-2b",
+    "Name" : "Precinct 2b",
     "Type" : "precinct",
     "@type" : "CVR.GpUnit" } ],
   "Party" : 

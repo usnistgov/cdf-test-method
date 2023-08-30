@@ -1,457 +1,412 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--DISCLAIMER: THIS IS A DRAFT AND NOT INTENDED FOR CONFORMANCE WORK-->
-<ElectionReport xmlns="http://itl.nist.gov/ns/voting/1500-100/v2">
-   <Election>
-      <BallotStyle>
-         <ExternalIdentifier>
-            <Type>local-level</Type>
-            <Value>Democratic</Value>
-         </ExternalIdentifier>
-         <GpUnitIds>prec-fbc prec-mcc</GpUnitIds>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <ContestId>cc-dem-president</ContestId>
-         </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <ContestId>cc-dem-senate</ContestId>
-         </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <ContestId>cc-dem-congress-12</ContestId>
-         </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <ContestId>cc-dem-assembly-26</ContestId>
-         </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <ContestId>bmc-referendum-a</ContestId>
-         </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <ContestId>bmc-referendum-b</ContestId>
-         </OrderedContent>
-         <PartyIds>par-dem</PartyIds>
-      </BallotStyle>
-      <BallotStyle>
-         <ExternalIdentifier>
-            <Type>local-level</Type>
-            <Value>Republican</Value>
-         </ExternalIdentifier>
-         <GpUnitIds>prec-fbc prec-mcc</GpUnitIds>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <ContestId>cc-rep-president</ContestId>
-         </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <ContestId>cc-rep-senate</ContestId>
-         </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <ContestId>cc-rep-congress-12</ContestId>
-         </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <ContestId>cc-rep-assembly-26</ContestId>
-         </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <ContestId>bmc-referendum-a</ContestId>
-         </OrderedContent>
-         <OrderedContent xsi:type="OrderedContest"
-                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <ContestId>bmc-referendum-b</ContestId>
-         </OrderedContent>
-         <PartyIds>par-rep</PartyIds>
-      </BallotStyle>
-      <Candidate ObjectId="can-aneet"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Anne Neet</Text>
-         </BallotName>
-         <PartyId>par-dem</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-bb"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Ben Baker</Text>
-         </BallotName>
-         <PartyId>par-dem</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-cs"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Chad Snow</Text>
-         </BallotName>
-         <PartyId>par-dem</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-de"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Don Etler</Text>
-         </BallotName>
-         <PartyId>par-dem</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-esheehy"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Eric Sheehy</Text>
-         </BallotName>
-         <PartyId>par-dem</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-ff"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Fiero Finn</Text>
-         </BallotName>
-         <PartyId>par-dem</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-sa"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Shlomo Archibald</Text>
-         </BallotName>
-         <PartyId>par-dem</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-anina"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Andre Nina</Text>
-         </BallotName>
-         <PartyId>par-rep</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-bg"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Brent Gilley</Text>
-         </BallotName>
-         <PartyId>par-rep</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-cc"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Carol Cross</Text>
-         </BallotName>
-         <PartyId>par-rep</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-dc"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">David Cox</Text>
-         </BallotName>
-         <PartyId>par-rep</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-esnyder"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Ernest Snyder</Text>
-         </BallotName>
-         <PartyId>par-rep</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-fm"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Frank L. Matthews</Text>
-         </BallotName>
-         <PartyId>par-rep</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-gcl"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Glenna P Cook-Lincoln</Text>
-         </BallotName>
-         <PartyId>par-rep</PartyId>
-      </Candidate>
-      <Candidate ObjectId="can-hh"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <BallotName>
-            <Text Language="en">Heidi Hatzinger</Text>
-         </BallotName>
-         <PartyId>par-rep</PartyId>
-      </Candidate>
-      <Contest xsi:type="CandidateContest"
-               ObjectId="cc-dem-president"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <ContestSelection ObjectId="cs-dem-president-an"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-aneet</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-dem-president-bb"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-bb</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-dem-president-wi"
-                           xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
-         </ContestSelection>
-         <ElectionDistrictId>ru-county</ElectionDistrictId>
-         <Name>President of the United States</Name>
-         <VoteVariation>n-of-m</VoteVariation>
-         <PrimaryPartyIds>par-dem</PrimaryPartyIds>
-         <VotesAllowed>1</VotesAllowed>
-      </Contest>
-      <Contest xsi:type="CandidateContest"
-               ObjectId="cc-dem-senate"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <ContestSelection ObjectId="cs-dem-senate-cs"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-cs</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-dem-senate-de"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-de</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-dem-senate-wi"
-                           xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
-         </ContestSelection>
-         <ElectionDistrictId>ru-county</ElectionDistrictId>
-         <Name>United States Senator</Name>
-         <VoteVariation>n-of-m</VoteVariation>
-         <PrimaryPartyIds>par-dem</PrimaryPartyIds>
-         <VotesAllowed>1</VotesAllowed>
-      </Contest>
-      <Contest xsi:type="CandidateContest"
-               ObjectId="cc-dem-congress-12"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <ContestSelection ObjectId="cs-dem-congress-12-es"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-esheehy</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-dem-congress-12-ff"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-ff</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-dem-congress-12-wi"
-                           xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
-         </ContestSelection>
-         <ElectionDistrictId>ru-congress-12</ElectionDistrictId>
-         <Name>Representative in Congress - District 12</Name>
-         <VoteVariation>n-of-m</VoteVariation>
-         <PrimaryPartyIds>par-dem</PrimaryPartyIds>
-         <VotesAllowed>1</VotesAllowed>
-      </Contest>
-      <Contest xsi:type="CandidateContest"
-               ObjectId="cc-dem-assembly-26"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <ContestSelection ObjectId="cs-dem-assembly-26"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-sa</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-dem-assembly-26-wi"
-                           xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
-         </ContestSelection>
-         <ElectionDistrictId>ru-assembly-26</ElectionDistrictId>
-         <Name>State Assembly - District 26</Name>
-         <VoteVariation>n-of-m</VoteVariation>
-         <PrimaryPartyIds>par-dem</PrimaryPartyIds>
-         <VotesAllowed>1</VotesAllowed>
-      </Contest>
-      <Contest xsi:type="CandidateContest"
-               ObjectId="cc-rep-president"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <ContestSelection ObjectId="cs-rep-president-an"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-anina</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-rep-president-bg"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-bg</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-rep-president-wi"
-                           xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
-         </ContestSelection>
-         <ElectionDistrictId>ru-county</ElectionDistrictId>
-         <Name>President of the United States</Name>
-         <VoteVariation>n-of-m</VoteVariation>
-         <PrimaryPartyIds>par-rep</PrimaryPartyIds>
-         <VotesAllowed>1</VotesAllowed>
-      </Contest>
-      <Contest xsi:type="CandidateContest"
-               ObjectId="cc-rep-senate"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <ContestSelection ObjectId="cs-rep-senate-cc"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-cc</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-rep-senate-dc"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-dc</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-rep-senate-wi"
-                           xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
-         </ContestSelection>
-         <ElectionDistrictId>ru-county</ElectionDistrictId>
-         <Name>United States Senator</Name>
-         <VoteVariation>n-of-m</VoteVariation>
-         <PrimaryPartyIds>par-rep</PrimaryPartyIds>
-         <VotesAllowed>1</VotesAllowed>
-      </Contest>
-      <Contest xsi:type="CandidateContest"
-               ObjectId="cc-rep-congress-12"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <ContestSelection ObjectId="cs-rep-congress-12-es"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-esnyder</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-rep-congress-12-fm"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-fm</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-rep-congress-12-wi"
-                           xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
-         </ContestSelection>
-         <ElectionDistrictId>ru-congress-12</ElectionDistrictId>
-         <Name>Representative in Congress - District 12</Name>
-         <VoteVariation>n-of-m</VoteVariation>
-         <PrimaryPartyIds>par-rep</PrimaryPartyIds>
-         <VotesAllowed>1</VotesAllowed>
-      </Contest>
-      <Contest xsi:type="CandidateContest"
-               ObjectId="cc-rep-assembly-26"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <ContestSelection ObjectId="cs-rep-assembly-26-gcl"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-gcl</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-rep-assembly-26-hh"
-                           xsi:type="CandidateSelection">
-            <CandidateIds>can-hh</CandidateIds>
-         </ContestSelection>
-         <ContestSelection ObjectId="cs-rep-assembly-26-wi"
-                           xsi:type="CandidateSelection">
-            <IsWriteIn>true</IsWriteIn>
-         </ContestSelection>
-         <ElectionDistrictId>ru-assembly-26</ElectionDistrictId>
-         <Name>State Assembly - District 26</Name>
-         <VoteVariation>n-of-m</VoteVariation>
-         <PrimaryPartyIds>par-rep</PrimaryPartyIds>
-         <VotesAllowed>1</VotesAllowed>
-      </Contest>
-      <Contest xsi:type="BallotMeasureContest"
-               ObjectId="bmc-referendum-a"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <ContestSelection ObjectId="bms-referendum-a-yes"
-                           xsi:type="BallotMeasureSelection">
-            <Selection>
-               <Text Language="en">FOR</Text>
-            </Selection>
-         </ContestSelection>
-         <ContestSelection ObjectId="bms-referendum-a-no"
-                           xsi:type="BallotMeasureSelection">
-            <Selection>
-               <Text Language="en">AGAINST</Text>
-            </Selection>
-         </ContestSelection>
-         <ElectionDistrictId>ru-county</ElectionDistrictId>
-         <Name>Referendum A - Bond Issue</Name>
-         <VoteVariation>n-of-m</VoteVariation>
-         <FullText>
-            <Text Language="en">To promote and assure the preservation and improvement of essential rail passenger and freight services to the inhabitants of the state, shall section two of chapter one hundred eighteen of the laws of nineteen hundred seventy-four, authorizing the creation of a state debt in the amount of two hundred fifty million dollars for capital facilities be approved?</Text>
-         </FullText>
-      </Contest>
-      <Contest xsi:type="BallotMeasureContest"
-               ObjectId="bmc-referendum-b"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-         <ContestSelection ObjectId="bms-referendum-b-yes"
-                           xsi:type="BallotMeasureSelection">
-            <Selection>
-               <Text Language="en">FOR</Text>
-            </Selection>
-         </ContestSelection>
-         <ContestSelection ObjectId="bms-referendum-b-no"
-                           xsi:type="BallotMeasureSelection">
-            <Selection>
-               <Text Language="en">AGAINST</Text>
-            </Selection>
-         </ContestSelection>
-         <ElectionDistrictId>ru-county</ElectionDistrictId>
-         <Name>Referendum B - Exchange or Certain Property</Name>
-         <VoteVariation>n-of-m</VoteVariation>
-         <FullText>
-            <Text Language="en">Shall the proposed amendment to Article XIV, section 1 of the Constitution, authorizing the conveyance of approximately ten acres of State Land in exchange for approximately two hundred acres of wild forest land in order to facilitate the preservation of certain historic buildings, be approved?</Text>
-         </FullText>
-      </Contest>
-      <ElectionScopeId>ru-county</ElectionScopeId>
-      <Name>
-         <Text Language="en"
-               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">PRIM-03</Text>
-      </Name>
-      <StartDate>2012-03-06</StartDate>
-      <EndDate>2012-03-06</EndDate>
-      <Type>partisan-primary-closed</Type>
-   </Election>
-   <Format>precinct-level</Format>
-   <GeneratedDate>2023-05-31T17:52:00Z</GeneratedDate>
-   <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-congress-12"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <ComposingGpUnitIds>prec-fbc prec-mcc</ComposingGpUnitIds>
-      <Name>
-         <Text Language="en">12th Congressional District</Text>
-      </Name>
-      <Number>12</Number>
-      <Type>congressional</Type>
-   </GpUnit>
-   <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-assembly-26"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <ComposingGpUnitIds>prec-fbc prec-mcc</ComposingGpUnitIds>
-      <Name>
-         <Text Language="en">26th Assembly District</Text>
-      </Name>
-      <Number>12</Number>
-      <Type>state-house</Type>
-   </GpUnit>
-   <GpUnit xsi:type="ReportingUnit"
-           ObjectId="ru-county"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <ComposingGpUnitIds>prec-fbc prec-mcc</ComposingGpUnitIds>
-      <Name>
-         <Text Language="en">Test County</Text>
-      </Name>
-      <Type>county</Type>
-   </GpUnit>
-   <GpUnit xsi:type="ReportingUnit"
-           ObjectId="prec-mcc"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Name>
-         <Text Language="en">Middleton Community Center</Text>
-      </Name>
-      <Type>precinct</Type>
-   </GpUnit>
-   <GpUnit xsi:type="ReportingUnit"
-           ObjectId="prec-fbc"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Name>
-         <Text Language="en">First Baptist Church</Text>
-      </Name>
-      <Type>precinct</Type>
-   </GpUnit>
-   <Issuer>National Institute of Standards and Technology</Issuer>
-   <IssuerAbbreviation>NIST</IssuerAbbreviation>
-   <Party ObjectId="par-dem"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Name>
-         <Text Language="en">Democratic</Text>
-      </Name>
-   </Party>
-   <Party ObjectId="par-rep"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Name>
-         <Text Language="en">Republican</Text>
-      </Name>
-   </Party>
-   <SequenceStart>1</SequenceStart>
-   <SequenceEnd>1</SequenceEnd>
-   <Status>pre-election</Status>
-   <VendorApplicationId>NIST Test Data</VendorApplicationId>
-</ElectionReport>
+<err:ElectionReport xmlns:err="http://itl.nist.gov/ns/voting/1500-100/v2"
+                    xmlns="http://itl.nist.gov/ns/voting/1500-100/v2"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <err:Election>
+      <err:BallotStyle>
+         <err:ExternalIdentifier>
+            <err:Type>local-level</err:Type>
+            <err:Value>Democratic</err:Value>
+         </err:ExternalIdentifier>
+         <err:GpUnitIds>prec-fbc prec-mcc</err:GpUnitIds>
+         <err:OrderedContent xsi:type="err:OrderedContest">
+            <err:ContestId>cc-dem-president</err:ContestId>
+         </err:OrderedContent>
+         <err:OrderedContent xsi:type="err:OrderedContest">
+            <err:ContestId>cc-dem-senate</err:ContestId>
+         </err:OrderedContent>
+         <err:OrderedContent xsi:type="err:OrderedContest">
+            <err:ContestId>cc-dem-congress-12</err:ContestId>
+         </err:OrderedContent>
+         <err:OrderedContent xsi:type="err:OrderedContest">
+            <err:ContestId>cc-dem-assembly-26</err:ContestId>
+         </err:OrderedContent>
+         <err:OrderedContent xsi:type="err:OrderedContest">
+            <err:ContestId>bmc-referendum-a</err:ContestId>
+         </err:OrderedContent>
+         <err:OrderedContent xsi:type="err:OrderedContest">
+            <err:ContestId>bmc-referendum-b</err:ContestId>
+         </err:OrderedContent>
+         <err:PartyIds>par-dem</err:PartyIds>
+      </err:BallotStyle>
+      <err:BallotStyle>
+         <err:ExternalIdentifier>
+            <err:Type>local-level</err:Type>
+            <err:Value>Republican</err:Value>
+         </err:ExternalIdentifier>
+         <err:GpUnitIds>prec-fbc prec-mcc</err:GpUnitIds>
+         <err:OrderedContent xsi:type="err:OrderedContest">
+            <err:ContestId>cc-rep-president</err:ContestId>
+         </err:OrderedContent>
+         <err:OrderedContent xsi:type="err:OrderedContest">
+            <err:ContestId>cc-rep-senate</err:ContestId>
+         </err:OrderedContent>
+         <err:OrderedContent xsi:type="err:OrderedContest">
+            <err:ContestId>cc-rep-congress-12</err:ContestId>
+         </err:OrderedContent>
+         <err:OrderedContent xsi:type="err:OrderedContest">
+            <err:ContestId>cc-rep-assembly-26</err:ContestId>
+         </err:OrderedContent>
+         <err:OrderedContent xsi:type="err:OrderedContest">
+            <err:ContestId>bmc-referendum-a</err:ContestId>
+         </err:OrderedContent>
+         <err:OrderedContent xsi:type="err:OrderedContest">
+            <err:ContestId>bmc-referendum-b</err:ContestId>
+         </err:OrderedContent>
+         <err:PartyIds>par-rep</err:PartyIds>
+      </err:BallotStyle>
+      <err:Candidate ObjectId="can-aneet">
+         <err:BallotName>
+            <err:Text Language="en">Anne Neet</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-dem</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-bb">
+         <err:BallotName>
+            <err:Text Language="en">Ben Baker</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-dem</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-cs">
+         <err:BallotName>
+            <err:Text Language="en">Chad Snow</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-dem</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-de">
+         <err:BallotName>
+            <err:Text Language="en">Don Etler</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-dem</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-esheehy">
+         <err:BallotName>
+            <err:Text Language="en">Eric Sheehy</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-dem</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-ff">
+         <err:BallotName>
+            <err:Text Language="en">Fiero Finn</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-dem</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-sa">
+         <err:BallotName>
+            <err:Text Language="en">Shlomo Archibald</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-dem</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-anina">
+         <err:BallotName>
+            <err:Text Language="en">Andre Nina</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-rep</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-bg">
+         <err:BallotName>
+            <err:Text Language="en">Brent Gilley</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-rep</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-cc">
+         <err:BallotName>
+            <err:Text Language="en">Carol Cross</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-rep</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-dc">
+         <err:BallotName>
+            <err:Text Language="en">David Cox</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-rep</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-esnyder">
+         <err:BallotName>
+            <err:Text Language="en">Ernest Snyder</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-rep</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-fm">
+         <err:BallotName>
+            <err:Text Language="en">Frank L. Matthews</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-rep</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-gcl">
+         <err:BallotName>
+            <err:Text Language="en">Glenna P Cook-Lincoln</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-rep</err:PartyId>
+      </err:Candidate>
+      <err:Candidate ObjectId="can-hh">
+         <err:BallotName>
+            <err:Text Language="en">Heidi Hatzinger</err:Text>
+         </err:BallotName>
+         <err:PartyId>par-rep</err:PartyId>
+      </err:Candidate>
+      <err:Contest xsi:type="err:CandidateContest"
+                   ObjectId="cc-dem-president">
+         <err:ContestSelection ObjectId="cs-dem-president-an"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-aneet</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-dem-president-bb"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-bb</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-dem-president-wi"
+                               xsi:type="err:CandidateSelection">
+            <err:IsWriteIn>true</err:IsWriteIn>
+         </err:ContestSelection>
+         <err:ElectionDistrictId>ru-county</err:ElectionDistrictId>
+         <err:Name>President of the United States</err:Name>
+         <err:VoteVariation>n-of-m</err:VoteVariation>
+         <err:PrimaryPartyIds>par-dem</err:PrimaryPartyIds>
+         <err:VotesAllowed>1</err:VotesAllowed>
+      </err:Contest>
+      <err:Contest xsi:type="err:CandidateContest"
+                   ObjectId="cc-dem-senate">
+         <err:ContestSelection ObjectId="cs-dem-senate-cs"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-cs</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-dem-senate-de"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-de</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-dem-senate-wi"
+                               xsi:type="err:CandidateSelection">
+            <err:IsWriteIn>true</err:IsWriteIn>
+         </err:ContestSelection>
+         <err:ElectionDistrictId>ru-county</err:ElectionDistrictId>
+         <err:Name>United States Senator</err:Name>
+         <err:VoteVariation>n-of-m</err:VoteVariation>
+         <err:PrimaryPartyIds>par-dem</err:PrimaryPartyIds>
+         <err:VotesAllowed>1</err:VotesAllowed>
+      </err:Contest>
+      <err:Contest xsi:type="err:CandidateContest"
+                   ObjectId="cc-dem-congress-12">
+         <err:ContestSelection ObjectId="cs-dem-congress-12-es"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-esheehy</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-dem-congress-12-ff"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-ff</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-dem-congress-12-wi"
+                               xsi:type="err:CandidateSelection">
+            <err:IsWriteIn>true</err:IsWriteIn>
+         </err:ContestSelection>
+         <err:ElectionDistrictId>ru-congress-12</err:ElectionDistrictId>
+         <err:Name>Representative in Congress - District 12</err:Name>
+         <err:VoteVariation>n-of-m</err:VoteVariation>
+         <err:PrimaryPartyIds>par-dem</err:PrimaryPartyIds>
+         <err:VotesAllowed>1</err:VotesAllowed>
+      </err:Contest>
+      <err:Contest xsi:type="err:CandidateContest"
+                   ObjectId="cc-dem-assembly-26">
+         <err:ContestSelection ObjectId="cs-dem-assembly-26"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-sa</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-dem-assembly-26-wi"
+                               xsi:type="err:CandidateSelection">
+            <err:IsWriteIn>true</err:IsWriteIn>
+         </err:ContestSelection>
+         <err:ElectionDistrictId>ru-assembly-26</err:ElectionDistrictId>
+         <err:Name>State Assembly - District 26</err:Name>
+         <err:VoteVariation>n-of-m</err:VoteVariation>
+         <err:PrimaryPartyIds>par-dem</err:PrimaryPartyIds>
+         <err:VotesAllowed>1</err:VotesAllowed>
+      </err:Contest>
+      <err:Contest xsi:type="err:CandidateContest"
+                   ObjectId="cc-rep-president">
+         <err:ContestSelection ObjectId="cs-rep-president-an"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-anina</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-rep-president-bg"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-bg</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-rep-president-wi"
+                               xsi:type="err:CandidateSelection">
+            <err:IsWriteIn>true</err:IsWriteIn>
+         </err:ContestSelection>
+         <err:ElectionDistrictId>ru-county</err:ElectionDistrictId>
+         <err:Name>President of the United States</err:Name>
+         <err:VoteVariation>n-of-m</err:VoteVariation>
+         <err:PrimaryPartyIds>par-rep</err:PrimaryPartyIds>
+         <err:VotesAllowed>1</err:VotesAllowed>
+      </err:Contest>
+      <err:Contest xsi:type="err:CandidateContest"
+                   ObjectId="cc-rep-senate">
+         <err:ContestSelection ObjectId="cs-rep-senate-cc"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-cc</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-rep-senate-dc"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-dc</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-rep-senate-wi"
+                               xsi:type="err:CandidateSelection">
+            <err:IsWriteIn>true</err:IsWriteIn>
+         </err:ContestSelection>
+         <err:ElectionDistrictId>ru-county</err:ElectionDistrictId>
+         <err:Name>United States Senator</err:Name>
+         <err:VoteVariation>n-of-m</err:VoteVariation>
+         <err:PrimaryPartyIds>par-rep</err:PrimaryPartyIds>
+         <err:VotesAllowed>1</err:VotesAllowed>
+      </err:Contest>
+      <err:Contest xsi:type="err:CandidateContest"
+                   ObjectId="cc-rep-congress-12">
+         <err:ContestSelection ObjectId="cs-rep-congress-12-es"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-esnyder</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-rep-congress-12-fm"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-fm</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-rep-congress-12-wi"
+                               xsi:type="err:CandidateSelection">
+            <err:IsWriteIn>true</err:IsWriteIn>
+         </err:ContestSelection>
+         <err:ElectionDistrictId>ru-congress-12</err:ElectionDistrictId>
+         <err:Name>Representative in Congress - District 12</err:Name>
+         <err:VoteVariation>n-of-m</err:VoteVariation>
+         <err:PrimaryPartyIds>par-rep</err:PrimaryPartyIds>
+         <err:VotesAllowed>1</err:VotesAllowed>
+      </err:Contest>
+      <err:Contest xsi:type="err:CandidateContest"
+                   ObjectId="cc-rep-assembly-26">
+         <err:ContestSelection ObjectId="cs-rep-assembly-26-gcl"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-gcl</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-rep-assembly-26-hh"
+                               xsi:type="err:CandidateSelection">
+            <err:CandidateIds>can-hh</err:CandidateIds>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="cs-rep-assembly-26-wi"
+                               xsi:type="err:CandidateSelection">
+            <err:IsWriteIn>true</err:IsWriteIn>
+         </err:ContestSelection>
+         <err:ElectionDistrictId>ru-assembly-26</err:ElectionDistrictId>
+         <err:Name>State Assembly - District 26</err:Name>
+         <err:VoteVariation>n-of-m</err:VoteVariation>
+         <err:PrimaryPartyIds>par-rep</err:PrimaryPartyIds>
+         <err:VotesAllowed>1</err:VotesAllowed>
+      </err:Contest>
+      <err:Contest xsi:type="err:BallotMeasureContest"
+                   ObjectId="bmc-referendum-a">
+         <err:ContestSelection ObjectId="bms-referendum-a-yes"
+                               xsi:type="err:BallotMeasureSelection">
+            <err:Selection>
+               <err:Text Language="en">FOR</err:Text>
+            </err:Selection>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="bms-referendum-a-no"
+                               xsi:type="err:BallotMeasureSelection">
+            <err:Selection>
+               <err:Text Language="en">AGAINST</err:Text>
+            </err:Selection>
+         </err:ContestSelection>
+         <err:ElectionDistrictId>ru-county</err:ElectionDistrictId>
+         <err:Name>Referendum A - Bond Issue</err:Name>
+         <err:VoteVariation>n-of-m</err:VoteVariation>
+         <err:FullText>
+            <err:Text Language="en">To promote and assure the preservation and improvement of essential rail passenger and freight services to the inhabitants of the state, shall section two of chapter one hundred eighteen of the laws of nineteen hundred seventy-four, authorizing the creation of a state debt in the amount of two hundred fifty million dollars for capital facilities be approved?</err:Text>
+         </err:FullText>
+      </err:Contest>
+      <err:Contest xsi:type="err:BallotMeasureContest"
+                   ObjectId="bmc-referendum-b">
+         <err:ContestSelection ObjectId="bms-referendum-b-yes"
+                               xsi:type="err:BallotMeasureSelection">
+            <err:Selection>
+               <err:Text Language="en">FOR</err:Text>
+            </err:Selection>
+         </err:ContestSelection>
+         <err:ContestSelection ObjectId="bms-referendum-b-no"
+                               xsi:type="err:BallotMeasureSelection">
+            <err:Selection>
+               <err:Text Language="en">AGAINST</err:Text>
+            </err:Selection>
+         </err:ContestSelection>
+         <err:ElectionDistrictId>ru-county</err:ElectionDistrictId>
+         <err:Name>Referendum B - Exchange or Certain Property</err:Name>
+         <err:VoteVariation>n-of-m</err:VoteVariation>
+         <err:FullText>
+            <err:Text Language="en">Shall the proposed amendment to Article XIV, section 1 of the Constitution, authorizing the conveyance of approximately ten acres of State Land in exchange for approximately two hundred acres of wild forest land in order to facilitate the preservation of certain historic buildings, be approved?</err:Text>
+         </err:FullText>
+      </err:Contest>
+      <err:ElectionScopeId>ru-county</err:ElectionScopeId>
+      <err:Name>
+         <err:Text Language="en">PRIM-03 Primary Election</err:Text>
+      </err:Name>
+      <err:StartDate>2012-03-06</err:StartDate>
+      <err:EndDate>2012-03-06</err:EndDate>
+      <err:Type>partisan-primary-closed</err:Type>
+   </err:Election>
+   <err:Format>precinct-level</err:Format>
+   <err:GeneratedDate>2023-05-31T17:52:00Z</err:GeneratedDate>
+   <err:GpUnit xsi:type="err:ReportingUnit"
+               ObjectId="ru-congress-12">
+      <err:ComposingGpUnitIds>prec-fbc prec-mcc</err:ComposingGpUnitIds>
+      <err:Name>
+         <err:Text Language="en">12th Congressional District</err:Text>
+      </err:Name>
+      <err:Number>12</err:Number>
+      <err:Type>congressional</err:Type>
+   </err:GpUnit>
+   <err:GpUnit xsi:type="err:ReportingUnit"
+               ObjectId="ru-assembly-26">
+      <err:ComposingGpUnitIds>prec-fbc prec-mcc</err:ComposingGpUnitIds>
+      <err:Name>
+         <err:Text Language="en">26th Assembly District</err:Text>
+      </err:Name>
+      <err:Number>12</err:Number>
+      <err:Type>state-house</err:Type>
+   </err:GpUnit>
+   <err:GpUnit xsi:type="err:ReportingUnit"
+               ObjectId="ru-county">
+      <err:ComposingGpUnitIds>prec-fbc prec-mcc</err:ComposingGpUnitIds>
+      <err:Name>
+         <err:Text Language="en">Test County</err:Text>
+      </err:Name>
+      <err:Type>county</err:Type>
+   </err:GpUnit>
+   <err:GpUnit xsi:type="err:ReportingUnit"
+               ObjectId="prec-mcc">
+      <err:Name>
+         <err:Text Language="en">Middleton Community Center</err:Text>
+      </err:Name>
+      <err:Type>precinct</err:Type>
+   </err:GpUnit>
+   <err:GpUnit xsi:type="err:ReportingUnit"
+               ObjectId="prec-fbc">
+      <err:Name>
+         <err:Text Language="en">First Baptist Church</err:Text>
+      </err:Name>
+      <err:Type>precinct</err:Type>
+   </err:GpUnit>
+   <err:Issuer>National Institute of Standards and Technology</err:Issuer>
+   <err:IssuerAbbreviation>NIST</err:IssuerAbbreviation>
+   <err:Party ObjectId="par-dem">
+      <err:Name>
+         <err:Text Language="en">Democratic</err:Text>
+      </err:Name>
+   </err:Party>
+   <err:Party ObjectId="par-rep">
+      <err:Name>
+         <err:Text Language="en">Republican</err:Text>
+      </err:Name>
+   </err:Party>
+   <err:SequenceStart>1</err:SequenceStart>
+   <err:SequenceEnd>1</err:SequenceEnd>
+   <err:Status>pre-election</err:Status>
+   <err:VendorApplicationId>NIST Test Data</err:VendorApplicationId>
+</err:ElectionReport>
