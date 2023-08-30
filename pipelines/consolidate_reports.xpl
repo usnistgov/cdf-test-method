@@ -35,9 +35,11 @@
             <p:with-input port="schema" href="http://www.xproc.org/ns/xvrl" />
         </p:validate-with-relax-ng>
     </p:if>
-    <!-- removes namespace prefixes, but keeps default namespace -->
-    <p:namespace-delete prefixes="xvrl" xmlns:xvrl="http://www.xproc.org/ns/xvrl" />
-    <p:namespace-rename from="" to="http://www.xproc.org/ns/xvrl"/>
+    <p:if test="lower-case($reportType) = 'xml'">
+        <!-- removes namespace prefixes, but keeps default namespace -->
+        <p:namespace-delete prefixes="xvrl" xmlns:xvrl="http://www.xproc.org/ns/xvrl" />
+        <p:namespace-rename from="" to="http://www.xproc.org/ns/xvrl"/>
+    </p:if>
     <p:if test="lower-case($reportType) = 'html'">
         <p:xslt name="generate-sch" message="Converting XVRL to HTML Report">
             <p:with-input port="stylesheet" href="../resources/xvrl2html.xsl" />
