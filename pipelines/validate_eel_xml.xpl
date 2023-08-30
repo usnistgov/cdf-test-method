@@ -10,8 +10,6 @@
     </p:input>
     <p:input port="source" primary="true" />
     <p:output port="report" primary="true" />
-    <!-- temp for debugging -->
-    <p:output port="sch" pipe="result@generate-sch" />
     <p:option name="mode" select="'conformance'" />
     <p:option name="reportType" select="'XML'" />
     <p:option name="schemaNS" required="true" />

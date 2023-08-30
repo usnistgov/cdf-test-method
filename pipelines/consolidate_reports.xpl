@@ -14,7 +14,7 @@
         <p:with-input port="insertion">
             <p:inline>
                 <xvrl:metadata xmlns:xvrl="http://www.xproc.org/ns/xvrl">
-                    <xvrl:creator name="NIST Common Data Format Test Method" version="1.0.0beta5" />
+                    <xvrl:creator name="NIST Common Data Format Test Method" version="1.0.0" />
                     <xvrl:timestamp>{$start-dateTime}</xvrl:timestamp>
                     <xvrl:summary>Please review each report to determine conformance to the applicable test assertions / requirements</xvrl:summary>
                     <xvrl:supplemental tm:xproc-engine-name="{p:system-property('p:product-name')}"
@@ -35,6 +35,9 @@
             <p:with-input port="schema" href="http://www.xproc.org/ns/xvrl" />
         </p:validate-with-relax-ng>
     </p:if>
+    <!-- removes namespace prefixes, but keeps default namespace -->
+    <p:namespace-delete prefixes="xvrl" xmlns:xvrl="http://www.xproc.org/ns/xvrl" />
+    <p:namespace-rename from="" to="http://www.xproc.org/ns/xvrl"/>
     <p:if test="lower-case($reportType) = 'html'">
         <p:xslt name="generate-sch" message="Converting XVRL to HTML Report">
             <p:with-input port="stylesheet" href="../resources/xvrl2html.xsl" />

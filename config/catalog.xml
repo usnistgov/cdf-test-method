@@ -30,7 +30,7 @@
     <!-- begin Schematron schemas -->
     <uri name="http://itl.nist.gov/ns/voting/1500-20/v1/sch" uri="../resources/bd_v1/bd_v1_sua.sch"/>    
     <uri name="http://itl.nist.gov/ns/voting/1500-100/v2/sch" uri="../resources/err_v2/err_v2_sua.sch"/>   
-    <uri name="http://itl.nist.gov/ns/voting/1500-103/v2/sch" uri="../resources/cvr_v1/cvr_v1_sua.sch"/>   
+    <uri name="http://itl.nist.gov/ns/voting/1500-103/v1/sch" uri="../resources/cvr_v1/cvr_v1_sua.sch"/>   
     <!-- begin supporting formats -->
     <uri name="http://www.xproc.org/ns/xvrl" uri="../resources/xvrl.rnc" />
     <uri name="http://www.w3.org/ns/xproc" uri="../resources/xproc30.rng" />
