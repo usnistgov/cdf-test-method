@@ -18,7 +18,8 @@ Builds of the tool are available under the [releases](https://github.com/usnistg
 
 The following system configurations have been tested:
 
-- Windows 11 with OpenJDK 1.8.0_345 (64-bit)
+- Windows 11 with OpenJDK 17.0.6 (64-bit)
+- Windows 11 with OpenJDK 1.8.0_382 (64-bit)
 - Debian Linux 11.6 with OpenJDK 11.0.16 (64-bit)
 
 ## Usage
@@ -37,7 +38,7 @@ Current Limitations (expected to be lifted in subsequent versions):
 
 ## Test Data
 
-Test Data for many of the NIST Voting Common Data Formats is also located in this repository, under [test_data](./test_data/) and included with each release. Please refer to the [README](./test_data/README.md) for more information.
+Test Data for many of the NIST Voting Common Data Formats is also located in this repository, under [test_data/](./test_data/) and included with each release. Please refer to the [README](./test_data/README.md) for more information.
 
 ## About this work
 
