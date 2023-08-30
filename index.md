@@ -20,6 +20,7 @@ Prepackaged releases are [available on GitHub](https://github.com/usnistgov/cdf-
 The following system configurations have been tested:
 
 - Windows 11 with OpenJDK 17.0.6 (64-bit)
+- Windows 11 with OpenJDK 1.8.0_382 (64-bit)
 - Debian Linux 11.6 with OpenJDK 11.0.16 (64-bit)
 
 ## Memory Use

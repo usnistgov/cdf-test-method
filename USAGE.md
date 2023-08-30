@@ -38,7 +38,7 @@ Options:
 
 - `-option:reportType` - whether output report should be `XML` (default), or `HTML`.
 - `-option:stopOnError` - whether execution should halt after any data errors are found (`true`), otherwise `false` (default). 
-- `-option:conformance` - whether to run additional, internal checks. Required for *valid* results. Default: `conformance`, any other value runs in `non-conformance`.
+- `-option:mode` - whether to run additional, internal checks. Required for *valid* results. Default: `conformance`, any other value runs in `non-conformance`.
 - `-option:schemaNS` - namespace of the common data format schema. See above table.
 
 Other flags:
