@@ -544,7 +544,7 @@
                <Text Language="en">NO</Text>
             </Selection>
          </ContestSelection>
-         <ElectionDistrictId>prec-1</ElectionDistrictId>
+         <ElectionDistrictId>cp-1-4-5-6</ElectionDistrictId>
          <Name>Proposal 1 - Road improvements</Name>
          <VoteVariation>n-of-m</VoteVariation>
          <FullText>
@@ -586,11 +586,11 @@
                <Text Language="en">NO</Text>
             </Selection>
          </ContestSelection>
-         <ElectionDistrictId>prec-3</ElectionDistrictId>
+         <ElectionDistrictId>ps-2b</ElectionDistrictId>
          <Name>Proposal 3 - Sales tax</Name>
          <VoteVariation>n-of-m</VoteVariation>
          <FullText>
-            <Text Language="en">Should the salex tax be increased to 9%</Text>
+            <Text Language="en">Should the sales tax be increased to 9%</Text>
          </FullText>
       </Contest>
       <Contest xsi:type="CandidateContest"
@@ -599,7 +599,7 @@
                            xsi:type="CandidateSelection">
             <CandidateIds>can-ab</CandidateIds>
          </ContestSelection>
-         <ContestSelection ObjectId="cs--wi"
+         <ContestSelection ObjectId="cs-county-comissioner-1-wi"
                            xsi:type="CandidateSelection">
             <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
@@ -769,7 +769,7 @@
    <GeneratedDate>2023-07-14T13:32:09-04:00</GeneratedDate>
    <GpUnit xsi:type="ReportingUnit"
            ObjectId="ru-congress-1">
-      <ComposingGpUnitIds>prec-1 prec-3</ComposingGpUnitIds>
+      <ComposingGpUnitIds>prec-1 prec-3 prec-4 prec-5 prec-6 prec-7 prec-8 prec-9</ComposingGpUnitIds>
       <Name>
          <Text Language="en">1st Congressional District</Text>
       </Name>
@@ -787,7 +787,7 @@
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
            ObjectId="ru-assembly-1">
-      <ComposingGpUnitIds>prec-1</ComposingGpUnitIds>
+      <ComposingGpUnitIds>prec-1 prec-4 prec-5 prec-6</ComposingGpUnitIds>
       <Name>
          <Text Language="en">1st Assembly District</Text>
       </Name>
@@ -805,7 +805,7 @@
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
            ObjectId="ru-assembly-3">
-      <ComposingGpUnitIds>prec-3</ComposingGpUnitIds>
+      <ComposingGpUnitIds>prec-3 prec-7 prec-8 prec-9</ComposingGpUnitIds>
       <Name>
          <Text Language="en">3rd Assembly District</Text>
       </Name>
@@ -814,7 +814,7 @@
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
            ObjectId="ru-county-commisioner-1">
-      <ComposingGpUnitIds>prec-1</ComposingGpUnitIds>
+      <ComposingGpUnitIds>prec-1 prec-4 prec-5 prec-6</ComposingGpUnitIds>
       <Name>
          <Text Language="en">1st County Commissioner District</Text>
       </Name>
@@ -832,7 +832,7 @@
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
            ObjectId="ru-county-commisioner-3">
-      <ComposingGpUnitIds>prec-3</ComposingGpUnitIds>
+      <ComposingGpUnitIds>prec-3 prec-7 prec-8 prec-9</ComposingGpUnitIds>
       <Name>
          <Text Language="en">3rd County Commissioner District</Text>
       </Name>
@@ -841,7 +841,7 @@
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
            ObjectId="ru-supreme-court-a">
-      <ComposingGpUnitIds>prec-1</ComposingGpUnitIds>
+      <ComposingGpUnitIds>prec-1 prec-4 prec-5 prec-6</ComposingGpUnitIds>
       <Name>
          <Text Language="en">Supreme Court Justice - Seat A</Text>
       </Name>
@@ -859,7 +859,7 @@
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
            ObjectId="ru-supreme-court-c">
-      <ComposingGpUnitIds>prec-3</ComposingGpUnitIds>
+      <ComposingGpUnitIds>prec-3 prec-7 prec-8 prec-9</ComposingGpUnitIds>
       <Name>
          <Text Language="en">Supreme Court Justice - Seat C</Text>
       </Name>
@@ -876,7 +876,7 @@
    </GpUnit>
    <GpUnit xsi:type="ReportingUnit"
            ObjectId="ru-stadium">
-      <ComposingGpUnitIds>ps-2a prec-3</ComposingGpUnitIds>
+      <ComposingGpUnitIds>ps-2a prec-3 prec-7 prec-8 prec-9</ComposingGpUnitIds>
       <Name>
          <Text Language="en">Stadium Improvement District</Text>
       </Name>
@@ -974,7 +974,7 @@
       <Name>
          <Text Language="en">Precinct 2b</Text>
       </Name>
-      <Type>precinct</Type>
+      <Type>split-precinct</Type>
    </GpUnit>
    <Issuer>National Institute of Standards and Technology</Issuer>
    <IssuerAbbreviation>NIST</IssuerAbbreviation>

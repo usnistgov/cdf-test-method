@@ -449,7 +449,7 @@ voted for the given precinct:**
 
 **Test Results:**
 
-**Precinct 1:**
+**Precinct 1 (4,5,6):**
 
 **Straight Party**
 
@@ -731,7 +731,7 @@ Roland Gustiv 2
 
 Write-In 2
 
-**Precinct 3:**
+**Precinct 3 (7,8,9):**
 
 **Straight Party**
 
@@ -741,7 +741,7 @@ Republican 1
 
 Democrat 1
 
-**Presiden***t*
+**President***
 
 Harry Brown LIB 3
 

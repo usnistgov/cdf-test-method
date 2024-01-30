@@ -725,7 +725,7 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-1</ContestId>
             <CVRContestSelection>
-               <ContestSelectionId>cs--wi</ContestSelectionId>
+               <ContestSelectionId>cs-county-comissioner-1-wi</ContestSelectionId>
                <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
@@ -1067,7 +1067,7 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-1</ContestId>
             <CVRContestSelection>
-               <ContestSelectionId>cs--wi</ContestSelectionId>
+               <ContestSelectionId>cs-county-comissioner-1-wi</ContestSelectionId>
                <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
@@ -1397,7 +1397,7 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-1</ContestId>
             <CVRContestSelection>
-               <ContestSelectionId>cs--wi</ContestSelectionId>
+               <ContestSelectionId>cs-county-comissioner-1-wi</ContestSelectionId>
                <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
@@ -1580,7 +1580,7 @@
          <CVRContest>
             <ContestId>cc-county-comissioner-1</ContestId>
             <CVRContestSelection>
-               <ContestSelectionId>cs--wi</ContestSelectionId>
+               <ContestSelectionId>cs-county-comissioner-1-wi</ContestSelectionId>
                <OptionPosition>2</OptionPosition>
                <SelectionPosition>
                   <CVRWriteIn>
@@ -6999,7 +6999,7 @@
                            xsi:type="CandidateSelection">
             <CandidateIds>can-ab</CandidateIds>
          </ContestSelection>
-         <ContestSelection ObjectId="cs--wi"
+         <ContestSelection ObjectId="cs-county-comissioner-1-wi"
                            xsi:type="CandidateSelection">
             <IsWriteIn>1</IsWriteIn>
          </ContestSelection>
@@ -7207,7 +7207,7 @@
    </GpUnit>
    <GpUnit ObjectId="ps-2b">
       <Name>Precinct 2b</Name>
-      <Type>precinct</Type>
+      <Type>split-precinct</Type>
    </GpUnit>
    <Party ObjectId="par-dem">
       <Name>Democrat</Name>

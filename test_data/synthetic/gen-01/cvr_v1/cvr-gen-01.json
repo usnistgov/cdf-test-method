@@ -848,7 +848,7 @@
        { "ContestId" : "cc-county-comissioner-1",
         "CVRContestSelection" : 
         [ 
-         { "ContestSelectionId" : "cs--wi",
+         { "ContestSelectionId" : "cs-county-comissioner-1-wi",
           "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
@@ -1236,7 +1236,7 @@
        { "ContestId" : "cc-county-comissioner-1",
         "CVRContestSelection" : 
         [ 
-         { "ContestSelectionId" : "cs--wi",
+         { "ContestSelectionId" : "cs-county-comissioner-1-wi",
           "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
@@ -1611,7 +1611,7 @@
        { "ContestId" : "cc-county-comissioner-1",
         "CVRContestSelection" : 
         [ 
-         { "ContestSelectionId" : "cs--wi",
+         { "ContestSelectionId" : "cs-county-comissioner-1-wi",
           "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
@@ -1817,7 +1817,7 @@
        { "ContestId" : "cc-county-comissioner-1",
         "CVRContestSelection" : 
         [ 
-         { "ContestSelectionId" : "cs--wi",
+         { "ContestSelectionId" : "cs-county-comissioner-1-wi",
           "OptionPosition" : 2,
           "SelectionPosition" : 
           [ 
@@ -8060,7 +8060,7 @@
        
        { "IsWriteIn" : true,
         "@type" : "CVR.CandidateSelection",
-        "@id" : "cs--wi" } ],
+        "@id" : "cs-county-comissioner-1-wi" } ],
       "Name" : "County Commissioner - District 1",
       "VoteVariation" : "n-of-m" },
      
@@ -8302,7 +8302,7 @@
    
    { "@id" : "ps-2b",
     "Name" : "Precinct 2b",
-    "Type" : "precinct",
+    "Type" : "split-precinct",
     "@type" : "CVR.GpUnit" } ],
   "Party" : 
   [ 

@@ -1598,7 +1598,7 @@
        
        { "IsWriteIn" : true,
         "@type" : "ElectionResults.CandidateSelection",
-        "@id" : "cs--wi",
+        "@id" : "cs-county-comissioner-1-wi",
         "VoteCounts" : 
         [ 
          { "Count" : 4,
@@ -2545,7 +2545,7 @@
        "@type" : "ElectionResults.LanguageString" } ],
      "@type" : "ElectionResults.InternationalizedText" } },
    
-   { "Type" : "precinct",
+   { "Type" : "split-precinct",
     "@type" : "ElectionResults.ReportingUnit",
     "@id" : "ps-2b",
     "Name" : 
