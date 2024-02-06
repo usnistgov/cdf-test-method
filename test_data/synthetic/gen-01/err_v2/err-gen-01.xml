@@ -1293,7 +1293,7 @@
             </VoteCounts>
             <CandidateIds>can-ab</CandidateIds>
          </ContestSelection>
-         <ContestSelection ObjectId="cs--wi"
+         <ContestSelection ObjectId="cs-county-comissioner-1-wi"
                            xsi:type="CandidateSelection">
             <VoteCounts>
                <GpUnitId>ru-county-1</GpUnitId>
@@ -2134,7 +2134,7 @@
       <Name>
          <Text Language="en-us">Precinct 2b</Text>
       </Name>
-      <Type>precinct</Type>
+      <Type>split-precinct</Type>
    </GpUnit>
    <Issuer>National Institute of Standards and Technology</Issuer>
    <IssuerAbbreviation>NIST</IssuerAbbreviation>

@@ -805,7 +805,7 @@
          "@type" : "BallotDefinition.InternationalizedText" },
         "@type" : "BallotDefinition.BallotMeasureOption",
         "@id" : "bm-proposal-1-no" } ],
-      "ElectionDistrictId" : "prec-1",
+      "ElectionDistrictId" : "cp-1-4-5-6",
       "Name" : "Proposal 1 - Road improvements",
       "VoteVariation" : "n-of-m" },
      
@@ -846,7 +846,7 @@
      { "FullText" : 
       { "Text" : 
        [ 
-        { "Content" : "Should the salex tax be increased to 9%",
+        { "Content" : "Should the sales tax be increased to 9%",
          "Language" : "en",
          "@type" : "BallotDefinition.LanguageString" } ],
        "@type" : "BallotDefinition.InternationalizedText" },
@@ -873,7 +873,7 @@
          "@type" : "BallotDefinition.InternationalizedText" },
         "@type" : "BallotDefinition.BallotMeasureOption",
         "@id" : "bm-proposal-3-no" } ],
-      "ElectionDistrictId" : "prec-3",
+      "ElectionDistrictId" : "ps-2b",
       "Name" : "Proposal 3 - Sales tax",
       "VoteVariation" : "n-of-m" },
      
@@ -889,7 +889,7 @@
        
        { "IsWriteIn" : true,
         "@type" : "BallotDefinition.CandidateOption",
-        "@id" : "cs--wi" } ],
+        "@id" : "cs-county-comissioner-1-wi" } ],
       "ElectionDistrictId" : "ru-county-commisioner-1",
       "Name" : "County Commissioner - District 1",
       "VoteVariation" : "n-of-m" },
@@ -1087,7 +1087,13 @@
     "@id" : "ru-congress-1",
     "ComposingGpUnitIds" : 
     [ "prec-1",
-     "prec-3" ],
+     "prec-3",
+     "prec-4",
+     "prec-5",
+     "prec-6",
+     "prec-7",
+     "prec-8",
+     "prec-9" ],
     "Name" : 
     { "Text" : 
      [ 
@@ -1115,7 +1121,10 @@
     "@type" : "BallotDefinition.ReportingUnit",
     "@id" : "ru-assembly-1",
     "ComposingGpUnitIds" : 
-    [ "prec-1" ],
+    [ "prec-1",
+     "prec-4",
+     "prec-5",
+     "prec-6" ],
     "Name" : 
     { "Text" : 
      [ 
@@ -1143,7 +1152,10 @@
     "@type" : "BallotDefinition.ReportingUnit",
     "@id" : "ru-assembly-3",
     "ComposingGpUnitIds" : 
-    [ "prec-3" ],
+    [ "prec-3",
+     "prec-7",
+     "prec-8",
+     "prec-9" ],
     "Name" : 
     { "Text" : 
      [ 
@@ -1157,7 +1169,10 @@
     "@type" : "BallotDefinition.ReportingUnit",
     "@id" : "ru-county-commisioner-1",
     "ComposingGpUnitIds" : 
-    [ "prec-1" ],
+    [ "prec-1",
+     "prec-4",
+     "prec-5",
+     "prec-6" ],
     "Name" : 
     { "Text" : 
      [ 
@@ -1185,7 +1200,10 @@
     "@type" : "BallotDefinition.ReportingUnit",
     "@id" : "ru-county-commisioner-3",
     "ComposingGpUnitIds" : 
-    [ "prec-3" ],
+    [ "prec-3",
+     "prec-7",
+     "prec-8",
+     "prec-9" ],
     "Name" : 
     { "Text" : 
      [ 
@@ -1199,7 +1217,10 @@
     "@type" : "BallotDefinition.ReportingUnit",
     "@id" : "ru-supreme-court-a",
     "ComposingGpUnitIds" : 
-    [ "prec-1" ],
+    [ "prec-1",
+     "prec-4",
+     "prec-5",
+     "prec-6" ],
     "Name" : 
     { "Text" : 
      [ 
@@ -1227,7 +1248,10 @@
     "@type" : "BallotDefinition.ReportingUnit",
     "@id" : "ru-supreme-court-c",
     "ComposingGpUnitIds" : 
-    [ "prec-3" ],
+    [ "prec-3",
+     "prec-7",
+     "prec-8",
+     "prec-9" ],
     "Name" : 
     { "Text" : 
      [ 
@@ -1262,7 +1286,10 @@
     "@id" : "ru-stadium",
     "ComposingGpUnitIds" : 
     [ "ps-2a",
-     "prec-3" ],
+     "prec-3",
+     "prec-7",
+     "prec-8",
+     "prec-9" ],
     "Name" : 
     { "Text" : 
      [ 
@@ -1416,7 +1443,7 @@
        "@type" : "BallotDefinition.LanguageString" } ],
      "@type" : "BallotDefinition.InternationalizedText" } },
    
-   { "Type" : "precinct",
+   { "Type" : "split-precinct",
     "@type" : "BallotDefinition.ReportingUnit",
     "@id" : "ps-2b",
     "Name" : 
