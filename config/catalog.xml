@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.1//EN" "http://www.oasis-open.org/committees/entity/release/1.1/catalog.dtd">
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri name="http://itl.nist.gov/ns/voting/1500-103/v1" uri="../catalog_documents/NIST_V0_cast_vote_records.xsd"/>
     <uri name="http://itl.nist.gov/ns/voting/1500-103/v1/json" uri="../catalog_documents/NIST_V0_cast_vote_records.json"/>
@@ -14,8 +13,16 @@
     <uri name="http://www.w3.org/2000/09/xmldsig#" uri="../catalog_documents/xmldsig-core-schema.xsd" />
     <uri name="http://www.fgdc.gov/schemas/address/addr" uri="../catalog_documents/addr.xsd" />    
     <uri name="http://www.fgdc.gov/schemas/address/addr_type" uri="../catalog_documents/addr_type.xsd" />
-    <uri name="https://www.fgdc.gov/schemas/addresses/addr" uri="../catalog_documents/addr.xsd" />
-    <uri name="https://www.fgdc.gov/schemas/addresses/addr_type" uri="../catalog_documents/addr_type.xsd" />
+    <uri name="https://www.fgdc.gov/schemas/address/addr.xsd" uri="../catalog_documents/addr.xsd" />
+    <uri name="https://www.fgdc.gov/schemas/address/addr_type.xsd" uri="../catalog_documents/addr_type.xsd" />
+    <!-- workaround for flattened GML -->
+    <uri name="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd" uri="../catalog_documents/geometryPrimitives.xsd" />
+    <uri name="http://schemas.opengis.net/gml/3.1.1/base/xlink.xsd" uri="../catalog_documents/xlink.xsd" />
+    <uri name="http://schemas.opengis.net/gml/3.1.1/base/smil20.xsd" uri="../catalog_documents/smil20.xsd" />
+    <uri name="http://schemas.opengis.net/gml/3.1.1/base/smil20-language.xsd" uri="../catalog_documents/smil20-language.xsd" />
+    <uri name="http://schemas.opengis.net/gml/3.1.1/base/xml.xsd" uri="../catalog_documents/xml.xsd" />
+    <!-- end workaround -->
+    <uri name="http://www.w3.org/2001/SMIL20/Language" uri="../catalog_documents/smil20-language.xsd" />
     <uri name="http://www.opengis.net/gml" uri="../catalog_documents/geometryPrimitives.xsd" />
     <uri name="http://www.w3.org/1999/xlink" uri="../catalog_documents/xlink.xsd" />
     <uri name="http://www.w3.org/2001/SMIL20/" uri="../catalog_documents/smil20.xsd" />
@@ -26,6 +33,7 @@
     <uri name="http://itl.nist.gov/ns/voting/1500-20/v1#json2xml" uri="../resources/bd_v1/json2xml.xsl"/>    
     <uri name="http://itl.nist.gov/ns/voting/1500-100/v2#json2xml" uri="../resources/err_v2/err_v2_json2xml.xsl"/>    
     <uri name="http://itl.nist.gov/ns/voting/1500-101/v1#json2xml" uri="../resources/eel_v1/json2xml.xsl"/>    
+    <uri name="http://itl.nist.gov/ns/voting/1500-102/v1#json2xml" uri="../resources/vri_v1/json2xml.xsl"/>    
     <uri name="http://itl.nist.gov/ns/voting/1500-103/v1#json2xml" uri="../resources/cvr_v1/json2xml.xsl"/>    
     <!-- begin Schematron schemas -->
     <uri name="http://itl.nist.gov/ns/voting/1500-20/v1/sch" uri="../resources/bd_v1/bd_v1_sua.sch"/>    

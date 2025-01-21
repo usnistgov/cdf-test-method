@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../resources/xproc30.rng" type="application/xml"?>
 <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" name="pipeline"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:tm="http://itl.nist.gov/ns/voting/test-method" type="tm:xml-steps" version="3.0">
     <p:import href="./consolidate_reports.xpl" />
     <p:input port="json-report" sequence="true">
@@ -14,8 +15,7 @@
     <p:option name="stopOnError" select="false()" />
     <!-- we could also just delete it, but not sure we want to modify input, might break streaming
     later -->
-    <p:if test="exists(/*/@xsi:schemaLocation)"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <p:if test="exists(/*/@xsi:schemaLocation)">
         <p:error code="tm:schemaLocationNotAllowed">
             <p:with-input port="source">
                 <message>Attribute xsi:schemaLocation on root tag is disallowed for
@@ -40,7 +40,7 @@
             </p:with-input>
             <p:with-input port="source" pipe="source@pipeline" />
         </p:validate-with-schematron>
-        <p:catch xmlns:err="http://www.w3.org/ns/xproc-error" code="err:XD0049">
+        <p:catch xmlns:err="http://www.w3.org/ns/xproc-error" code="err:XD0049 err:XD0011">
            <p:output port="report" primary="false" pipe="result@empty" sequence="true"  />
             <p:identity name="empty" message="Schematron Ruleset for {$schemaNS} not found">
                 <p:with-input>

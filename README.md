@@ -53,7 +53,7 @@ The NIST Test Method license can be found [here](LICENSE.md). NIST Test Data lic
 This tool uses several open source libraries including:
 
 - MorganaXProc [GPLv3]
-- Saxon-HE 11.5 [MPLv2]
+- Saxon-HE [MPLv2]
 - schxslt [MIT]
 - Xerces 2.12.2 [Apache]
 
