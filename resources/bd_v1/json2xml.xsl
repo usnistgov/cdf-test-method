@@ -5,56 +5,56 @@ Locals
   outer_module=BallotDefinition  target_schema=http://itl.nist.gov/ns/voting/1500-20/v1
 Visible Packages
   BallotDefinition -->
-<xsl:stylesheet xmlns:bd="http://itl.nist.gov/ns/voting/1500-20/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xml:id="json2xml" xpath-default-namespace="http://www.w3.org/2005/xpath-functions" version="3.0">
+<xsl:stylesheet xmlns:cdf="http://itl.nist.gov/ns/voting/1500-20/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xml:id="json2xml" xpath-default-namespace="http://www.w3.org/2005/xpath-functions" version="3.0">
   <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
   <xsl:template name="start" match=".[. instance of map(*)]" priority="1">
     <xsl:variable name="xml" select=". =&gt; serialize(map { 'method' : 'json' }) =&gt; json-to-xml()"/>
     <xsl:if test="$xml/*[string = 'BallotDefinition.BallotDefinition' and string/@key = '@type']">
-      <bd:BallotDefinition>
+      <cdf:BallotDefinition>
         <xsl:apply-templates select="$xml"/>
-      </bd:BallotDefinition>
+      </cdf:BallotDefinition>
     </xsl:if>
   </xsl:template>
   <!-- Begin classes for Package BallotDefinition -->
-  <xsl:template name="bd:ActivationContest" match="*[string = 'BallotDefinition.ActivationContest' and string/@key = '@type']">
+  <xsl:template name="cdf:ActivationContest" match="*[string = 'BallotDefinition.ActivationContest' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:ActivationContest</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:ActivationContest</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:ControllingContest">
+    <xsl:call-template name="cdf:ControllingContest">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'CandidateId'])">
-      <bd:CandidateId>
+      <cdf:CandidateId>
         <xsl:value-of select="*[@key = 'CandidateId']"/>
-      </bd:CandidateId>
+      </cdf:CandidateId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'SummaryText'])">
-      <bd:SummaryText>
+      <cdf:SummaryText>
         <xsl:apply-templates select="*[@key = 'SummaryText']"/>
-      </bd:SummaryText>
+      </cdf:SummaryText>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:ActivationOption" match="*[string = 'BallotDefinition.ActivationOption' and string/@key = '@type']">
+  <xsl:template name="cdf:ActivationOption" match="*[string = 'BallotDefinition.ActivationOption' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:ActivationOption</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:ActivationOption</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:ContestOption">
+    <xsl:call-template name="cdf:ContestOption">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'CausesActivation'])">
-      <bd:CausesActivation>
+      <cdf:CausesActivation>
         <xsl:value-of select="*[@key = 'CausesActivation']"/>
-      </bd:CausesActivation>
+      </cdf:CausesActivation>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Selection'])">
-      <bd:Selection>
+      <cdf:Selection>
         <xsl:apply-templates select="*[@key = 'Selection']"/>
-      </bd:Selection>
+      </cdf:Selection>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:AnnotatedString" match="*[string = 'BallotDefinition.AnnotatedString' and string/@key = '@type']">
+  <xsl:template name="cdf:AnnotatedString" match="*[string = 'BallotDefinition.AnnotatedString' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'Annotation'])">
       <xsl:attribute name="Annotation">
@@ -63,7 +63,7 @@ Visible Packages
     </xsl:if>
     <xsl:value-of select="*[@key = 'Content']"/>
   </xsl:template>
-  <xsl:template name="bd:AnnotatedUri" match="*[string = 'BallotDefinition.AnnotatedUri' and string/@key = '@type']">
+  <xsl:template name="cdf:AnnotatedUri" match="*[string = 'BallotDefinition.AnnotatedUri' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'Annotation'])">
       <xsl:attribute name="Annotation">
@@ -72,526 +72,526 @@ Visible Packages
     </xsl:if>
     <xsl:value-of select="*[@key = 'Content']"/>
   </xsl:template>
-  <xsl:template name="bd:BallotDefinition" match="*[string = 'BallotDefinition.BallotDefinition' and string/@key = '@type']">
+  <xsl:template name="cdf:BallotDefinition" match="*[string = 'BallotDefinition.BallotDefinition' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'BallotFormat'])">
       <xsl:for-each select="*[@key = 'BallotFormat']/map">
-        <bd:BallotFormat>
+        <cdf:BallotFormat>
           <xsl:apply-templates select="."/>
-        </bd:BallotFormat>
+        </cdf:BallotFormat>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Election'])">
       <xsl:for-each select="*[@key = 'Election']/map">
-        <bd:Election>
+        <cdf:Election>
           <xsl:apply-templates select="."/>
-        </bd:Election>
+        </cdf:Election>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ExternalIdentifier'])">
       <xsl:for-each select="*[@key = 'ExternalIdentifier']/map">
-        <bd:ExternalIdentifier>
+        <cdf:ExternalIdentifier>
           <xsl:apply-templates select="."/>
-        </bd:ExternalIdentifier>
+        </cdf:ExternalIdentifier>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'GeneratedDate'])">
-      <bd:GeneratedDate>
+      <cdf:GeneratedDate>
         <xsl:value-of select="*[@key = 'GeneratedDate']"/>
-      </bd:GeneratedDate>
+      </cdf:GeneratedDate>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'GpUnit'])">
       <xsl:for-each select="*[@key = 'GpUnit']/map">
-        <bd:GpUnit>
+        <cdf:GpUnit>
           <xsl:apply-templates select="."/>
-        </bd:GpUnit>
+        </cdf:GpUnit>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Header'])">
       <xsl:for-each select="*[@key = 'Header']/map">
-        <bd:Header>
+        <cdf:Header>
           <xsl:apply-templates select="."/>
-        </bd:Header>
+        </cdf:Header>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Issuer'])">
-      <bd:Issuer>
+      <cdf:Issuer>
         <xsl:value-of select="*[@key = 'Issuer']"/>
-      </bd:Issuer>
+      </cdf:Issuer>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'IssuerAbbreviation'])">
-      <bd:IssuerAbbreviation>
+      <cdf:IssuerAbbreviation>
         <xsl:value-of select="*[@key = 'IssuerAbbreviation']"/>
-      </bd:IssuerAbbreviation>
+      </cdf:IssuerAbbreviation>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'IsTest'])">
-      <bd:IsTest>
+      <cdf:IsTest>
         <xsl:value-of select="*[@key = 'IsTest']"/>
-      </bd:IsTest>
+      </cdf:IsTest>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Notes'])">
-      <bd:Notes>
+      <cdf:Notes>
         <xsl:value-of select="*[@key = 'Notes']"/>
-      </bd:Notes>
+      </cdf:Notes>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Office'])">
       <xsl:for-each select="*[@key = 'Office']/map">
-        <bd:Office>
+        <cdf:Office>
           <xsl:apply-templates select="."/>
-        </bd:Office>
+        </cdf:Office>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OfficeGroup'])">
       <xsl:for-each select="*[@key = 'OfficeGroup']/map">
-        <bd:OfficeGroup>
+        <cdf:OfficeGroup>
           <xsl:apply-templates select="."/>
-        </bd:OfficeGroup>
+        </cdf:OfficeGroup>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Party'])">
       <xsl:for-each select="*[@key = 'Party']/map">
-        <bd:Party>
+        <cdf:Party>
           <xsl:apply-templates select="."/>
-        </bd:Party>
+        </cdf:Party>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Person'])">
       <xsl:for-each select="*[@key = 'Person']/map">
-        <bd:Person>
+        <cdf:Person>
           <xsl:apply-templates select="."/>
-        </bd:Person>
+        </cdf:Person>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'SequenceStart'])">
-      <bd:SequenceStart>
+      <cdf:SequenceStart>
         <xsl:value-of select="*[@key = 'SequenceStart']"/>
-      </bd:SequenceStart>
+      </cdf:SequenceStart>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'SequenceEnd'])">
-      <bd:SequenceEnd>
+      <cdf:SequenceEnd>
         <xsl:value-of select="*[@key = 'SequenceEnd']"/>
-      </bd:SequenceEnd>
+      </cdf:SequenceEnd>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Shape'])">
       <xsl:for-each select="*[@key = 'Shape']/map">
-        <bd:Shape>
+        <cdf:Shape>
           <xsl:apply-templates select="."/>
-        </bd:Shape>
+        </cdf:Shape>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'TestType'])">
-      <bd:TestType>
+      <cdf:TestType>
         <xsl:value-of select="*[@key = 'TestType']"/>
-      </bd:TestType>
+      </cdf:TestType>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'VendorApplicationId'])">
-      <bd:VendorApplicationId>
+      <cdf:VendorApplicationId>
         <xsl:value-of select="*[@key = 'VendorApplicationId']"/>
-      </bd:VendorApplicationId>
+      </cdf:VendorApplicationId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Version'])">
-      <bd:Version>
+      <cdf:Version>
         <xsl:value-of select="*[@key = 'Version']"/>
-      </bd:Version>
+      </cdf:Version>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:BallotFormat" match="*[string = 'BallotDefinition.BallotFormat' and string/@key = '@type']">
+  <xsl:template name="cdf:BallotFormat" match="*[string = 'BallotDefinition.BallotFormat' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:attribute name="ObjectId">
       <xsl:value-of select="string[@key = '@id']"/>
     </xsl:attribute>
     <xsl:if test="boolean(*[@key = 'Application'])">
-      <bd:Application>
+      <cdf:Application>
         <xsl:value-of select="*[@key = 'Application']"/>
-      </bd:Application>
+      </cdf:Application>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ExternalIdentifier'])">
       <xsl:for-each select="*[@key = 'ExternalIdentifier']/map">
-        <bd:ExternalIdentifier>
+        <cdf:ExternalIdentifier>
           <xsl:apply-templates select="."/>
-        </bd:ExternalIdentifier>
+        </cdf:ExternalIdentifier>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'FiducialMark'])">
       <xsl:for-each select="*[@key = 'FiducialMark']/map">
-        <bd:FiducialMark>
+        <cdf:FiducialMark>
           <xsl:apply-templates select="."/>
-        </bd:FiducialMark>
+        </cdf:FiducialMark>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'LongEdge'])">
-      <bd:LongEdge>
+      <cdf:LongEdge>
         <xsl:value-of select="*[@key = 'LongEdge']"/>
-      </bd:LongEdge>
+      </cdf:LongEdge>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Manufacturer'])">
-      <bd:Manufacturer>
+      <cdf:Manufacturer>
         <xsl:value-of select="*[@key = 'Manufacturer']"/>
-      </bd:Manufacturer>
+      </cdf:Manufacturer>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'mCDFArea'])">
       <xsl:for-each select="*[@key = 'mCDFArea']/map">
-        <bd:mCDFArea>
+        <cdf:mCDFArea>
           <xsl:apply-templates select="."/>
-        </bd:mCDFArea>
+        </cdf:mCDFArea>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'MeasurementUnit'])">
-      <bd:MeasurementUnit>
+      <cdf:MeasurementUnit>
         <xsl:value-of select="*[@key = 'MeasurementUnit']"/>
-      </bd:MeasurementUnit>
+      </cdf:MeasurementUnit>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Orientation'])">
-      <bd:Orientation>
+      <cdf:Orientation>
         <xsl:value-of select="*[@key = 'Orientation']"/>
-      </bd:Orientation>
+      </cdf:Orientation>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'SelectionCaptureMethod'])">
-      <bd:SelectionCaptureMethod>
+      <cdf:SelectionCaptureMethod>
         <xsl:value-of select="*[@key = 'SelectionCaptureMethod']"/>
-      </bd:SelectionCaptureMethod>
+      </cdf:SelectionCaptureMethod>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ShortEdge'])">
-      <bd:ShortEdge>
+      <cdf:ShortEdge>
         <xsl:value-of select="*[@key = 'ShortEdge']"/>
-      </bd:ShortEdge>
+      </cdf:ShortEdge>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:BallotMeasureContest" match="*[string = 'BallotDefinition.BallotMeasureContest' and string/@key = '@type']" priority="-1">
+  <xsl:template name="cdf:BallotMeasureContest" match="*[string = 'BallotDefinition.BallotMeasureContest' and string/@key = '@type']" priority="-1">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:BallotMeasureContest</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:BallotMeasureContest</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:Contest">
+    <xsl:call-template name="cdf:Contest">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'ConStatement'])">
-      <bd:ConStatement>
+      <cdf:ConStatement>
         <xsl:apply-templates select="*[@key = 'ConStatement']"/>
-      </bd:ConStatement>
+      </cdf:ConStatement>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'EffectOfAbstain'])">
-      <bd:EffectOfAbstain>
+      <cdf:EffectOfAbstain>
         <xsl:apply-templates select="*[@key = 'EffectOfAbstain']"/>
-      </bd:EffectOfAbstain>
+      </cdf:EffectOfAbstain>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'FullText'])">
-      <bd:FullText>
+      <cdf:FullText>
         <xsl:apply-templates select="*[@key = 'FullText']"/>
-      </bd:FullText>
+      </cdf:FullText>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'InfoUri'])">
       <xsl:for-each select="*[@key = 'InfoUri']/map">
-        <bd:InfoUri>
+        <cdf:InfoUri>
           <xsl:apply-templates select="."/>
-        </bd:InfoUri>
+        </cdf:InfoUri>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'PassageThreshold'])">
-      <bd:PassageThreshold>
+      <cdf:PassageThreshold>
         <xsl:apply-templates select="*[@key = 'PassageThreshold']"/>
-      </bd:PassageThreshold>
+      </cdf:PassageThreshold>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ProStatement'])">
-      <bd:ProStatement>
+      <cdf:ProStatement>
         <xsl:apply-templates select="*[@key = 'ProStatement']"/>
-      </bd:ProStatement>
+      </cdf:ProStatement>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'SummaryText'])">
-      <bd:SummaryText>
+      <cdf:SummaryText>
         <xsl:apply-templates select="*[@key = 'SummaryText']"/>
-      </bd:SummaryText>
+      </cdf:SummaryText>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Type'])">
-      <bd:Type>
+      <cdf:Type>
         <xsl:value-of select="*[@key = 'Type']"/>
-      </bd:Type>
+      </cdf:Type>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OtherType'])">
-      <bd:OtherType>
+      <cdf:OtherType>
         <xsl:value-of select="*[@key = 'OtherType']"/>
-      </bd:OtherType>
+      </cdf:OtherType>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:BallotMeasureOption" match="*[string = 'BallotDefinition.BallotMeasureOption' and string/@key = '@type']">
+  <xsl:template name="cdf:BallotMeasureOption" match="*[string = 'BallotDefinition.BallotMeasureOption' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:BallotMeasureOption</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:BallotMeasureOption</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:ContestOption">
+    <xsl:call-template name="cdf:ContestOption">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'Selection'])">
-      <bd:Selection>
+      <cdf:Selection>
         <xsl:apply-templates select="*[@key = 'Selection']"/>
-      </bd:Selection>
+      </cdf:Selection>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:BallotStyle" match="*[string = 'BallotDefinition.BallotStyle' and string/@key = '@type']">
+  <xsl:template name="cdf:BallotStyle" match="*[string = 'BallotDefinition.BallotStyle' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'ExternalIdentifier'])">
       <xsl:for-each select="*[@key = 'ExternalIdentifier']/map">
-        <bd:ExternalIdentifier>
+        <cdf:ExternalIdentifier>
           <xsl:apply-templates select="."/>
-        </bd:ExternalIdentifier>
+        </cdf:ExternalIdentifier>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'GpUnitIds'])">
-      <bd:GpUnitIds>
+      <cdf:GpUnitIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'GpUnitIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:GpUnitIds>
+      </cdf:GpUnitIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ImageUri'])">
       <xsl:for-each select="*[@key = 'ImageUri']/map">
-        <bd:ImageUri>
+        <cdf:ImageUri>
           <xsl:apply-templates select="."/>
-        </bd:ImageUri>
+        </cdf:ImageUri>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Language'])">
       <xsl:for-each select="*[@key = 'Language']/string">
-        <bd:Language>
+        <cdf:Language>
           <xsl:value-of select="."/>
-        </bd:Language>
+        </cdf:Language>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OrderedContent'])">
       <xsl:for-each select="*[@key = 'OrderedContent']/map">
-        <bd:OrderedContent>
+        <cdf:OrderedContent>
           <xsl:apply-templates select="."/>
-        </bd:OrderedContent>
+        </cdf:OrderedContent>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'PartyIds'])">
-      <bd:PartyIds>
+      <cdf:PartyIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'PartyIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:PartyIds>
+      </cdf:PartyIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Purpose'])">
-      <bd:Purpose>
+      <cdf:Purpose>
         <xsl:value-of select="*[@key = 'Purpose']"/>
-      </bd:Purpose>
+      </cdf:Purpose>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:BoundedObject" match="*[string = 'BallotDefinition.BoundedObject' and string/@key = '@type']" priority="-1">
+  <xsl:template name="cdf:BoundedObject" match="*[string = 'BallotDefinition.BoundedObject' and string/@key = '@type']" priority="-1">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'H'])">
-      <bd:H>
+      <cdf:H>
         <xsl:value-of select="*[@key = 'H']"/>
-      </bd:H>
+      </cdf:H>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Sheet'])">
-      <bd:Sheet>
+      <cdf:Sheet>
         <xsl:value-of select="*[@key = 'Sheet']"/>
-      </bd:Sheet>
+      </cdf:Sheet>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Side'])">
-      <bd:Side>
+      <cdf:Side>
         <xsl:value-of select="*[@key = 'Side']"/>
-      </bd:Side>
+      </cdf:Side>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'W'])">
-      <bd:W>
+      <cdf:W>
         <xsl:value-of select="*[@key = 'W']"/>
-      </bd:W>
+      </cdf:W>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'X'])">
-      <bd:X>
+      <cdf:X>
         <xsl:value-of select="*[@key = 'X']"/>
-      </bd:X>
+      </cdf:X>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Y'])">
-      <bd:Y>
+      <cdf:Y>
         <xsl:value-of select="*[@key = 'Y']"/>
-      </bd:Y>
+      </cdf:Y>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:Candidate" match="*[string = 'BallotDefinition.Candidate' and string/@key = '@type']">
+  <xsl:template name="cdf:Candidate" match="*[string = 'BallotDefinition.Candidate' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:attribute name="ObjectId">
       <xsl:value-of select="string[@key = '@id']"/>
     </xsl:attribute>
     <xsl:if test="boolean(*[@key = 'BallotName'])">
-      <bd:BallotName>
+      <cdf:BallotName>
         <xsl:apply-templates select="*[@key = 'BallotName']"/>
-      </bd:BallotName>
+      </cdf:BallotName>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'CampaignSlogan'])">
-      <bd:CampaignSlogan>
+      <cdf:CampaignSlogan>
         <xsl:apply-templates select="*[@key = 'CampaignSlogan']"/>
-      </bd:CampaignSlogan>
+      </cdf:CampaignSlogan>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ContactInformation'])">
-      <bd:ContactInformation>
+      <cdf:ContactInformation>
         <xsl:apply-templates select="*[@key = 'ContactInformation']"/>
-      </bd:ContactInformation>
+      </cdf:ContactInformation>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ExternalIdentifier'])">
       <xsl:for-each select="*[@key = 'ExternalIdentifier']/map">
-        <bd:ExternalIdentifier>
+        <cdf:ExternalIdentifier>
           <xsl:apply-templates select="."/>
-        </bd:ExternalIdentifier>
+        </cdf:ExternalIdentifier>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'FileDate'])">
-      <bd:FileDate>
+      <cdf:FileDate>
         <xsl:value-of select="*[@key = 'FileDate']"/>
-      </bd:FileDate>
+      </cdf:FileDate>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'IsIncumbent'])">
-      <bd:IsIncumbent>
+      <cdf:IsIncumbent>
         <xsl:value-of select="*[@key = 'IsIncumbent']"/>
-      </bd:IsIncumbent>
+      </cdf:IsIncumbent>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'IsTopTicket'])">
-      <bd:IsTopTicket>
+      <cdf:IsTopTicket>
         <xsl:value-of select="*[@key = 'IsTopTicket']"/>
-      </bd:IsTopTicket>
+      </cdf:IsTopTicket>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'PartyId'])">
-      <bd:PartyId>
+      <cdf:PartyId>
         <xsl:value-of select="*[@key = 'PartyId']"/>
-      </bd:PartyId>
+      </cdf:PartyId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'PersonId'])">
-      <bd:PersonId>
+      <cdf:PersonId>
         <xsl:value-of select="*[@key = 'PersonId']"/>
-      </bd:PersonId>
+      </cdf:PersonId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'PreElectionStatus'])">
-      <bd:PreElectionStatus>
+      <cdf:PreElectionStatus>
         <xsl:value-of select="*[@key = 'PreElectionStatus']"/>
-      </bd:PreElectionStatus>
+      </cdf:PreElectionStatus>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ReadName'])">
-      <bd:ReadName>
+      <cdf:ReadName>
         <xsl:value-of select="*[@key = 'ReadName']"/>
-      </bd:ReadName>
+      </cdf:ReadName>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:CandidateContest" match="*[string = 'BallotDefinition.CandidateContest' and string/@key = '@type']">
+  <xsl:template name="cdf:CandidateContest" match="*[string = 'BallotDefinition.CandidateContest' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:CandidateContest</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:CandidateContest</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:Contest">
+    <xsl:call-template name="cdf:Contest">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'NumberElected'])">
-      <bd:NumberElected>
+      <cdf:NumberElected>
         <xsl:value-of select="*[@key = 'NumberElected']"/>
-      </bd:NumberElected>
+      </cdf:NumberElected>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'NumberRunoff'])">
-      <bd:NumberRunoff>
+      <cdf:NumberRunoff>
         <xsl:value-of select="*[@key = 'NumberRunoff']"/>
-      </bd:NumberRunoff>
+      </cdf:NumberRunoff>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OfficeIds'])">
-      <bd:OfficeIds>
+      <cdf:OfficeIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'OfficeIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:OfficeIds>
+      </cdf:OfficeIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'PrimaryPartyIds'])">
-      <bd:PrimaryPartyIds>
+      <cdf:PrimaryPartyIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'PrimaryPartyIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:PrimaryPartyIds>
+      </cdf:PrimaryPartyIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'RanksAllowed'])">
-      <bd:RanksAllowed>
+      <cdf:RanksAllowed>
         <xsl:value-of select="*[@key = 'RanksAllowed']"/>
-      </bd:RanksAllowed>
+      </cdf:RanksAllowed>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'VotesAllowed'])">
-      <bd:VotesAllowed>
+      <cdf:VotesAllowed>
         <xsl:value-of select="*[@key = 'VotesAllowed']"/>
-      </bd:VotesAllowed>
+      </cdf:VotesAllowed>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:CandidateOption" match="*[string = 'BallotDefinition.CandidateOption' and string/@key = '@type']">
+  <xsl:template name="cdf:CandidateOption" match="*[string = 'BallotDefinition.CandidateOption' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:CandidateOption</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:CandidateOption</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:ContestOption">
+    <xsl:call-template name="cdf:ContestOption">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'CandidateIds'])">
-      <bd:CandidateIds>
+      <cdf:CandidateIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'CandidateIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:CandidateIds>
+      </cdf:CandidateIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'EndorsementPartyIds'])">
-      <bd:EndorsementPartyIds>
+      <cdf:EndorsementPartyIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'EndorsementPartyIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:EndorsementPartyIds>
+      </cdf:EndorsementPartyIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'IsWriteIn'])">
-      <bd:IsWriteIn>
+      <cdf:IsWriteIn>
         <xsl:value-of select="*[@key = 'IsWriteIn']"/>
-      </bd:IsWriteIn>
+      </cdf:IsWriteIn>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:Coalition" match="*[string = 'BallotDefinition.Coalition' and string/@key = '@type']">
+  <xsl:template name="cdf:Coalition" match="*[string = 'BallotDefinition.Coalition' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:Coalition</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:Coalition</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:Party">
+    <xsl:call-template name="cdf:Party">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'ContestIds'])">
-      <bd:ContestIds>
+      <cdf:ContestIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'ContestIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:ContestIds>
+      </cdf:ContestIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'PartyIds'])">
-      <bd:PartyIds>
+      <cdf:PartyIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'PartyIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:PartyIds>
+      </cdf:PartyIds>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:ContactInformation" match="*[string = 'BallotDefinition.ContactInformation' and string/@key = '@type']">
+  <xsl:template name="cdf:ContactInformation" match="*[string = 'BallotDefinition.ContactInformation' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'Label'])">
       <xsl:attribute name="Label">
@@ -600,259 +600,259 @@ Visible Packages
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'AddressLine'])">
       <xsl:for-each select="*[@key = 'AddressLine']/string">
-        <bd:AddressLine>
+        <cdf:AddressLine>
           <xsl:value-of select="."/>
-        </bd:AddressLine>
+        </cdf:AddressLine>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Directions'])">
-      <bd:Directions>
+      <cdf:Directions>
         <xsl:apply-templates select="*[@key = 'Directions']"/>
-      </bd:Directions>
+      </cdf:Directions>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Email'])">
       <xsl:for-each select="*[@key = 'Email']/map">
-        <bd:Email>
+        <cdf:Email>
           <xsl:apply-templates select="."/>
-        </bd:Email>
+        </cdf:Email>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Fax'])">
       <xsl:for-each select="*[@key = 'Fax']/map">
-        <bd:Fax>
+        <cdf:Fax>
           <xsl:apply-templates select="."/>
-        </bd:Fax>
+        </cdf:Fax>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'LatLng'])">
-      <bd:LatLng>
+      <cdf:LatLng>
         <xsl:apply-templates select="*[@key = 'LatLng']"/>
-      </bd:LatLng>
+      </cdf:LatLng>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Name'])">
-      <bd:Name>
+      <cdf:Name>
         <xsl:value-of select="*[@key = 'Name']"/>
-      </bd:Name>
+      </cdf:Name>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Phone'])">
       <xsl:for-each select="*[@key = 'Phone']/map">
-        <bd:Phone>
+        <cdf:Phone>
           <xsl:apply-templates select="."/>
-        </bd:Phone>
+        </cdf:Phone>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Schedule'])">
       <xsl:for-each select="*[@key = 'Schedule']/map">
-        <bd:Schedule>
+        <cdf:Schedule>
           <xsl:apply-templates select="."/>
-        </bd:Schedule>
+        </cdf:Schedule>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Uri'])">
       <xsl:for-each select="*[@key = 'Uri']/map">
-        <bd:Uri>
+        <cdf:Uri>
           <xsl:apply-templates select="."/>
-        </bd:Uri>
+        </cdf:Uri>
       </xsl:for-each>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:Contest" match="*[string = 'BallotDefinition.Contest' and string/@key = '@type']" priority="-2">
+  <xsl:template name="cdf:Contest" match="*[string = 'BallotDefinition.Contest' and string/@key = '@type']" priority="-2">
     <xsl:param name="set_type" select="true()"/>
     <xsl:attribute name="ObjectId">
       <xsl:value-of select="string[@key = '@id']"/>
     </xsl:attribute>
     <xsl:if test="boolean(*[@key = 'Abbreviation'])">
-      <bd:Abbreviation>
+      <cdf:Abbreviation>
         <xsl:value-of select="*[@key = 'Abbreviation']"/>
-      </bd:Abbreviation>
+      </cdf:Abbreviation>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'BallotSubTitle'])">
-      <bd:BallotSubTitle>
+      <cdf:BallotSubTitle>
         <xsl:apply-templates select="*[@key = 'BallotSubTitle']"/>
-      </bd:BallotSubTitle>
+      </cdf:BallotSubTitle>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'BallotTitle'])">
-      <bd:BallotTitle>
+      <cdf:BallotTitle>
         <xsl:apply-templates select="*[@key = 'BallotTitle']"/>
-      </bd:BallotTitle>
+      </cdf:BallotTitle>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ContestOption'])">
       <xsl:for-each select="*[@key = 'ContestOption']/map">
-        <bd:ContestOption>
+        <cdf:ContestOption>
           <xsl:apply-templates select="."/>
-        </bd:ContestOption>
+        </cdf:ContestOption>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ElectionDistrictId'])">
-      <bd:ElectionDistrictId>
+      <cdf:ElectionDistrictId>
         <xsl:value-of select="*[@key = 'ElectionDistrictId']"/>
-      </bd:ElectionDistrictId>
+      </cdf:ElectionDistrictId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ExternalIdentifier'])">
       <xsl:for-each select="*[@key = 'ExternalIdentifier']/map">
-        <bd:ExternalIdentifier>
+        <cdf:ExternalIdentifier>
           <xsl:apply-templates select="."/>
-        </bd:ExternalIdentifier>
+        </cdf:ExternalIdentifier>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'HasRotation'])">
-      <bd:HasRotation>
+      <cdf:HasRotation>
         <xsl:value-of select="*[@key = 'HasRotation']"/>
-      </bd:HasRotation>
+      </cdf:HasRotation>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Name'])">
-      <bd:Name>
+      <cdf:Name>
         <xsl:value-of select="*[@key = 'Name']"/>
-      </bd:Name>
+      </cdf:Name>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'SequenceOrder'])">
-      <bd:SequenceOrder>
+      <cdf:SequenceOrder>
         <xsl:value-of select="*[@key = 'SequenceOrder']"/>
-      </bd:SequenceOrder>
+      </cdf:SequenceOrder>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'TotalSubUnits'])">
-      <bd:TotalSubUnits>
+      <cdf:TotalSubUnits>
         <xsl:value-of select="*[@key = 'TotalSubUnits']"/>
-      </bd:TotalSubUnits>
+      </cdf:TotalSubUnits>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'VoteVariation'])">
-      <bd:VoteVariation>
+      <cdf:VoteVariation>
         <xsl:value-of select="*[@key = 'VoteVariation']"/>
-      </bd:VoteVariation>
+      </cdf:VoteVariation>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OtherVoteVariation'])">
-      <bd:OtherVoteVariation>
+      <cdf:OtherVoteVariation>
         <xsl:value-of select="*[@key = 'OtherVoteVariation']"/>
-      </bd:OtherVoteVariation>
+      </cdf:OtherVoteVariation>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:ContestOption" match="*[string = 'BallotDefinition.ContestOption' and string/@key = '@type']" priority="-1">
+  <xsl:template name="cdf:ContestOption" match="*[string = 'BallotDefinition.ContestOption' and string/@key = '@type']" priority="-1">
     <xsl:param name="set_type" select="true()"/>
     <xsl:attribute name="ObjectId">
       <xsl:value-of select="string[@key = '@id']"/>
     </xsl:attribute>
     <xsl:if test="boolean(*[@key = 'ExternalIdentifier'])">
       <xsl:for-each select="*[@key = 'ExternalIdentifier']/map">
-        <bd:ExternalIdentifier>
+        <cdf:ExternalIdentifier>
           <xsl:apply-templates select="."/>
-        </bd:ExternalIdentifier>
+        </cdf:ExternalIdentifier>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'SequenceOrder'])">
-      <bd:SequenceOrder>
+      <cdf:SequenceOrder>
         <xsl:value-of select="*[@key = 'SequenceOrder']"/>
-      </bd:SequenceOrder>
+      </cdf:SequenceOrder>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:ControllingContest" match="*[string = 'BallotDefinition.ControllingContest' and string/@key = '@type']" priority="-1">
+  <xsl:template name="cdf:ControllingContest" match="*[string = 'BallotDefinition.ControllingContest' and string/@key = '@type']" priority="-1">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:ControllingContest</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:ControllingContest</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:Contest">
+    <xsl:call-template name="cdf:Contest">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'ControlledContestIds'])">
-      <bd:ControlledContestIds>
+      <cdf:ControlledContestIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'ControlledContestIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:ControlledContestIds>
+      </cdf:ControlledContestIds>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:Election" match="*[string = 'BallotDefinition.Election' and string/@key = '@type']">
+  <xsl:template name="cdf:Election" match="*[string = 'BallotDefinition.Election' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'BallotStyle'])">
       <xsl:for-each select="*[@key = 'BallotStyle']/map">
-        <bd:BallotStyle>
+        <cdf:BallotStyle>
           <xsl:apply-templates select="."/>
-        </bd:BallotStyle>
+        </cdf:BallotStyle>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Candidate'])">
       <xsl:for-each select="*[@key = 'Candidate']/map">
-        <bd:Candidate>
+        <cdf:Candidate>
           <xsl:apply-templates select="."/>
-        </bd:Candidate>
+        </cdf:Candidate>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ContactInformation'])">
-      <bd:ContactInformation>
+      <cdf:ContactInformation>
         <xsl:apply-templates select="*[@key = 'ContactInformation']"/>
-      </bd:ContactInformation>
+      </cdf:ContactInformation>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Contest'])">
       <xsl:for-each select="*[@key = 'Contest']/map">
-        <bd:Contest>
+        <cdf:Contest>
           <xsl:apply-templates select="."/>
-        </bd:Contest>
+        </cdf:Contest>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ElectionScopeId'])">
-      <bd:ElectionScopeId>
+      <cdf:ElectionScopeId>
         <xsl:value-of select="*[@key = 'ElectionScopeId']"/>
-      </bd:ElectionScopeId>
+      </cdf:ElectionScopeId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ExternalIdentifier'])">
       <xsl:for-each select="*[@key = 'ExternalIdentifier']/map">
-        <bd:ExternalIdentifier>
+        <cdf:ExternalIdentifier>
           <xsl:apply-templates select="."/>
-        </bd:ExternalIdentifier>
+        </cdf:ExternalIdentifier>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Name'])">
-      <bd:Name>
+      <cdf:Name>
         <xsl:apply-templates select="*[@key = 'Name']"/>
-      </bd:Name>
+      </cdf:Name>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'StartDate'])">
-      <bd:StartDate>
+      <cdf:StartDate>
         <xsl:value-of select="*[@key = 'StartDate']"/>
-      </bd:StartDate>
+      </cdf:StartDate>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'EndDate'])">
-      <bd:EndDate>
+      <cdf:EndDate>
         <xsl:value-of select="*[@key = 'EndDate']"/>
-      </bd:EndDate>
+      </cdf:EndDate>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Type'])">
-      <bd:Type>
+      <cdf:Type>
         <xsl:value-of select="*[@key = 'Type']"/>
-      </bd:Type>
+      </cdf:Type>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OtherType'])">
-      <bd:OtherType>
+      <cdf:OtherType>
         <xsl:value-of select="*[@key = 'OtherType']"/>
-      </bd:OtherType>
+      </cdf:OtherType>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:ElectionAdministration" match="*[string = 'BallotDefinition.ElectionAdministration' and string/@key = '@type']">
+  <xsl:template name="cdf:ElectionAdministration" match="*[string = 'BallotDefinition.ElectionAdministration' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'ContactInformation'])">
-      <bd:ContactInformation>
+      <cdf:ContactInformation>
         <xsl:apply-templates select="*[@key = 'ContactInformation']"/>
-      </bd:ContactInformation>
+      </cdf:ContactInformation>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ElectionOfficialPersonIds'])">
-      <bd:ElectionOfficialPersonIds>
+      <cdf:ElectionOfficialPersonIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'ElectionOfficialPersonIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:ElectionOfficialPersonIds>
+      </cdf:ElectionOfficialPersonIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Name'])">
-      <bd:Name>
+      <cdf:Name>
         <xsl:value-of select="*[@key = 'Name']"/>
-      </bd:Name>
+      </cdf:Name>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:ExternalIdentifier" match="*[string = 'BallotDefinition.ExternalIdentifier' and string/@key = '@type']">
+  <xsl:template name="cdf:ExternalIdentifier" match="*[string = 'BallotDefinition.ExternalIdentifier' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'Label'])">
       <xsl:attribute name="Label">
@@ -860,87 +860,87 @@ Visible Packages
       </xsl:attribute>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Type'])">
-      <bd:Type>
+      <cdf:Type>
         <xsl:value-of select="*[@key = 'Type']"/>
-      </bd:Type>
+      </cdf:Type>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OtherType'])">
-      <bd:OtherType>
+      <cdf:OtherType>
         <xsl:value-of select="*[@key = 'OtherType']"/>
-      </bd:OtherType>
+      </cdf:OtherType>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Value'])">
-      <bd:Value>
+      <cdf:Value>
         <xsl:value-of select="*[@key = 'Value']"/>
-      </bd:Value>
+      </cdf:Value>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:FiducialMark" match="*[string = 'BallotDefinition.FiducialMark' and string/@key = '@type']">
+  <xsl:template name="cdf:FiducialMark" match="*[string = 'BallotDefinition.FiducialMark' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:FiducialMark</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:FiducialMark</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:BoundedObject">
+    <xsl:call-template name="cdf:BoundedObject">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'ShapeId'])">
-      <bd:ShapeId>
+      <cdf:ShapeId>
         <xsl:value-of select="*[@key = 'ShapeId']"/>
-      </bd:ShapeId>
+      </cdf:ShapeId>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:GpUnit" match="*[string = 'BallotDefinition.GpUnit' and string/@key = '@type']" priority="-1">
+  <xsl:template name="cdf:GpUnit" match="*[string = 'BallotDefinition.GpUnit' and string/@key = '@type']" priority="-1">
     <xsl:param name="set_type" select="true()"/>
     <xsl:attribute name="ObjectId">
       <xsl:value-of select="string[@key = '@id']"/>
     </xsl:attribute>
     <xsl:if test="boolean(*[@key = 'ComposingGpUnitIds'])">
-      <bd:ComposingGpUnitIds>
+      <cdf:ComposingGpUnitIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'ComposingGpUnitIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:ComposingGpUnitIds>
+      </cdf:ComposingGpUnitIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ExternalIdentifier'])">
       <xsl:for-each select="*[@key = 'ExternalIdentifier']/map">
-        <bd:ExternalIdentifier>
+        <cdf:ExternalIdentifier>
           <xsl:apply-templates select="."/>
-        </bd:ExternalIdentifier>
+        </cdf:ExternalIdentifier>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Name'])">
-      <bd:Name>
+      <cdf:Name>
         <xsl:apply-templates select="*[@key = 'Name']"/>
-      </bd:Name>
+      </cdf:Name>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:Header" match="*[string = 'BallotDefinition.Header' and string/@key = '@type']">
+  <xsl:template name="cdf:Header" match="*[string = 'BallotDefinition.Header' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:attribute name="ObjectId">
       <xsl:value-of select="string[@key = '@id']"/>
     </xsl:attribute>
     <xsl:if test="boolean(*[@key = 'ExternalIdentifier'])">
       <xsl:for-each select="*[@key = 'ExternalIdentifier']/map">
-        <bd:ExternalIdentifier>
+        <cdf:ExternalIdentifier>
           <xsl:apply-templates select="."/>
-        </bd:ExternalIdentifier>
+        </cdf:ExternalIdentifier>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'HeaderedContent'])">
-      <bd:HeaderedContent>
+      <cdf:HeaderedContent>
         <xsl:apply-templates select="*[@key = 'HeaderedContent']"/>
-      </bd:HeaderedContent>
+      </cdf:HeaderedContent>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Name'])">
-      <bd:Name>
+      <cdf:Name>
         <xsl:apply-templates select="*[@key = 'Name']"/>
-      </bd:Name>
+      </cdf:Name>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:Hours" match="*[string = 'BallotDefinition.Hours' and string/@key = '@type']">
+  <xsl:template name="cdf:Hours" match="*[string = 'BallotDefinition.Hours' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'Label'])">
       <xsl:attribute name="Label">
@@ -948,22 +948,22 @@ Visible Packages
       </xsl:attribute>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Day'])">
-      <bd:Day>
+      <cdf:Day>
         <xsl:value-of select="*[@key = 'Day']"/>
-      </bd:Day>
+      </cdf:Day>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'StartTime'])">
-      <bd:StartTime>
+      <cdf:StartTime>
         <xsl:value-of select="*[@key = 'StartTime']"/>
-      </bd:StartTime>
+      </cdf:StartTime>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'EndTime'])">
-      <bd:EndTime>
+      <cdf:EndTime>
         <xsl:value-of select="*[@key = 'EndTime']"/>
-      </bd:EndTime>
+      </cdf:EndTime>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:InternationalizedText" match="*[string = 'BallotDefinition.InternationalizedText' and string/@key = '@type']">
+  <xsl:template name="cdf:InternationalizedText" match="*[string = 'BallotDefinition.InternationalizedText' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'Label'])">
       <xsl:attribute name="Label">
@@ -972,13 +972,13 @@ Visible Packages
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Text'])">
       <xsl:for-each select="*[@key = 'Text']/map">
-        <bd:Text>
+        <cdf:Text>
           <xsl:apply-templates select="."/>
-        </bd:Text>
+        </cdf:Text>
       </xsl:for-each>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:LanguageString" match="*[string = 'BallotDefinition.LanguageString' and string/@key = '@type']">
+  <xsl:template name="cdf:LanguageString" match="*[string = 'BallotDefinition.LanguageString' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'Language'])">
       <xsl:attribute name="Language">
@@ -987,7 +987,7 @@ Visible Packages
     </xsl:if>
     <xsl:value-of select="*[@key = 'Content']"/>
   </xsl:template>
-  <xsl:template name="bd:LatLng" match="*[string = 'BallotDefinition.LatLng' and string/@key = '@type']">
+  <xsl:template name="cdf:LatLng" match="*[string = 'BallotDefinition.LatLng' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'Label'])">
       <xsl:attribute name="Label">
@@ -995,80 +995,80 @@ Visible Packages
       </xsl:attribute>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Latitude'])">
-      <bd:Latitude>
+      <cdf:Latitude>
         <xsl:value-of select="*[@key = 'Latitude']"/>
-      </bd:Latitude>
+      </cdf:Latitude>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Longitude'])">
-      <bd:Longitude>
+      <cdf:Longitude>
         <xsl:value-of select="*[@key = 'Longitude']"/>
-      </bd:Longitude>
+      </cdf:Longitude>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Source'])">
-      <bd:Source>
+      <cdf:Source>
         <xsl:value-of select="*[@key = 'Source']"/>
-      </bd:Source>
+      </cdf:Source>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:Office" match="*[string = 'BallotDefinition.Office' and string/@key = '@type']">
+  <xsl:template name="cdf:Office" match="*[string = 'BallotDefinition.Office' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:attribute name="ObjectId">
       <xsl:value-of select="string[@key = '@id']"/>
     </xsl:attribute>
     <xsl:if test="boolean(*[@key = 'ContactInformation'])">
-      <bd:ContactInformation>
+      <cdf:ContactInformation>
         <xsl:apply-templates select="*[@key = 'ContactInformation']"/>
-      </bd:ContactInformation>
+      </cdf:ContactInformation>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Description'])">
-      <bd:Description>
+      <cdf:Description>
         <xsl:apply-templates select="*[@key = 'Description']"/>
-      </bd:Description>
+      </cdf:Description>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ElectionDistrictId'])">
-      <bd:ElectionDistrictId>
+      <cdf:ElectionDistrictId>
         <xsl:value-of select="*[@key = 'ElectionDistrictId']"/>
-      </bd:ElectionDistrictId>
+      </cdf:ElectionDistrictId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ExternalIdentifier'])">
       <xsl:for-each select="*[@key = 'ExternalIdentifier']/map">
-        <bd:ExternalIdentifier>
+        <cdf:ExternalIdentifier>
           <xsl:apply-templates select="."/>
-        </bd:ExternalIdentifier>
+        </cdf:ExternalIdentifier>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'FilingDeadline'])">
-      <bd:FilingDeadline>
+      <cdf:FilingDeadline>
         <xsl:value-of select="*[@key = 'FilingDeadline']"/>
-      </bd:FilingDeadline>
+      </cdf:FilingDeadline>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'IsPartisan'])">
-      <bd:IsPartisan>
+      <cdf:IsPartisan>
         <xsl:value-of select="*[@key = 'IsPartisan']"/>
-      </bd:IsPartisan>
+      </cdf:IsPartisan>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Name'])">
-      <bd:Name>
+      <cdf:Name>
         <xsl:apply-templates select="*[@key = 'Name']"/>
-      </bd:Name>
+      </cdf:Name>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OfficeHolderPersonIds'])">
-      <bd:OfficeHolderPersonIds>
+      <cdf:OfficeHolderPersonIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'OfficeHolderPersonIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:OfficeHolderPersonIds>
+      </cdf:OfficeHolderPersonIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Term'])">
-      <bd:Term>
+      <cdf:Term>
         <xsl:apply-templates select="*[@key = 'Term']"/>
-      </bd:Term>
+      </cdf:Term>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:OfficeGroup" match="*[string = 'BallotDefinition.OfficeGroup' and string/@key = '@type']">
+  <xsl:template name="cdf:OfficeGroup" match="*[string = 'BallotDefinition.OfficeGroup' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'Label'])">
       <xsl:attribute name="Label">
@@ -1076,461 +1076,461 @@ Visible Packages
       </xsl:attribute>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Name'])">
-      <bd:Name>
+      <cdf:Name>
         <xsl:value-of select="*[@key = 'Name']"/>
-      </bd:Name>
+      </cdf:Name>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OfficeIds'])">
-      <bd:OfficeIds>
+      <cdf:OfficeIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'OfficeIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:OfficeIds>
+      </cdf:OfficeIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'SubOfficeGroup'])">
       <xsl:for-each select="*[@key = 'SubOfficeGroup']/map">
-        <bd:SubOfficeGroup>
+        <cdf:SubOfficeGroup>
           <xsl:apply-templates select="."/>
-        </bd:SubOfficeGroup>
+        </cdf:SubOfficeGroup>
       </xsl:for-each>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:OptionPosition" match="*[string = 'BallotDefinition.OptionPosition' and string/@key = '@type']">
+  <xsl:template name="cdf:OptionPosition" match="*[string = 'BallotDefinition.OptionPosition' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:OptionPosition</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:OptionPosition</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:BoundedObject">
+    <xsl:call-template name="cdf:BoundedObject">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'FractionalVotes'])">
-      <bd:FractionalVotes>
+      <cdf:FractionalVotes>
         <xsl:value-of select="*[@key = 'FractionalVotes']"/>
-      </bd:FractionalVotes>
+      </cdf:FractionalVotes>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'IndicatorId'])">
-      <bd:IndicatorId>
+      <cdf:IndicatorId>
         <xsl:value-of select="*[@key = 'IndicatorId']"/>
-      </bd:IndicatorId>
+      </cdf:IndicatorId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'NumberVotes'])">
-      <bd:NumberVotes>
+      <cdf:NumberVotes>
         <xsl:value-of select="*[@key = 'NumberVotes']"/>
-      </bd:NumberVotes>
+      </cdf:NumberVotes>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Rank'])">
-      <bd:Rank>
+      <cdf:Rank>
         <xsl:value-of select="*[@key = 'Rank']"/>
-      </bd:Rank>
+      </cdf:Rank>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:OrderedContent" match="*[string = 'BallotDefinition.OrderedContent' and string/@key = '@type']" priority="-1">
+  <xsl:template name="cdf:OrderedContent" match="*[string = 'BallotDefinition.OrderedContent' and string/@key = '@type']" priority="-1">
     <xsl:param name="set_type" select="true()"/>
   </xsl:template>
-  <xsl:template name="bd:OrderedContest" match="*[string = 'BallotDefinition.OrderedContest' and string/@key = '@type']">
+  <xsl:template name="cdf:OrderedContest" match="*[string = 'BallotDefinition.OrderedContest' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:OrderedContest</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:OrderedContest</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:OrderedContent">
+    <xsl:call-template name="cdf:OrderedContent">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'ContestId'])">
-      <bd:ContestId>
+      <cdf:ContestId>
         <xsl:value-of select="*[@key = 'ContestId']"/>
-      </bd:ContestId>
+      </cdf:ContestId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OrderedContestOptionIds'])">
-      <bd:OrderedContestOptionIds>
+      <cdf:OrderedContestOptionIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'OrderedContestOptionIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:OrderedContestOptionIds>
+      </cdf:OrderedContestOptionIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Physical'])">
       <xsl:for-each select="*[@key = 'Physical']/map">
-        <bd:Physical>
+        <cdf:Physical>
           <xsl:apply-templates select="."/>
-        </bd:Physical>
+        </cdf:Physical>
       </xsl:for-each>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:OrderedHeader" match="*[string = 'BallotDefinition.OrderedHeader' and string/@key = '@type']">
+  <xsl:template name="cdf:OrderedHeader" match="*[string = 'BallotDefinition.OrderedHeader' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:OrderedHeader</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:OrderedHeader</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:OrderedContent">
+    <xsl:call-template name="cdf:OrderedContent">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'HeaderId'])">
-      <bd:HeaderId>
+      <cdf:HeaderId>
         <xsl:value-of select="*[@key = 'HeaderId']"/>
-      </bd:HeaderId>
+      </cdf:HeaderId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OrderedContent'])">
       <xsl:for-each select="*[@key = 'OrderedContent']/map">
-        <bd:OrderedContent>
+        <cdf:OrderedContent>
           <xsl:apply-templates select="."/>
-        </bd:OrderedContent>
+        </cdf:OrderedContent>
       </xsl:for-each>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:Party" match="*[string = 'BallotDefinition.Party' and string/@key = '@type']" priority="-1">
+  <xsl:template name="cdf:Party" match="*[string = 'BallotDefinition.Party' and string/@key = '@type']" priority="-1">
     <xsl:param name="set_type" select="true()"/>
     <xsl:attribute name="ObjectId">
       <xsl:value-of select="string[@key = '@id']"/>
     </xsl:attribute>
     <xsl:if test="boolean(*[@key = 'Abbreviation'])">
-      <bd:Abbreviation>
+      <cdf:Abbreviation>
         <xsl:apply-templates select="*[@key = 'Abbreviation']"/>
-      </bd:Abbreviation>
+      </cdf:Abbreviation>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Color'])">
-      <bd:Color>
+      <cdf:Color>
         <xsl:value-of select="*[@key = 'Color']"/>
-      </bd:Color>
+      </cdf:Color>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ContactInformation'])">
-      <bd:ContactInformation>
+      <cdf:ContactInformation>
         <xsl:apply-templates select="*[@key = 'ContactInformation']"/>
-      </bd:ContactInformation>
+      </cdf:ContactInformation>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ExternalIdentifier'])">
       <xsl:for-each select="*[@key = 'ExternalIdentifier']/map">
-        <bd:ExternalIdentifier>
+        <cdf:ExternalIdentifier>
           <xsl:apply-templates select="."/>
-        </bd:ExternalIdentifier>
+        </cdf:ExternalIdentifier>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'IsRecognizedParty'])">
-      <bd:IsRecognizedParty>
+      <cdf:IsRecognizedParty>
         <xsl:value-of select="*[@key = 'IsRecognizedParty']"/>
-      </bd:IsRecognizedParty>
+      </cdf:IsRecognizedParty>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'LeaderPersonIds'])">
-      <bd:LeaderPersonIds>
+      <cdf:LeaderPersonIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'LeaderPersonIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:LeaderPersonIds>
+      </cdf:LeaderPersonIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'LogoUri'])">
       <xsl:for-each select="*[@key = 'LogoUri']/map">
-        <bd:LogoUri>
+        <cdf:LogoUri>
           <xsl:apply-templates select="."/>
-        </bd:LogoUri>
+        </cdf:LogoUri>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Name'])">
-      <bd:Name>
+      <cdf:Name>
         <xsl:apply-templates select="*[@key = 'Name']"/>
-      </bd:Name>
+      </cdf:Name>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'PartyScopeGpUnitIds'])">
-      <bd:PartyScopeGpUnitIds>
+      <cdf:PartyScopeGpUnitIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'PartyScopeGpUnitIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:PartyScopeGpUnitIds>
+      </cdf:PartyScopeGpUnitIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Slogan'])">
-      <bd:Slogan>
+      <cdf:Slogan>
         <xsl:apply-templates select="*[@key = 'Slogan']"/>
-      </bd:Slogan>
+      </cdf:Slogan>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:PartyContest" match="*[string = 'BallotDefinition.PartyContest' and string/@key = '@type']">
+  <xsl:template name="cdf:PartyContest" match="*[string = 'BallotDefinition.PartyContest' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:PartyContest</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:PartyContest</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:Contest">
+    <xsl:call-template name="cdf:Contest">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
   </xsl:template>
-  <xsl:template name="bd:PartyOption" match="*[string = 'BallotDefinition.PartyOption' and string/@key = '@type']">
+  <xsl:template name="cdf:PartyOption" match="*[string = 'BallotDefinition.PartyOption' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:PartyOption</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:PartyOption</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:ContestOption">
+    <xsl:call-template name="cdf:ContestOption">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'PartyIds'])">
-      <bd:PartyIds>
+      <cdf:PartyIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'PartyIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:PartyIds>
+      </cdf:PartyIds>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:PartyPreferenceContest" match="*[string = 'BallotDefinition.PartyPreferenceContest' and string/@key = '@type']">
+  <xsl:template name="cdf:PartyPreferenceContest" match="*[string = 'BallotDefinition.PartyPreferenceContest' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:PartyPreferenceContest</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:PartyPreferenceContest</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:ControllingContest">
+    <xsl:call-template name="cdf:ControllingContest">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
   </xsl:template>
-  <xsl:template name="bd:PartyRegistration" match="*[string = 'BallotDefinition.PartyRegistration' and string/@key = '@type']">
+  <xsl:template name="cdf:PartyRegistration" match="*[string = 'BallotDefinition.PartyRegistration' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'Count'])">
-      <bd:Count>
+      <cdf:Count>
         <xsl:value-of select="*[@key = 'Count']"/>
-      </bd:Count>
+      </cdf:Count>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'PartyId'])">
-      <bd:PartyId>
+      <cdf:PartyId>
         <xsl:value-of select="*[@key = 'PartyId']"/>
-      </bd:PartyId>
+      </cdf:PartyId>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:Person" match="*[string = 'BallotDefinition.Person' and string/@key = '@type']">
+  <xsl:template name="cdf:Person" match="*[string = 'BallotDefinition.Person' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:attribute name="ObjectId">
       <xsl:value-of select="string[@key = '@id']"/>
     </xsl:attribute>
     <xsl:if test="boolean(*[@key = 'ContactInformation'])">
       <xsl:for-each select="*[@key = 'ContactInformation']/map">
-        <bd:ContactInformation>
+        <cdf:ContactInformation>
           <xsl:apply-templates select="."/>
-        </bd:ContactInformation>
+        </cdf:ContactInformation>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'DateOfBirth'])">
-      <bd:DateOfBirth>
+      <cdf:DateOfBirth>
         <xsl:value-of select="*[@key = 'DateOfBirth']"/>
-      </bd:DateOfBirth>
+      </cdf:DateOfBirth>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ExternalIdentifier'])">
       <xsl:for-each select="*[@key = 'ExternalIdentifier']/map">
-        <bd:ExternalIdentifier>
+        <cdf:ExternalIdentifier>
           <xsl:apply-templates select="."/>
-        </bd:ExternalIdentifier>
+        </cdf:ExternalIdentifier>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'FirstName'])">
-      <bd:FirstName>
+      <cdf:FirstName>
         <xsl:value-of select="*[@key = 'FirstName']"/>
-      </bd:FirstName>
+      </cdf:FirstName>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'FullName'])">
-      <bd:FullName>
+      <cdf:FullName>
         <xsl:apply-templates select="*[@key = 'FullName']"/>
-      </bd:FullName>
+      </cdf:FullName>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Gender'])">
-      <bd:Gender>
+      <cdf:Gender>
         <xsl:value-of select="*[@key = 'Gender']"/>
-      </bd:Gender>
+      </cdf:Gender>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'LastName'])">
-      <bd:LastName>
+      <cdf:LastName>
         <xsl:value-of select="*[@key = 'LastName']"/>
-      </bd:LastName>
+      </cdf:LastName>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'MiddleName'])">
       <xsl:for-each select="*[@key = 'MiddleName']/string">
-        <bd:MiddleName>
+        <cdf:MiddleName>
           <xsl:value-of select="."/>
-        </bd:MiddleName>
+        </cdf:MiddleName>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Nickname'])">
-      <bd:Nickname>
+      <cdf:Nickname>
         <xsl:value-of select="*[@key = 'Nickname']"/>
-      </bd:Nickname>
+      </cdf:Nickname>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'PartyId'])">
-      <bd:PartyId>
+      <cdf:PartyId>
         <xsl:value-of select="*[@key = 'PartyId']"/>
-      </bd:PartyId>
+      </cdf:PartyId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Prefix'])">
-      <bd:Prefix>
+      <cdf:Prefix>
         <xsl:value-of select="*[@key = 'Prefix']"/>
-      </bd:Prefix>
+      </cdf:Prefix>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Profession'])">
-      <bd:Profession>
+      <cdf:Profession>
         <xsl:apply-templates select="*[@key = 'Profession']"/>
-      </bd:Profession>
+      </cdf:Profession>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Suffix'])">
-      <bd:Suffix>
+      <cdf:Suffix>
         <xsl:value-of select="*[@key = 'Suffix']"/>
-      </bd:Suffix>
+      </cdf:Suffix>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Title'])">
-      <bd:Title>
+      <cdf:Title>
         <xsl:apply-templates select="*[@key = 'Title']"/>
-      </bd:Title>
+      </cdf:Title>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:PhysicalContest" match="*[string = 'BallotDefinition.PhysicalContest' and string/@key = '@type']">
+  <xsl:template name="cdf:PhysicalContest" match="*[string = 'BallotDefinition.PhysicalContest' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'BallotFormatId'])">
-      <bd:BallotFormatId>
+      <cdf:BallotFormatId>
         <xsl:value-of select="*[@key = 'BallotFormatId']"/>
-      </bd:BallotFormatId>
+      </cdf:BallotFormatId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Extent'])">
       <xsl:for-each select="*[@key = 'Extent']/map">
-        <bd:Extent>
+        <cdf:Extent>
           <xsl:apply-templates select="."/>
-        </bd:Extent>
+        </cdf:Extent>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'FiducialMark'])">
       <xsl:for-each select="*[@key = 'FiducialMark']/map">
-        <bd:FiducialMark>
+        <cdf:FiducialMark>
           <xsl:apply-templates select="."/>
-        </bd:FiducialMark>
+        </cdf:FiducialMark>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'PhysicalContestOption'])">
       <xsl:for-each select="*[@key = 'PhysicalContestOption']/map">
-        <bd:PhysicalContestOption>
+        <cdf:PhysicalContestOption>
           <xsl:apply-templates select="."/>
-        </bd:PhysicalContestOption>
+        </cdf:PhysicalContestOption>
       </xsl:for-each>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:PhysicalContestOption" match="*[string = 'BallotDefinition.PhysicalContestOption' and string/@key = '@type']">
+  <xsl:template name="cdf:PhysicalContestOption" match="*[string = 'BallotDefinition.PhysicalContestOption' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'ContestOptionId'])">
-      <bd:ContestOptionId>
+      <cdf:ContestOptionId>
         <xsl:value-of select="*[@key = 'ContestOptionId']"/>
-      </bd:ContestOptionId>
+      </cdf:ContestOptionId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OptionPosition'])">
       <xsl:for-each select="*[@key = 'OptionPosition']/map">
-        <bd:OptionPosition>
+        <cdf:OptionPosition>
           <xsl:apply-templates select="."/>
-        </bd:OptionPosition>
+        </cdf:OptionPosition>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'WriteInPosition'])">
       <xsl:for-each select="*[@key = 'WriteInPosition']/map">
-        <bd:WriteInPosition>
+        <cdf:WriteInPosition>
           <xsl:apply-templates select="."/>
-        </bd:WriteInPosition>
+        </cdf:WriteInPosition>
       </xsl:for-each>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:ReportingUnit" match="*[string = 'BallotDefinition.ReportingUnit' and string/@key = '@type']">
+  <xsl:template name="cdf:ReportingUnit" match="*[string = 'BallotDefinition.ReportingUnit' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:ReportingUnit</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:ReportingUnit</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:GpUnit">
+    <xsl:call-template name="cdf:GpUnit">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'AuthorityIds'])">
-      <bd:AuthorityIds>
+      <cdf:AuthorityIds>
         <xsl:variable name="idrefs">
           <xsl:for-each select="*[@key = 'AuthorityIds']/string">
             <xsl:value-of select="concat(' ', .)"/>
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="normalize-space($idrefs)"/>
-      </bd:AuthorityIds>
+      </cdf:AuthorityIds>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ContactInformation'])">
-      <bd:ContactInformation>
+      <cdf:ContactInformation>
         <xsl:apply-templates select="*[@key = 'ContactInformation']"/>
-      </bd:ContactInformation>
+      </cdf:ContactInformation>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ElectionAdministration'])">
-      <bd:ElectionAdministration>
+      <cdf:ElectionAdministration>
         <xsl:apply-templates select="*[@key = 'ElectionAdministration']"/>
-      </bd:ElectionAdministration>
+      </cdf:ElectionAdministration>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'IsDistricted'])">
-      <bd:IsDistricted>
+      <cdf:IsDistricted>
         <xsl:value-of select="*[@key = 'IsDistricted']"/>
-      </bd:IsDistricted>
+      </cdf:IsDistricted>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'IsMailOnly'])">
-      <bd:IsMailOnly>
+      <cdf:IsMailOnly>
         <xsl:value-of select="*[@key = 'IsMailOnly']"/>
-      </bd:IsMailOnly>
+      </cdf:IsMailOnly>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Number'])">
-      <bd:Number>
+      <cdf:Number>
         <xsl:value-of select="*[@key = 'Number']"/>
-      </bd:Number>
+      </cdf:Number>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'PartyRegistration'])">
       <xsl:for-each select="*[@key = 'PartyRegistration']/map">
-        <bd:PartyRegistration>
+        <cdf:PartyRegistration>
           <xsl:apply-templates select="."/>
-        </bd:PartyRegistration>
+        </cdf:PartyRegistration>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'SpatialDimension'])">
-      <bd:SpatialDimension>
+      <cdf:SpatialDimension>
         <xsl:apply-templates select="*[@key = 'SpatialDimension']"/>
-      </bd:SpatialDimension>
+      </cdf:SpatialDimension>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'TotalSubUnits'])">
-      <bd:TotalSubUnits>
+      <cdf:TotalSubUnits>
         <xsl:value-of select="*[@key = 'TotalSubUnits']"/>
-      </bd:TotalSubUnits>
+      </cdf:TotalSubUnits>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Type'])">
-      <bd:Type>
+      <cdf:Type>
         <xsl:value-of select="*[@key = 'Type']"/>
-      </bd:Type>
+      </cdf:Type>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OtherType'])">
-      <bd:OtherType>
+      <cdf:OtherType>
         <xsl:value-of select="*[@key = 'OtherType']"/>
-      </bd:OtherType>
+      </cdf:OtherType>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'VotersRegistered'])">
-      <bd:VotersRegistered>
+      <cdf:VotersRegistered>
         <xsl:value-of select="*[@key = 'VotersRegistered']"/>
-      </bd:VotersRegistered>
+      </cdf:VotersRegistered>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:RetentionContest" match="*[string = 'BallotDefinition.RetentionContest' and string/@key = '@type']">
+  <xsl:template name="cdf:RetentionContest" match="*[string = 'BallotDefinition.RetentionContest' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:RetentionContest</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:RetentionContest</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:BallotMeasureContest">
+    <xsl:call-template name="cdf:BallotMeasureContest">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'CandidateId'])">
-      <bd:CandidateId>
+      <cdf:CandidateId>
         <xsl:value-of select="*[@key = 'CandidateId']"/>
-      </bd:CandidateId>
+      </cdf:CandidateId>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'OfficeId'])">
-      <bd:OfficeId>
+      <cdf:OfficeId>
         <xsl:value-of select="*[@key = 'OfficeId']"/>
-      </bd:OfficeId>
+      </cdf:OfficeId>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:Schedule" match="*[string = 'BallotDefinition.Schedule' and string/@key = '@type']">
+  <xsl:template name="cdf:Schedule" match="*[string = 'BallotDefinition.Schedule' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'Label'])">
       <xsl:attribute name="Label">
@@ -1539,111 +1539,111 @@ Visible Packages
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Hours'])">
       <xsl:for-each select="*[@key = 'Hours']/map">
-        <bd:Hours>
+        <cdf:Hours>
           <xsl:apply-templates select="."/>
-        </bd:Hours>
+        </cdf:Hours>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'IsOnlyByAppointment'])">
-      <bd:IsOnlyByAppointment>
+      <cdf:IsOnlyByAppointment>
         <xsl:value-of select="*[@key = 'IsOnlyByAppointment']"/>
-      </bd:IsOnlyByAppointment>
+      </cdf:IsOnlyByAppointment>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'IsOrByAppointment'])">
-      <bd:IsOrByAppointment>
+      <cdf:IsOrByAppointment>
         <xsl:value-of select="*[@key = 'IsOrByAppointment']"/>
-      </bd:IsOrByAppointment>
+      </cdf:IsOrByAppointment>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'IsSubjectToChange'])">
-      <bd:IsSubjectToChange>
+      <cdf:IsSubjectToChange>
         <xsl:value-of select="*[@key = 'IsSubjectToChange']"/>
-      </bd:IsSubjectToChange>
+      </cdf:IsSubjectToChange>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'StartDate'])">
-      <bd:StartDate>
+      <cdf:StartDate>
         <xsl:value-of select="*[@key = 'StartDate']"/>
-      </bd:StartDate>
+      </cdf:StartDate>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'EndDate'])">
-      <bd:EndDate>
+      <cdf:EndDate>
         <xsl:value-of select="*[@key = 'EndDate']"/>
-      </bd:EndDate>
+      </cdf:EndDate>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:Shape" match="*[string = 'BallotDefinition.Shape' and string/@key = '@type']">
+  <xsl:template name="cdf:Shape" match="*[string = 'BallotDefinition.Shape' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:attribute name="ObjectId">
       <xsl:value-of select="string[@key = '@id']"/>
     </xsl:attribute>
     <xsl:if test="boolean(*[@key = 'FillColor'])">
-      <bd:FillColor>
+      <cdf:FillColor>
         <xsl:value-of select="*[@key = 'FillColor']"/>
-      </bd:FillColor>
+      </cdf:FillColor>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'ShapeType'])">
-      <bd:ShapeType>
+      <cdf:ShapeType>
         <xsl:value-of select="*[@key = 'ShapeType']"/>
-      </bd:ShapeType>
+      </cdf:ShapeType>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'StrokeColor'])">
-      <bd:StrokeColor>
+      <cdf:StrokeColor>
         <xsl:value-of select="*[@key = 'StrokeColor']"/>
-      </bd:StrokeColor>
+      </cdf:StrokeColor>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'StrokeWidth'])">
-      <bd:StrokeWidth>
+      <cdf:StrokeWidth>
         <xsl:value-of select="*[@key = 'StrokeWidth']"/>
-      </bd:StrokeWidth>
+      </cdf:StrokeWidth>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:SpatialDimension" match="*[string = 'BallotDefinition.SpatialDimension' and string/@key = '@type']">
+  <xsl:template name="cdf:SpatialDimension" match="*[string = 'BallotDefinition.SpatialDimension' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'MapUri'])">
       <xsl:for-each select="*[@key = 'MapUri']/map">
-        <bd:MapUri>
+        <cdf:MapUri>
           <xsl:apply-templates select="."/>
-        </bd:MapUri>
+        </cdf:MapUri>
       </xsl:for-each>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'SpatialExtent'])">
-      <bd:SpatialExtent>
+      <cdf:SpatialExtent>
         <xsl:apply-templates select="*[@key = 'SpatialExtent']"/>
-      </bd:SpatialExtent>
+      </cdf:SpatialExtent>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:SpatialExtent" match="*[string = 'BallotDefinition.SpatialExtent' and string/@key = '@type']">
+  <xsl:template name="cdf:SpatialExtent" match="*[string = 'BallotDefinition.SpatialExtent' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'Coordinates'])">
-      <bd:Coordinates>
+      <cdf:Coordinates>
         <xsl:value-of select="*[@key = 'Coordinates']"/>
-      </bd:Coordinates>
+      </cdf:Coordinates>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Format'])">
-      <bd:Format>
+      <cdf:Format>
         <xsl:value-of select="*[@key = 'Format']"/>
-      </bd:Format>
+      </cdf:Format>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:StraightPartyContest" match="*[string = 'BallotDefinition.StraightPartyContest' and string/@key = '@type']">
+  <xsl:template name="cdf:StraightPartyContest" match="*[string = 'BallotDefinition.StraightPartyContest' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:StraightPartyContest</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:StraightPartyContest</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:ControllingContest">
+    <xsl:call-template name="cdf:ControllingContest">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'OtherStraightPartyRuleset'])">
-      <bd:OtherStraightPartyRuleset>
+      <cdf:OtherStraightPartyRuleset>
         <xsl:value-of select="*[@key = 'OtherStraightPartyRuleset']"/>
-      </bd:OtherStraightPartyRuleset>
+      </cdf:OtherStraightPartyRuleset>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'StraightPartyRuleset'])">
-      <bd:StraightPartyRuleset>
+      <cdf:StraightPartyRuleset>
         <xsl:value-of select="*[@key = 'StraightPartyRuleset']"/>
-      </bd:StraightPartyRuleset>
+      </cdf:StraightPartyRuleset>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:Term" match="*[string = 'BallotDefinition.Term' and string/@key = '@type']">
+  <xsl:template name="cdf:Term" match="*[string = 'BallotDefinition.Term' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="boolean(*[@key = 'Label'])">
       <xsl:attribute name="Label">
@@ -1651,47 +1651,47 @@ Visible Packages
       </xsl:attribute>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'StartDate'])">
-      <bd:StartDate>
+      <cdf:StartDate>
         <xsl:value-of select="*[@key = 'StartDate']"/>
-      </bd:StartDate>
+      </cdf:StartDate>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'EndDate'])">
-      <bd:EndDate>
+      <cdf:EndDate>
         <xsl:value-of select="*[@key = 'EndDate']"/>
-      </bd:EndDate>
+      </cdf:EndDate>
     </xsl:if>
     <xsl:if test="boolean(*[@key = 'Type'])">
-      <bd:Type>
+      <cdf:Type>
         <xsl:value-of select="*[@key = 'Type']"/>
-      </bd:Type>
+      </cdf:Type>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:WriteInPosition" match="*[string = 'BallotDefinition.WriteInPosition' and string/@key = '@type']">
+  <xsl:template name="cdf:WriteInPosition" match="*[string = 'BallotDefinition.WriteInPosition' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:WriteInPosition</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:WriteInPosition</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:BoundedObject">
+    <xsl:call-template name="cdf:BoundedObject">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'SelectionRequired'])">
-      <bd:SelectionRequired>
+      <cdf:SelectionRequired>
         <xsl:value-of select="*[@key = 'SelectionRequired']"/>
-      </bd:SelectionRequired>
+      </cdf:SelectionRequired>
     </xsl:if>
   </xsl:template>
-  <xsl:template name="bd:mCDFArea" match="*[string = 'BallotDefinition.mCDFArea' and string/@key = '@type']">
+  <xsl:template name="cdf:mCDFArea" match="*[string = 'BallotDefinition.mCDFArea' and string/@key = '@type']">
     <xsl:param name="set_type" select="true()"/>
     <xsl:if test="$set_type">
-      <xsl:attribute name="xsi:type">bd:mCDFArea</xsl:attribute>
+      <xsl:attribute name="xsi:type">cdf:mCDFArea</xsl:attribute>
     </xsl:if>
-    <xsl:call-template name="bd:BoundedObject">
+    <xsl:call-template name="cdf:BoundedObject">
       <xsl:with-param name="set_type" select="false()"/>
     </xsl:call-template>
     <xsl:if test="boolean(*[@key = 'Symbology'])">
-      <bd:Symbology>
+      <cdf:Symbology>
         <xsl:value-of select="*[@key = 'Symbology']"/>
-      </bd:Symbology>
+      </cdf:Symbology>
     </xsl:if>
   </xsl:template>
 </xsl:stylesheet>
