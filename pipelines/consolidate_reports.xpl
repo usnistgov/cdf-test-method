@@ -3,7 +3,7 @@
 <p:declare-step xmlns:p="http://www.w3.org/ns/xproc" name="pipeline"
     xmlns:tm="http://itl.nist.gov/ns/voting/test-method" type="tm:consolidate-reports" version="3.0">
     <p:input port="source" primary="true" sequence="true" />
-    <p:output port="result" />
+    <p:output port="result" primary="true" />
     <p:option name="mode" select="'conformance'" />
     <p:option name="reportType" />
     <p:option name="stopOnError" select="false()" />
@@ -14,7 +14,7 @@
         <p:with-input port="insertion">
             <p:inline>
                 <xvrl:metadata xmlns:xvrl="http://www.xproc.org/ns/xvrl">
-                    <xvrl:creator name="NIST Common Data Format Test Method" version="1.1.0beta5" />
+                    <xvrl:creator name="NIST Common Data Format Test Method" version="1.1.0" />
                     <xvrl:timestamp>{$start-dateTime}</xvrl:timestamp>
                     <xvrl:summary>Please review each report to determine conformance to the applicable test assertions / requirements</xvrl:summary>
                     <xvrl:supplemental tm:xproc-engine-name="{p:system-property('p:product-name')}"
