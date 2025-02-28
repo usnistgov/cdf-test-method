@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">	
+    <uri name="http://itl.nist.gov/ns/voting/1500-20/v1" uri="NIST_V1_ballot_definition.xsd"/>        
+    <uri name="http://itl.nist.gov/ns/voting/1500-20/v1/json" uri="NIST_V1_ballot_definition.json"/>        
+</catalog>
+    

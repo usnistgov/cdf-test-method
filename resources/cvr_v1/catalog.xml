@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">	    
+    <uri name="http://itl.nist.gov/ns/voting/1500-103/v1" uri="NIST_V0_cast_vote_records.xsd"/>
+    <uri name="http://itl.nist.gov/ns/voting/1500-103/v1/json" uri="NIST_V0_cast_vote_records.json"/>
+</catalog>
+    
