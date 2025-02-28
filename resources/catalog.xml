@@ -4,5 +4,15 @@
     <nextCatalog catalog="cvr_v1/catalog.xml" />
     <nextCatalog catalog="eel_v1/catalog.xml" />
     <nextCatalog catalog="err_v2/catalog.xml" />
+    <!-- VRI and required supporting formats -->
     <nextCatalog catalog="vri_v1/catalog.xml" />    
+    <nextCatalog catalog="fgdc/catalog.xml" />    
+    <nextCatalog catalog="gml/catalog.xml" />       
+    <nextCatalog catalog="smil/catalog.xml" />    
+    <nextCatalog catalog="xlink/catalog.xml" />    
+    <nextCatalog catalog="xml/catalog.xml" /> 
+    <nextCatalog catalog="xmldsig/catalog.xml" /> 
+    <!-- General format support -->   
+    <nextCatalog catalog="schematron/catalog.xml" />    
+    <nextCatalog catalog="xproc/catalog.xml" /> 
 </catalog>

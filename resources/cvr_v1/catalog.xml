@@ -2,5 +2,7 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">	    
     <uri name="http://itl.nist.gov/ns/voting/1500-103/v1" uri="NIST_V0_cast_vote_records.xsd"/>
     <uri name="http://itl.nist.gov/ns/voting/1500-103/v1/json" uri="NIST_V0_cast_vote_records.json"/>
+    <uri name="http://itl.nist.gov/ns/voting/1500-103/v1#json2xml" uri="json2xml.xsl"/>    
+    <uri name="http://itl.nist.gov/ns/voting/1500-103/v1/sch" uri="cvr_v1_sua.sch"/>   
 </catalog>
     
