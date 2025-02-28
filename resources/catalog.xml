@@ -15,4 +15,6 @@
     <!-- General format support -->   
     <nextCatalog catalog="schematron/catalog.xml" />    
     <nextCatalog catalog="xproc/catalog.xml" /> 
+    <!-- pipelines -->    
+    <nextCatalog catalog="../pipelines/catalog.xml"/>
 </catalog>

@@ -4,4 +4,5 @@
     <uri name="http://itl.nist.gov/ns/voting/1500-100/v2/json" uri="NIST_V2_election_results_reporting.json"/>
     <uri name="http://itl.nist.gov/ns/voting/1500-100/v2/sch" uri="err_v2_sua.sch"/>   
     <uri name="http://itl.nist.gov/ns/voting/1500-100/v2#json2xml" uri="err_v2_json2xml.xsl"/>    
+    <uri name="http://itl.nist.gov/ns/voting/1500-100/v2#xml2json" uri="err_v2_xml2json.xsl"/>    
 </catalog>

@@ -3,4 +3,5 @@
     <uri name="http://itl.nist.gov/ns/voting/1500-101/v1" uri="NIST_V1_election_event_logging.xsd"/>    
     <uri name="http://itl.nist.gov/ns/voting/1500-101/v1/json" uri="NIST_V1_election_event_logging.json"/>    
     <uri name="http://itl.nist.gov/ns/voting/1500-101/v1#json2xml" uri="json2xml.xsl"/>    
+    <uri name="http://itl.nist.gov/ns/voting/1500-101/v1#xml2json" uri="xml2json.xsl"/>    
 </catalog>
