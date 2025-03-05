@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet  xmlns="http://www.w3.org/2005/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdf="http://itl.nist.gov/ns/voting/1500-20/v1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:math="http://www.w3.org/2005/xpath-functions/math" xmlns:array="http://www.w3.org/2005/xpath-functions/array" xmlns:map="http://www.w3.org/2005/xpath-functions/map" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:err="http://www.w3.org/2005/xqt-errors" exclude-result-prefixes="array cdf fn map math xhtml err xs xsi" version="3.0">
 	<xsl:output method="text" version="1.0" encoding="UTF-8" indent="yes"/>
-  <xsl:import-schema namespace="http://itl.nist.gov/ns/voting/1500-20/v1" schema-location="../../catalog_documents/NIST_V1_ballot_definition.xsd" />
+  <xsl:import-schema namespace="http://itl.nist.gov/ns/voting/1500-20/v1" schema-location="NIST_V1_ballot_definition.xsd" />
   <xsl:template match="*|/" priority="-9">
 		<!-- do nothing -->
 	</xsl:template>

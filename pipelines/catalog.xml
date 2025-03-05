@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <rewriteURI uriStartString="https://itl.nist.gov/voting/test-method/pipelines" rewritePrefix="." />
+    <rewriteURI uriStartString="https://itl.nist.gov/voting/test-method/pipelines/" rewritePrefix="." />
+    <rewriteURI uriStartString="http://itl.nist.gov/voting/test-method/pipelines/" rewritePrefix="." />                                
 </catalog>
