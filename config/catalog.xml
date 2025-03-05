@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <!-- FGDC and formats used by it (e.g. GML) -->
-    <!-- workaround for flattened GML -->
-    <uri name="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd" uri="../resources/gml/geometryPrimitives.xsd" />
-    <uri name="http://schemas.opengis.net/gml/3.1.1/base/xlink.xsd" uri="../resources/xlink/xlink.xsd" />
-    <uri name="http://schemas.opengis.net/gml/3.1.1/base/smil20.xsd" uri="../resources/smil/smil20.xsd" />
-    <uri name="http://schemas.opengis.net/gml/3.1.1/base/smil20-language.xsd" uri="../resources/smil/smil20-language.xsd" />
-    <uri name="http://schemas.opengis.net/gml/3.1.1/base/xml.xsd" uri="../resources/xml/xml.xsd" />
-    <!-- end workaround -->
-    <uri name="http://www.opengis.net/gml" uri="../catalog_documents/geometryPrimitives.xsd" />
-    <!-- begin json2xml conversions -->               
-    <!-- begin Schematron schemas -->
-    <!-- begin supporting formats -->
-    <nextCatalog catalog="../resources/catalog.xml" />
+	<!-- FGDC and formats used by it (e.g. GML) -->
+	<!-- workaround for flattened GML -->
+	<uri name="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd" uri="../resources/gml/geometryPrimitives.xsd"/>
+	<uri name="http://schemas.opengis.net/gml/3.1.1/base/xlink.xsd" uri="../resources/xlink/xlink.xsd"/>
+	<uri name="http://schemas.opengis.net/gml/3.1.1/base/smil20.xsd" uri="../resources/smil/smil20.xsd"/>
+	<uri name="http://schemas.opengis.net/gml/3.1.1/base/smil20-language.xsd" uri="../resources/smil/smil20-language.xsd"/>
+	<uri name="http://schemas.opengis.net/gml/3.1.1/base/xml.xsd" uri="../resources/xml/xml.xsd"/>
+	<!-- end workaround -->
+	<uri name="http://www.opengis.net/gml" uri="../catalog_documents/geometryPrimitives.xsd"/>
+	<!-- begin json2xml conversions -->
+	<!-- begin Schematron schemas -->
+	<!-- begin supporting formats -->
+	<nextCatalog catalog="../resources/catalog.xml"/>
+	<nextCatalog catalog="../pipelines/catalog.xml"/>
 </catalog>
