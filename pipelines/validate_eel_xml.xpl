@@ -74,7 +74,7 @@
     </p:if>
     <!-- Run XSLT to convert EEEL-D to SCH -->
     <p:xslt name="generate-sch" message="Creating Schematron rules from EEL Documentation">
-        <p:with-input port="stylesheet" href="../resources/eel_v1/generate_eeld_sch.xslt" />
+        <p:with-input port="stylesheet" href="http://itl.nist.gov/ns/voting/1500-101/v1/generate_eeld_sch.xslt" />
     </p:xslt>
     <!-- check is valid according to schematron RNG -->
     <p:if test="$mode = 'conformance'">
