@@ -1,2396 +1,2745 @@
 {
-	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$ref": "#/definitions/ElectionResults.ElectionReport",
-	"definitions": {
-		"ElectionResults.AnnotatedString": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.AnnotatedString"
-					]
-				},
-				"Annotation": {
-					"$ref": "#/definitions/ElectionResults.ShortString"
-				},
-				"Content": {
-					"type": "string"
-				}
-			},
-			"required": [
-				"@type",
-				"Content"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.AnnotatedUri": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.AnnotatedUri"
-					]
-				},
-				"Annotation": {
-					"$ref": "#/definitions/ElectionResults.ShortString"
-				},
-				"Content": {
-					"type": "string",
-					"format": "uri"
-				}
-			},
-			"required": [
-				"@type",
-				"Content"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.BallotCounts": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.BallotCounts"
-					]
-				},
-				"BallotsCast": {
-					"type": "integer"
-				},
-				"BallotsOutstanding": {
-					"type": "integer"
-				},
-				"BallotsRejected": {
-					"type": "integer"
-				},
-				"DeviceClass": {
-					"$ref": "#/definitions/ElectionResults.DeviceClass"
-				},
-				"GpUnitId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.ReportingDevice",
-						"ElectionResults.ReportingUnit"
-					]
-				},
-				"IsSuppressedForPrivacy": {
-					"type": "boolean"
-				},
-				"OtherType": {
-					"type": "string"
-				},
-				"Round": {
-					"type": "integer"
-				},
-				"Type": {
-					"$ref": "#/definitions/ElectionResults.CountItemType"
-				}
-			},
-			"required": [
-				"@type",
-				"GpUnitId",
-				"Type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.BallotMeasureContest": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.BallotMeasureContest"
-					]
-				},
-				"Abbreviation": {
-					"type": "string"
-				},
-				"BallotSubTitle": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"BallotTitle": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"ConStatement": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"ContestSelection": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"oneOf": [
-							{
-								"$ref": "#/definitions/ElectionResults.PartySelection"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.BallotMeasureSelection"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.CandidateSelection"
-							}
-						]
-					}
-				},
-				"CountStatus": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.CountStatus"
-					}
-				},
-				"EffectOfAbstain": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"ElectionDistrictId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.ReportingUnit"
-					]
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"FullText": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"HasRotation": {
-					"type": "boolean"
-				},
-				"InfoUri": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.AnnotatedUri"
-					}
-				},
-				"Name": {
-					"type": "string"
-				},
-				"OtherCounts": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.OtherCounts"
-					}
-				},
-				"OtherType": {
-					"type": "string"
-				},
-				"OtherVoteVariation": {
-					"type": "string"
-				},
-				"PassageThreshold": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"ProStatement": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"SequenceOrder": {
-					"type": "integer"
-				},
-				"SubUnitsReported": {
-					"type": "integer"
-				},
-				"SummaryText": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"TotalSubUnits": {
-					"type": "integer"
-				},
-				"Type": {
-					"$ref": "#/definitions/ElectionResults.BallotMeasureType"
-				},
-				"VoteVariation": {
-					"$ref": "#/definitions/ElectionResults.VoteVariation"
-				}
-			},
-			"required": [
-				"@id",
-				"@type",
-				"ElectionDistrictId",
-				"Name"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.BallotMeasureSelection": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.BallotMeasureSelection"
-					]
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"Selection": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"SequenceOrder": {
-					"type": "integer"
-				},
-				"VoteCounts": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.VoteCounts"
-					}
-				}
-			},
-			"required": [
-				"@id",
-				"@type",
-				"Selection"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.BallotMeasureType": {
-			"type": "string",
-			"enum": [
-				"ballot-measure",
-				"initiative",
-				"other",
-				"recall",
-				"referendum"
-			]
-		},
-		"ElectionResults.BallotStyle": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.BallotStyle"
-					]
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"GpUnitIds": {
-					"type": "array",
-					"minItems": 1,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.ReportingDevice",
-							"ElectionResults.ReportingUnit"
-						]
-					}
-				},
-				"ImageUri": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.AnnotatedUri"
-					}
-				},
-				"OrderedContent": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"oneOf": [
-							{
-								"$ref": "#/definitions/ElectionResults.OrderedContest"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.OrderedHeader"
-							}
-						]
-					}
-				},
-				"PartyIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.Party",
-							"ElectionResults.Coalition"
-						]
-					}
-				}
-			},
-			"required": [
-				"@type",
-				"GpUnitIds"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.Candidate": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.Candidate"
-					]
-				},
-				"BallotName": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"CampaignSlogan": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"ContactInformation": {
-					"$ref": "#/definitions/ElectionResults.ContactInformation"
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"FileDate": {
-					"type": "string",
-					"format": "date"
-				},
-				"IsIncumbent": {
-					"type": "boolean"
-				},
-				"IsTopTicket": {
-					"type": "boolean"
-				},
-				"PartyId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.Party",
-						"ElectionResults.Coalition"
-					]
-				},
-				"PersonId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.Person"
-					]
-				},
-				"PostElectionStatus": {
-					"$ref": "#/definitions/ElectionResults.CandidatePostElectionStatus"
-				},
-				"PreElectionStatus": {
-					"$ref": "#/definitions/ElectionResults.CandidatePreElectionStatus"
-				}
-			},
-			"required": [
-				"@id",
-				"@type",
-				"BallotName"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.CandidateContest": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.CandidateContest"
-					]
-				},
-				"Abbreviation": {
-					"type": "string"
-				},
-				"BallotSubTitle": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"BallotTitle": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"ContestSelection": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"oneOf": [
-							{
-								"$ref": "#/definitions/ElectionResults.PartySelection"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.BallotMeasureSelection"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.CandidateSelection"
-							}
-						]
-					}
-				},
-				"CountStatus": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.CountStatus"
-					}
-				},
-				"ElectionDistrictId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.ReportingUnit"
-					]
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"HasRotation": {
-					"type": "boolean"
-				},
-				"Name": {
-					"type": "string"
-				},
-				"NumberElected": {
-					"type": "integer"
-				},
-				"NumberRunoff": {
-					"type": "integer"
-				},
-				"OfficeIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.Office"
-						]
-					}
-				},
-				"OtherCounts": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.OtherCounts"
-					}
-				},
-				"OtherVoteVariation": {
-					"type": "string"
-				},
-				"PrimaryPartyIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.Party",
-							"ElectionResults.Coalition"
-						]
-					}
-				},
-				"SequenceOrder": {
-					"type": "integer"
-				},
-				"SubUnitsReported": {
-					"type": "integer"
-				},
-				"TotalSubUnits": {
-					"type": "integer"
-				},
-				"VoteVariation": {
-					"$ref": "#/definitions/ElectionResults.VoteVariation"
-				},
-				"VotesAllowed": {
-					"type": "integer"
-				}
-			},
-			"required": [
-				"@id",
-				"@type",
-				"ElectionDistrictId",
-				"Name",
-				"VotesAllowed"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.CandidatePostElectionStatus": {
-			"type": "string",
-			"enum": [
-				"advanced-to-runoff",
-				"defeated",
-				"projected-winner",
-				"winner",
-				"withdrawn"
-			]
-		},
-		"ElectionResults.CandidatePreElectionStatus": {
-			"type": "string",
-			"enum": [
-				"filed",
-				"qualified",
-				"withdrawn"
-			]
-		},
-		"ElectionResults.CandidateSelection": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.CandidateSelection"
-					]
-				},
-				"CandidateIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.Candidate"
-						]
-					}
-				},
-				"EndorsementPartyIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.Party",
-							"ElectionResults.Coalition"
-						]
-					}
-				},
-				"IsWriteIn": {
-					"type": "boolean"
-				},
-				"SequenceOrder": {
-					"type": "integer"
-				},
-				"VoteCounts": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.VoteCounts"
-					}
-				}
-			},
-			"required": [
-				"@id",
-				"@type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.Coalition": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.Coalition"
-					]
-				},
-				"Abbreviation": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"Color": {
-					"$ref": "#/definitions/ElectionResults.HtmlColorString"
-				},
-				"ContactInformation": {
-					"$ref": "#/definitions/ElectionResults.ContactInformation"
-				},
-				"ContestIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.PartyContest",
-							"ElectionResults.BallotMeasureContest",
-							"ElectionResults.CandidateContest",
-							"ElectionResults.RetentionContest"
-						]
-					}
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"IsRecognizedParty": {
-					"type": "boolean"
-				},
-				"LeaderPersonIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.Person"
-						]
-					}
-				},
-				"LogoUri": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.AnnotatedUri"
-					}
-				},
-				"Name": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"PartyIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.Party",
-							"ElectionResults.Coalition"
-						]
-					}
-				},
-				"PartyScopeGpUnitIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.ReportingDevice",
-							"ElectionResults.ReportingUnit"
-						]
-					}
-				},
-				"Slogan": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				}
-			},
-			"required": [
-				"@id",
-				"@type",
-				"Name"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.ContactInformation": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.ContactInformation"
-					]
-				},
-				"AddressLine": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string"
-					}
-				},
-				"Directions": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"Email": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.AnnotatedString"
-					}
-				},
-				"Fax": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.AnnotatedString"
-					}
-				},
-				"Label": {
-					"type": "string"
-				},
-				"LatLng": {
-					"$ref": "#/definitions/ElectionResults.LatLng"
-				},
-				"Name": {
-					"type": "string"
-				},
-				"Phone": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.AnnotatedString"
-					}
-				},
-				"Schedule": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.Schedule"
-					}
-				},
-				"Uri": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.AnnotatedUri"
-					}
-				}
-			},
-			"required": [
-				"@type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.CountItemStatus": {
-			"type": "string",
-			"enum": [
-				"completed",
-				"in-process",
-				"not-processed",
-				"unknown"
-			]
-		},
-		"ElectionResults.CountItemType": {
-			"type": "string",
-			"enum": [
-				"absentee",
-				"absentee-fwab",
-				"absentee-in-person",
-				"absentee-mail",
-				"early",
-				"election-day",
-				"other",
-				"provisional",
-				"seats",
-				"total",
-				"uocava",
-				"write-in"
-			]
-		},
-		"ElectionResults.CountStatus": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.CountStatus"
-					]
-				},
-				"OtherType": {
-					"type": "string"
-				},
-				"Status": {
-					"$ref": "#/definitions/ElectionResults.CountItemStatus"
-				},
-				"Type": {
-					"$ref": "#/definitions/ElectionResults.CountItemType"
-				}
-			},
-			"required": [
-				"@type",
-				"Status",
-				"Type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.DateTimeWithZone": {
-			"type": "string",
-			"pattern": "[0-9]{4}-(0?[1-9]|1[012])-(0?[1-9]|[12][0-9]|3[01])T(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]|(24:00:00))(Z|[+-]((0[0-9]|1[0-3]):[0-5][0-9]|14:00))",
-			"format": "date-time"
-		},
-		"ElectionResults.DayType": {
-			"type": "string",
-			"enum": [
-				"all",
-				"friday",
-				"monday",
-				"saturday",
-				"sunday",
-				"thursday",
-				"tuesday",
-				"wednesday",
-				"weekday",
-				"weekend"
-			]
-		},
-		"ElectionResults.DeviceClass": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.DeviceClass"
-					]
-				},
-				"Manufacturer": {
-					"type": "string"
-				},
-				"Model": {
-					"type": "string"
-				},
-				"OtherType": {
-					"type": "string"
-				},
-				"Type": {
-					"$ref": "#/definitions/ElectionResults.DeviceType"
-				}
-			},
-			"required": [
-				"@type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.DeviceType": {
-			"type": "string",
-			"enum": [
-				"bmd",
-				"dre",
-				"manual-count",
-				"opscan-central",
-				"opscan-precinct",
-				"other",
-				"unknown"
-			]
-		},
-		"ElectionResults.Election": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.Election"
-					]
-				},
-				"BallotCounts": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.BallotCounts"
-					}
-				},
-				"BallotStyle": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.BallotStyle"
-					}
-				},
-				"Candidate": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.Candidate"
-					}
-				},
-				"ContactInformation": {
-					"$ref": "#/definitions/ElectionResults.ContactInformation"
-				},
-				"Contest": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"oneOf": [
-							{
-								"$ref": "#/definitions/ElectionResults.PartyContest"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.BallotMeasureContest"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.CandidateContest"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.RetentionContest"
-							}
-						]
-					}
-				},
-				"CountStatus": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.CountStatus"
-					}
-				},
-				"ElectionScopeId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.ReportingUnit"
-					]
-				},
-				"EndDate": {
-					"type": "string",
-					"format": "date"
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"Name": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"OtherType": {
-					"type": "string"
-				},
-				"StartDate": {
-					"type": "string",
-					"format": "date"
-				},
-				"Type": {
-					"$ref": "#/definitions/ElectionResults.ElectionType"
-				}
-			},
-			"required": [
-				"@type",
-				"ElectionScopeId",
-				"EndDate",
-				"Name",
-				"StartDate",
-				"Type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.ElectionAdministration": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.ElectionAdministration"
-					]
-				},
-				"ContactInformation": {
-					"$ref": "#/definitions/ElectionResults.ContactInformation"
-				},
-				"ElectionOfficialPersonIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.Person"
-						]
-					}
-				},
-				"Name": {
-					"type": "string"
-				}
-			},
-			"required": [
-				"@type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.ElectionReport": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.ElectionReport"
-					]
-				},
-				"Election": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.Election"
-					}
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"Format": {
-					"$ref": "#/definitions/ElectionResults.ReportDetailLevel"
-				},
-				"GeneratedDate": {
-					"$ref": "#/definitions/ElectionResults.DateTimeWithZone"
-				},
-				"GpUnit": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"oneOf": [
-							{
-								"$ref": "#/definitions/ElectionResults.ReportingDevice"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.ReportingUnit"
-							}
-						]
-					}
-				},
-				"Header": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.Header"
-					}
-				},
-				"IsTest": {
-					"type": "boolean"
-				},
-				"Issuer": {
-					"type": "string"
-				},
-				"IssuerAbbreviation": {
-					"type": "string"
-				},
-				"Notes": {
-					"type": "string"
-				},
-				"Office": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.Office"
-					}
-				},
-				"OfficeGroup": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.OfficeGroup"
-					}
-				},
-				"Party": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"oneOf": [
-							{
-								"$ref": "#/definitions/ElectionResults.Party"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.Coalition"
-							}
-						]
-					}
-				},
-				"Person": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.Person"
-					}
-				},
-				"SequenceEnd": {
-					"type": "integer"
-				},
-				"SequenceStart": {
-					"type": "integer"
-				},
-				"Status": {
-					"$ref": "#/definitions/ElectionResults.ResultsStatus"
-				},
-				"TestType": {
-					"type": "string"
-				},
-				"VendorApplicationId": {
-					"type": "string"
-				}
-			},
-			"required": [
-				"@type",
-				"Format",
-				"GeneratedDate",
-				"Issuer",
-				"IssuerAbbreviation",
-				"SequenceEnd",
-				"SequenceStart",
-				"Status",
-				"VendorApplicationId"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.ElectionType": {
-			"type": "string",
-			"enum": [
-				"general",
-				"other",
-				"partisan-primary-closed",
-				"partisan-primary-open",
-				"primary",
-				"runoff",
-				"special"
-			]
-		},
-		"ElectionResults.ExternalIdentifier": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.ExternalIdentifier"
-					]
-				},
-				"Label": {
-					"type": "string"
-				},
-				"OtherType": {
-					"type": "string"
-				},
-				"Type": {
-					"$ref": "#/definitions/ElectionResults.IdentifierType"
-				},
-				"Value": {
-					"type": "string"
-				}
-			},
-			"required": [
-				"@type",
-				"Type",
-				"Value"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.GeoSpatialFormat": {
-			"type": "string",
-			"enum": [
-				"geo-json",
-				"gml",
-				"kml",
-				"shp",
-				"wkt"
-			]
-		},
-		"ElectionResults.Header": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.Header"
-					]
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"Name": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				}
-			},
-			"required": [
-				"@id",
-				"@type",
-				"Name"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.Hours": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.Hours"
-					]
-				},
-				"Day": {
-					"$ref": "#/definitions/ElectionResults.DayType"
-				},
-				"EndTime": {
-					"$ref": "#/definitions/ElectionResults.TimeWithZone"
-				},
-				"Label": {
-					"type": "string"
-				},
-				"StartTime": {
-					"$ref": "#/definitions/ElectionResults.TimeWithZone"
-				}
-			},
-			"required": [
-				"@type",
-				"EndTime",
-				"StartTime"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.HtmlColorString": {
-			"type": "string",
-			"pattern": "[0-9a-f]{6}"
-		},
-		"ElectionResults.IdentifierType": {
-			"type": "string",
-			"enum": [
-				"fips",
-				"local-level",
-				"national-level",
-				"ocd-id",
-				"other",
-				"state-level"
-			]
-		},
-		"ElectionResults.InternationalizedText": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.InternationalizedText"
-					]
-				},
-				"Label": {
-					"type": "string"
-				},
-				"Text": {
-					"type": "array",
-					"minItems": 1,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.LanguageString"
-					}
-				}
-			},
-			"required": [
-				"@type",
-				"Text"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.LanguageString": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.LanguageString"
-					]
-				},
-				"Content": {
-					"type": "string"
-				},
-				"Language": {
-					"type": "string"
-				}
-			},
-			"required": [
-				"@type",
-				"Content",
-				"Language"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.LatLng": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.LatLng"
-					]
-				},
-				"Label": {
-					"type": "string"
-				},
-				"Latitude": {
-					"type": "number"
-				},
-				"Longitude": {
-					"type": "number"
-				},
-				"Source": {
-					"type": "string"
-				}
-			},
-			"required": [
-				"@type",
-				"Latitude",
-				"Longitude"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.Office": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.Office"
-					]
-				},
-				"ContactInformation": {
-					"$ref": "#/definitions/ElectionResults.ContactInformation"
-				},
-				"Description": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"ElectionDistrictId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.ReportingUnit"
-					]
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"FilingDeadline": {
-					"type": "string",
-					"format": "date"
-				},
-				"IsPartisan": {
-					"type": "boolean"
-				},
-				"Name": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"OfficeHolderPersonIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.Person"
-						]
-					}
-				},
-				"Term": {
-					"$ref": "#/definitions/ElectionResults.Term"
-				}
-			},
-			"required": [
-				"@id",
-				"@type",
-				"Name"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.OfficeGroup": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.OfficeGroup"
-					]
-				},
-				"Label": {
-					"type": "string"
-				},
-				"Name": {
-					"type": "string"
-				},
-				"OfficeIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.Office"
-						]
-					}
-				},
-				"SubOfficeGroup": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.OfficeGroup"
-					}
-				}
-			},
-			"required": [
-				"@type",
-				"Name"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.OfficeTermType": {
-			"type": "string",
-			"enum": [
-				"full-term",
-				"unexpired-term"
-			]
-		},
-		"ElectionResults.OrderedContest": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.OrderedContest"
-					]
-				},
-				"ContestId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.PartyContest",
-						"ElectionResults.BallotMeasureContest",
-						"ElectionResults.CandidateContest",
-						"ElectionResults.RetentionContest"
-					]
-				},
-				"OrderedContestSelectionIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.PartySelection",
-							"ElectionResults.BallotMeasureSelection",
-							"ElectionResults.CandidateSelection"
-						]
-					}
-				}
-			},
-			"required": [
-				"@type",
-				"ContestId"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.OrderedHeader": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.OrderedHeader"
-					]
-				},
-				"HeaderId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.Header"
-					]
-				},
-				"OrderedContent": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"oneOf": [
-							{
-								"$ref": "#/definitions/ElectionResults.OrderedContest"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.OrderedHeader"
-							}
-						]
-					}
-				}
-			},
-			"required": [
-				"@type",
-				"HeaderId"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.OtherCounts": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.OtherCounts"
-					]
-				},
-				"DeviceClass": {
-					"$ref": "#/definitions/ElectionResults.DeviceClass"
-				},
-				"GpUnitId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.ReportingDevice",
-						"ElectionResults.ReportingUnit"
-					]
-				},
-				"Overvotes": {
-					"type": "number"
-				},
-				"Undervotes": {
-					"type": "number"
-				},
-				"WriteIns": {
-					"type": "integer"
-				}
-			},
-			"required": [
-				"@type",
-				"GpUnitId"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.Party": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.Party"
-					]
-				},
-				"Abbreviation": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"Color": {
-					"$ref": "#/definitions/ElectionResults.HtmlColorString"
-				},
-				"ContactInformation": {
-					"$ref": "#/definitions/ElectionResults.ContactInformation"
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"IsRecognizedParty": {
-					"type": "boolean"
-				},
-				"LeaderPersonIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.Person"
-						]
-					}
-				},
-				"LogoUri": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.AnnotatedUri"
-					}
-				},
-				"Name": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"PartyScopeGpUnitIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.ReportingDevice",
-							"ElectionResults.ReportingUnit"
-						]
-					}
-				},
-				"Slogan": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				}
-			},
-			"required": [
-				"@id",
-				"@type",
-				"Name"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.PartyContest": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.PartyContest"
-					]
-				},
-				"Abbreviation": {
-					"type": "string"
-				},
-				"BallotSubTitle": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"BallotTitle": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"ContestSelection": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"oneOf": [
-							{
-								"$ref": "#/definitions/ElectionResults.PartySelection"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.BallotMeasureSelection"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.CandidateSelection"
-							}
-						]
-					}
-				},
-				"CountStatus": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.CountStatus"
-					}
-				},
-				"ElectionDistrictId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.ReportingUnit"
-					]
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"HasRotation": {
-					"type": "boolean"
-				},
-				"Name": {
-					"type": "string"
-				},
-				"OtherCounts": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.OtherCounts"
-					}
-				},
-				"OtherVoteVariation": {
-					"type": "string"
-				},
-				"SequenceOrder": {
-					"type": "integer"
-				},
-				"SubUnitsReported": {
-					"type": "integer"
-				},
-				"TotalSubUnits": {
-					"type": "integer"
-				},
-				"VoteVariation": {
-					"$ref": "#/definitions/ElectionResults.VoteVariation"
-				}
-			},
-			"required": [
-				"@id",
-				"@type",
-				"ElectionDistrictId",
-				"Name"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.PartyRegistration": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.PartyRegistration"
-					]
-				},
-				"Count": {
-					"type": "integer"
-				},
-				"PartyId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.Party",
-						"ElectionResults.Coalition"
-					]
-				}
-			},
-			"required": [
-				"@type",
-				"Count",
-				"PartyId"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.PartySelection": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.PartySelection"
-					]
-				},
-				"PartyIds": {
-					"type": "array",
-					"minItems": 1,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.Party",
-							"ElectionResults.Coalition"
-						]
-					}
-				},
-				"SequenceOrder": {
-					"type": "integer"
-				},
-				"VoteCounts": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.VoteCounts"
-					}
-				}
-			},
-			"required": [
-				"@id",
-				"@type",
-				"PartyIds"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.Person": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.Person"
-					]
-				},
-				"ContactInformation": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ContactInformation"
-					}
-				},
-				"DateOfBirth": {
-					"type": "string",
-					"format": "date"
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"FirstName": {
-					"type": "string"
-				},
-				"FullName": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"Gender": {
-					"type": "string"
-				},
-				"LastName": {
-					"type": "string"
-				},
-				"MiddleName": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string"
-					}
-				},
-				"Nickname": {
-					"type": "string"
-				},
-				"PartyId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.Party",
-						"ElectionResults.Coalition"
-					]
-				},
-				"Prefix": {
-					"type": "string"
-				},
-				"Profession": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"Suffix": {
-					"type": "string"
-				},
-				"Title": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				}
-			},
-			"required": [
-				"@id",
-				"@type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.ReportDetailLevel": {
-			"type": "string",
-			"enum": [
-				"precinct-level",
-				"summary-contest"
-			]
-		},
-		"ElectionResults.ReportingDevice": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.ReportingDevice"
-					]
-				},
-				"ComposingGpUnitIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.ReportingDevice",
-							"ElectionResults.ReportingUnit"
-						]
-					}
-				},
-				"DeviceClass": {
-					"$ref": "#/definitions/ElectionResults.DeviceClass"
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"Name": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"SerialNumber": {
-					"type": "string"
-				}
-			},
-			"required": [
-				"@id",
-				"@type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.ReportingUnit": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.ReportingUnit"
-					]
-				},
-				"AuthorityIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.Person"
-						]
-					}
-				},
-				"ComposingGpUnitIds": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"type": "string",
-						"refTypes": [
-							"ElectionResults.ReportingDevice",
-							"ElectionResults.ReportingUnit"
-						]
-					}
-				},
-				"ContactInformation": {
-					"$ref": "#/definitions/ElectionResults.ContactInformation"
-				},
-				"CountStatus": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.CountStatus"
-					}
-				},
-				"ElectionAdministration": {
-					"$ref": "#/definitions/ElectionResults.ElectionAdministration"
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"IsDistricted": {
-					"type": "boolean"
-				},
-				"IsMailOnly": {
-					"type": "boolean"
-				},
-				"Name": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"Number": {
-					"type": "string"
-				},
-				"OtherType": {
-					"type": "string"
-				},
-				"PartyRegistration": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.PartyRegistration"
-					}
-				},
-				"SpatialDimension": {
-					"$ref": "#/definitions/ElectionResults.SpatialDimension"
-				},
-				"SubUnitsReported": {
-					"type": "integer"
-				},
-				"TotalSubUnits": {
-					"type": "integer"
-				},
-				"Type": {
-					"$ref": "#/definitions/ElectionResults.ReportingUnitType"
-				},
-				"VotersParticipated": {
-					"type": "integer"
-				},
-				"VotersRegistered": {
-					"type": "integer"
-				}
-			},
-			"required": [
-				"@id",
-				"@type",
-				"Type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.ReportingUnitType": {
-			"type": "string",
-			"enum": [
-				"ballot-batch",
-				"ballot-style-area",
-				"borough",
-				"city",
-				"city-council",
-				"combined-precinct",
-				"congressional",
-				"country",
-				"county",
-				"county-council",
-				"drop-box",
-				"judicial",
-				"municipality",
-				"other",
-				"polling-place",
-				"precinct",
-				"school",
-				"special",
-				"split-precinct",
-				"state",
-				"state-house",
-				"state-senate",
-				"town",
-				"township",
-				"utility",
-				"village",
-				"vote-center",
-				"ward",
-				"water"
-			]
-		},
-		"ElectionResults.ResultsStatus": {
-			"type": "string",
-			"enum": [
-				"certified",
-				"correction",
-				"pre-election",
-				"recount",
-				"unofficial-complete",
-				"unofficial-partial"
-			]
-		},
-		"ElectionResults.RetentionContest": {
-			"type": "object",
-			"properties": {
-				"@id": {
-					"type": "string"
-				},
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.RetentionContest"
-					]
-				},
-				"Abbreviation": {
-					"type": "string"
-				},
-				"BallotSubTitle": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"BallotTitle": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"CandidateId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.Candidate"
-					]
-				},
-				"ConStatement": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"ContestSelection": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"oneOf": [
-							{
-								"$ref": "#/definitions/ElectionResults.PartySelection"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.BallotMeasureSelection"
-							},
-							{
-								"$ref": "#/definitions/ElectionResults.CandidateSelection"
-							}
-						]
-					}
-				},
-				"CountStatus": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.CountStatus"
-					}
-				},
-				"EffectOfAbstain": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"ElectionDistrictId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.ReportingUnit"
-					]
-				},
-				"ExternalIdentifier": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.ExternalIdentifier"
-					}
-				},
-				"FullText": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"HasRotation": {
-					"type": "boolean"
-				},
-				"InfoUri": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.AnnotatedUri"
-					}
-				},
-				"Name": {
-					"type": "string"
-				},
-				"OfficeId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.Office"
-					]
-				},
-				"OtherCounts": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.OtherCounts"
-					}
-				},
-				"OtherType": {
-					"type": "string"
-				},
-				"OtherVoteVariation": {
-					"type": "string"
-				},
-				"PassageThreshold": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"ProStatement": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"SequenceOrder": {
-					"type": "integer"
-				},
-				"SubUnitsReported": {
-					"type": "integer"
-				},
-				"SummaryText": {
-					"$ref": "#/definitions/ElectionResults.InternationalizedText"
-				},
-				"TotalSubUnits": {
-					"type": "integer"
-				},
-				"Type": {
-					"$ref": "#/definitions/ElectionResults.BallotMeasureType"
-				},
-				"VoteVariation": {
-					"$ref": "#/definitions/ElectionResults.VoteVariation"
-				}
-			},
-			"required": [
-				"@id",
-				"@type",
-				"CandidateId",
-				"ElectionDistrictId",
-				"Name"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.Schedule": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.Schedule"
-					]
-				},
-				"EndDate": {
-					"type": "string",
-					"format": "date"
-				},
-				"Hours": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.Hours"
-					}
-				},
-				"IsOnlyByAppointment": {
-					"type": "boolean"
-				},
-				"IsOrByAppointment": {
-					"type": "boolean"
-				},
-				"IsSubjectToChange": {
-					"type": "boolean"
-				},
-				"Label": {
-					"type": "string"
-				},
-				"StartDate": {
-					"type": "string",
-					"format": "date"
-				}
-			},
-			"required": [
-				"@type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.ShortString": {
-			"type": "string",
-			"maxLength": 32
-		},
-		"ElectionResults.SpatialDimension": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.SpatialDimension"
-					]
-				},
-				"MapUri": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/ElectionResults.AnnotatedUri"
-					}
-				},
-				"SpatialExtent": {
-					"$ref": "#/definitions/ElectionResults.SpatialExtent"
-				}
-			},
-			"required": [
-				"@type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.SpatialExtent": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.SpatialExtent"
-					]
-				},
-				"Coordinates": {
-					"type": "string"
-				},
-				"Format": {
-					"$ref": "#/definitions/ElectionResults.GeoSpatialFormat"
-				}
-			},
-			"required": [
-				"@type",
-				"Coordinates",
-				"Format"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.Term": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.Term"
-					]
-				},
-				"EndDate": {
-					"type": "string",
-					"format": "date"
-				},
-				"Label": {
-					"type": "string"
-				},
-				"StartDate": {
-					"type": "string",
-					"format": "date"
-				},
-				"Type": {
-					"$ref": "#/definitions/ElectionResults.OfficeTermType"
-				}
-			},
-			"required": [
-				"@type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.TimeWithZone": {
-			"type": "string",
-			"pattern": "(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]|(24:00:00))(Z|[+-]((0[0-9]|1[0-3]):[0-5][0-9]|14:00))",
-			"format": "time"
-		},
-		"ElectionResults.VoteCounts": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"ElectionResults.VoteCounts"
-					]
-				},
-				"Count": {
-					"type": "number"
-				},
-				"DeviceClass": {
-					"$ref": "#/definitions/ElectionResults.DeviceClass"
-				},
-				"GpUnitId": {
-					"type": "string",
-					"refTypes": [
-						"ElectionResults.ReportingDevice",
-						"ElectionResults.ReportingUnit"
-					]
-				},
-				"IsSuppressedForPrivacy": {
-					"type": "boolean"
-				},
-				"OtherType": {
-					"type": "string"
-				},
-				"Round": {
-					"type": "integer"
-				},
-				"Type": {
-					"$ref": "#/definitions/ElectionResults.CountItemType"
-				}
-			},
-			"required": [
-				"@type",
-				"Count",
-				"GpUnitId",
-				"Type"
-			],
-			"additionalProperties": false
-		},
-		"ElectionResults.VoteVariation": {
-			"type": "string",
-			"enum": [
-				"approval",
-				"borda",
-				"cumulative",
-				"majority",
-				"n-of-m",
-				"other",
-				"plurality",
-				"proportional",
-				"range",
-				"rcv",
-				"super-majority"
-			]
-		}
-	}
+  "$ref": "#/$defs/ElectionResults.ElectionReport",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "ElectionResults.AnnotatedString": {
+      "description": "Used as a type for character strings; it adds a 32-character annotation to a character string.",
+      "required": [
+        "@type",
+        "Content"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.AnnotatedString"
+          ],
+          "type": "string"
+        },
+        "Annotation": {
+          "description": "An annotation of up to 32 characters associated with a character string.",
+          "maxLength": 32,
+          "type": "string"
+        },
+        "Content": {
+          "description": "The string to be annotated.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.AnnotatedUri": {
+      "description": "Used as a type for character strings that represent Uniform Resource Identifiers (URI); it adds a 32-character annotation to a character string.",
+      "required": [
+        "@type",
+        "Content"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.AnnotatedUri"
+          ],
+          "type": "string"
+        },
+        "Annotation": {
+          "description": "An annotation of up to 32 characters associated with a character string.",
+          "maxLength": 32,
+          "type": "string"
+        },
+        "Content": {
+          "description": "The URI to be annotated.",
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.BallotCounts": {
+      "description": "Used for identifying various ballot counts. It inherits the attributes of Counts.",
+      "required": [
+        "@type",
+        "GpUnitId",
+        "Type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.BallotCounts"
+          ],
+          "type": "string"
+        },
+        "BallotsCast": {
+          "description": "Number of ballots cast.",
+          "type": "integer"
+        },
+        "BallotsOutstanding": {
+          "description": "Number of ballots not yet counted.",
+          "type": "integer"
+        },
+        "BallotsRejected": {
+          "description": "Number of ballots rejected.",
+          "type": "integer"
+        },
+        "DeviceClass": {
+          "$ref": "#/$defs/ElectionResults.DeviceClass",
+          "description": "For filtering counts by device type."
+        },
+        "GpUnitId": {
+          "description": "For filtering counts by political geography or device or device type.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.ReportingDevice",
+            "ElectionResults.ReportingUnit"
+          ]
+        },
+        "IsSuppressedForPrivacy": {
+          "description": "Boolean to indicate if votes are suppressed for voter privacy, e.g., true or false. Assumed to be false if not present.",
+          "type": "boolean"
+        },
+        "OtherType": {
+          "description": "Used when Type is other.",
+          "type": "string"
+        },
+        "Round": {
+          "description": "An identification of the RCV round being reported.",
+          "type": "integer"
+        },
+        "Type": {
+          "$ref": "#/$defs/ElectionResults.CountItemType",
+          "description": "The type of count being used as a filter on the vote counts, e.g., election day, early voting, etc."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.BallotMeasureContest": {
+      "description": "For ballot measure (i.e., referenda or a tax measure) and judicial retention contests. It inherits the attributes of Contest.\n\nIf the type of ballot measure is not listed in enumeration BallotMeasureType, use other and include the type (that is not listed in the enumeration) in OtherType.",
+      "required": [
+        "@id",
+        "@type",
+        "ElectionDistrictId",
+        "Name"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.BallotMeasureContest"
+          ],
+          "type": "string"
+        },
+        "Abbreviation": {
+          "description": "Abbreviation for the contest.",
+          "type": "string"
+        },
+        "BallotSubTitle": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Subtitle of the contest as it appears on the ballot."
+        },
+        "BallotTitle": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Title of the contest as it appears on the ballot."
+        },
+        "ConStatement": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For a statement on the ballot associated with a “no” vote."
+        },
+        "ContestSelection": {
+          "items": {
+            "description": "For associating a contest selection for the contest, i.e., a candidate, a ballot measure.",
+            "oneOf": [
+              {
+                "$ref": "#/$defs/ElectionResults.PartySelection"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.BallotMeasureSelection"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.CandidateSelection"
+              }
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "CountStatus": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.CountStatus",
+            "description": "For providing various counting status associated with the contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "EffectOfAbstain": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For a statement on the ballot detailing the effect of abstaining from voting on the ballot measure."
+        },
+        "ElectionDistrictId": {
+          "description": "Link to a GpUnit instance. For associating the contest with a reporting unit that represents the geographical scope of the contest, e.g., a district, etc.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.ReportingUnit"
+          ]
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "FullText": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For full text on the ballot of the ballot measure."
+        },
+        "HasRotation": {
+          "description": "Boolean to indicate whether the selections in the contest are rotated. Assumed to be “no” if not present.",
+          "type": "boolean"
+        },
+        "InfoUri": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
+            "description": "For associating a URI with the ballot measure contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Name": {
+          "description": "Name of the contest, not necessarily as it appears on the ballot.",
+          "type": "string"
+        },
+        "OtherCounts": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.OtherCounts",
+            "description": "For associating counts such as overvote and undervotes with the contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "OtherType": {
+          "description": "Used when BallotMeasureType is other.",
+          "type": "string"
+        },
+        "OtherVoteVariation": {
+          "description": "For use when VoteVariation is other.",
+          "type": "string"
+        },
+        "PassageThreshold": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For a statement on the ballot of the number or percentage of votes needed to approve or pass the ballot measure."
+        },
+        "ProStatement": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For a statement on the ballot associated with a “yes” vote."
+        },
+        "SequenceOrder": {
+          "description": "Orderering for listing the contest for purposes of results display.  If not present, no order is assumed.",
+          "type": "integer"
+        },
+        "SubUnitsReported": {
+          "description": "Number of subunits, e.g., precincts, that have completed reporting votes for this contest.",
+          "type": "integer"
+        },
+        "SummaryText": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For a summary on the ballot of the ballot measure."
+        },
+        "TotalSubUnits": {
+          "description": "Total number of subunits, e.g., precincts that have this contest on the ballot.",
+          "type": "integer"
+        },
+        "Type": {
+          "$ref": "#/$defs/ElectionResults.BallotMeasureType",
+          "description": "For indicating the type of ballot measure."
+        },
+        "VoteVariation": {
+          "$ref": "#/$defs/ElectionResults.VoteVariation",
+          "description": "Vote variation associated with the contest, e.g., n-of-m."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.BallotMeasureSelection": {
+      "description": "For a contest selection in a ballot measure contest. Because judicial or other retention contests are often treated like ballot measure contests, this element can be used also for retention contests. It inherits the attributes of ContestSelection.",
+      "required": [
+        "@id",
+        "@type",
+        "Selection"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.BallotMeasureSelection"
+          ],
+          "type": "string"
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the ballot measure selection."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Selection": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Contains the text used to indicate a vote for or against the ballot measure, e.g., “yes”, “no”."
+        },
+        "SequenceOrder": {
+          "description": "Order in which the candidate is listed on the ballot for purposes of results display. If not present, no order is assumed.",
+          "type": "integer"
+        },
+        "VoteCounts": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.VoteCounts",
+            "description": "For associating the contest selection’s vote counts."
+          },
+          "minItems": 0,
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.BallotMeasureType": {
+      "description": "Enumeration for types of ballot measures in the BallotMeasureContest element.\nValues:\n\tballot-measure: For reports that contain only aggregated counts.\n\tinitiative: For an initiative.\n\tother: Used when the type of ballot measure is not included in this enumeration.\n\trecall: For a recall.\n\treferendum: For a referendum.",
+      "enum": [
+        "ballot-measure",
+        "initiative",
+        "other",
+        "recall",
+        "referendum"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.BallotStyle": {
+      "description": "For defining a ballot style composed of ordered content (i.e. Headers or Contests) and their contest selections, and associating the ballot style with a political party, a reference to an image of the ballot, and a reference to a precinct or other geopolitical unit that the ballot is unique to. Election includes BallotStyle.BallotStyle references OrderedContent to include content that appears on that ballot style. To preserve any rotation associated with the ballot, it is expected that the generating application will list the occurrences of OrderedContest in the order as on the ballot for the associated geopolitical unit.BallotStyle references one or more GpUnit instances defined for the associated precincts or split precincts. If the ballot style is associated with multiple precincts (or other geographies), multiple references to the precinct GpUnit instances can be included.",
+      "required": [
+        "@type",
+        "GpUnitIds"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.BallotStyle"
+          ],
+          "type": "string"
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the ballot style."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "GpUnitIds": {
+          "items": {
+            "description": "Unique identifier for one or more GpUnit instances.  For associating specific geopolitical units with the ballot style.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.ReportingDevice",
+              "ElectionResults.ReportingUnit"
+            ]
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "ImageUri": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
+            "description": "URI for a ballot image."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "OrderedContent": {
+          "items": {
+            "description": "For associating a ballot style with ballot content, such as contests or headers.",
+            "oneOf": [
+              {
+                "$ref": "#/$defs/ElectionResults.OrderedContest"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.OrderedHeader"
+              }
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "PartyIds": {
+          "items": {
+            "description": "Unique identifier for one or more Party instances.  For associating one or more parties with the ballot style.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.Party",
+              "ElectionResults.Coalition"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.Candidate": {
+      "description": "For defining information about a candidate in a contest. CandidateSelection references Candidate instances to associate one or more candidates with a contest selection. Election includes Candidate.\n\nCandidate uses the Party association to reference the candidate's political party. If the candidate is endorsed by other parties for a particular contest, the endorsing parties are referenced using the CandidateSelection attribute.\n\nExternalIdentifier can be used to associate an ID with the candidate. If the type is not listed in enumeration IdentifierType, use other and include the type (that is not listed in the enumeration) in OtherType.",
+      "required": [
+        "@id",
+        "@type",
+        "BallotName"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.Candidate"
+          ],
+          "type": "string"
+        },
+        "BallotName": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For the candidate’s name as listed on the ballot."
+        },
+        "CampaignSlogan": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "The slogan or motto used by the candidate in their campaign."
+        },
+        "ContactInformation": {
+          "$ref": "#/$defs/ElectionResults.ContactInformation",
+          "description": "For associating contact information for the candidate."
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating codes with the candidate."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "FileDate": {
+          "description": "Date when the candidate filed for the contest.",
+          "type": "string",
+          "format": "date"
+        },
+        "IsIncumbent": {
+          "description": "Boolean to indicate whether the candidate is the incumbent for the office associated with the contest. Assumed to be “no” if not present.",
+          "type": "boolean"
+        },
+        "IsTopTicket": {
+          "description": "Boolean to indicate whether the candidate is the top of a ticket that includes multiple candidates. Assumed to be “no” if not present.",
+          "type": "boolean"
+        },
+        "PartyId": {
+          "description": "For associating a party with the candidate.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.Party",
+            "ElectionResults.Coalition"
+          ]
+        },
+        "PersonId": {
+          "description": "For associating more detailed information about the candidate.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.Person"
+          ]
+        },
+        "PostElectionStatus": {
+          "$ref": "#/$defs/ElectionResults.CandidatePostElectionStatus",
+          "description": "Final status of the candidate, e.g., winner, withdrawn, etc."
+        },
+        "PreElectionStatus": {
+          "$ref": "#/$defs/ElectionResults.CandidatePreElectionStatus",
+          "description": "Registration status of the candidate, e.g., filed, qualified, etc."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.CandidateContest": {
+      "description": "For a contest that involves selecting one or more candidates. It inherits the attributes of Contest.\n\nThis class optionally references Office and Party. If the candidate contest is associated with a ticket (of candidates) and each candidate in the ticket is associated with a separate office, the association to Office can reference each of the separate offices. For example, if the contest is for the state governor ticket but Governor and Lieutenant (Lt.) Governor are both separate offices, the association references first to the Office instance defined for the Governor's office and then to the Lt. Governor's office. In this case, it is expected that the generating application will list the multiple references according to a jurisdiction-defined ordering scheme, e.g., Governor first and Lt. Governor second.\n\nNote that when using the CandidateSelection class to associate the candidates with a contest selection for the contest, the order of the candidates should match the order of offices. Again, using the example of the state governor ticket, if the offices are listed with Governor first and Lt. Governor second, then the order of the candidates in the ContestSelection instance should be identical, with the Governor candidate first and the Lt. Governor candidate second.",
+      "required": [
+        "@id",
+        "@type",
+        "ElectionDistrictId",
+        "Name",
+        "VotesAllowed"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.CandidateContest"
+          ],
+          "type": "string"
+        },
+        "Abbreviation": {
+          "description": "Abbreviation for the contest.",
+          "type": "string"
+        },
+        "BallotSubTitle": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Subtitle of the contest as it appears on the ballot."
+        },
+        "BallotTitle": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Title of the contest as it appears on the ballot."
+        },
+        "ContestSelection": {
+          "items": {
+            "description": "For associating a contest selection for the contest, i.e., a candidate, a ballot measure.",
+            "oneOf": [
+              {
+                "$ref": "#/$defs/ElectionResults.PartySelection"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.BallotMeasureSelection"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.CandidateSelection"
+              }
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "CountStatus": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.CountStatus",
+            "description": "For providing various counting status associated with the contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "ElectionDistrictId": {
+          "description": "Link to a GpUnit instance. For associating the contest with a reporting unit that represents the geographical scope of the contest, e.g., a district, etc.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.ReportingUnit"
+          ]
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "HasRotation": {
+          "description": "Boolean to indicate whether the selections in the contest are rotated. Assumed to be “no” if not present.",
+          "type": "boolean"
+        },
+        "Name": {
+          "description": "Name of the contest, not necessarily as it appears on the ballot.",
+          "type": "string"
+        },
+        "NumberElected": {
+          "description": "Number of candidates that are elected in the contest (“n” of n-of-m).",
+          "type": "integer"
+        },
+        "NumberRunoff": {
+          "description": "The number of candidates in a runoff contest.",
+          "type": "integer"
+        },
+        "OfficeIds": {
+          "items": {
+            "description": "For associating office descriptions.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.Office"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "OtherCounts": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.OtherCounts",
+            "description": "For associating counts such as overvote and undervotes with the contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "OtherVoteVariation": {
+          "description": "For use when VoteVariation is other.",
+          "type": "string"
+        },
+        "PrimaryPartyIds": {
+          "items": {
+            "description": "For associating parties with the contest.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.Party",
+              "ElectionResults.Coalition"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "SequenceOrder": {
+          "description": "Orderering for listing the contest for purposes of results display.  If not present, no order is assumed.",
+          "type": "integer"
+        },
+        "SubUnitsReported": {
+          "description": "Number of subunits, e.g., precincts, that have completed reporting votes for this contest.",
+          "type": "integer"
+        },
+        "TotalSubUnits": {
+          "description": "Total number of subunits, e.g., precincts that have this contest on the ballot.",
+          "type": "integer"
+        },
+        "VoteVariation": {
+          "$ref": "#/$defs/ElectionResults.VoteVariation",
+          "description": "Vote variation associated with the contest, e.g., n-of-m."
+        },
+        "VotesAllowed": {
+          "description": "Maximum number of votes per voter in this contest.",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.CandidatePostElectionStatus": {
+      "description": "Enumeration for various post-election statuses applicable to a candidate in the Candidate element.\nValues:\n\tadvanced-to-runoff: For candidates who have advanced to a runoff.\n\tdefeated: Used for candidates who were defeated in the election.\n\tprojected-winner: For a projected contest winner.\n\twinner: For the official contest winner or one of “n” contest winners for n-of-m voting.\n\twithdrawn: For candidates who have withdrawn from the contest.",
+      "enum": [
+        "advanced-to-runoff",
+        "defeated",
+        "projected-winner",
+        "winner",
+        "withdrawn"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.CandidatePreElectionStatus": {
+      "description": "Enumeration for various pre-election statuses applicable to a candidate\n      in the Candidate\n      class.\nValues:\n\tfiled: For candidates who have filed with the election authority but not necessarily qualified.\n\tqualified: For candidates who are qualified by the election authority to be on the ballot for a contest.\n\twithdrawn: For candidates who have withdrawn from the contest.",
+      "enum": [
+        "filed",
+        "qualified",
+        "withdrawn"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.CandidateSelection": {
+      "description": "For the contest selections in a candidate contest, including for write-ins. It inherits the attributes of ContestSelection. References to multiple Candidate instances can be included if necessary, e.g., when the contest selection would be for a ticket of candidates (unless the ticket itself is defined as a candidate).\n\nEndorsementParty is used to reference any associated endorsement parties other than the specific party of the candidate (Candidate references Party for that purpose). For example, if a candidate of one party is also endorsed by a second party, use EndorsementParty to reference the second party. A second example would be for ballot fusion as used in some states, where the same candidate is listed multiple times in the same contest, but with different endorsement parties.\n\nWhen multiple candidates are referenced for a ticket and the ordering of the candidates is important to preserve, it is expected that the generating application will list the references to Candidate instances according to the ordering scheme in place. For example, if the contest is for a ticket in which each candidate is associated with a different office, then the order of the candidates should match the same ordering of the &lt;Office&gt; element references within &lt;OfficeIds&gt; in the &lt;Contest xsi:type=&quot;CandidateContest&quot; ... /&gt; element.",
+      "required": [
+        "@id",
+        "@type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.CandidateSelection"
+          ],
+          "type": "string"
+        },
+        "CandidateIds": {
+          "items": {
+            "description": "For associating a candidate with the candidate selection on the ballot and for cases where the contest selection is for multiple candidates, e.g., a ticket.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.Candidate"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "EndorsementPartyIds": {
+          "items": {
+            "description": "For associating one or more endorsing parties with the candidate selection.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.Party",
+              "ElectionResults.Coalition"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "IsWriteIn": {
+          "description": "Indicates whether the candidate is a write-in, e.g., true or false.  Assumed to be false if not present.",
+          "type": "boolean"
+        },
+        "SequenceOrder": {
+          "description": "Order in which the candidate is listed on the ballot for purposes of results display. If not present, no order is assumed.",
+          "type": "integer"
+        },
+        "VoteCounts": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.VoteCounts",
+            "description": "For associating the contest selection’s vote counts."
+          },
+          "minItems": 0,
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.Coalition": {
+      "description": "For defining a coalition, i.e., a collection of parties organized for the purpose of endorsing a candidate in a contest. It inherits the attributes and elements of Party.\n\nCoalition instances themselves are composed of multiple Party references along with a reference to an associated Contests.\n\nIf there are no associated Contests, a general default is that the coalition endorses the associated parties.",
+      "required": [
+        "@id",
+        "@type",
+        "Name"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.Coalition"
+          ],
+          "type": "string"
+        },
+        "Abbreviation": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Short name for the party, e.g., “DEM”."
+        },
+        "Color": {
+          "description": "For associating an HTML RGB color coding with the party.",
+          "pattern": "[0-9a-f]{6}",
+          "type": "string"
+        },
+        "ContactInformation": {
+          "$ref": "#/$defs/ElectionResults.ContactInformation",
+          "description": "For associating contact information regarding the party, e.g., party offices."
+        },
+        "ContestIds": {
+          "items": {
+            "description": "For associating contests with the coalition.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.PartyContest",
+              "ElectionResults.BallotMeasureContest",
+              "ElectionResults.CandidateContest",
+              "ElectionResults.RetentionContest"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the party."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "IsRecognizedParty": {
+          "description": "For indicating whether the party is recognized by the election authority; “false” is assumed if not present.",
+          "type": "boolean"
+        },
+        "LeaderPersonIds": {
+          "items": {
+            "description": "Identification of a Party's leader.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.Person"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "LogoUri": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
+            "description": "A URI to the party’s graphical logo."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Name": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Official full name of the party, e.g., “Republican”; can appear on the ballot."
+        },
+        "PartyIds": {
+          "items": {
+            "description": "For associating parties with the coalition.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.Party",
+              "ElectionResults.Coalition"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "PartyScopeGpUnitIds": {
+          "items": {
+            "description": "The GpUnit(s) the party operates in or the top-most GpUnit.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.ReportingDevice",
+              "ElectionResults.ReportingUnit"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Slogan": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "The slogan or motto used by a political party."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.ContactInformation": {
+      "description": "For defining contact information about objects such as persons, boards of authorities, organizations, etc. Election, ElectionAdministration, Person, GpUnit, and Office include ContactInformation.\n\nTo include an address for the contact, use multiple occurrences of AddressLine. It is expected that the generating application will list the name of the person/organization in the first occurrence of AddressLine, with subsequent ordered occurrences for street address, city, state, zip code, etc. Directions can be used to supply any additional address-related information that may appear in multiple languages.\n\nContactInformation includes LatLng so as to associate latitude/longitude with the contact address.\n\nEmail, Fax, and Phone are of type AnnotatedString, which permits up to a 32-character annotation to be associated with the data.",
+      "required": [
+        "@type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.ContactInformation"
+          ],
+          "type": "string"
+        },
+        "AddressLine": {
+          "items": {
+            "description": "For associating an address with the contact.",
+            "type": "string"
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Directions": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Directional information in addition to address information."
+        },
+        "Email": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.AnnotatedString",
+            "description": "Email address associated with the contact."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Fax": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.AnnotatedString",
+            "description": "Fax number associated with the contact."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Label": {
+          "description": "For use as needed and compatibility with the VIP schema.",
+          "type": "string"
+        },
+        "LatLng": {
+          "$ref": "#/$defs/ElectionResults.LatLng",
+          "description": "For latitude and longitude information associated with the contact."
+        },
+        "Name": {
+          "description": "Name associated with the contact.",
+          "type": "string"
+        },
+        "Phone": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.AnnotatedString",
+            "description": "Phone number associated with the contact."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Schedule": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.Schedule",
+            "description": "For associating a schedule with the contact."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Uri": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
+            "description": "URI associated with the contact."
+          },
+          "minItems": 0,
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.CountItemStatus": {
+      "description": "Enumeration for various counting-related statuses for types of ballots or write-ins, used in the CountStatus class.\nValues:\n\tcompleted: For counts that are complete.\n\tin-process: For counts that are in process.\n\tnot-processed: When the counting has not started or is not underway.\n\tunknown: When the status of the counting is unknown.",
+      "enum": [
+        "completed",
+        "in-process",
+        "not-processed",
+        "unknown"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.CountItemType": {
+      "description": "Enumeration for the items that are counted during the course of an election and for which the status of the counts is of interest. Used in the Counts and CountStatus classes.\nValues:\n\tabsentee: For any/all classes of absentee, generally when absentee is not broken out into specific classes.\n\tabsentee-fwab: A type of absentee; for Federal Write-in Absentee Ballots.\n\tabsentee-in-person: A class of absentee; for absentee ballots cast in-person, e.g., at a county office.\n\tabsentee-mail: A class of absentee; for postal mail absentee ballots separately.\n\tearly: For ballots cast during early voting periods.\n\telection-day: For ballots cast on election day.\n\tother: Used when the type of counting item is not included in this enumeration.\n\tprovisional: For challenged ballots.\n\tseats: For legislative balance-of-power results information.\n\ttotal: Total of all ballots cast regardless of voting class.\n\tuocava: A class of absentee; for absentee ballots from Uniformed and Overseas Citizens Absentee Voting Act (UOCAVA) voters.\n\twrite-in: For write-ins on ballots.",
+      "enum": [
+        "absentee",
+        "absentee-fwab",
+        "absentee-in-person",
+        "absentee-mail",
+        "early",
+        "election-day",
+        "other",
+        "provisional",
+        "seats",
+        "total",
+        "uocava",
+        "write-in"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.CountStatus": {
+      "description": "For reporting on the counting status for various items such as ballot types or write-ins, e.g., whether for a certain type of ballot, the counts are in progress, not yet started, complete, etc. Contest, Election, and GpUnit include CountStatus.\n\nIf the type of count item is not listed in enumeration CountItemType, use other and include the type (that is not listed in the enumeration) in OtherType.",
+      "required": [
+        "@type",
+        "Status",
+        "Type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.CountStatus"
+          ],
+          "type": "string"
+        },
+        "OtherType": {
+          "description": "Used when Type is other.",
+          "type": "string"
+        },
+        "Status": {
+          "$ref": "#/$defs/ElectionResults.CountItemStatus",
+          "description": "The status of the count, from the CountItemStatus enumeration."
+        },
+        "Type": {
+          "$ref": "#/$defs/ElectionResults.CountItemType",
+          "description": "The type of item, from the CountItemType enumeration."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.DayType": {
+      "description": "Enumeration for the day(s) in a schedule in the Schedule element.\nValues:\n\tall: Used for all days of the week.\n\tfriday: Used if day of week is Friday.\n\tmonday: Used if day of week is Monday.\n\tsaturday: Used if day of week is Saturday.\n\tsunday: Used if day of week is Sunday.\n\tthursday: Used if day of week is Thursday.\n\ttuesday: Used if day of week is Tuesday.\n\twednesday: Used if day of week is Wednesday.\n\tweekday: Used for any day of the week.\n\tweekend: Used for both Saturday and Sunday.",
+      "enum": [
+        "all",
+        "friday",
+        "monday",
+        "saturday",
+        "sunday",
+        "thursday",
+        "tuesday",
+        "wednesday",
+        "weekday",
+        "weekend"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.DeviceClass": {
+      "description": "For filtering vote counts by device-related information. GpUnit, Counts, and OtherCounts include DeviceClass.",
+      "required": [
+        "@type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.DeviceClass"
+          ],
+          "type": "string"
+        },
+        "Manufacturer": {
+          "description": "Manufacturer of the device.",
+          "type": "string"
+        },
+        "Model": {
+          "description": "Manufacturer’s device model, used to filter on, e.g., a specific model of DRE or other device type.",
+          "type": "string"
+        },
+        "OtherType": {
+          "description": "Used when Type is other.",
+          "type": "string"
+        },
+        "Type": {
+          "$ref": "#/$defs/ElectionResults.DeviceType",
+          "description": "Enumerated type of device, e.g., \"dre\", \"opscan-precinct\", etc."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.DeviceType": {
+      "description": "Enumeration for the type of device in the DeviceClass class.\nValues:\n\tbmd: For ballots prepared on ballot marking devices and then scanned.\n\tdre: For DRE (Direct Record Electronic) and other all-electronic devices.\n\tmanual-count: For hand-counted paper ballots.\n\topscan-central: For an optical scanner used at a central office with no opportunity for voter correction of mistakes.\n\topscan-precinct: For an optical scanner used at a precinct or other location where voter correction of mistakes such as overvotes is possible.\n\tother: Used when the device type is not listed in this enumeration.\n\tunknown: Used when the type of device is unknown.",
+      "enum": [
+        "bmd",
+        "dre",
+        "manual-count",
+        "opscan-central",
+        "opscan-precinct",
+        "other",
+        "unknown"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.Election": {
+      "description": "For defining the status of the election and associated information such as candidates, contests, and vote counts.\n\nElection includes links to the major instances that are specific to an election: BallotStyle, Candidate, and Contest.\n\nElection includes a required association end ElectionScope, which links to a GpUnit instance for the purpose of identifying the geographical scope of the election. For example, for an election within a county, ElectionScope would reference a GpUnit defined for the county. If it is desired to include election authority information, the GpUnit can include ElectionAdministration.",
+      "required": [
+        "@type",
+        "ElectionScopeId",
+        "EndDate",
+        "Name",
+        "StartDate",
+        "Type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.Election"
+          ],
+          "type": "string"
+        },
+        "BallotCounts": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.BallotCounts",
+            "description": "Used for identifying various ballot counts."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "BallotStyle": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.BallotStyle",
+            "description": "For defining ballot styles associated with the election."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Candidate": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.Candidate",
+            "description": "For defining candidates associated with the election."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "ContactInformation": {
+          "$ref": "#/$defs/ElectionResults.ContactInformation",
+          "description": "For associating various contact information with the election."
+        },
+        "Contest": {
+          "items": {
+            "description": "For defining contests associated with the election.",
+            "oneOf": [
+              {
+                "$ref": "#/$defs/ElectionResults.PartyContest"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.BallotMeasureContest"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.CandidateContest"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.RetentionContest"
+              }
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "CountStatus": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.CountStatus",
+            "description": "For providing various counting status on types of ballots or other items."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "ElectionScopeId": {
+          "description": "Unique identifier for a GpUnit element. For associating the election with a reporting unit that represents the geographical scope of the election, e.g., a state, a county, etc.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.ReportingUnit"
+          ]
+        },
+        "EndDate": {
+          "description": "Calendar end date of the election; for a typical one-day election, the end date is the same as the start date.",
+          "type": "string",
+          "format": "date"
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the election."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Name": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For including a name for the election; the name could be the same name as appears on the ballot."
+        },
+        "OtherType": {
+          "description": "Used when Type is other.",
+          "type": "string"
+        },
+        "StartDate": {
+          "description": "Calendar start date of the election, e.g., “2018-11-04”.",
+          "type": "string",
+          "format": "date"
+        },
+        "Type": {
+          "$ref": "#/$defs/ElectionResults.ElectionType",
+          "description": "Enumerated type of election, e.g., partisan-primary, open-primary, etc."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.ElectionAdministration": {
+      "description": "Used to provide various information about an election authority. ReportingUnit includes ElectionAdministration.\n\nElectionAdministration includes ContactInformation for the election authority and, using ElectionOfficialPerson references one or more Person instances defined for individuals/organizations associated with the election authority.",
+      "required": [
+        "@type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.ElectionAdministration"
+          ],
+          "type": "string"
+        },
+        "ContactInformation": {
+          "$ref": "#/$defs/ElectionResults.ContactInformation",
+          "description": "For including various contact information."
+        },
+        "ElectionOfficialPersonIds": {
+          "items": {
+            "description": "Unique identifier for one or more Person elements defined for the election authority.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.Person"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Name": {
+          "description": "Name of the election authority.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.ElectionReport": {
+      "description": "For defining items pertaining to the status and format of the report and when it was generated.\n\nElectionReport references the major elements that are not necessarily specific to an election and that therefore can exist in a pre-election report: GpUnit, Office and OfficeGroup, Party, Person, and Election.",
+      "required": [
+        "@type",
+        "Format",
+        "GeneratedDate",
+        "Issuer",
+        "IssuerAbbreviation",
+        "SequenceEnd",
+        "SequenceStart",
+        "Status",
+        "VendorApplicationId"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.ElectionReport"
+          ],
+          "type": "string"
+        },
+        "Election": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.Election",
+            "description": "For associating elections with the report."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the report."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Format": {
+          "$ref": "#/$defs/ElectionResults.ReportDetailLevel",
+          "description": "Detail level of the report, e.g., contest summary, precinct level results, etc."
+        },
+        "GeneratedDate": {
+          "description": "Identifies the date and time that the election report was generated.",
+          "pattern": "[0-9]{4}-(0?[1-9]|1[012])-(0?[1-9]|[12][0-9]|3[01])T(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]|(24:00:00))(Z|[+-]((0[0-9]|1[0-3]):[0-5][0-9]|14:00))",
+          "type": "string",
+          "format": "date-time"
+        },
+        "GpUnit": {
+          "items": {
+            "description": "For associating geopolitical units with the report.",
+            "oneOf": [
+              {
+                "$ref": "#/$defs/ElectionResults.ReportingDevice"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.ReportingUnit"
+              }
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Header": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.Header",
+            "description": "For associating headers with parts of a ballot style."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "IsTest": {
+          "description": "Used to indicate whether the report is a test report. Assumed to be “false” if not present.",
+          "type": "boolean"
+        },
+        "Issuer": {
+          "description": "Identification of the report issuer.",
+          "type": "string"
+        },
+        "IssuerAbbreviation": {
+          "description": "An abbreviation of the report issuer such as the 2-character U.S. Census Bureau abbreviation of the state whose results are being reported, e.g., AL, TX, MN, etc.",
+          "type": "string"
+        },
+        "Notes": {
+          "description": "For including an arbitrary message with the report.",
+          "type": "string"
+        },
+        "Office": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.Office",
+            "description": "For associating offices with the report."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "OfficeGroup": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.OfficeGroup",
+            "description": "For associating a name for a grouping of offices with the report."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Party": {
+          "items": {
+            "description": "For associating parties with the report.",
+            "oneOf": [
+              {
+                "$ref": "#/$defs/ElectionResults.Party"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.Coalition"
+              }
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Person": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.Person",
+            "description": "For associating persons with the report."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "SequenceEnd": {
+          "description": "The upper bound of the sequence; e.g., “1” if there is only 1 report, “2” if there are two reports in the sequence, etc.",
+          "type": "integer"
+        },
+        "SequenceStart": {
+          "description": "The report’s number as part of a sequence of reports, used with  so as to be read as, e.g., 1 of 1, 1 of 2, 2 of 2, etc.  Starts with “1”.",
+          "type": "integer"
+        },
+        "Status": {
+          "$ref": "#/$defs/ElectionResults.ResultsStatus",
+          "description": "Status of the election report, e.g., test mode, unofficial, etc."
+        },
+        "TestType": {
+          "description": "A description of the type of test, e.g., pre-election, logic and accuracy, etc.",
+          "type": "string"
+        },
+        "VendorApplicationId": {
+          "description": "An identifier of the vendor application generating the election report, e.g., X-EMS version 3.1.a.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.ElectionType": {
+      "description": "Enumeration for the type of election in the ElectionReport class.\nValues:\n\tgeneral: Election in which all eligible voters, regardless of party affiliation, are permitted to select candidates to fill public office and/or vote on ballot measures.\n\tother: Used when the election type is not listed in this enumeration.\n\tpartisan-primary-closed: Primary election in which the voter receives a ballot containing only those party-specific contests pertaining to the political party with which the voter is affiliated, along with non-party-specific contests presented at the same election. Unaffiliated voters may be permitted to vote only on non-party-specific contests.\n\tpartisan-primary-open: Primary election in which the voter may choose a political party at the time of voting and vote in party-specific contests associated with that party, along with non-party-specific contests presented at the same election. Some states require voters to publicly declare their choice of party at the polling place, after which the election worker provides or activates the appropriate ballot. Other states allow the voters to make their choice of party within the privacy of the voting booth.\n\tprimary: Election held to determine which candidates qualify to appear as contest options in subsequent elections.\n\trunoff: Election to select a winner following a primary or a general election, in which no candidate in the contest received the required minimum percentage of the votes cast. The two candidates receiving the most votes for the contest in question proceed to a runoff election.\n\tspecial: Primary or general election that is not regularly scheduled. A special election may be combined with a scheduled election.",
+      "enum": [
+        "general",
+        "other",
+        "partisan-primary-closed",
+        "partisan-primary-open",
+        "primary",
+        "runoff",
+        "special"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.ExternalIdentifier": {
+      "description": "For associating a jurisdiction's codes, i.e., identifiers, with objects such as candidates, offices, or geopolitical units such as counties, towns, precincts, etc. Multiple occurrences of the ExternalIdentifier sub-element can be used to associate multiple codes, e.g., if there is a desire to associate multiple codes with a particular object such as FIPS (Federal Information Processing Standard) codes as well as OCD-IDs (Open Civic Data Identifiers).\n\nFor elements that link to ExternalIdentifier instances, if the type is not listed in enumeration IdentifierType, use other and include the type (that is not listed in the enumeration) in OtherType.",
+      "required": [
+        "@type",
+        "Type",
+        "Value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.ExternalIdentifier"
+          ],
+          "type": "string"
+        },
+        "Label": {
+          "description": "For use as needed and compatibility with the VIP schema.",
+          "type": "string"
+        },
+        "OtherType": {
+          "description": "Used when IdentifierType value is other.",
+          "type": "string"
+        },
+        "Type": {
+          "$ref": "#/$defs/ElectionResults.IdentifierType",
+          "description": "An identifier type, e.g., FIPS."
+        },
+        "Value": {
+          "description": "The identifier used by the jurisdiction.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.GeoSpatialFormat": {
+      "description": "Enumeration for geospatial vector data formats used in Geographic Information System (GIS) software, used in the SpatialExtent class.\nValues:\n\tgeo-json: For GeoJSON open standard format.\n\tgml: For Geography Markup Language format.\n\tkml: For Keyhole Markup Language format.\n\tshp: For the shape file format associated with Esri.\n\twkt: For Well-known Text format.",
+      "enum": [
+        "geo-json",
+        "gml",
+        "kml",
+        "shp",
+        "wkt"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.Header": {
+      "description": "For defining a reusable set of headers.",
+      "required": [
+        "@id",
+        "@type",
+        "Name"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.Header"
+          ],
+          "type": "string"
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the header."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Name": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Name of the header, as it is to appear on a ballot style."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.Hours": {
+      "description": "Hours is used to specify a specific day and hours on that day, including the time zone.  Multiple occurrences of Hours can be used if the schedule includes a range of days and hours.",
+      "required": [
+        "@type",
+        "EndTime",
+        "StartTime"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.Hours"
+          ],
+          "type": "string"
+        },
+        "Day": {
+          "$ref": "#/$defs/ElectionResults.DayType",
+          "description": "Day of the week."
+        },
+        "EndTime": {
+          "description": "End time of the schedule.",
+          "pattern": "(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]|(24:00:00))(Z|[+-]((0[0-9]|1[0-3]):[0-5][0-9]|14:00))",
+          "type": "string",
+          "format": "time"
+        },
+        "Label": {
+          "description": "For use as needed and compatibility with the VIP schema.",
+          "type": "string"
+        },
+        "StartTime": {
+          "description": "Start time of the schedule.",
+          "pattern": "(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]|(24:00:00))(Z|[+-]((0[0-9]|1[0-3]):[0-5][0-9]|14:00))",
+          "type": "string",
+          "format": "time"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.IdentifierType": {
+      "description": "Enumeration for election data-related codes in the ExternalIdentifier class .\nValues:\n\tfips: For FIPS codes.\n\tlocal-level: For a code that is specific to a county or other similar locality.\n\tnational-level: For a code that is used at the national level other than “fips” or “ocd-id”.\n\tocd-id: For Open Civic Data identifiers.\n\tother: Used when the type of code is not included in this enumeration.\n\tstate-level: For a code that is specific to a state.",
+      "enum": [
+        "fips",
+        "local-level",
+        "national-level",
+        "ocd-id",
+        "other",
+        "state-level"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.InternationalizedText": {
+      "description": "For strings that can contain multi-national text, for use with text as shown on a ballot containing multi-national text. The Identifier attribute can be used to assign an identifier to the text as desired.\n\nText uses the xsd:language type such that its language attribute must be set to a value that identifies the language.\n\nValues for language are from ISO 639 [12] and include:\n\nen – English\n\nen-US – U.S. English\n\nen-GB – U.K. English\n\nfr – French\n\nes – Spanish\n\nzh – Chinese\n\nja – Japanese\n\nko – Korean",
+      "required": [
+        "@type",
+        "Text"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.InternationalizedText"
+          ],
+          "type": "string"
+        },
+        "Label": {
+          "description": "For use as needed and compatibility with the VIP schema.",
+          "type": "string"
+        },
+        "Text": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.LanguageString",
+            "description": "Used to hold a string of text with an associated table indicating the language used."
+          },
+          "minItems": 1,
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.LanguageString": {
+      "description": "Used to hold a string of text with an associated table indicating the language used.",
+      "required": [
+        "@type",
+        "Content",
+        "Language"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.LanguageString"
+          ],
+          "type": "string"
+        },
+        "Content": {
+          "description": "The string in the specified language.",
+          "type": "string"
+        },
+        "Language": {
+          "description": "Identification of the language, such as 'es'.",
+          "pattern": "[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.LatLng": {
+      "description": "Associates latitude/longitude with a contact address.",
+      "required": [
+        "@type",
+        "Latitude",
+        "Longitude"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.LatLng"
+          ],
+          "type": "string"
+        },
+        "Label": {
+          "description": "For use as needed and compatibility with the VIP schema.",
+          "type": "string"
+        },
+        "Latitude": {
+          "description": "Latitude of the contact location.",
+          "type": "number"
+        },
+        "Longitude": {
+          "description": "Longitude of the contact location.",
+          "type": "number"
+        },
+        "Source": {
+          "description": "System used to perform the lookup from location name to lat/lng, e.g., the name of a geocoding service.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.Office": {
+      "description": "For defining an office and information associated with a contest and/or a district. ElectionReport includes Office. CandidateContest and RetentionContest reference Office.\n\nOffice includes Term for defining details about the term of an office such as start/end dates and the type of term. OfficeGroup is included from ElectionReport to assign a name to a grouping of office definitions.\n\nOffice includes an optional ElectionDistrict reference to a GpUnit for the purpose of identifying the geographical scope of the office. For example, for an office for a state senate seat, ElectionDistrict would include a reference to the GpUnit defined for the district associated with that office.",
+      "required": [
+        "@id",
+        "@type",
+        "Name"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.Office"
+          ],
+          "type": "string"
+        },
+        "ContactInformation": {
+          "$ref": "#/$defs/ElectionResults.ContactInformation",
+          "description": "For associating various contact information with the office."
+        },
+        "Description": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "A description of the office, possibly as shown on the ballot to the voter."
+        },
+        "ElectionDistrictId": {
+          "description": "Link to a GpUnit instance. For associating the office with a reporting unit that represents the geographical scope of the contest, e.g., a district, etc.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.ReportingUnit"
+          ]
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the office."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "FilingDeadline": {
+          "description": "Date and time when a candidate must have filed for the contest for the office.",
+          "type": "string",
+          "format": "date"
+        },
+        "IsPartisan": {
+          "description": "Boolean to indicate whether the office is partisan, e.g., true or false.  If not present, assumption is true.",
+          "type": "boolean"
+        },
+        "Name": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Name of the office; can appear on the ballot."
+        },
+        "OfficeHolderPersonIds": {
+          "items": {
+            "description": "Links to one or more Person instances defined for the office holder.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.Person"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Term": {
+          "$ref": "#/$defs/ElectionResults.Term",
+          "description": "For including office term-related information."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.OfficeGroup": {
+      "description": "Used to assign a name to a grouping of office definitions. It includes references to Office instances and a name to identify the grouping of references, e.g., \"Judicial\" or \"Statewide\", etc. SubOfficeGroup can be used to create a nested hierarchy of groupings. ElectionReport includes OfficeGroup.",
+      "required": [
+        "@type",
+        "Name"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.OfficeGroup"
+          ],
+          "type": "string"
+        },
+        "Label": {
+          "description": "For use as needed and compatibility with the VIP schema.",
+          "type": "string"
+        },
+        "Name": {
+          "description": "Name of the office grouping.",
+          "type": "string"
+        },
+        "OfficeIds": {
+          "items": {
+            "description": "Link to one or more Office instances.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.Office"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "SubOfficeGroup": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.OfficeGroup",
+            "description": "For defining a nested hierarchy of Office instance groupings."
+          },
+          "minItems": 0,
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.OfficeTermType": {
+      "description": "Enumeration for the office term type in the Office class.\nValues:\n\tfull-term: When the officeholder’s term began at the beginning of the full term of the office, e.g., 6 years for U.S. Senate.\n\tunexpired-term: When the officeholder’s term began at some date after the beginning of the full term of the office, generally because the previous officeholder vacated the office before the fullterm expired.",
+      "enum": [
+        "full-term",
+        "unexpired-term"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.OrderedContest": {
+      "description": "For the appearance of a contest on a particular ballot style.",
+      "required": [
+        "@type",
+        "ContestId"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.OrderedContest"
+          ],
+          "type": "string"
+        },
+        "ContestId": {
+          "description": "The contest associated represented by OrderedContest.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.PartyContest",
+            "ElectionResults.BallotMeasureContest",
+            "ElectionResults.CandidateContest",
+            "ElectionResults.RetentionContest"
+          ]
+        },
+        "OrderedContestSelectionIds": {
+          "items": {
+            "description": "The contest selections for the ballot.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.PartySelection",
+              "ElectionResults.BallotMeasureSelection",
+              "ElectionResults.CandidateSelection"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.OrderedHeader": {
+      "description": "For the appearance of a header on a particular ballot style.",
+      "required": [
+        "@type",
+        "HeaderId"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.OrderedHeader"
+          ],
+          "type": "string"
+        },
+        "HeaderId": {
+          "description": "Association to the header to be used.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.Header"
+          ]
+        },
+        "OrderedContent": {
+          "items": {
+            "description": "For associating a header with ballot content, such as contests or nested headers.",
+            "oneOf": [
+              {
+                "$ref": "#/$defs/ElectionResults.OrderedContest"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.OrderedHeader"
+              }
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.OtherCounts": {
+      "description": "Identifies other counts associated with a contest.",
+      "required": [
+        "@type",
+        "GpUnitId"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.OtherCounts"
+          ],
+          "type": "string"
+        },
+        "DeviceClass": {
+          "$ref": "#/$defs/ElectionResults.DeviceClass",
+          "description": "For filtering counts by device type."
+        },
+        "GpUnitId": {
+          "description": "For filter counts by political geography or device or device type.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.ReportingDevice",
+            "ElectionResults.ReportingUnit"
+          ]
+        },
+        "Overvotes": {
+          "description": "Number of overvotes.",
+          "type": "number"
+        },
+        "Undervotes": {
+          "description": "Number of undervotes.",
+          "type": "number"
+        },
+        "WriteIns": {
+          "description": "Number of write-ins.",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.Party": {
+      "description": "Used to describe a political party that can then be referenced in other elements. ElectionReport includes Party. Candidate, PartyContest, PartyRegistration, and Person reference Party.\n\nParty is an abstract type with one subtype Coalition, used to define coalitions.\n\nThe Color attribute specifies a 6-digit RGB code displayable using HTML.",
+      "required": [
+        "@id",
+        "@type",
+        "Name"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.Party"
+          ],
+          "type": "string"
+        },
+        "Abbreviation": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Short name for the party, e.g., “DEM”."
+        },
+        "Color": {
+          "description": "For associating an HTML RGB color coding with the party.",
+          "pattern": "[0-9a-f]{6}",
+          "type": "string"
+        },
+        "ContactInformation": {
+          "$ref": "#/$defs/ElectionResults.ContactInformation",
+          "description": "For associating contact information regarding the party, e.g., party offices."
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the party."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "IsRecognizedParty": {
+          "description": "For indicating whether the party is recognized by the election authority; “false” is assumed if not present.",
+          "type": "boolean"
+        },
+        "LeaderPersonIds": {
+          "items": {
+            "description": "Identification of a Party's leader.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.Person"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "LogoUri": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
+            "description": "A URI to the party’s graphical logo."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Name": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Official full name of the party, e.g., “Republican”; can appear on the ballot."
+        },
+        "PartyScopeGpUnitIds": {
+          "items": {
+            "description": "The GpUnit(s) the party operates in or the top-most GpUnit.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.ReportingDevice",
+              "ElectionResults.ReportingUnit"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Slogan": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "The slogan or motto used by a political party."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.PartyContest": {
+      "description": "For a contest that involves choosing a party, typically for a straight party selection on the ballot.",
+      "required": [
+        "@id",
+        "@type",
+        "ElectionDistrictId",
+        "Name"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.PartyContest"
+          ],
+          "type": "string"
+        },
+        "Abbreviation": {
+          "description": "Abbreviation for the contest.",
+          "type": "string"
+        },
+        "BallotSubTitle": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Subtitle of the contest as it appears on the ballot."
+        },
+        "BallotTitle": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Title of the contest as it appears on the ballot."
+        },
+        "ContestSelection": {
+          "items": {
+            "description": "For associating a contest selection for the contest, i.e., a candidate, a ballot measure.",
+            "oneOf": [
+              {
+                "$ref": "#/$defs/ElectionResults.PartySelection"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.BallotMeasureSelection"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.CandidateSelection"
+              }
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "CountStatus": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.CountStatus",
+            "description": "For providing various counting status associated with the contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "ElectionDistrictId": {
+          "description": "Link to a GpUnit instance. For associating the contest with a reporting unit that represents the geographical scope of the contest, e.g., a district, etc.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.ReportingUnit"
+          ]
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "HasRotation": {
+          "description": "Boolean to indicate whether the selections in the contest are rotated. Assumed to be “no” if not present.",
+          "type": "boolean"
+        },
+        "Name": {
+          "description": "Name of the contest, not necessarily as it appears on the ballot.",
+          "type": "string"
+        },
+        "OtherCounts": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.OtherCounts",
+            "description": "For associating counts such as overvote and undervotes with the contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "OtherVoteVariation": {
+          "description": "For use when VoteVariation is other.",
+          "type": "string"
+        },
+        "SequenceOrder": {
+          "description": "Orderering for listing the contest for purposes of results display.  If not present, no order is assumed.",
+          "type": "integer"
+        },
+        "SubUnitsReported": {
+          "description": "Number of subunits, e.g., precincts, that have completed reporting votes for this contest.",
+          "type": "integer"
+        },
+        "TotalSubUnits": {
+          "description": "Total number of subunits, e.g., precincts that have this contest on the ballot.",
+          "type": "integer"
+        },
+        "VoteVariation": {
+          "$ref": "#/$defs/ElectionResults.VoteVariation",
+          "description": "Vote variation associated with the contest, e.g., n-of-m."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.PartyRegistration": {
+      "description": "For tracking the number of registered voters per party per geopolitical unit, i.e., for reporting on the number of registered voters of a particular party in a district or other type of reporting unit. Referenced by GpUnit.",
+      "required": [
+        "@type",
+        "Count",
+        "PartyId"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.PartyRegistration"
+          ],
+          "type": "string"
+        },
+        "Count": {
+          "description": "A count for tracking the number of registered voters.",
+          "type": "integer"
+        },
+        "PartyId": {
+          "description": "Link to a Party instance. For associating a political party.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.Party",
+            "ElectionResults.Coalition"
+          ]
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.PartySelection": {
+      "description": "For a contest selection involving a party such as for a straight party selection on the ballot. It inherits the attributes of ContestSelection.",
+      "required": [
+        "@id",
+        "@type",
+        "PartyIds"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.PartySelection"
+          ],
+          "type": "string"
+        },
+        "PartyIds": {
+          "items": {
+            "description": "Link to one or more Party instances. For associating one or more parties with the party selection.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.Party",
+              "ElectionResults.Coalition"
+            ]
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "SequenceOrder": {
+          "description": "Order in which the candidate is listed on the ballot for purposes of results display. If not present, no order is assumed.",
+          "type": "integer"
+        },
+        "VoteCounts": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.VoteCounts",
+            "description": "For associating the contest selection’s vote counts."
+          },
+          "minItems": 0,
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.Person": {
+      "description": "For defining information about a person; the person may be a candidate, election official, authority for a reporting unit, etc. ElectionReport includes Person. Candidate and ElectionAdministration and\nGpUnit references Person. Person optionally references ContactInformation for associating contact information.\n\nMultiple occurrences of the MiddleName attribute can be used as needed, e.g., for names such as \"John Andrew Winston Smith\".",
+      "required": [
+        "@id",
+        "@type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.Person"
+          ],
+          "type": "string"
+        },
+        "ContactInformation": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ContactInformation",
+            "description": "For associating contact information with the person."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "DateOfBirth": {
+          "description": "Person’s date of birth.",
+          "type": "string",
+          "format": "date"
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating codes with the person."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "FirstName": {
+          "description": "Person’s first (given) name.",
+          "type": "string"
+        },
+        "FullName": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Person’s full name."
+        },
+        "Gender": {
+          "description": "Person’s gender.",
+          "type": "string"
+        },
+        "LastName": {
+          "description": "Person’s last (family) name.",
+          "type": "string"
+        },
+        "MiddleName": {
+          "items": {
+            "description": "Person’s middle name.",
+            "type": "string"
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Nickname": {
+          "description": "Nickname associated with the person.",
+          "type": "string"
+        },
+        "PartyId": {
+          "description": "Links to a Party instance. For associating a political party with the person.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.Party",
+            "ElectionResults.Coalition"
+          ]
+        },
+        "Prefix": {
+          "description": "A prefix associated with the person, e.g., Mr.",
+          "type": "string"
+        },
+        "Profession": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Person’s profession."
+        },
+        "Suffix": {
+          "description": "A suffix associated with the person, e.g., Jr.",
+          "type": "string"
+        },
+        "Title": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "A title associated with the person."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.ReportDetailLevel": {
+      "description": "Enumeration for the detail level of the election results report in the Election class.\nValues:\n\tprecinct-level: For reports that contain counts from precincts in the reporting jurisdiction.\n\tsummary-contest: For reports that contain only aggregated counts.",
+      "enum": [
+        "precinct-level",
+        "summary-contest"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.ReportingDevice": {
+      "description": "Class/element describing a specific vote-capture device.",
+      "required": [
+        "@id",
+        "@type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.ReportingDevice"
+          ],
+          "type": "string"
+        },
+        "ComposingGpUnitIds": {
+          "items": {
+            "description": "Unique identifier for one or more GpUnit instances.  For creating a reference to another GpUnit that is contained with the parent GpUnit.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.ReportingDevice",
+              "ElectionResults.ReportingUnit"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "DeviceClass": {
+          "$ref": "#/$defs/ElectionResults.DeviceClass",
+          "description": "Used for reporting on details about the type of voting device used for the results in question."
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the GpUnit, e.g., a district’s or county’s code."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Name": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Name of the geopolitical unit."
+        },
+        "SerialNumber": {
+          "description": "Device's serial number or other unique identifier.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.ReportingUnit": {
+      "description": "For defining a geopolitical unit such as state, county, township, precinct, etc., using the ReportingUnitType enumeration. It inherits the attributes of GpUnit.\n\nThis class optionally references Person to associate one or more individuals, e.g., authorities, for the reporting unit. It also includes ContactInformation to provide contact addresses for the reporting unit, such as an address of a vote center.\n\nElection references this class so as to identify the geographical scope of the election. In this case, the GpUnit element defined for the scope of the election may include ElectionAdministration to include election authority-related information.\n\nThe Type attribute uses the ReportingUnitType enumeration to specify the type of geopolitical geography being defined. ReportingUnitType contains the most common types of geographies, e.g., state, county, precinct, and so forth. If the reporting unit type is not listed in enumeration ReportingUnitType, use other and include the reporting unit type (that is not listed in the enumeration) in OtherType.\n\nThe IsDistricted boolean can be used in a number of ways. It is not strictly necessary, as it is possible to identify districts by their Type attribute or by examining the Contest instance's ElectionDistrict reference, which links to the election district associated with the contest. However, if a district is defined but is not linked from a contest, or if the type of district is not listed in the ReportingUnitType enumeration and therefore OtherType is used, then IsDistricted is necessary to identify the GpUnit as a district. The IsDistricted boolean can also be used to signify that a GpUnit defined as a jurisdiction, e.g., a county, is also used as a district for, e.g., county-wide contests.",
+      "required": [
+        "@id",
+        "@type",
+        "Type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.ReportingUnit"
+          ],
+          "type": "string"
+        },
+        "AuthorityIds": {
+          "items": {
+            "description": "A link to one or more Person instances describing an authority responsible for the reporting unit.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.Person"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "ComposingGpUnitIds": {
+          "items": {
+            "description": "Unique identifier for one or more GpUnit instances.  For creating a reference to another GpUnit that is contained with the parent GpUnit.",
+            "type": "string",
+            "refTypes": [
+              "ElectionResults.ReportingDevice",
+              "ElectionResults.ReportingUnit"
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "ContactInformation": {
+          "$ref": "#/$defs/ElectionResults.ContactInformation",
+          "description": "For associating contact information with the reporting unit."
+        },
+        "CountStatus": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.CountStatus",
+            "description": "For providing various counting status on types of ballots or other items."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "ElectionAdministration": {
+          "$ref": "#/$defs/ElectionResults.ElectionAdministration",
+          "description": "For use when the reporting unit serves as the authority in the election."
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the GpUnit, e.g., a district’s or county’s code."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "IsDistricted": {
+          "description": "Boolean to indicate whether the reporting unit is a district; assumed to be “false” if not present.",
+          "type": "boolean"
+        },
+        "IsMailOnly": {
+          "description": "Boolean to indicate whether the reporting unit handles only mail-in or absentee ballot elections, assumed to be “false” if not present.",
+          "type": "boolean"
+        },
+        "Name": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Name of the geopolitical unit."
+        },
+        "Number": {
+          "description": "A number associated with the reporting unit; for compatibility with VIP.",
+          "type": "string"
+        },
+        "OtherType": {
+          "description": "For use when ReportingUnitType value is other.",
+          "type": "string"
+        },
+        "PartyRegistration": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.PartyRegistration",
+            "description": "For associating a count of registered voters per party with the geopolitical unit."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "SpatialDimension": {
+          "$ref": "#/$defs/ElectionResults.SpatialDimension",
+          "description": "For describing the reporting unit’s spatial extent (a polygon that shows the related area)."
+        },
+        "SubUnitsReported": {
+          "description": "Number of associated subunits such as precincts that have completed reporting.",
+          "type": "integer"
+        },
+        "TotalSubUnits": {
+          "description": "Total number of associated subunits such as precincts.",
+          "type": "integer"
+        },
+        "Type": {
+          "$ref": "#/$defs/ElectionResults.ReportingUnitType",
+          "description": "Enumerated type of reporting unit, e.g., state, county, district, precinct, etc."
+        },
+        "VotersParticipated": {
+          "description": "Number of voters who have participated in the election, i.e., shown up at the polls, including those who did not cast ballots.",
+          "type": "integer"
+        },
+        "VotersRegistered": {
+          "description": "Number of registered voters residing within the boundaries of the geopolitical unit.",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.ReportingUnitType": {
+      "description": "Enumeration for the type of geopolitical unit in the ReportingUnit class.\nValues:\n\tballot-batch: Used for reporting batches of ballots that may cross precinct boundaries.\n\tballot-style-area: Used for ballot style areas generally composed of precincts.\n\tborough: Used in CT, NJ, PA, other states, and New York City for boroughs. For AK and LA, see county.\n\tcity: Used for a city that reports results and/or for the district that encompasses it.\n\tcity-council: Used for city council districts.\n\tcombined-precinct: Used for one or more precincts that have been combined for the purposes of reporting. Used for “Ward” if “Ward” is used interchangeably with “CombinedPrecinct”.\n\tcongressional: Used for U.S. Congressional districts.\n\tcountry: Used for a reporting unit of type country.\n\tcounty: Used for a county and/or for the district that encompasses it. In AK, used for counties that are called boroughs. In LA, used for parishes.\n\tcounty-council: Used for county council districts.\n\tdrop-box: Used for a dropbox for absentee ballots.\n\tjudicial: Used for judicial districts.\n\tmunicipality: Used as applicable for various units such as towns, townships, villages that report votes and/or for the district that encompasses it.\n\tother: Used for other types of reporting units not included in this enumeration.\n\tpolling-place: Used for a polling place.\n\tprecinct: Used also for “Ward” or “District” when these terms are used interchangeably with “Precinct”.\n\tschool: Used for a school district.\n\tspecial: Used for a special district.\n\tsplit-precinct: Used for splits of precincts.\n\tstate: Used for a state and/or for the district that encompasses it.\n\tstate-house: Used for a state house or assembly district.\n\tstate-senate: Used for a state senate district.\n\ttown: Used in some New England states as a type of municipality that reports votes and/or for the district that encompasses it.\n\ttownship: Used in some mid-western states as a type of municipality that reports votes and/or for the district that encompasses it.\n\tutility: Used for a utility district.\n\tvillage: Used as a type of municipality that reports votes and/or for the district that encompasses it.\n\tvote-center: Used for a vote center.\n\tward: Used for combinations or groupings of precincts or other units.\n\twater: Used for a water district.",
+      "enum": [
+        "ballot-batch",
+        "ballot-style-area",
+        "borough",
+        "city",
+        "city-council",
+        "combined-precinct",
+        "congressional",
+        "country",
+        "county",
+        "county-council",
+        "drop-box",
+        "judicial",
+        "municipality",
+        "other",
+        "polling-place",
+        "precinct",
+        "school",
+        "special",
+        "split-precinct",
+        "state",
+        "state-house",
+        "state-senate",
+        "town",
+        "township",
+        "utility",
+        "village",
+        "vote-center",
+        "ward",
+        "water"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.ResultsStatus": {
+      "description": "Enumeration for the status of the election results in the ElectionReport class.\nValues:\n\tcertified: For results that have been certified by the election authority.\n\tcorrection: For results that are a correction to an earlier report.\n\tpre-election: For a pre-election data.\n\trecount: For results that are a recount of an earlier election.\n\tunofficial-complete: For results that are unofficial and complete, e.g., the complete election night results.\n\tunofficial-partial: For results that are unofficial and partial, e.g., partial election night results.",
+      "enum": [
+        "certified",
+        "correction",
+        "pre-election",
+        "recount",
+        "unofficial-complete",
+        "unofficial-partial"
+      ],
+      "type": "string"
+    },
+    "ElectionResults.RetentionContest": {
+      "description": "For judicial retention or other types of retention contests. Retention contests can be treated essentially as ballot measure contests, however this element differs from\nBallotMeasureContest in that it can include a reference to a candidate or the associated office.\n\nThis element uses BallotMeasureContest as a superclass. Therefore, it inherits the attributes of Contest as well as BallotMeasureContest.",
+      "required": [
+        "@id",
+        "@type",
+        "CandidateId",
+        "ElectionDistrictId",
+        "Name"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@id": {
+          "type": "string"
+        },
+        "@type": {
+          "enum": [
+            "ElectionResults.RetentionContest"
+          ],
+          "type": "string"
+        },
+        "Abbreviation": {
+          "description": "Abbreviation for the contest.",
+          "type": "string"
+        },
+        "BallotSubTitle": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Subtitle of the contest as it appears on the ballot."
+        },
+        "BallotTitle": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "Title of the contest as it appears on the ballot."
+        },
+        "CandidateId": {
+          "description": "Link to a Candidate instance. For associating a candidate with the retention contest.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.Candidate"
+          ]
+        },
+        "ConStatement": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For a statement on the ballot associated with a “no” vote."
+        },
+        "ContestSelection": {
+          "items": {
+            "description": "For associating a contest selection for the contest, i.e., a candidate, a ballot measure.",
+            "oneOf": [
+              {
+                "$ref": "#/$defs/ElectionResults.PartySelection"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.BallotMeasureSelection"
+              },
+              {
+                "$ref": "#/$defs/ElectionResults.CandidateSelection"
+              }
+            ]
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "CountStatus": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.CountStatus",
+            "description": "For providing various counting status associated with the contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "EffectOfAbstain": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For a statement on the ballot detailing the effect of abstaining from voting on the ballot measure."
+        },
+        "ElectionDistrictId": {
+          "description": "Link to a GpUnit instance. For associating the contest with a reporting unit that represents the geographical scope of the contest, e.g., a district, etc.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.ReportingUnit"
+          ]
+        },
+        "ExternalIdentifier": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
+            "description": "For associating an ID with the contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "FullText": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For full text on the ballot of the ballot measure."
+        },
+        "HasRotation": {
+          "description": "Boolean to indicate whether the selections in the contest are rotated. Assumed to be “no” if not present.",
+          "type": "boolean"
+        },
+        "InfoUri": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
+            "description": "For associating a URI with the ballot measure contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "Name": {
+          "description": "Name of the contest, not necessarily as it appears on the ballot.",
+          "type": "string"
+        },
+        "OfficeId": {
+          "description": "Link to an Office instance. For associating an office description with the retention contest.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.Office"
+          ]
+        },
+        "OtherCounts": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.OtherCounts",
+            "description": "For associating counts such as overvote and undervotes with the contest."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "OtherType": {
+          "description": "Used when BallotMeasureType is other.",
+          "type": "string"
+        },
+        "OtherVoteVariation": {
+          "description": "For use when VoteVariation is other.",
+          "type": "string"
+        },
+        "PassageThreshold": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For a statement on the ballot of the number or percentage of votes needed to approve or pass the ballot measure."
+        },
+        "ProStatement": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For a statement on the ballot associated with a “yes” vote."
+        },
+        "SequenceOrder": {
+          "description": "Orderering for listing the contest for purposes of results display.  If not present, no order is assumed.",
+          "type": "integer"
+        },
+        "SubUnitsReported": {
+          "description": "Number of subunits, e.g., precincts, that have completed reporting votes for this contest.",
+          "type": "integer"
+        },
+        "SummaryText": {
+          "$ref": "#/$defs/ElectionResults.InternationalizedText",
+          "description": "For a summary on the ballot of the ballot measure."
+        },
+        "TotalSubUnits": {
+          "description": "Total number of subunits, e.g., precincts that have this contest on the ballot.",
+          "type": "integer"
+        },
+        "Type": {
+          "$ref": "#/$defs/ElectionResults.BallotMeasureType",
+          "description": "For indicating the type of ballot measure."
+        },
+        "VoteVariation": {
+          "$ref": "#/$defs/ElectionResults.VoteVariation",
+          "description": "Vote variation associated with the contest, e.g., n-of-m."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.Schedule": {
+      "description": "For defining a schedule associated with a particular election office or location. ContactInformation includes Schedule.",
+      "required": [
+        "@type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.Schedule"
+          ],
+          "type": "string"
+        },
+        "EndDate": {
+          "description": "For the ending date of the schedule.",
+          "type": "string",
+          "format": "date"
+        },
+        "Hours": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.Hours",
+            "description": "For specifying a range of hours for a schedule."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "IsOnlyByAppointment": {
+          "description": "If an appointment is only by appointment; assumed to be “no” if not present.",
+          "type": "boolean"
+        },
+        "IsOrByAppointment": {
+          "description": "If an appointment can by appointment presumably as desired; assumed to be “no” if not present.",
+          "type": "boolean"
+        },
+        "IsSubjectToChange": {
+          "description": "If an appointment may be subject to change; assumed to be “no” if not present.",
+          "type": "boolean"
+        },
+        "Label": {
+          "description": "For use as needed and compatibility with the VIP schema.",
+          "type": "string"
+        },
+        "StartDate": {
+          "description": "For the starting date of the schedule.",
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.SpatialDimension": {
+      "description": "For defining the spatial layout of a GpUnit, e.g., a map or a spatial extent (a polygon that shows the related area) for various purposes, including to visualize election results, to understand the composition of districts, or to determine whether GpUnit instances are properly related. GpUnit includes SpatialDimension.",
+      "required": [
+        "@type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.SpatialDimension"
+          ],
+          "type": "string"
+        },
+        "MapUri": {
+          "items": {
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
+            "description": "Typically a URI to a map of the GpUnit."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "SpatialExtent": {
+          "$ref": "#/$defs/ElectionResults.SpatialExtent",
+          "description": "For associating a GpUnit\n      element&#8217;s spatial extent information."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.SpatialExtent": {
+      "description": "SpatialDimension includes SpatialExtent for defining a GpUnit instance's spatial extent data and the format used for the spatial extent.",
+      "required": [
+        "@type",
+        "Coordinates",
+        "Format"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.SpatialExtent"
+          ],
+          "type": "string"
+        },
+        "Coordinates": {
+          "description": "The data coordinates constituting the spatial extent.",
+          "type": "string"
+        },
+        "Format": {
+          "$ref": "#/$defs/ElectionResults.GeoSpatialFormat",
+          "description": "Enumerated type for the format used, e.g., gml, kml, wkt, etc."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.Term": {
+      "description": "For describing information about an office term. Term is included by Office.",
+      "required": [
+        "@type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.Term"
+          ],
+          "type": "string"
+        },
+        "EndDate": {
+          "description": "End date for the current term of the office.",
+          "type": "string",
+          "format": "date"
+        },
+        "Label": {
+          "description": "For use as needed and compatibility with the VIP schema.",
+          "type": "string"
+        },
+        "StartDate": {
+          "description": "Start date for the current term of the office.",
+          "type": "string",
+          "format": "date"
+        },
+        "Type": {
+          "$ref": "#/$defs/ElectionResults.OfficeTermType",
+          "description": "Enumerated type of term, e.g., full-term, unexpired-term, etc."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.VoteCounts": {
+      "description": "For reporting on vote counts for contest selections in a contest. VoteCounts includes Counts as an extension base and therefore inherits the elements from Counts, but it is included directly by ContestSelection.",
+      "required": [
+        "@type",
+        "Count",
+        "GpUnitId",
+        "Type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "ElectionResults.VoteCounts"
+          ],
+          "type": "string"
+        },
+        "Count": {
+          "description": "Count of contest votes cast; can include a fractional component in special cases.",
+          "type": "number"
+        },
+        "DeviceClass": {
+          "$ref": "#/$defs/ElectionResults.DeviceClass",
+          "description": "For filtering counts by device type."
+        },
+        "GpUnitId": {
+          "description": "For filtering counts by political geography or device or device type.",
+          "type": "string",
+          "refTypes": [
+            "ElectionResults.ReportingDevice",
+            "ElectionResults.ReportingUnit"
+          ]
+        },
+        "IsSuppressedForPrivacy": {
+          "description": "Boolean to indicate if votes are suppressed for voter privacy, e.g., true or false. Assumed to be false if not present.",
+          "type": "boolean"
+        },
+        "OtherType": {
+          "description": "Used when Type is other.",
+          "type": "string"
+        },
+        "Round": {
+          "description": "An identification of the RCV round being reported.",
+          "type": "integer"
+        },
+        "Type": {
+          "$ref": "#/$defs/ElectionResults.CountItemType",
+          "description": "The type of count being used as a filter on the vote counts, e.g., election day, early voting, etc."
+        }
+      },
+      "type": "object"
+    },
+    "ElectionResults.VoteVariation": {
+      "description": "Enumeration for contest decision algorithm or rules in the Contest element.\nValues:\n\tapproval: When voter can select as many candidates as desired in a contest up to a maximum number.\n\tborda: For the Borda count voting.\n\tcumulative: When voter can allocate more than one vote to a given candidate.\n\tmajority: For majority voting.\n\tn-of-m: Includes vote for 1, i.e., 1-of-m.\n\tother: Used when the vote variation type is not included in this enumeration.\n\tplurality: For plurality voting.\n\tproportional: For proportional voting.\n\trange: For range voting.\n\trcv: For ranked choice voting.\n\tsuper-majority: For super majority voting.",
+      "enum": [
+        "approval",
+        "borda",
+        "cumulative",
+        "majority",
+        "n-of-m",
+        "other",
+        "plurality",
+        "proportional",
+        "range",
+        "rcv",
+        "super-majority"
+      ],
+      "type": "string"
+    }
+  }
 }

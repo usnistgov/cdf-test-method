@@ -1,285 +1,330 @@
 {
-	"$schema": "http://json-schema.org/draft-07/schema#",
-	"oneOf": [
-		{
-			"$ref": "#/definitions/EventLogging.ElectionEventLog"
-		},
-		{
-			"$ref": "#/definitions/EventLogging.ElectionEventLogDocumentation"
-		}
-	],
-	"definitions": {
-		"EventLogging.Device": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"EventLogging.Device"
-					]
-				},
-				"Details": {
-					"type": "string"
-				},
-				"Event": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/EventLogging.Event"
-					}
-				},
-				"HashType": {
-					"$ref": "#/definitions/EventLogging.HashType"
-				},
-				"Id": {
-					"type": "string"
-				},
-				"Manufacturer": {
-					"type": "string"
-				},
-				"Model": {
-					"type": "string"
-				},
-				"OtherHashType": {
-					"type": "string"
-				},
-				"OtherType": {
-					"type": "string"
-				},
-				"Type": {
-					"$ref": "#/definitions/EventLogging.DeviceType"
-				},
-				"Version": {
-					"type": "string"
-				}
-			},
-			"required": [
-				"@type",
-				"Id"
-			],
-			"additionalProperties": false
-		},
-		"EventLogging.DeviceType": {
-			"type": "string",
-			"enum": [
-				"adjudication",
-				"ballot-activation",
-				"ballot-printing",
-				"blank-ballot-printing",
-				"bmd",
-				"dre",
-				"dre-controller",
-				"electronic-cast",
-				"electronic-cast-paper",
-				"electronic-poll-book",
-				"ems",
-				"other",
-				"scan-batch",
-				"scan-single",
-				"transmission-receiving",
-				"transmission-sending"
-			]
-		},
-		"EventLogging.ElectionEventLog": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"EventLogging.ElectionEventLog"
-					]
-				},
-				"Details": {
-					"type": "string"
-				},
-				"Device": {
-					"type": "array",
-					"minItems": 0,
-					"items": {
-						"$ref": "#/definitions/EventLogging.Device"
-					}
-				},
-				"ElectionId": {
-					"type": "string"
-				},
-				"GeneratedTime": {
-					"type": "string",
-					"format": "date-time"
-				}
-			},
-			"required": [
-				"@type",
-				"GeneratedTime"
-			],
-			"additionalProperties": false
-		},
-		"EventLogging.ElectionEventLogDocumentation": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"EventLogging.ElectionEventLogDocumentation"
-					]
-				},
-				"DeviceId": {
-					"type": "string"
-				},
-				"DeviceManufacturer": {
-					"type": "string"
-				},
-				"DeviceModel": {
-					"type": "string"
-				},
-				"DeviceVersion": {
-					"type": "string"
-				},
-				"EventIdDescription": {
-					"type": "array",
-					"minItems": 1,
-					"items": {
-						"$ref": "#/definitions/EventLogging.EventIdDescription"
-					}
-				},
-				"EventTypeDescription": {
-					"type": "array",
-					"minItems": 1,
-					"items": {
-						"$ref": "#/definitions/EventLogging.EventTypeDescription"
-					}
-				},
-				"GeneratedDate": {
-					"type": "string",
-					"format": "date"
-				}
-			},
-			"required": [
-				"@type",
-				"DeviceManufacturer",
-				"DeviceModel",
-				"EventIdDescription",
-				"EventTypeDescription",
-				"GeneratedDate"
-			],
-			"additionalProperties": false
-		},
-		"EventLogging.Event": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"EventLogging.Event"
-					]
-				},
-				"Description": {
-					"type": "string"
-				},
-				"Details": {
-					"type": "string"
-				},
-				"Disposition": {
-					"$ref": "#/definitions/EventLogging.EventDispositionType"
-				},
-				"Hash": {
-					"type": "string"
-				},
-				"Id": {
-					"type": "string"
-				},
-				"OtherDisposition": {
-					"type": "string"
-				},
-				"Sequence": {
-					"type": "string"
-				},
-				"Severity": {
-					"type": "string"
-				},
-				"TimeStamp": {
-					"type": "string",
-					"format": "date-time"
-				},
-				"Type": {
-					"type": "string"
-				},
-				"UserId": {
-					"type": "string"
-				}
-			},
-			"required": [
-				"@type",
-				"Disposition",
-				"Id",
-				"Sequence",
-				"TimeStamp",
-				"Type"
-			],
-			"additionalProperties": false
-		},
-		"EventLogging.EventDispositionType": {
-			"type": "string",
-			"enum": [
-				"failure",
-				"na",
-				"other",
-				"success"
-			]
-		},
-		"EventLogging.EventIdDescription": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"EventLogging.EventIdDescription"
-					]
-				},
-				"Description": {
-					"type": "string"
-				},
-				"Id": {
-					"type": "string"
-				}
-			},
-			"required": [
-				"@type",
-				"Description",
-				"Id"
-			],
-			"additionalProperties": false
-		},
-		"EventLogging.EventTypeDescription": {
-			"type": "object",
-			"properties": {
-				"@type": {
-					"type": "string",
-					"enum": [
-						"EventLogging.EventTypeDescription"
-					]
-				},
-				"Description": {
-					"type": "string"
-				},
-				"Type": {
-					"type": "string"
-				}
-			},
-			"required": [
-				"@type",
-				"Description",
-				"Type"
-			],
-			"additionalProperties": false
-		},
-		"EventLogging.HashType": {
-			"type": "string",
-			"enum": [
-				"md6",
-				"other",
-				"sha-256",
-				"sha-512"
-			]
-		}
-	}
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "EventLogging.Device": {
+      "description": "Device contains information about the device generating election event logs. Id is the only required attribute, all other attributes are optional.  If the device type is not found in the DeviceType enumeration, Type is 'other' and OtherType contains the appropriate type.",
+      "required": [
+        "@type",
+        "Id"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "EventLogging.Device"
+          ],
+          "type": "string"
+        },
+        "Details": {
+          "description": "Used to associate any details with the event log.",
+          "type": "string"
+        },
+        "Event": {
+          "items": {
+            "$ref": "#/$defs/EventLogging.Event",
+            "description": "Used to describe a logged event."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "HashType": {
+          "$ref": "#/$defs/EventLogging.HashType",
+          "description": "The type of the hash, from the HashType enumeration."
+        },
+        "Id": {
+          "description": "A serial number or otherwise identifier associated with the device.",
+          "type": "string"
+        },
+        "Manufacturer": {
+          "description": "Manufacturer of the device.",
+          "type": "string"
+        },
+        "Model": {
+          "description": "Model of the device.",
+          "type": "string"
+        },
+        "OtherHashType": {
+          "description": "If HashType is 'other', the type of the hash.",
+          "type": "string"
+        },
+        "OtherType": {
+          "description": "Used when Type is 'other'.",
+          "type": "string"
+        },
+        "Type": {
+          "$ref": "#/$defs/EventLogging.DeviceType",
+          "description": "Enumerated usage of the device, e.g., ems, scan-single, etc."
+        },
+        "Version": {
+          "description": "Version identification of the device.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "EventLogging.DeviceType": {
+      "description": "Used in Device::Type to describe the type or usage of the device generating the event.\nValues:\n\tadjudication: Electronic adjudication function for reviewing absentee/mail-in ballots anomalies (blanks/overvotes/write-ins/unreadable ballots).\n\tballot-activation: Devices for enabling a vote capture device (VCD) to display a ballot, possibly directly connected to the VCD or through a smart card interface.\n\tballot-printing: Marked ballot printing devices (voter facing).\n\tblank-ballot-printing: On-demand blank ballot printers.\n\tbmd: Ballot marking devices (voter facing).\n\tdre: Electronic voter stations, standalone or daisy chained to a DRE-controller (voter facing).\n\tdre-controller: Network controller for electronic voting (poll worker facing).\n\telectronic-cast: DREs, or other devices that store cast vote records electronically (voter facing).\n\telectronic-cast-paper: DREs, or devices that store cast vote records electronically and also print a paper record (voter facing).\n\telectronic-poll-book: Electronic poll book devices.\n\tems: Election management systems, including for pre- and post-election administration and reporting functions.\n\tother: Used when no other value in this enumeration applies.\n\tscan-batch: Scanning devices for batches of ballots, auto-feeding, e.g., Central Count (poll worker facing).\n\tscan-single: Scanning devices for single-sheets, e.g., Precinct Count (voter facing), but could be used for Central Count by an election official.\n\ttransmission-receiving: Remote transmission hosts, e.g., for the receiving of unofficial results at a central location from a remote location (receiving station).\n\ttransmission-sending: Remote transmission clients, e.g., for sending of unofficial results from a remote location to a central location (sending station).",
+      "enum": [
+        "adjudication",
+        "ballot-activation",
+        "ballot-printing",
+        "blank-ballot-printing",
+        "bmd",
+        "dre",
+        "dre-controller",
+        "electronic-cast",
+        "electronic-cast-paper",
+        "electronic-poll-book",
+        "ems",
+        "other",
+        "scan-batch",
+        "scan-single",
+        "transmission-receiving",
+        "transmission-sending"
+      ],
+      "type": "string"
+    },
+    "EventLogging.ElectionEventLog": {
+      "description": "ElectionEventLog is the root class.  It includes Device for identifying the device(s) generating the election events, the date and time when the election event log was created, and an identification of the election. Details is used as needed for additional description/details. HashType is used to specify a cryptographic hash associated with the events, that is, an event log entry, using values from the HashType enumeration.  If the type of hash is not found in the HashType enumeration, HashType is 'other' and OtherHashType contains the type of hash.",
+      "required": [
+        "@type",
+        "GeneratedTime"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "EventLogging.ElectionEventLog"
+          ],
+          "type": "string"
+        },
+        "Details": {
+          "description": "Used to associate any details with the event log.",
+          "type": "string"
+        },
+        "Device": {
+          "items": {
+            "$ref": "#/$defs/EventLogging.Device",
+            "description": "Used to describe the device(s) generating the election events."
+          },
+          "minItems": 0,
+          "type": "array"
+        },
+        "ElectionId": {
+          "description": "Identifies the election associated with the log.",
+          "type": "string"
+        },
+        "GeneratedTime": {
+          "description": "Identifies the date and time the log was generated.",
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "type": "object"
+    },
+    "EventLogging.ElectionEventLogDocumentation": {
+      "description": "ElectionEventLogDocumention is the root class.  It includes EventIdDescription and EventTypeDescription, as well as other information for identifying the specific device associated with the election event documentation.",
+      "required": [
+        "@type",
+        "DeviceManufacturer",
+        "DeviceModel",
+        "EventIdDescription",
+        "EventTypeDescription",
+        "GeneratedDate"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "EventLogging.ElectionEventLogDocumentation"
+          ],
+          "type": "string"
+        },
+        "DeviceId": {
+          "description": "A serial number or otherwise identifier associated with the device.",
+          "type": "string"
+        },
+        "DeviceManufacturer": {
+          "description": "Manufacturer of the device.",
+          "type": "string"
+        },
+        "DeviceModel": {
+          "description": "Model of the device.",
+          "type": "string"
+        },
+        "DeviceVersion": {
+          "description": "Version identification of the device.",
+          "type": "string"
+        },
+        "EventIdDescription": {
+          "items": {
+            "$ref": "#/$defs/EventLogging.EventIdDescription",
+            "description": "For associating a description with an event ID."
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "EventTypeDescription": {
+          "items": {
+            "$ref": "#/$defs/EventLogging.EventTypeDescription",
+            "description": "For associating a description with an event type."
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "GeneratedDate": {
+          "description": "Identifies the date the documentation report was generated.",
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "type": "object"
+    },
+    "EventLogging.Event": {
+      "description": "Event holds information about a specific event. Severity is an optional attribute for describing a severity indication for the event.  If the event disposition is not found in the EventDispositionType enumeration, Disposition is 'other' and OtherDisposition contains the other disposition.",
+      "required": [
+        "@type",
+        "Disposition",
+        "Id",
+        "Sequence",
+        "TimeStamp",
+        "Type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "EventLogging.Event"
+          ],
+          "type": "string"
+        },
+        "Description": {
+          "description": "Used for a brief description of the event.",
+          "type": "string"
+        },
+        "Details": {
+          "description": "Used for additional information about the event, e.g., vendor reserved information.",
+          "type": "string"
+        },
+        "Disposition": {
+          "$ref": "#/$defs/EventLogging.EventDispositionType",
+          "description": "The disposition, e.g., success or failure, of the event."
+        },
+        "Hash": {
+          "description": "Contains a cryptographic hash of the event, encoded as a string.",
+          "type": "string"
+        },
+        "Id": {
+          "description": "An identifier associated with the event.",
+          "type": "string"
+        },
+        "OtherDisposition": {
+          "description": "Used when Disposition is 'other'.",
+          "type": "string"
+        },
+        "Sequence": {
+          "description": "A sequence number/string to uniquely identify the event in the log file.",
+          "type": "string"
+        },
+        "Severity": {
+          "description": "Used for an indication of the severity of the event, as determined by the device vendor.",
+          "type": "string"
+        },
+        "TimeStamp": {
+          "description": "Identifies the date and time the event was generated.",
+          "type": "string",
+          "format": "date-time"
+        },
+        "Type": {
+          "description": "Used for the type of event, as determined by the device vendor.",
+          "type": "string"
+        },
+        "UserId": {
+          "description": "An identifier associated with a user, as relevant.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "EventLogging.EventDispositionType": {
+      "description": "Used in Event::Disposition for types of event dispositions.\nValues:\n\tfailure: For a failure disposition.\n\tna: Used when the disposition is not applicable or there is no disposition.\n\tother: Used when no other value in this enumeration applies.\n\tsuccess: For a successful disposition.",
+      "enum": [
+        "failure",
+        "na",
+        "other",
+        "success"
+      ],
+      "type": "string"
+    },
+    "EventLogging.EventIdDescription": {
+      "description": "For associating a brief description with an election event ID, used in ElectionEventLogDocumentation::EventIdDescription.",
+      "required": [
+        "@type",
+        "Description",
+        "Id"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "EventLogging.EventIdDescription"
+          ],
+          "type": "string"
+        },
+        "Description": {
+          "description": "Used for a brief description of the event.",
+          "type": "string"
+        },
+        "Id": {
+          "description": "An identifier associated with the event.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "EventLogging.EventTypeDescription": {
+      "description": "For associating a description with an election event log type, used in ElectionEventLogDocumentation::EventTypeDescription.",
+      "required": [
+        "@type",
+        "Description",
+        "Type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "@type": {
+          "enum": [
+            "EventLogging.EventTypeDescription"
+          ],
+          "type": "string"
+        },
+        "Description": {
+          "description": "Used for a description of the event type.",
+          "type": "string"
+        },
+        "Type": {
+          "description": "An identifier associated with the event type.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "EventLogging.HashType": {
+      "description": "Used in Hash::Type to indicate the type of hash being used for an image file.\nValues:\n\tmd6: To indicate that the MD6 message digest algorithm is being used.\n\tother: Used when no other value in this enumeration applies.\n\tsha-256: To indicate that the SHA 256-bit signature is being used.\n\tsha-512: To indicate that the SHA 512-bit (32-byte) signature is being used.",
+      "enum": [
+        "md6",
+        "other",
+        "sha-256",
+        "sha-512"
+      ],
+      "type": "string"
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/EventLogging.ElectionEventLog"
+    },
+    {
+      "$ref": "#/$defs/EventLogging.ElectionEventLogDocumentation"
+    }
+  ]
 }

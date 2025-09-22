@@ -1,8 +1,9 @@
 {
-  "$ref": "#/definitions/CVR.CastVoteRecordReport",
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "definitions": {
+  "$ref": "#/$defs/CVR.CastVoteRecordReport",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
     "CVR.AllocationStatus": {
+      "description": "Used in SelectionPosition::IsAllocable to indicate whether the SelectionPosition::NumberVotes should be allocated to the underlying contest option counter.\nValues:\n\tno: To not allocate votes to the contest option's accumulator.\n\tunknown: When the decision to allocate votes is unknown, such as when the adjudication is needed.\n\tyes: To allocate votes to the contest option's accumulator.",
       "enum": [
         "no",
         "unknown",
@@ -11,6 +12,7 @@
       "type": "string"
     },
     "CVR.Annotation": {
+      "description": "Annotation is used to record annotations made by one or more adjudicators.CVRSnapshot includes Annotation.",
       "required": [
         "@type"
       ],
@@ -24,6 +26,7 @@
         },
         "AdjudicatorName": {
           "items": {
+            "description": "The name(s) of the adjudicator(s).",
             "type": "string"
           },
           "minItems": 0,
@@ -31,12 +34,14 @@
         },
         "Message": {
           "items": {
+            "description": "A message created by the adjudicator(s).",
             "type": "string"
           },
           "minItems": 0,
           "type": "array"
         },
         "TimeStamp": {
+          "description": "The date and time of the annotation.",
           "type": "string",
           "format": "date-time"
         }
@@ -44,6 +49,7 @@
       "type": "object"
     },
     "CVR.BallotMeasureContest": {
+      "description": "BallotMeasureContest is a subclass of Contest and is used to identify the type of contest as involving one or more ballot measures. It inherits attributes from Contest.",
       "required": [
         "@id",
         "@type",
@@ -61,29 +67,32 @@
           "type": "string"
         },
         "Abbreviation": {
+          "description": "An abbreviation associated with the contest.",
           "type": "string"
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "A code or identifier used for this contest."
           },
           "minItems": 0,
           "type": "array"
         },
         "ContestSelection": {
           "items": {
+            "description": "Identifies the contest selections in the contest.",
             "oneOf": [
               {
-                "$ref": "#/definitions/CVR.ContestSelection"
+                "$ref": "#/$defs/CVR.ContestSelection"
               },
               {
-                "$ref": "#/definitions/CVR.PartySelection"
+                "$ref": "#/$defs/CVR.PartySelection"
               },
               {
-                "$ref": "#/definitions/CVR.BallotMeasureSelection"
+                "$ref": "#/$defs/CVR.BallotMeasureSelection"
               },
               {
-                "$ref": "#/definitions/CVR.CandidateSelection"
+                "$ref": "#/$defs/CVR.CandidateSelection"
               }
             ]
           },
@@ -91,18 +100,22 @@
           "type": "array"
         },
         "Name": {
+          "description": "Title or name of the contest, e.g., \"Governor\" or \"Question on Legalization of Gambling\".",
           "type": "string"
         },
         "OtherVoteVariation": {
+          "description": "If VoteVariation is 'other', the vote variation for this contest.",
           "type": "string"
         },
         "VoteVariation": {
-          "$ref": "#/definitions/CVR.VoteVariation"
+          "$ref": "#/$defs/CVR.VoteVariation",
+          "description": "The vote variation for this contest, from the VoteVariation enumeration."
         }
       },
       "type": "object"
     },
     "CVR.BallotMeasureSelection": {
+      "description": "BallotMeasureSelection is a subclass of ContestSelection and is used for ballot measures.  The voter's selected response to the contest selection (e.g., &quot;yes&quot; or &quot;no&quot;) may be in English or other languages as utilized on the voter's ballot.",
       "required": [
         "@id",
         "@type",
@@ -121,18 +134,21 @@
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "Code used to identify the contest selection."
           },
           "minItems": 0,
           "type": "array"
         },
         "Selection": {
+          "description": "The voter's selection, i.e., 'yes' or 'no', in English or in other languages as utilized on the voter's ballot.",
           "type": "string"
         }
       },
       "type": "object"
     },
     "CVR.CVR": {
+      "description": "CVR constitutes a cast vote record, generated by a ballot scanning device, containing indications of contests and contest options chosen by the voter, as well as other information for auditing and annotation purposes. Each sheet of a multi-page paper ballot is represented by an individual CVR, e.g., if all sheets of a 5-sheet ballot are scanned, 5 CVRs will be created.  CastVoteRecordReport includes multiple instances of CVR as applicable.",
       "required": [
         "@type",
         "CVRSnapshot",
@@ -148,56 +164,68 @@
           "type": "string"
         },
         "BallotAuditId": {
+          "description": "A unique identifier for this CVR, used to link the CVR with the corresponding audit record, e.g., a paper ballot.  This identifier may be impressed on the corresponding audit record as it is scanned, or otherwise associated with the corresponding ballot.",
           "type": "string"
         },
         "BallotImage": {
           "items": {
-            "$ref": "#/definitions/CVR.ImageData"
+            "$ref": "#/$defs/CVR.ImageData",
+            "description": "An image of the ballot sheet created by the scanning device."
           },
           "minItems": 0,
           "type": "array"
         },
         "BallotPrePrintedId": {
+          "description": "A unique identifier for the ballot (or sheet of a multi-sheet ballot) that this CVR represents, used if ballots are pre-marked with unique identifiers.  If provided, this number would be the same on all CVRs that represent individual sheets from the same multi-sheet ballot.  This identifier is not the same as one that may be impressed on the corresponding ballot as it is scanned or otherwise associated with the corresponding ballot; see the BallotAuditId attribute.",
           "type": "string"
         },
         "BallotSheetId": {
+          "description": "A unique number for the ballot (or sheet of a multi-sheet ballot) that this CVR represents, used if ballots are pre-marked with unique numbers.  If provided, this number would be the same on all CVRs that represent individual sheets from the same multi-sheet ballot.  This number is not the same as one that may be impressed on the corresponding ballot as it is scanned or otherwise associated with the corresponding ballot; see the BallotAuditId attribute.",
           "type": "string"
         },
         "BallotStyleId": {
+          "description": "An identifier of the ballot style associated with the corresponding ballot.",
           "type": "string"
         },
         "BallotStyleUnitId": {
+          "description": "Identifies the smallest unit of geography associated with the corresponding ballot, typically a precinct or split-precinct.",
           "type": "string",
           "refTypes": [
             "CVR.GpUnit"
           ]
         },
         "BatchId": {
+          "description": "The identifier for the batch that includes this CVR.",
           "type": "string"
         },
         "BatchSequenceId": {
+          "description": "The sequence number of the corresponding paper ballot within a batch.",
           "type": "integer"
         },
         "CVRSnapshot": {
           "items": {
-            "$ref": "#/definitions/CVR.CVRSnapshot"
+            "$ref": "#/$defs/CVR.CVRSnapshot",
+            "description": "Identifies the repeatable portion of the CVR that links to contest selections and related information."
           },
           "minItems": 1,
           "type": "array"
         },
         "CreatingDeviceId": {
+          "description": "Identifies the device that created the CVR.",
           "type": "string",
           "refTypes": [
             "CVR.ReportingDevice"
           ]
         },
         "CurrentSnapshotId": {
+          "description": "Identifies the snapshot that is currently tabulatable.",
           "type": "string",
           "refTypes": [
             "CVR.CVRSnapshot"
           ]
         },
         "ElectionId": {
+          "description": "Used to identify an election with which the CVR is associated.",
           "type": "string",
           "refTypes": [
             "CVR.Election"
@@ -205,6 +233,7 @@
         },
         "PartyIds": {
           "items": {
+            "description": "Identifies the party associated with a CVR, typically for partisan primaries.",
             "type": "string",
             "refTypes": [
               "CVR.Party"
@@ -214,12 +243,14 @@
           "type": "array"
         },
         "UniqueId": {
+          "description": "The sequence number for this CVR. This represents the ordinal number that this CVR was processed by the tabulating device.",
           "type": "string"
         }
       },
       "type": "object"
     },
     "CVR.CVRContest": {
+      "description": "CVRContest class is included by CVRSnapshot for each contest on the ballot that was voted, that is, whose contest options contain indications that may constitute a vote. CVRContest includes CVRContestSelection for each contest option in the contest containing an indication or write-in.     CVRSnapshot can also include CVRContest for every contest on the ballot regardless of whether any of the contest options contain an indication, for cases where the CVR must include all contests that appeared on the ballot.     CVRContest attributes are for including summary information about the contest.  Overvotes plus Undervotes plus TotalVotes must equal the number of votes allowable in the contest, e.g., in a &quot;chose 3 of 5&quot; contest in which the voter chooses only 2, then Overvotes = 0, Undervotes = 1, and TotalVotes = 2, which adds up to the number of votes allowable = 3.",
       "required": [
         "@type",
         "ContestId"
@@ -234,12 +265,14 @@
         },
         "CVRContestSelection": {
           "items": {
-            "$ref": "#/definitions/CVR.CVRContestSelection"
+            "$ref": "#/$defs/CVR.CVRContestSelection",
+            "description": "Used to include information about a contest selection in the contest, including the associated indication(s)."
           },
           "minItems": 0,
           "type": "array"
         },
         "ContestId": {
+          "description": "Used to link to an instance of Contest specific to the contest at hand, for the purpose of specifying information about the contest such as its contest identifier.",
           "type": "string",
           "refTypes": [
             "CVR.Contest",
@@ -250,31 +283,38 @@
           ]
         },
         "OtherStatus": {
+          "description": "Used when Status is 'other' to include a user-defined status.",
           "type": "string"
         },
         "Overvotes": {
+          "description": "The number of votes lost due to overvoting.",
           "type": "integer"
         },
         "Selections": {
+          "description": "Used to indicate the number of possible contest selections in the contest.",
           "type": "integer"
         },
         "Status": {
           "items": {
-            "$ref": "#/definitions/CVR.ContestStatus"
+            "$ref": "#/$defs/CVR.ContestStatus",
+            "description": "The status of the contest, e.g., overvoted, undervoted, from the ContestStatus enumeration.  If no values apply, use 'other' and include a user-defined status in OtherStatus."
           },
           "minItems": 0,
           "type": "array"
         },
         "Undervotes": {
+          "description": "The number of votes lost due to undervoting.",
           "type": "integer"
         },
         "WriteIns": {
+          "description": "The total number of write-ins in the contest.",
           "type": "integer"
         }
       },
       "type": "object"
     },
     "CVR.CVRContestSelection": {
+      "description": "CVRContestSelection is used to link a contest option containing an indication with information about the indication, such as whether a mark constitutes a countable vote, or whether a mark is determined to be marginal, etc.  CVRContest includes an instance of CVRContestSelection when an indication for the selection is present, and CVRContestSelection then includes SelectionPosition for each indication present. To tie the indication to the specific contest selection, CVRContestSelection links to an instance of ContestSelection that has previously been included by Contest.    Since multiple indications per contest option are possible for some voting methods, CVRContestSelection can include multiple instances of SelectionPosition, one per indication. CVRContestSelection can also be used for the purpose of including, in the CVR, all contest options in the contest regardless of whether indications are present.  In this case, CVRContestSelection would not include SelectionPosition if no indication is present but would link to the appropriate instance of ContestSelection.",
       "required": [
         "@type",
         "SelectionPosition"
@@ -288,6 +328,7 @@
           "type": "string"
         },
         "ContestSelectionId": {
+          "description": "Used to link to an instance of a contest selection that was previously included by Contest.",
           "type": "string",
           "refTypes": [
             "CVR.ContestSelection",
@@ -297,38 +338,47 @@
           ]
         },
         "OptionPosition": {
+          "description": "Used to include the ordinal position of the contest option as it appeared on the ballot.",
           "type": "integer"
         },
         "OtherStatus": {
+          "description": "Used when Status is 'other' to include a user-defined status.",
           "type": "string"
         },
         "Rank": {
+          "description": "For the RCV voting variation, the rank chosen by the voter, for when a contest selection can represent a ranking.",
           "type": "integer"
         },
         "SelectionPosition": {
           "items": {
-            "$ref": "#/definitions/CVR.SelectionPosition"
+            "$ref": "#/$defs/CVR.SelectionPosition",
+            "description": "Used to include further information about the indication/mark associated with the contest selection.  Depending on the voting method, multiple indications/marks per selection may be possible."
           },
           "minItems": 1,
           "type": "array"
         },
         "Status": {
           "items": {
-            "$ref": "#/definitions/CVR.ContestSelectionStatus"
+            "$ref": "#/$defs/CVR.ContestSelectionStatus",
+            "description": "Contains the status of the contest selection, e.g., 'needs-adjudication' for a contest requiring adjudication, using values from the ContestSelectionStatus enumeration.  If no values apply, use 'other' and include a user-defined status in OtherStatus."
           },
           "minItems": 0,
           "type": "array"
         },
         "TotalFractionalVotes": {
-          "$ref": "#/definitions/CVR.FractionalNumber"
+          "description": "For cumulative or range and other similar voting variations, contains the total proper fractional number of votes across all indications/marks.",
+          "pattern": "([0-9]+/[1-9]+[0-9]*)|(\\.[0-9]+)",
+          "type": "string"
         },
         "TotalNumberVotes": {
+          "description": "For cumulative or range and other similar voting variations, contains the total number of votes across all indications/marks.",
           "type": "integer"
         }
       },
       "type": "object"
     },
     "CVR.CVRSnapshot": {
+      "description": "CVRSnapshot contains a version of the contest selections for a CVR; there can be multiple versions of CVRSnapshot within the same CVR.  Type specifies the type of the snapshot, i.e., whether interpreted by the scanner according to contest rules, modified as a result of adjudication, or the original, that is, the version initially scanned before contest rules are applied.  CVR includes CVRSnapshot.Other attributes are repeated in each CVRSnapshot because they may differ across snapshots, e.g., the contests could be different as well as other status.",
       "required": [
         "@id",
         "@type",
@@ -347,35 +397,41 @@
         },
         "Annotation": {
           "items": {
-            "$ref": "#/definitions/CVR.Annotation"
+            "$ref": "#/$defs/CVR.Annotation",
+            "description": "Used to include an annotation associated with the CVR snapshot."
           },
           "minItems": 0,
           "type": "array"
         },
         "CVRContest": {
           "items": {
-            "$ref": "#/definitions/CVR.CVRContest"
+            "$ref": "#/$defs/CVR.CVRContest",
+            "description": "Identifies the contests in the CVR."
           },
           "minItems": 0,
           "type": "array"
         },
         "OtherStatus": {
+          "description": "When Status is 'other', contains the ballot status.",
           "type": "string"
         },
         "Status": {
           "items": {
-            "$ref": "#/definitions/CVR.CVRStatus"
+            "$ref": "#/$defs/CVR.CVRStatus",
+            "description": "The status of the CVR."
           },
           "minItems": 0,
           "type": "array"
         },
         "Type": {
-          "$ref": "#/definitions/CVR.CVRType"
+          "$ref": "#/$defs/CVR.CVRType",
+          "description": "The type of the snapshot, e.g., original."
         }
       },
       "type": "object"
     },
     "CVR.CVRStatus": {
+      "description": "Used in CVRSnapshot::Status to identify the status of the CVR.\nValues:\n\tneeds-adjudication: To indicate that the CVR needs to be adjudicated.\n\tother: Used in conjunction with CVRSnapshot::OtherStatus when no other value in this enumeration applies.",
       "enum": [
         "needs-adjudication",
         "other"
@@ -383,6 +439,7 @@
       "type": "string"
     },
     "CVR.CVRType": {
+      "description": "Used in CVRSnapshot::Type to indicate the type of snapshot.\nValues:\n\tinterpreted: Has been adjudicated.\n\tmodified: After contest rules applied.\n\toriginal: As scanned, no contest rules applied.",
       "enum": [
         "interpreted",
         "modified",
@@ -391,6 +448,7 @@
       "type": "string"
     },
     "CVR.CVRWriteIn": {
+      "description": "CVRWriteIn is used when the contest selection is a write-in. It has attributes for the image or text of the write-in.",
       "required": [
         "@type"
       ],
@@ -403,15 +461,18 @@
           "type": "string"
         },
         "Text": {
+          "description": "Used for the text of the write-in, typically present when the CVR has been created by electronic ballot marking equipment.",
           "type": "string"
         },
         "WriteInImage": {
-          "$ref": "#/definitions/CVR.ImageData"
+          "$ref": "#/$defs/CVR.ImageData",
+          "description": "Used for an image of the write-in, typically made by a scanner when scanning a paper ballot."
         }
       },
       "type": "object"
     },
     "CVR.Candidate": {
+      "description": "Candidate identifies a candidate in a contest on the voter's ballot.  Election includes instances of Candidate for each candidate in a contest; typically, only those candidates who received votes would be included.",
       "required": [
         "@id",
         "@type"
@@ -429,15 +490,18 @@
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "A code or identifier associated with the candidate."
           },
           "minItems": 0,
           "type": "array"
         },
         "Name": {
+          "description": "Candidate's name as listed on the ballot.",
           "type": "string"
         },
         "PartyId": {
+          "description": "The party associated with the candidate.",
           "type": "string",
           "refTypes": [
             "CVR.Party"
@@ -447,6 +511,7 @@
       "type": "object"
     },
     "CVR.CandidateContest": {
+      "description": "CandidateContest is a subclass of Contest and is used to identify the type of contest as involving one or more candidates. It inherits attributes from Contest.",
       "required": [
         "@id",
         "@type",
@@ -464,29 +529,32 @@
           "type": "string"
         },
         "Abbreviation": {
+          "description": "An abbreviation associated with the contest.",
           "type": "string"
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "A code or identifier used for this contest."
           },
           "minItems": 0,
           "type": "array"
         },
         "ContestSelection": {
           "items": {
+            "description": "Identifies the contest selections in the contest.",
             "oneOf": [
               {
-                "$ref": "#/definitions/CVR.ContestSelection"
+                "$ref": "#/$defs/CVR.ContestSelection"
               },
               {
-                "$ref": "#/definitions/CVR.PartySelection"
+                "$ref": "#/$defs/CVR.PartySelection"
               },
               {
-                "$ref": "#/definitions/CVR.BallotMeasureSelection"
+                "$ref": "#/$defs/CVR.BallotMeasureSelection"
               },
               {
-                "$ref": "#/definitions/CVR.CandidateSelection"
+                "$ref": "#/$defs/CVR.CandidateSelection"
               }
             ]
           },
@@ -494,30 +562,37 @@
           "type": "array"
         },
         "Name": {
+          "description": "Title or name of the contest, e.g., \"Governor\" or \"Question on Legalization of Gambling\".",
           "type": "string"
         },
         "NumberElected": {
+          "description": "The number of candidates to be elected in the contest.",
           "type": "integer"
         },
         "OtherVoteVariation": {
+          "description": "If VoteVariation is 'other', the vote variation for this contest.",
           "type": "string"
         },
         "PrimaryPartyId": {
+          "description": "The party associated with the contest, if a partisan primary.",
           "type": "string",
           "refTypes": [
             "CVR.Party"
           ]
         },
         "VoteVariation": {
-          "$ref": "#/definitions/CVR.VoteVariation"
+          "$ref": "#/$defs/CVR.VoteVariation",
+          "description": "The vote variation for this contest, from the VoteVariation enumeration."
         },
         "VotesAllowed": {
+          "description": "The number of votes allowed in the contest, e.g., 3 for a 'choose 3 of 5 candidates' contest.",
           "type": "integer"
         }
       },
       "type": "object"
     },
     "CVR.CandidateSelection": {
+      "description": "CandidateSelection is a subclass of ContestSelection and is used for candidates, including for write-in candidates.",
       "required": [
         "@id",
         "@type"
@@ -535,6 +610,7 @@
         },
         "CandidateIds": {
           "items": {
+            "description": "The candidate associated with the contest selection. For contests involving a ticket of multiple candidates, an ordered list of candidates as they appeared on the ballot would be created.",
             "type": "string",
             "refTypes": [
               "CVR.Candidate"
@@ -545,18 +621,21 @@
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "Code used to identify the contest selection."
           },
           "minItems": 0,
           "type": "array"
         },
         "IsWriteIn": {
+          "description": "A flag to indicate if the candidate selection is associated with a write-in.",
           "type": "boolean"
         }
       },
       "type": "object"
     },
     "CVR.CastVoteRecordReport": {
+      "description": "The root class/element; attributes pertain to the status and format of the report and when created.CastVoteRecordReport includes multiple instances of CVR, one per CVR or sheet of a multi-page cast vote record.  CastVoteRecordReport also includes multiple instances of Contest, typically only for those contests that were voted so as to reduce file size.  The Contest instances are later referenced by other classes to link them to contest options that were voted and the indication(s)/mark(s) made.",
       "required": [
         "@type",
         "Election",
@@ -576,44 +655,52 @@
         },
         "CVR": {
           "items": {
-            "$ref": "#/definitions/CVR.CVR"
+            "$ref": "#/$defs/CVR.CVR",
+            "description": "Used to include instances of CVR classes, one per cast vote record in the report."
           },
           "minItems": 0,
           "type": "array"
         },
         "Election": {
           "items": {
-            "$ref": "#/definitions/CVR.Election"
+            "$ref": "#/$defs/CVR.Election",
+            "description": "Used to include the election(s) associated with the CVRs."
           },
           "minItems": 1,
           "type": "array"
         },
         "GeneratedDate": {
+          "description": "Identifies the time that the election report was created.",
           "type": "string",
           "format": "date-time"
         },
         "GpUnit": {
           "items": {
-            "$ref": "#/definitions/CVR.GpUnit"
+            "$ref": "#/$defs/CVR.GpUnit",
+            "description": "Used to include the political geography, i.e., location, for where the cast vote record report was created and for linking cast vote records to their corresponding precinct or split (or otherwise smallest unit)."
           },
           "minItems": 1,
           "type": "array"
         },
         "Notes": {
+          "description": "Notes that can be added as appropriate, presumably by an adjudicator.",
           "type": "string"
         },
         "OtherReportType": {
+          "description": "If ReportType is 'other', this contains the report type.",
           "type": "string"
         },
         "Party": {
           "items": {
-            "$ref": "#/definitions/CVR.Party"
+            "$ref": "#/$defs/CVR.Party",
+            "description": "The party associated with the ballot sheet for a partisan primary."
           },
           "minItems": 0,
           "type": "array"
         },
         "ReportGeneratingDeviceIds": {
           "items": {
+            "description": "Identifies the device used to create the CVR report.",
             "type": "string",
             "refTypes": [
               "CVR.ReportingDevice"
@@ -624,31 +711,36 @@
         },
         "ReportType": {
           "items": {
-            "$ref": "#/definitions/CVR.ReportType"
+            "$ref": "#/$defs/CVR.ReportType",
+            "description": "The type of report, using the ReportType enumeration."
           },
           "minItems": 0,
           "type": "array"
         },
         "ReportingDevice": {
           "items": {
-            "$ref": "#/definitions/CVR.ReportingDevice"
+            "$ref": "#/$defs/CVR.ReportingDevice",
+            "description": "The device creating the report.  The reporting device need not necessarily be the creating device, i.e., for an aggregated report, the reporting device could be an EMS used to aggregate and tabulate cast vote records."
           },
           "minItems": 1,
           "type": "array"
         },
         "Version": {
-          "$ref": "#/definitions/CVR.CastVoteRecordVersion"
+          "$ref": "#/$defs/CVR.CastVoteRecordVersion",
+          "description": "The version of the CVR specification being used (1.0)."
         }
       },
       "type": "object"
     },
     "CVR.CastVoteRecordVersion": {
+      "description": "To identify the version of the CVR specification being used, i.e., version 1.0.0.  This will need to be updated for different versions of the specification.\nValues:\n\t1.0.0: Fixed value for the version of this specification.",
       "enum": [
         "1.0.0"
       ],
       "type": "string"
     },
     "CVR.Code": {
+      "description": "Code is used in Election, GpUnit, Contest, Candidate, and Party to identify an associated code as well as the type of code.",
       "required": [
         "@type",
         "Type",
@@ -663,21 +755,26 @@
           "type": "string"
         },
         "Label": {
+          "description": "A label associated with the code, used as needed.",
           "type": "string"
         },
         "OtherType": {
+          "description": "If Type is 'other', the type of code.",
           "type": "string"
         },
         "Type": {
-          "$ref": "#/definitions/CVR.IdentifierType"
+          "$ref": "#/$defs/CVR.IdentifierType",
+          "description": "Used to indicate the type of code, from the IdentifierType enumeration."
         },
         "Value": {
+          "description": "The value of the code, i.e., the identifier.",
           "type": "string"
         }
       },
       "type": "object"
     },
     "CVR.Contest": {
+      "description": "Contest represents a contest on the ballot. CastVoteRecordReport initially includes an instance of Contest for each contest on the ballot.  Other classes can subsequently reference the instances as necessary to link together items on the cast vote record, such as a contest, its voted contest selection(s), and the mark(s) associated with the selection(s).\n\nContest has three subclasses, each used for a specific type of contest:   These subclasses inherit Contest's attributes.\n\nPartyContest - used for straight party contests,\n\nBallotMeasureContest - used for contests, and\n\nCandidateContest - used for candidate contests.",
       "required": [
         "@id",
         "@type",
@@ -695,29 +792,32 @@
           "type": "string"
         },
         "Abbreviation": {
+          "description": "An abbreviation associated with the contest.",
           "type": "string"
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "A code or identifier used for this contest."
           },
           "minItems": 0,
           "type": "array"
         },
         "ContestSelection": {
           "items": {
+            "description": "Identifies the contest selections in the contest.",
             "oneOf": [
               {
-                "$ref": "#/definitions/CVR.ContestSelection"
+                "$ref": "#/$defs/CVR.ContestSelection"
               },
               {
-                "$ref": "#/definitions/CVR.PartySelection"
+                "$ref": "#/$defs/CVR.PartySelection"
               },
               {
-                "$ref": "#/definitions/CVR.BallotMeasureSelection"
+                "$ref": "#/$defs/CVR.BallotMeasureSelection"
               },
               {
-                "$ref": "#/definitions/CVR.CandidateSelection"
+                "$ref": "#/$defs/CVR.CandidateSelection"
               }
             ]
           },
@@ -725,18 +825,22 @@
           "type": "array"
         },
         "Name": {
+          "description": "Title or name of the contest, e.g., \"Governor\" or \"Question on Legalization of Gambling\".",
           "type": "string"
         },
         "OtherVoteVariation": {
+          "description": "If VoteVariation is 'other', the vote variation for this contest.",
           "type": "string"
         },
         "VoteVariation": {
-          "$ref": "#/definitions/CVR.VoteVariation"
+          "$ref": "#/$defs/CVR.VoteVariation",
+          "description": "The vote variation for this contest, from the VoteVariation enumeration."
         }
       },
       "type": "object"
     },
     "CVR.ContestSelection": {
+      "description": "ContestSelection represents a contest selection in a contest.  Contest can include an instance of ContestSelection for each contest selection in the contest or, as desired, all contest selections.\n\nContestSelection has three subclasses, each used for a specific type of contest selection:\n\nBallotMeasureSelection - used for ballot measures,\n\nCandidateSelection - used for candidate selections, and\n\nPartySelection - used for straight party selections.\n\nInstances of CVRContestSelection subsequently link to the contest selections as needed so as to tie together the contest, the contest selection, and the mark(s) made for the contest selection.\n\nContestSelection contains one attribute, Code, that can be used to identify the contest selection and thereby eliminate the need to identify it using the subclasses.",
       "required": [
         "@id",
         "@type"
@@ -754,7 +858,8 @@
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "Code used to identify the contest selection."
           },
           "minItems": 0,
           "type": "array"
@@ -763,6 +868,7 @@
       "type": "object"
     },
     "CVR.ContestSelectionStatus": {
+      "description": "Used in CVRContestSelection::Status to identify the status of a contest selection in the CVR.\nValues:\n\tgenerated-rules: To indicate that the contest selection was generated per contest rules.\n\tinvalidated-rules: To indicate that the contest selection was invalidated by the generating device because of contest rules.\n\tneeds-adjudication: To indicate that the contest selection was flagged by the generating device for adjudication.\n\tother: Used in conjunction with CVRContestSelection::OtherStatus when no other value in this enumeration applies.",
       "enum": [
         "generated-rules",
         "invalidated-rules",
@@ -772,6 +878,7 @@
       "type": "string"
     },
     "CVR.ContestStatus": {
+      "description": "Used in CVRContest::Status to identify the status of a contest in which contest selection(s) were made.\nValues:\n\tinvalidated-rules: To indicate that the contest has been invalidated by the generating device because of contest rules.\n\tnot-indicated: For a CVRContest with no SelectionPosition, i.e. to specify the position contains no marks or other indications.\n\tother: Used in conjunction with CVRContest::OtherStatus when no other value in this enumeration applies.\n\tovervoted: To indicate that the contest was overvoted.\n\tundervoted: To indicate that the contest was undervoted.",
       "enum": [
         "invalidated-rules",
         "not-indicated",
@@ -782,6 +889,7 @@
       "type": "string"
     },
     "CVR.Election": {
+      "description": "Election defines instances of the Contest and Candidate classes so that they can be later referenced in CVR classes.  Election includes an instance of Contest for each contest in the election and includes an instance of Candidate for each candidate.  This is done to utilize file sizes more efficiently; otherwise each CVR would need to define these instances separately and much duplication would occur.",
       "required": [
         "@id",
         "@type",
@@ -801,35 +909,38 @@
         },
         "Candidate": {
           "items": {
-            "$ref": "#/definitions/CVR.Candidate"
+            "$ref": "#/$defs/CVR.Candidate",
+            "description": "Used to establish a collection of candidate definitions that will be referenced by the CVRs.  The contests in each CVR will reference the candidate definitions."
           },
           "minItems": 0,
           "type": "array"
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "Used for a code associated with the election, e.g., a precinct identifier if the election scope is a precinct."
           },
           "minItems": 0,
           "type": "array"
         },
         "Contest": {
           "items": {
+            "description": "Used for establishing a collection of contest definitions that will be referenced by the CVRs.",
             "oneOf": [
               {
-                "$ref": "#/definitions/CVR.Contest"
+                "$ref": "#/$defs/CVR.Contest"
               },
               {
-                "$ref": "#/definitions/CVR.PartyContest"
+                "$ref": "#/$defs/CVR.PartyContest"
               },
               {
-                "$ref": "#/definitions/CVR.BallotMeasureContest"
+                "$ref": "#/$defs/CVR.BallotMeasureContest"
               },
               {
-                "$ref": "#/definitions/CVR.CandidateContest"
+                "$ref": "#/$defs/CVR.CandidateContest"
               },
               {
-                "$ref": "#/definitions/CVR.RetentionContest"
+                "$ref": "#/$defs/CVR.RetentionContest"
               }
             ]
           },
@@ -837,18 +948,21 @@
           "type": "array"
         },
         "ElectionScopeId": {
+          "description": "Used to identify the election scope, i.e., the political geography corresponding to the election.",
           "type": "string",
           "refTypes": [
             "CVR.GpUnit"
           ]
         },
         "Name": {
+          "description": "A text string identifying the election.",
           "type": "string"
         }
       },
       "type": "object"
     },
     "CVR.File": {
+      "description": "Used to hold the contents of a file or identify a file created by the scanning device.  The file generally would contain an image of the scanned ballot or an image of a write-in entered by a voter onto the scanned ballot.  SubClass Image is used if the file contains an image.",
       "required": [
         "@type",
         "Data"
@@ -862,23 +976,23 @@
           "type": "string"
         },
         "Data": {
+          "description": "Contains the base64 binary contents of the file.",
           "type": "string",
           "format": "byte"
         },
         "FileName": {
+          "description": "Contains the name of the file or an identifier of the file.",
           "type": "string"
         },
         "MimeType": {
+          "description": "The mime type of the file, e.g., image/jpeg.",
           "type": "string"
         }
       },
       "type": "object"
     },
-    "CVR.FractionalNumber": {
-      "pattern": "([0-9]+/[1-9]+[0-9]*)|(\\.[0-9]+)",
-      "type": "string"
-    },
     "CVR.GpUnit": {
+      "description": "Used for identifying a geographical unit for various purposes, including:\n\nThe reporting unit of the report generation device, e.g., a precinct location of a scanner that generates the collection of CVRs,\n\nThe geographical scope of the election, or the unit of geography associated with an individual CVR.\n\nCastVoteRecordReport includes instances of GpUnit as needed. Election references GpUnit as ElectionScope, for the geographical scope of the election.  CVR CastVoteRecordReport includes instances of GpUnit as needed. Election references GpUnit as ElectionScope, for the geographical scope of the election.  CVR references GpUnit as BallotStyleUnit to link a CVR to the smallest political subdivision that uses the same ballot style as was used for the voter's ballot.",
       "required": [
         "@id",
         "@type",
@@ -897,19 +1011,23 @@
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "A code associated with the geographical unit."
           },
           "minItems": 0,
           "type": "array"
         },
         "Name": {
+          "description": "Name of the geographical unit.",
           "type": "string"
         },
         "OtherType": {
+          "description": "Used when Type is 'other' to include a user-defined type.",
           "type": "string"
         },
         "ReportingDeviceIds": {
           "items": {
+            "description": "The collection of cast vote records associated with the reporting unit and the reporting device.",
             "type": "string",
             "refTypes": [
               "CVR.ReportingDevice"
@@ -919,12 +1037,14 @@
           "type": "array"
         },
         "Type": {
-          "$ref": "#/definitions/CVR.ReportingUnitType"
+          "$ref": "#/$defs/CVR.ReportingUnitType",
+          "description": "Contains the type of geographical unit, e.g., precinct, split-precinct, vote center, using values from the ReportingUnitType enumeration.  If no values apply, use 'other' and include a user-defined type in OtherType."
         }
       },
       "type": "object"
     },
     "CVR.Hash": {
+      "description": "Hash is used to specify a hash associated with a file such as an image file of a scanned ballot.",
       "required": [
         "@type",
         "Type",
@@ -939,18 +1059,22 @@
           "type": "string"
         },
         "OtherType": {
+          "description": "If Type is 'other', the type of the hash.",
           "type": "string"
         },
         "Type": {
-          "$ref": "#/definitions/CVR.HashType"
+          "$ref": "#/$defs/CVR.HashType",
+          "description": "The type of the hash, from the HashType enumeration."
         },
         "Value": {
+          "description": "The hash value, encoded as a string.",
           "type": "string"
         }
       },
       "type": "object"
     },
     "CVR.HashType": {
+      "description": "Used in Hash::Type to indicate the type of hash being used for an image file.\nValues:\n\tmd6: To indicate that the MD6 message digest algorithm is being used.\n\tother: Used in conjunction with Hash::OtherType when no other value in this enumeration applies.\n\tsha-256: To indicate that the SHA 256-bit signature is being used.\n\tsha-512: To indicate that the SHA 512-bit (32-byte) signature is being used.",
       "enum": [
         "md6",
         "other",
@@ -960,6 +1084,7 @@
       "type": "string"
     },
     "CVR.IdentifierType": {
+      "description": "Used in Code::Type to indicate the type of code/identifier being used.\nValues:\n\tfips: To indicate that the identifier is a FIPS code.\n\tlocal-level: To indicate that the identifier is from a local-level scheme, i.e., unique to a county or city.\n\tnational-level: To indicate that the identifier is from a national-level scheme other than FIPS or OCD-ID.\n\tocd-id: To indicate that the identifier is from the OCD-ID scheme.\n\tother: Used in conjunction with Code::OtherType when no other value in this enumeration applies.\n\tstate-level: To indicate that the identifier is from a state-level scheme, i.e., unique to a particular state.",
       "enum": [
         "fips",
         "local-level",
@@ -971,6 +1096,7 @@
       "type": "string"
     },
     "CVR.Image": {
+      "description": "Used by File for a file containing an image, e.g., an image of a write-in on a paper ballot.",
       "required": [
         "@type",
         "Data"
@@ -984,19 +1110,23 @@
           "type": "string"
         },
         "Data": {
+          "description": "Contains the base64 binary contents of the file.",
           "type": "string",
           "format": "byte"
         },
         "FileName": {
+          "description": "Contains the name of the file or an identifier of the file.",
           "type": "string"
         },
         "MimeType": {
+          "description": "The mime type of the file, e.g., image/jpeg.",
           "type": "string"
         }
       },
       "type": "object"
     },
     "CVR.ImageData": {
+      "description": "ImageData is used to specify an image file such as for a write-in or the entire ballot.  It works with several other classes, as follows:\n\nFile with SubClass Image – to contain either a filename for an external file or the file contents, and\n\nHash – to contain cryptographic hash function data for the file.",
       "required": [
         "@type"
       ],
@@ -1009,12 +1139,15 @@
           "type": "string"
         },
         "Hash": {
-          "$ref": "#/definitions/CVR.Hash"
+          "$ref": "#/$defs/CVR.Hash",
+          "description": "A hash value for the image data, used for verification comparisons against subsequent copies of the image."
         },
         "Image": {
-          "$ref": "#/definitions/CVR.Image"
+          "$ref": "#/$defs/CVR.Image",
+          "description": "The image of an individual ballot sheet created by the scanner, could possibly include both sides of a two-sided ballot sheet depending on the scanner's configuration."
         },
         "Location": {
+          "description": "A pointer to the location of the image file.",
           "type": "string",
           "format": "uri"
         }
@@ -1022,6 +1155,7 @@
       "type": "object"
     },
     "CVR.IndicationStatus": {
+      "description": "Used in SelectionPosition::HasIndication to identify whether a selection indication is present.\nValues:\n\tno: There is no selection indication.\n\tunknown: It is unknown whether there is a selection indication, e.g., used for ambiguous marks.\n\tyes: There is a selection indication present.",
       "enum": [
         "no",
         "unknown",
@@ -1030,6 +1164,7 @@
       "type": "string"
     },
     "CVR.Party": {
+      "description": "Party is used for describing information about a political party associated with the voter's ballot.  CVR includes instances of Party as needed, e.g., for a CVR corresponding to a ballot in a partisan primary, and CandidateContest references Party as needed to link a candidate to their political party.",
       "required": [
         "@id",
         "@type"
@@ -1046,22 +1181,26 @@
           "type": "string"
         },
         "Abbreviation": {
+          "description": "Short name for the party, e.g., \"DEM\".",
           "type": "string"
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "A code associated with the party."
           },
           "minItems": 0,
           "type": "array"
         },
         "Name": {
+          "description": "Official full name of the party, e.g., \"Republican\".",
           "type": "string"
         }
       },
       "type": "object"
     },
     "CVR.PartyContest": {
+      "description": "PartyContest is a subclass of Contest and is used to identify the type of contest as involving a straight party selection.  It inherits attributes from Contest.",
       "required": [
         "@id",
         "@type",
@@ -1079,29 +1218,32 @@
           "type": "string"
         },
         "Abbreviation": {
+          "description": "An abbreviation associated with the contest.",
           "type": "string"
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "A code or identifier used for this contest."
           },
           "minItems": 0,
           "type": "array"
         },
         "ContestSelection": {
           "items": {
+            "description": "Identifies the contest selections in the contest.",
             "oneOf": [
               {
-                "$ref": "#/definitions/CVR.ContestSelection"
+                "$ref": "#/$defs/CVR.ContestSelection"
               },
               {
-                "$ref": "#/definitions/CVR.PartySelection"
+                "$ref": "#/$defs/CVR.PartySelection"
               },
               {
-                "$ref": "#/definitions/CVR.BallotMeasureSelection"
+                "$ref": "#/$defs/CVR.BallotMeasureSelection"
               },
               {
-                "$ref": "#/definitions/CVR.CandidateSelection"
+                "$ref": "#/$defs/CVR.CandidateSelection"
               }
             ]
           },
@@ -1109,18 +1251,22 @@
           "type": "array"
         },
         "Name": {
+          "description": "Title or name of the contest, e.g., \"Governor\" or \"Question on Legalization of Gambling\".",
           "type": "string"
         },
         "OtherVoteVariation": {
+          "description": "If VoteVariation is 'other', the vote variation for this contest.",
           "type": "string"
         },
         "VoteVariation": {
-          "$ref": "#/definitions/CVR.VoteVariation"
+          "$ref": "#/$defs/CVR.VoteVariation",
+          "description": "The vote variation for this contest, from the VoteVariation enumeration."
         }
       },
       "type": "object"
     },
     "CVR.PartySelection": {
+      "description": "PartySelection is a subclass of ContestSelection and is used typically for a contest selection in a straight-party contest.",
       "required": [
         "@id",
         "@type",
@@ -1139,13 +1285,15 @@
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "Code used to identify the contest selection."
           },
           "minItems": 0,
           "type": "array"
         },
         "PartyIds": {
           "items": {
+            "description": "The party associated with the contest selection.",
             "type": "string",
             "refTypes": [
               "CVR.Party"
@@ -1158,6 +1306,7 @@
       "type": "object"
     },
     "CVR.PositionStatus": {
+      "description": "Used in SelectionPosition::Status to identify the status of a selection indication.\nValues:\n\tadjudicated: Used if the indication was adjudicated.\n\tgenerated-rules: Used if the indication was generated by the creating device per contest rules.\n\tinvalidated-rules: Used if the indication was invalidated by the creating device because of contest rules.\n\tother: Used in conjunction with SelectionPosition::OtherStatus when no other value in this enumeration applies.",
       "enum": [
         "adjudicated",
         "generated-rules",
@@ -1167,6 +1316,7 @@
       "type": "string"
     },
     "CVR.ReportType": {
+      "description": "Used in CastVoteRecordReport::ReportType to indicate the type of the CVR report.\nValues:\n\tadjudicated: To indicate that the report contains adjudications.\n\taggregated: To indicate that the report is an aggregation of device reports.\n\toriginating-device-export: To indicate that the report is an export from a device such as a scanner.\n\tother: Used in conjunction with CastVoteRecordReport::OtherReportType when no other value in this enumeration applies.\n\trcv-round: To indicate that the report is the result of a ranked choice voting round.",
       "enum": [
         "adjudicated",
         "aggregated",
@@ -1177,6 +1327,7 @@
       "type": "string"
     },
     "CVR.ReportingDevice": {
+      "description": "ReportingDevice is used to specify a voting device as the \"political geography\" at hand.  CastVoteRecordReport refers to it as ReportGeneratingDevice and uses it to specify the device that created the CVR report. CVR refers to it as CreatingDevice to specify the device that created the CVRs.",
       "required": [
         "@id",
         "@type"
@@ -1193,38 +1344,46 @@
           "type": "string"
         },
         "Application": {
+          "description": "The application associated with the reporting device.",
           "type": "string"
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "A code associated with the reporting device."
           },
           "minItems": 0,
           "type": "array"
         },
         "Manufacturer": {
+          "description": "Manufacturer of the reporting device.",
           "type": "string"
         },
         "MarkMetricType": {
+          "description": "The type of metric being used to determine quality.  The type must be specific enough that the attached value can be accurately verified later, e.g., 'Acme Mark Density' may be a sufficiently specific type.",
           "type": "string"
         },
         "Model": {
+          "description": "Manufacturer's model of the reporting device.",
           "type": "string"
         },
         "Notes": {
           "items": {
+            "description": "Additional explanatory notes as applicable.",
             "type": "string"
           },
           "minItems": 0,
           "type": "array"
         },
         "SerialNumber": {
+          "description": "Serial number or other identification that can uniquely identify the reporting device.",
           "type": "string"
         }
       },
       "type": "object"
     },
     "CVR.ReportingUnitType": {
+      "description": "Used in GpUnit::Type to indicate a type of political geography.\nValues:\n\tcombined-precinct: To indicate a combined precinct.\n\tother: Used in conjunction with GpUnit::OtherType when no other value in this enumeration applies.\n\tpolling-place: To indicate a polling place.\n\tprecinct: To indicate a precinct.\n\tsplit-precinct: To indicate a split-precinct.\n\tvote-center: To indicate a vote-center.",
       "enum": [
         "combined-precinct",
         "other",
@@ -1236,6 +1395,7 @@
       "type": "string"
     },
     "CVR.RetentionContest": {
+      "description": "RetentionContest is a subclass of BallotMeasureContest and is used to identify the type of contest as involving a retention, such as for a judicial retention.  While it is similar to BallotMeasureContest, it contains a link to Candidate that BallotMeasureContest does not.  RetentionContest inherits attributes from Contest.",
       "required": [
         "@id",
         "@type",
@@ -1253,9 +1413,11 @@
           "type": "string"
         },
         "Abbreviation": {
+          "description": "An abbreviation associated with the contest.",
           "type": "string"
         },
         "CandidateId": {
+          "description": "Identifies the candidate in the retention contest.",
           "type": "string",
           "refTypes": [
             "CVR.Candidate"
@@ -1263,25 +1425,27 @@
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "A code or identifier used for this contest."
           },
           "minItems": 0,
           "type": "array"
         },
         "ContestSelection": {
           "items": {
+            "description": "Identifies the contest selections in the contest.",
             "oneOf": [
               {
-                "$ref": "#/definitions/CVR.ContestSelection"
+                "$ref": "#/$defs/CVR.ContestSelection"
               },
               {
-                "$ref": "#/definitions/CVR.PartySelection"
+                "$ref": "#/$defs/CVR.PartySelection"
               },
               {
-                "$ref": "#/definitions/CVR.BallotMeasureSelection"
+                "$ref": "#/$defs/CVR.BallotMeasureSelection"
               },
               {
-                "$ref": "#/definitions/CVR.CandidateSelection"
+                "$ref": "#/$defs/CVR.CandidateSelection"
               }
             ]
           },
@@ -1289,18 +1453,22 @@
           "type": "array"
         },
         "Name": {
+          "description": "Title or name of the contest, e.g., \"Governor\" or \"Question on Legalization of Gambling\".",
           "type": "string"
         },
         "OtherVoteVariation": {
+          "description": "If VoteVariation is 'other', the vote variation for this contest.",
           "type": "string"
         },
         "VoteVariation": {
-          "$ref": "#/definitions/CVR.VoteVariation"
+          "$ref": "#/$defs/CVR.VoteVariation",
+          "description": "The vote variation for this contest, from the VoteVariation enumeration."
         }
       },
       "type": "object"
     },
     "CVR.SelectionPosition": {
+      "description": "CVRContestSelection includes SelectionPosition to specify a voter's indication/mark in a contest option, and thus, a potential vote. The number of potential SelectionPositions that could be included by CVRContestSelection is the same as the number of ovals next to a particular option. There will be usually 1 instance of SelectionPosition for plurality voting, but there could be multiple instances for RCV, approval, cumulative, or other vote variations in which a voter can select multiple options per candidate.   MarkMetricValue specifies the measurement of a mark on a paper ballot. The measurement is assigned by the scanner for measurements of mark density or quality and would be used by the scanner to indicate whether the mark is a valid voter mark representing a vote or is marginal.SelectionPosition contains additional information about the mark to specify whether the indication/mark is allocable, as well as information needed for certain voting methods.SelectionPosition includes CVRWriteIn, whose attributes are used to include information about the write-in including the text of the write-in or an image of the write-in.",
       "required": [
         "@type",
         "HasIndication",
@@ -1315,49 +1483,62 @@
           "type": "string"
         },
         "CVRWriteIn": {
-          "$ref": "#/definitions/CVR.CVRWriteIn"
+          "$ref": "#/$defs/CVR.CVRWriteIn",
+          "description": "Used to store information regarding a write-in vote."
         },
         "Code": {
           "items": {
-            "$ref": "#/definitions/CVR.Code"
+            "$ref": "#/$defs/CVR.Code",
+            "description": "Code used to identify the contest selection position."
           },
           "minItems": 0,
           "type": "array"
         },
         "FractionalVotes": {
-          "$ref": "#/definitions/CVR.FractionalNumber"
+          "description": "The proper fractional number of votes represented by the position.",
+          "pattern": "([0-9]+/[1-9]+[0-9]*)|(\\.[0-9]+)",
+          "type": "string"
         },
         "HasIndication": {
-          "$ref": "#/definitions/CVR.IndicationStatus"
+          "$ref": "#/$defs/CVR.IndicationStatus",
+          "description": "Whether there is a selection indication present."
         },
         "IsAllocable": {
-          "$ref": "#/definitions/CVR.AllocationStatus"
+          "$ref": "#/$defs/CVR.AllocationStatus",
+          "description": "Whether this indication should be allocated to the contest option's accumulator."
         },
         "IsGenerated": {
+          "description": "Whether or not the indication was generated, rather than directly made by the voter.",
           "type": "boolean"
         },
         "MarkMetricValue": {
           "items": {
+            "description": "The value of the mark metric, represented as a string.",
             "type": "string"
           },
           "minItems": 0,
           "type": "array"
         },
         "NumberVotes": {
+          "description": "The number of votes represented by the position, usually 1 but may be more depending on the voting method.",
           "type": "integer"
         },
         "OtherStatus": {
+          "description": "Used when Status is 'other' to include a user-defined status.",
           "type": "string"
         },
         "Position": {
+          "description": "The ordinal position of the selection position within the contest option.",
           "type": "integer"
         },
         "Rank": {
+          "description": "For the RCV voting variation, the rank chosen by the voter, for when a position can represent a ranking.",
           "type": "integer"
         },
         "Status": {
           "items": {
-            "$ref": "#/definitions/CVR.PositionStatus"
+            "$ref": "#/$defs/CVR.PositionStatus",
+            "description": "Status of the position, e.g., &quot;generated-rules&quot; for generated by the machine, from the PositionStatus enumeration.  If no values apply, use 'other' and include a user-defined status in OtherStatus."
           },
           "minItems": 0,
           "type": "array"
@@ -1366,6 +1547,7 @@
       "type": "object"
     },
     "CVR.VoteVariation": {
+      "description": "Used in Contest::VoteVariation to indicate the vote variation (vote method) used to tabulate the contest.\nValues:\n\tapproval: To indicate approval voting.\n\tborda: To indicate the borda count method.\n\tcumulative: To indicate cumulative voting.\n\tmajority: To indicate majority voting.\n\tn-of-m: To indicate the N of M voting method.\n\tother: Used in conjunction with Contest::OtherVoteVariation when no other value in this enumeration applies.\n\tplurality: To indicate plurality voting.\n\tproportional: To indicate proportional voting.\n\trange: To indicate range voting.\n\trcv: To indicate Ranked Choice Voting (RCV).\n\tsuper-majority: To indicate the super majority voting method.",
       "enum": [
         "approval",
         "borda",
