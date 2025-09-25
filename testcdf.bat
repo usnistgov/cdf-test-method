@@ -4,7 +4,7 @@ setlocal
 
 IF NOT "%2"=="-silent" (
 ECHO NIST Voting 🗳️  Program - Common Data Format Test Method
-ECHO Version 1.1.0 using...
+ECHO Version 1.2.0beta1 using...
 )
 where java >nul 2>nul
 if %errorlevel%==1 (

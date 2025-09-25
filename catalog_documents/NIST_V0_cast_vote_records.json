@@ -25,16 +25,16 @@
           "type": "string"
         },
         "AdjudicatorName": {
+          "description": "The name(s) of the adjudicator(s).",
           "items": {
-            "description": "The name(s) of the adjudicator(s).",
             "type": "string"
           },
           "minItems": 0,
           "type": "array"
         },
         "Message": {
+          "description": "A message created by the adjudicator(s).",
           "items": {
-            "description": "A message created by the adjudicator(s).",
             "type": "string"
           },
           "minItems": 0,
@@ -42,8 +42,7 @@
         },
         "TimeStamp": {
           "description": "The date and time of the annotation.",
-          "type": "string",
-          "format": "date-time"
+          "type": "string"
         }
       },
       "type": "object"
@@ -71,16 +70,16 @@
           "type": "string"
         },
         "Code": {
+          "description": "A code or identifier used for this contest.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "A code or identifier used for this contest."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
         },
         "ContestSelection": {
+          "description": "Identifies the contest selections in the contest.",
           "items": {
-            "description": "Identifies the contest selections in the contest.",
             "oneOf": [
               {
                 "$ref": "#/$defs/CVR.ContestSelection"
@@ -133,9 +132,9 @@
           "type": "string"
         },
         "Code": {
+          "description": "Code used to identify the contest selection.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "Code used to identify the contest selection."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
@@ -168,9 +167,9 @@
           "type": "string"
         },
         "BallotImage": {
+          "description": "An image of the ballot sheet created by the scanning device.",
           "items": {
-            "$ref": "#/$defs/CVR.ImageData",
-            "description": "An image of the ballot sheet created by the scanning device."
+            "$ref": "#/$defs/CVR.ImageData"
           },
           "minItems": 0,
           "type": "array"
@@ -203,9 +202,9 @@
           "type": "integer"
         },
         "CVRSnapshot": {
+          "description": "Identifies the repeatable portion of the CVR that links to contest selections and related information.",
           "items": {
-            "$ref": "#/$defs/CVR.CVRSnapshot",
-            "description": "Identifies the repeatable portion of the CVR that links to contest selections and related information."
+            "$ref": "#/$defs/CVR.CVRSnapshot"
           },
           "minItems": 1,
           "type": "array"
@@ -232,8 +231,8 @@
           ]
         },
         "PartyIds": {
+          "description": "Identifies the party associated with a CVR, typically for partisan primaries.",
           "items": {
-            "description": "Identifies the party associated with a CVR, typically for partisan primaries.",
             "type": "string",
             "refTypes": [
               "CVR.Party"
@@ -264,9 +263,9 @@
           "type": "string"
         },
         "CVRContestSelection": {
+          "description": "Used to include information about a contest selection in the contest, including the associated indication(s).",
           "items": {
-            "$ref": "#/$defs/CVR.CVRContestSelection",
-            "description": "Used to include information about a contest selection in the contest, including the associated indication(s)."
+            "$ref": "#/$defs/CVR.CVRContestSelection"
           },
           "minItems": 0,
           "type": "array"
@@ -295,9 +294,9 @@
           "type": "integer"
         },
         "Status": {
+          "description": "The status of the contest, e.g., overvoted, undervoted, from the ContestStatus enumeration.  If no values apply, use 'other' and include a user-defined status in OtherStatus.",
           "items": {
-            "$ref": "#/$defs/CVR.ContestStatus",
-            "description": "The status of the contest, e.g., overvoted, undervoted, from the ContestStatus enumeration.  If no values apply, use 'other' and include a user-defined status in OtherStatus."
+            "$ref": "#/$defs/CVR.ContestStatus"
           },
           "minItems": 0,
           "type": "array"
@@ -350,17 +349,17 @@
           "type": "integer"
         },
         "SelectionPosition": {
+          "description": "Used to include further information about the indication/mark associated with the contest selection.  Depending on the voting method, multiple indications/marks per selection may be possible.",
           "items": {
-            "$ref": "#/$defs/CVR.SelectionPosition",
-            "description": "Used to include further information about the indication/mark associated with the contest selection.  Depending on the voting method, multiple indications/marks per selection may be possible."
+            "$ref": "#/$defs/CVR.SelectionPosition"
           },
           "minItems": 1,
           "type": "array"
         },
         "Status": {
+          "description": "Contains the status of the contest selection, e.g., 'needs-adjudication' for a contest requiring adjudication, using values from the ContestSelectionStatus enumeration.  If no values apply, use 'other' and include a user-defined status in OtherStatus.",
           "items": {
-            "$ref": "#/$defs/CVR.ContestSelectionStatus",
-            "description": "Contains the status of the contest selection, e.g., 'needs-adjudication' for a contest requiring adjudication, using values from the ContestSelectionStatus enumeration.  If no values apply, use 'other' and include a user-defined status in OtherStatus."
+            "$ref": "#/$defs/CVR.ContestSelectionStatus"
           },
           "minItems": 0,
           "type": "array"
@@ -396,17 +395,17 @@
           "type": "string"
         },
         "Annotation": {
+          "description": "Used to include an annotation associated with the CVR snapshot.",
           "items": {
-            "$ref": "#/$defs/CVR.Annotation",
-            "description": "Used to include an annotation associated with the CVR snapshot."
+            "$ref": "#/$defs/CVR.Annotation"
           },
           "minItems": 0,
           "type": "array"
         },
         "CVRContest": {
+          "description": "Identifies the contests in the CVR.",
           "items": {
-            "$ref": "#/$defs/CVR.CVRContest",
-            "description": "Identifies the contests in the CVR."
+            "$ref": "#/$defs/CVR.CVRContest"
           },
           "minItems": 0,
           "type": "array"
@@ -416,9 +415,9 @@
           "type": "string"
         },
         "Status": {
+          "description": "The status of the CVR.",
           "items": {
-            "$ref": "#/$defs/CVR.CVRStatus",
-            "description": "The status of the CVR."
+            "$ref": "#/$defs/CVR.CVRStatus"
           },
           "minItems": 0,
           "type": "array"
@@ -489,9 +488,9 @@
           "type": "string"
         },
         "Code": {
+          "description": "A code or identifier associated with the candidate.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "A code or identifier associated with the candidate."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
@@ -533,16 +532,16 @@
           "type": "string"
         },
         "Code": {
+          "description": "A code or identifier used for this contest.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "A code or identifier used for this contest."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
         },
         "ContestSelection": {
+          "description": "Identifies the contest selections in the contest.",
           "items": {
-            "description": "Identifies the contest selections in the contest.",
             "oneOf": [
               {
                 "$ref": "#/$defs/CVR.ContestSelection"
@@ -609,8 +608,8 @@
           "type": "string"
         },
         "CandidateIds": {
+          "description": "The candidate associated with the contest selection. For contests involving a ticket of multiple candidates, an ordered list of candidates as they appeared on the ballot would be created.",
           "items": {
-            "description": "The candidate associated with the contest selection. For contests involving a ticket of multiple candidates, an ordered list of candidates as they appeared on the ballot would be created.",
             "type": "string",
             "refTypes": [
               "CVR.Candidate"
@@ -620,9 +619,9 @@
           "type": "array"
         },
         "Code": {
+          "description": "Code used to identify the contest selection.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "Code used to identify the contest selection."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
@@ -654,30 +653,29 @@
           "type": "string"
         },
         "CVR": {
+          "description": "Used to include instances of CVR classes, one per cast vote record in the report.",
           "items": {
-            "$ref": "#/$defs/CVR.CVR",
-            "description": "Used to include instances of CVR classes, one per cast vote record in the report."
+            "$ref": "#/$defs/CVR.CVR"
           },
           "minItems": 0,
           "type": "array"
         },
         "Election": {
+          "description": "Used to include the election(s) associated with the CVRs.",
           "items": {
-            "$ref": "#/$defs/CVR.Election",
-            "description": "Used to include the election(s) associated with the CVRs."
+            "$ref": "#/$defs/CVR.Election"
           },
           "minItems": 1,
           "type": "array"
         },
         "GeneratedDate": {
           "description": "Identifies the time that the election report was created.",
-          "type": "string",
-          "format": "date-time"
+          "type": "string"
         },
         "GpUnit": {
+          "description": "Used to include the political geography, i.e., location, for where the cast vote record report was created and for linking cast vote records to their corresponding precinct or split (or otherwise smallest unit).",
           "items": {
-            "$ref": "#/$defs/CVR.GpUnit",
-            "description": "Used to include the political geography, i.e., location, for where the cast vote record report was created and for linking cast vote records to their corresponding precinct or split (or otherwise smallest unit)."
+            "$ref": "#/$defs/CVR.GpUnit"
           },
           "minItems": 1,
           "type": "array"
@@ -691,16 +689,16 @@
           "type": "string"
         },
         "Party": {
+          "description": "The party associated with the ballot sheet for a partisan primary.",
           "items": {
-            "$ref": "#/$defs/CVR.Party",
-            "description": "The party associated with the ballot sheet for a partisan primary."
+            "$ref": "#/$defs/CVR.Party"
           },
           "minItems": 0,
           "type": "array"
         },
         "ReportGeneratingDeviceIds": {
+          "description": "Identifies the device used to create the CVR report.",
           "items": {
-            "description": "Identifies the device used to create the CVR report.",
             "type": "string",
             "refTypes": [
               "CVR.ReportingDevice"
@@ -710,17 +708,17 @@
           "type": "array"
         },
         "ReportType": {
+          "description": "The type of report, using the ReportType enumeration.",
           "items": {
-            "$ref": "#/$defs/CVR.ReportType",
-            "description": "The type of report, using the ReportType enumeration."
+            "$ref": "#/$defs/CVR.ReportType"
           },
           "minItems": 0,
           "type": "array"
         },
         "ReportingDevice": {
+          "description": "The device creating the report.  The reporting device need not necessarily be the creating device, i.e., for an aggregated report, the reporting device could be an EMS used to aggregate and tabulate cast vote records.",
           "items": {
-            "$ref": "#/$defs/CVR.ReportingDevice",
-            "description": "The device creating the report.  The reporting device need not necessarily be the creating device, i.e., for an aggregated report, the reporting device could be an EMS used to aggregate and tabulate cast vote records."
+            "$ref": "#/$defs/CVR.ReportingDevice"
           },
           "minItems": 1,
           "type": "array"
@@ -796,16 +794,16 @@
           "type": "string"
         },
         "Code": {
+          "description": "A code or identifier used for this contest.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "A code or identifier used for this contest."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
         },
         "ContestSelection": {
+          "description": "Identifies the contest selections in the contest.",
           "items": {
-            "description": "Identifies the contest selections in the contest.",
             "oneOf": [
               {
                 "$ref": "#/$defs/CVR.ContestSelection"
@@ -857,9 +855,9 @@
           "type": "string"
         },
         "Code": {
+          "description": "Code used to identify the contest selection.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "Code used to identify the contest selection."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
@@ -908,24 +906,24 @@
           "type": "string"
         },
         "Candidate": {
+          "description": "Used to establish a collection of candidate definitions that will be referenced by the CVRs.  The contests in each CVR will reference the candidate definitions.",
           "items": {
-            "$ref": "#/$defs/CVR.Candidate",
-            "description": "Used to establish a collection of candidate definitions that will be referenced by the CVRs.  The contests in each CVR will reference the candidate definitions."
+            "$ref": "#/$defs/CVR.Candidate"
           },
           "minItems": 0,
           "type": "array"
         },
         "Code": {
+          "description": "Used for a code associated with the election, e.g., a precinct identifier if the election scope is a precinct.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "Used for a code associated with the election, e.g., a precinct identifier if the election scope is a precinct."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
         },
         "Contest": {
+          "description": "Used for establishing a collection of contest definitions that will be referenced by the CVRs.",
           "items": {
-            "description": "Used for establishing a collection of contest definitions that will be referenced by the CVRs.",
             "oneOf": [
               {
                 "$ref": "#/$defs/CVR.Contest"
@@ -977,8 +975,7 @@
         },
         "Data": {
           "description": "Contains the base64 binary contents of the file.",
-          "type": "string",
-          "format": "byte"
+          "type": "string"
         },
         "FileName": {
           "description": "Contains the name of the file or an identifier of the file.",
@@ -1010,9 +1007,9 @@
           "type": "string"
         },
         "Code": {
+          "description": "A code associated with the geographical unit.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "A code associated with the geographical unit."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
@@ -1026,8 +1023,8 @@
           "type": "string"
         },
         "ReportingDeviceIds": {
+          "description": "The collection of cast vote records associated with the reporting unit and the reporting device.",
           "items": {
-            "description": "The collection of cast vote records associated with the reporting unit and the reporting device.",
             "type": "string",
             "refTypes": [
               "CVR.ReportingDevice"
@@ -1111,8 +1108,7 @@
         },
         "Data": {
           "description": "Contains the base64 binary contents of the file.",
-          "type": "string",
-          "format": "byte"
+          "type": "string"
         },
         "FileName": {
           "description": "Contains the name of the file or an identifier of the file.",
@@ -1148,8 +1144,7 @@
         },
         "Location": {
           "description": "A pointer to the location of the image file.",
-          "type": "string",
-          "format": "uri"
+          "type": "string"
         }
       },
       "type": "object"
@@ -1185,9 +1180,9 @@
           "type": "string"
         },
         "Code": {
+          "description": "A code associated with the party.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "A code associated with the party."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
@@ -1222,16 +1217,16 @@
           "type": "string"
         },
         "Code": {
+          "description": "A code or identifier used for this contest.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "A code or identifier used for this contest."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
         },
         "ContestSelection": {
+          "description": "Identifies the contest selections in the contest.",
           "items": {
-            "description": "Identifies the contest selections in the contest.",
             "oneOf": [
               {
                 "$ref": "#/$defs/CVR.ContestSelection"
@@ -1284,16 +1279,16 @@
           "type": "string"
         },
         "Code": {
+          "description": "Code used to identify the contest selection.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "Code used to identify the contest selection."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
         },
         "PartyIds": {
+          "description": "The party associated with the contest selection.",
           "items": {
-            "description": "The party associated with the contest selection.",
             "type": "string",
             "refTypes": [
               "CVR.Party"
@@ -1348,9 +1343,9 @@
           "type": "string"
         },
         "Code": {
+          "description": "A code associated with the reporting device.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "A code associated with the reporting device."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
@@ -1368,8 +1363,8 @@
           "type": "string"
         },
         "Notes": {
+          "description": "Additional explanatory notes as applicable.",
           "items": {
-            "description": "Additional explanatory notes as applicable.",
             "type": "string"
           },
           "minItems": 0,
@@ -1424,16 +1419,16 @@
           ]
         },
         "Code": {
+          "description": "A code or identifier used for this contest.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "A code or identifier used for this contest."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
         },
         "ContestSelection": {
+          "description": "Identifies the contest selections in the contest.",
           "items": {
-            "description": "Identifies the contest selections in the contest.",
             "oneOf": [
               {
                 "$ref": "#/$defs/CVR.ContestSelection"
@@ -1487,9 +1482,9 @@
           "description": "Used to store information regarding a write-in vote."
         },
         "Code": {
+          "description": "Code used to identify the contest selection position.",
           "items": {
-            "$ref": "#/$defs/CVR.Code",
-            "description": "Code used to identify the contest selection position."
+            "$ref": "#/$defs/CVR.Code"
           },
           "minItems": 0,
           "type": "array"
@@ -1512,8 +1507,8 @@
           "type": "boolean"
         },
         "MarkMetricValue": {
+          "description": "The value of the mark metric, represented as a string.",
           "items": {
-            "description": "The value of the mark metric, represented as a string.",
             "type": "string"
           },
           "minItems": 0,
@@ -1536,9 +1531,9 @@
           "type": "integer"
         },
         "Status": {
+          "description": "Status of the position, e.g., &quot;generated-rules&quot; for generated by the machine, from the PositionStatus enumeration.  If no values apply, use 'other' and include a user-defined status in OtherStatus.",
           "items": {
-            "$ref": "#/$defs/CVR.PositionStatus",
-            "description": "Status of the position, e.g., &quot;generated-rules&quot; for generated by the machine, from the PositionStatus enumeration.  If no values apply, use 'other' and include a user-defined status in OtherStatus."
+            "$ref": "#/$defs/CVR.PositionStatus"
           },
           "minItems": 0,
           "type": "array"

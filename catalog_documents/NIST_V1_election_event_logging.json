@@ -20,9 +20,9 @@
           "type": "string"
         },
         "Event": {
+          "description": "Used to describe a logged event.",
           "items": {
-            "$ref": "#/$defs/EventLogging.Event",
-            "description": "Used to describe a logged event."
+            "$ref": "#/$defs/EventLogging.Event"
           },
           "minItems": 0,
           "type": "array"
@@ -103,9 +103,9 @@
           "type": "string"
         },
         "Device": {
+          "description": "Used to describe the device(s) generating the election events.",
           "items": {
-            "$ref": "#/$defs/EventLogging.Device",
-            "description": "Used to describe the device(s) generating the election events."
+            "$ref": "#/$defs/EventLogging.Device"
           },
           "minItems": 0,
           "type": "array"
@@ -116,8 +116,7 @@
         },
         "GeneratedTime": {
           "description": "Identifies the date and time the log was generated.",
-          "type": "string",
-          "format": "date-time"
+          "type": "string"
         }
       },
       "type": "object"
@@ -157,17 +156,17 @@
           "type": "string"
         },
         "EventIdDescription": {
+          "description": "For associating a description with an event ID.",
           "items": {
-            "$ref": "#/$defs/EventLogging.EventIdDescription",
-            "description": "For associating a description with an event ID."
+            "$ref": "#/$defs/EventLogging.EventIdDescription"
           },
           "minItems": 1,
           "type": "array"
         },
         "EventTypeDescription": {
+          "description": "For associating a description with an event type.",
           "items": {
-            "$ref": "#/$defs/EventLogging.EventTypeDescription",
-            "description": "For associating a description with an event type."
+            "$ref": "#/$defs/EventLogging.EventTypeDescription"
           },
           "minItems": 1,
           "type": "array"
@@ -232,8 +231,7 @@
         },
         "TimeStamp": {
           "description": "Identifies the date and time the event was generated.",
-          "type": "string",
-          "format": "date-time"
+          "type": "string"
         },
         "Type": {
           "description": "Used for the type of event, as determined by the device vendor.",

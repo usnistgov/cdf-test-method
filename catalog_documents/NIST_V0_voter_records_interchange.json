@@ -110,26 +110,25 @@
           "type": "string"
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the ballot style.",
           "items": {
-            "$ref": "#/$defs/VRI.ExternalIdentifier",
-            "description": "For associating an ID with the ballot style."
+            "$ref": "#/$defs/VRI.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
         },
         "ImageUri": {
+          "description": "URI for a ballot image.",
           "items": {
-            "description": "URI for a ballot image.",
-            "type": "string",
-            "format": "uri"
+            "type": "string"
           },
           "minItems": 0,
           "type": "array"
         },
         "Party": {
+          "description": "For associating one or more parties with the ballot style.",
           "items": {
-            "$ref": "#/$defs/VRI.Party",
-            "description": "For associating one or more parties with the ballot style."
+            "$ref": "#/$defs/VRI.Party"
           },
           "minItems": 0,
           "type": "array"
@@ -196,9 +195,9 @@
           "format": "date"
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the election.",
           "items": {
-            "$ref": "#/$defs/VRI.ExternalIdentifier",
-            "description": "For associating an ID with the election."
+            "$ref": "#/$defs/VRI.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -229,8 +228,8 @@
           "type": "string"
         },
         "ContactMethod": {
+          "description": "For including various contact information.",
           "items": {
-            "description": "For including various contact information.",
             "oneOf": [
               {
                 "$ref": "#/$defs/VRI.ContactMethod"
@@ -252,10 +251,9 @@
           "type": "string"
         },
         "Uri": {
+          "description": "A URL for the election authority.",
           "items": {
-            "description": "A URL for the election authority.",
-            "type": "string",
-            "format": "uri"
+            "type": "string"
           },
           "minItems": 0,
           "type": "array"
@@ -278,9 +276,9 @@
           "type": "string"
         },
         "BallotReceiptPreference": {
+          "description": "The voter's preference on how to receive their ballot in order from their most preferred method to least. If omitted, the default method for the form will be used.",
           "items": {
-            "$ref": "#/$defs/VRI.BallotReceiptMethod",
-            "description": "The voter's preference on how to receive their ballot in order from their most preferred method to least. If omitted, the default method for the form will be used."
+            "$ref": "#/$defs/VRI.BallotReceiptMethod"
           },
           "minItems": 0,
           "type": "array"
@@ -370,8 +368,7 @@
         },
         "Data": {
           "description": "The file content encoded using base64.",
-          "type": "string",
-          "format": "byte"
+          "type": "string"
         },
         "FileName": {
           "description": "The filename.",
@@ -412,8 +409,7 @@
         },
         "Data": {
           "description": "The file content encoded using base64.",
-          "type": "string",
-          "format": "byte"
+          "type": "string"
         },
         "FileName": {
           "description": "The filename.",
@@ -510,8 +506,8 @@
           "type": "string"
         },
         "MiddleName": {
+          "description": "Person’s middle name.",
           "items": {
-            "description": "Person’s middle name.",
             "type": "string"
           },
           "minItems": 0,
@@ -547,9 +543,9 @@
           "type": "string"
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the party.",
           "items": {
-            "$ref": "#/$defs/VRI.ExternalIdentifier",
-            "description": "For associating an ID with the party."
+            "$ref": "#/$defs/VRI.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -575,9 +571,9 @@
           "type": "string"
         },
         "BallotReceiptPreference": {
+          "description": "The voter's preference on how to receive their ballot in order from their most preferred method to least. If omitted, the default method for the form will be used.",
           "items": {
-            "$ref": "#/$defs/VRI.BallotReceiptMethod",
-            "description": "The voter's preference on how to receive their ballot in order from their most preferred method to least. If omitted, the default method for the form will be used."
+            "$ref": "#/$defs/VRI.BallotReceiptMethod"
           },
           "minItems": 0,
           "type": "array"
@@ -614,9 +610,9 @@
           "type": "string"
         },
         "Capability": {
+          "description": "Specifies the phone’s capabilities, e.g., fax, sms.",
           "items": {
-            "$ref": "#/$defs/VRI.PhoneCapability",
-            "description": "Specifies the phone’s capabilities, e.g., fax, sms."
+            "$ref": "#/$defs/VRI.PhoneCapability"
           },
           "minItems": 0,
           "type": "array"
@@ -651,9 +647,9 @@
           "type": "string"
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the ReportingUnit.",
           "items": {
-            "$ref": "#/$defs/VRI.ExternalIdentifier",
-            "description": "For associating an ID with the ReportingUnit."
+            "$ref": "#/$defs/VRI.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -884,17 +880,17 @@
           "type": "string"
         },
         "AdditionalDetails": {
+          "description": "Used to provide additional details as applicable.",
           "items": {
-            "description": "Used to provide additional details as applicable.",
             "type": "string"
           },
           "minItems": 0,
           "type": "array"
         },
         "Error": {
+          "description": "For associating a RequestRejection with one or more Error.",
           "items": {
-            "$ref": "#/$defs/VRI.Error",
-            "description": "For associating a RequestRejection with one or more Error."
+            "$ref": "#/$defs/VRI.Error"
           },
           "minItems": 0,
           "type": "array"
@@ -920,17 +916,17 @@
           "type": "string"
         },
         "Action": {
+          "description": "Used to indicate the action that occurred.",
           "items": {
-            "$ref": "#/$defs/VRI.SuccessAction",
-            "description": "Used to indicate the action that occurred."
+            "$ref": "#/$defs/VRI.SuccessAction"
           },
           "minItems": 0,
           "type": "array"
         },
         "District": {
+          "description": "One or more districts associated with the voter’s precinct.",
           "items": {
-            "$ref": "#/$defs/VRI.ReportingUnit",
-            "description": "One or more districts associated with the voter’s precinct."
+            "$ref": "#/$defs/VRI.ReportingUnit"
           },
           "minItems": 0,
           "type": "array"
@@ -945,9 +941,9 @@
           "description": "The election administration that conducts elections for the voter."
         },
         "Locality": {
+          "description": "Other geographies such as the voter’s precinct.",
           "items": {
-            "$ref": "#/$defs/VRI.ReportingUnit",
-            "description": "Other geographies such as the voter’s precinct."
+            "$ref": "#/$defs/VRI.ReportingUnit"
           },
           "minItems": 0,
           "type": "array"
@@ -1053,9 +1049,9 @@
           "type": "string"
         },
         "BallotReceiptPreference": {
+          "description": "The voter's preference on how to receive their ballot in order from their most preferred method to least. If omitted, the default method for the form will be used.",
           "items": {
-            "$ref": "#/$defs/VRI.BallotReceiptMethod",
-            "description": "The voter's preference on how to receive their ballot in order from their most preferred method to least. If omitted, the default method for the form will be used."
+            "$ref": "#/$defs/VRI.BallotReceiptMethod"
           },
           "minItems": 0,
           "type": "array"
@@ -1092,8 +1088,8 @@
           "type": "string"
         },
         "ContactMethod": {
+          "description": "How to contact the voter, listed in order of preference.",
           "items": {
-            "description": "How to contact the voter, listed in order of preference.",
             "oneOf": [
               {
                 "$ref": "#/$defs/VRI.ContactMethod"
@@ -1156,17 +1152,17 @@
           "description": "Information about the voter signature on the registration form."
         },
         "VoterClassification": {
+          "description": "How the voter is classified per assertions the voter has made on a registration form.",
           "items": {
-            "$ref": "#/$defs/VRI.VoterClassification",
-            "description": "How the voter is classified per assertions the voter has made on a registration form."
+            "$ref": "#/$defs/VRI.VoterClassification"
           },
           "minItems": 0,
           "type": "array"
         },
         "VoterId": {
+          "description": "Information to provide voter identity.",
           "items": {
-            "$ref": "#/$defs/VRI.VoterId",
-            "description": "Information to provide voter identity."
+            "$ref": "#/$defs/VRI.VoterId"
           },
           "minItems": 0,
           "type": "array"
@@ -1347,9 +1343,9 @@
           "type": "string"
         },
         "District": {
+          "description": "One or more districts associated with the voter’s precinct.",
           "items": {
-            "$ref": "#/$defs/VRI.ReportingUnit",
-            "description": "One or more districts associated with the voter’s precinct."
+            "$ref": "#/$defs/VRI.ReportingUnit"
           },
           "minItems": 0,
           "type": "array"
@@ -1363,9 +1359,9 @@
           "type": "boolean"
         },
         "Locality": {
+          "description": "Other geographies such as the voter’s precinct.",
           "items": {
-            "$ref": "#/$defs/VRI.ReportingUnit",
-            "description": "Other geographies such as the voter’s precinct."
+            "$ref": "#/$defs/VRI.ReportingUnit"
           },
           "minItems": 0,
           "type": "array"
@@ -1383,9 +1379,9 @@
           "description": "For details specific to a particular voter."
         },
         "VoterParticipation": {
+          "description": "For associating a VoterRecord to elections the voter has participated in.",
           "items": {
-            "$ref": "#/$defs/VRI.VoterParticipation",
-            "description": "For associating a VoterRecord to elections the voter has participated in."
+            "$ref": "#/$defs/VRI.VoterParticipation"
           },
           "minItems": 0,
           "type": "array"
@@ -1415,9 +1411,9 @@
           "type": "string"
         },
         "VoterRecord": {
+          "description": "The voter record(s) returned.",
           "items": {
-            "$ref": "#/$defs/VRI.VoterRecord",
-            "description": "The voter record(s) returned."
+            "$ref": "#/$defs/VRI.VoterRecord"
           },
           "minItems": 0,
           "type": "array"
@@ -1443,9 +1439,9 @@
           "type": "string"
         },
         "AdditionalInfo": {
+          "description": "For including other information not specified by this model.",
           "items": {
-            "$ref": "#/$defs/VRI.AdditionalInfo",
-            "description": "For including other information not specified by this model."
+            "$ref": "#/$defs/VRI.AdditionalInfo"
           },
           "minItems": 0,
           "type": "array"
@@ -1490,9 +1486,9 @@
           "type": "string"
         },
         "RequestHelper": {
+          "description": "Included if the registration involves a registration assistant organization.",
           "items": {
-            "$ref": "#/$defs/VRI.RequestHelper",
-            "description": "Included if the registration involves a registration assistant organization."
+            "$ref": "#/$defs/VRI.RequestHelper"
           },
           "minItems": 0,
           "type": "array"
@@ -1519,9 +1515,9 @@
           "type": "string"
         },
         "Type": {
+          "description": "The type of request, e.g., registration.",
           "items": {
-            "$ref": "#/$defs/VRI.VoterRequestType",
-            "description": "The type of request, e.g., registration."
+            "$ref": "#/$defs/VRI.VoterRequestType"
           },
           "minItems": 1,
           "type": "array"

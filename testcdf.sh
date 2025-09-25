@@ -4,7 +4,7 @@ CURRENT_SCRIPT=$0
 if [ "$2" != "-silent" ]
 then
     echo NIST Voting 🗳️  Program - Common Data Format Test Method
-     echo Version 1.1.0 using...
+     echo Version 1.2.0beta1 using...
 fi
 MORGANA_HOME=$(dirname $CURRENT_SCRIPT)
 MORGANA_LIB=$MORGANA_HOME/libraries/*

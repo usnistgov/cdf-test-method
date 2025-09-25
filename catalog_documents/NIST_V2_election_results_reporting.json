@@ -49,8 +49,7 @@
         },
         "Content": {
           "description": "The URI to be annotated.",
-          "type": "string",
-          "format": "uri"
+          "type": "string"
         }
       },
       "type": "object"
@@ -149,8 +148,8 @@
           "description": "For a statement on the ballot associated with a “no” vote."
         },
         "ContestSelection": {
+          "description": "For associating a contest selection for the contest, i.e., a candidate, a ballot measure.",
           "items": {
-            "description": "For associating a contest selection for the contest, i.e., a candidate, a ballot measure.",
             "oneOf": [
               {
                 "$ref": "#/$defs/ElectionResults.PartySelection"
@@ -167,9 +166,9 @@
           "type": "array"
         },
         "CountStatus": {
+          "description": "For providing various counting status associated with the contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.CountStatus",
-            "description": "For providing various counting status associated with the contest."
+            "$ref": "#/$defs/ElectionResults.CountStatus"
           },
           "minItems": 0,
           "type": "array"
@@ -186,9 +185,9 @@
           ]
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the contest."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -202,9 +201,9 @@
           "type": "boolean"
         },
         "InfoUri": {
+          "description": "For associating a URI with the ballot measure contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
-            "description": "For associating a URI with the ballot measure contest."
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri"
           },
           "minItems": 0,
           "type": "array"
@@ -214,9 +213,9 @@
           "type": "string"
         },
         "OtherCounts": {
+          "description": "For associating counts such as overvote and undervotes with the contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.OtherCounts",
-            "description": "For associating counts such as overvote and undervotes with the contest."
+            "$ref": "#/$defs/ElectionResults.OtherCounts"
           },
           "minItems": 0,
           "type": "array"
@@ -283,9 +282,9 @@
           "type": "string"
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the ballot measure selection.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the ballot measure selection."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -299,9 +298,9 @@
           "type": "integer"
         },
         "VoteCounts": {
+          "description": "For associating the contest selection’s vote counts.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.VoteCounts",
-            "description": "For associating the contest selection’s vote counts."
+            "$ref": "#/$defs/ElectionResults.VoteCounts"
           },
           "minItems": 0,
           "type": "array"
@@ -335,16 +334,16 @@
           "type": "string"
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the ballot style.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the ballot style."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
         },
         "GpUnitIds": {
+          "description": "Unique identifier for one or more GpUnit instances.  For associating specific geopolitical units with the ballot style.",
           "items": {
-            "description": "Unique identifier for one or more GpUnit instances.  For associating specific geopolitical units with the ballot style.",
             "type": "string",
             "refTypes": [
               "ElectionResults.ReportingDevice",
@@ -355,16 +354,16 @@
           "type": "array"
         },
         "ImageUri": {
+          "description": "URI for a ballot image.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
-            "description": "URI for a ballot image."
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri"
           },
           "minItems": 0,
           "type": "array"
         },
         "OrderedContent": {
+          "description": "For associating a ballot style with ballot content, such as contests or headers.",
           "items": {
-            "description": "For associating a ballot style with ballot content, such as contests or headers.",
             "oneOf": [
               {
                 "$ref": "#/$defs/ElectionResults.OrderedContest"
@@ -378,8 +377,8 @@
           "type": "array"
         },
         "PartyIds": {
+          "description": "Unique identifier for one or more Party instances.  For associating one or more parties with the ballot style.",
           "items": {
-            "description": "Unique identifier for one or more Party instances.  For associating one or more parties with the ballot style.",
             "type": "string",
             "refTypes": [
               "ElectionResults.Party",
@@ -423,17 +422,16 @@
           "description": "For associating contact information for the candidate."
         },
         "ExternalIdentifier": {
+          "description": "For associating codes with the candidate.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating codes with the candidate."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
         },
         "FileDate": {
           "description": "Date when the candidate filed for the contest.",
-          "type": "string",
-          "format": "date"
+          "type": "string"
         },
         "IsIncumbent": {
           "description": "Boolean to indicate whether the candidate is the incumbent for the office associated with the contest. Assumed to be “no” if not present.",
@@ -502,8 +500,8 @@
           "description": "Title of the contest as it appears on the ballot."
         },
         "ContestSelection": {
+          "description": "For associating a contest selection for the contest, i.e., a candidate, a ballot measure.",
           "items": {
-            "description": "For associating a contest selection for the contest, i.e., a candidate, a ballot measure.",
             "oneOf": [
               {
                 "$ref": "#/$defs/ElectionResults.PartySelection"
@@ -520,9 +518,9 @@
           "type": "array"
         },
         "CountStatus": {
+          "description": "For providing various counting status associated with the contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.CountStatus",
-            "description": "For providing various counting status associated with the contest."
+            "$ref": "#/$defs/ElectionResults.CountStatus"
           },
           "minItems": 0,
           "type": "array"
@@ -535,9 +533,9 @@
           ]
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the contest."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -559,8 +557,8 @@
           "type": "integer"
         },
         "OfficeIds": {
+          "description": "For associating office descriptions.",
           "items": {
-            "description": "For associating office descriptions.",
             "type": "string",
             "refTypes": [
               "ElectionResults.Office"
@@ -570,9 +568,9 @@
           "type": "array"
         },
         "OtherCounts": {
+          "description": "For associating counts such as overvote and undervotes with the contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.OtherCounts",
-            "description": "For associating counts such as overvote and undervotes with the contest."
+            "$ref": "#/$defs/ElectionResults.OtherCounts"
           },
           "minItems": 0,
           "type": "array"
@@ -582,8 +580,8 @@
           "type": "string"
         },
         "PrimaryPartyIds": {
+          "description": "For associating parties with the contest.",
           "items": {
-            "description": "For associating parties with the contest.",
             "type": "string",
             "refTypes": [
               "ElectionResults.Party",
@@ -654,8 +652,8 @@
           "type": "string"
         },
         "CandidateIds": {
+          "description": "For associating a candidate with the candidate selection on the ballot and for cases where the contest selection is for multiple candidates, e.g., a ticket.",
           "items": {
-            "description": "For associating a candidate with the candidate selection on the ballot and for cases where the contest selection is for multiple candidates, e.g., a ticket.",
             "type": "string",
             "refTypes": [
               "ElectionResults.Candidate"
@@ -665,8 +663,8 @@
           "type": "array"
         },
         "EndorsementPartyIds": {
+          "description": "For associating one or more endorsing parties with the candidate selection.",
           "items": {
-            "description": "For associating one or more endorsing parties with the candidate selection.",
             "type": "string",
             "refTypes": [
               "ElectionResults.Party",
@@ -685,9 +683,9 @@
           "type": "integer"
         },
         "VoteCounts": {
+          "description": "For associating the contest selection’s vote counts.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.VoteCounts",
-            "description": "For associating the contest selection’s vote counts."
+            "$ref": "#/$defs/ElectionResults.VoteCounts"
           },
           "minItems": 0,
           "type": "array"
@@ -727,8 +725,8 @@
           "description": "For associating contact information regarding the party, e.g., party offices."
         },
         "ContestIds": {
+          "description": "For associating contests with the coalition.",
           "items": {
-            "description": "For associating contests with the coalition.",
             "type": "string",
             "refTypes": [
               "ElectionResults.PartyContest",
@@ -741,9 +739,9 @@
           "type": "array"
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the party.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the party."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -753,8 +751,8 @@
           "type": "boolean"
         },
         "LeaderPersonIds": {
+          "description": "Identification of a Party's leader.",
           "items": {
-            "description": "Identification of a Party's leader.",
             "type": "string",
             "refTypes": [
               "ElectionResults.Person"
@@ -764,9 +762,9 @@
           "type": "array"
         },
         "LogoUri": {
+          "description": "A URI to the party’s graphical logo.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
-            "description": "A URI to the party’s graphical logo."
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri"
           },
           "minItems": 0,
           "type": "array"
@@ -776,8 +774,8 @@
           "description": "Official full name of the party, e.g., “Republican”; can appear on the ballot."
         },
         "PartyIds": {
+          "description": "For associating parties with the coalition.",
           "items": {
-            "description": "For associating parties with the coalition.",
             "type": "string",
             "refTypes": [
               "ElectionResults.Party",
@@ -788,8 +786,8 @@
           "type": "array"
         },
         "PartyScopeGpUnitIds": {
+          "description": "The GpUnit(s) the party operates in or the top-most GpUnit.",
           "items": {
-            "description": "The GpUnit(s) the party operates in or the top-most GpUnit.",
             "type": "string",
             "refTypes": [
               "ElectionResults.ReportingDevice",
@@ -820,8 +818,8 @@
           "type": "string"
         },
         "AddressLine": {
+          "description": "For associating an address with the contact.",
           "items": {
-            "description": "For associating an address with the contact.",
             "type": "string"
           },
           "minItems": 0,
@@ -832,17 +830,17 @@
           "description": "Directional information in addition to address information."
         },
         "Email": {
+          "description": "Email address associated with the contact.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.AnnotatedString",
-            "description": "Email address associated with the contact."
+            "$ref": "#/$defs/ElectionResults.AnnotatedString"
           },
           "minItems": 0,
           "type": "array"
         },
         "Fax": {
+          "description": "Fax number associated with the contact.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.AnnotatedString",
-            "description": "Fax number associated with the contact."
+            "$ref": "#/$defs/ElectionResults.AnnotatedString"
           },
           "minItems": 0,
           "type": "array"
@@ -860,25 +858,25 @@
           "type": "string"
         },
         "Phone": {
+          "description": "Phone number associated with the contact.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.AnnotatedString",
-            "description": "Phone number associated with the contact."
+            "$ref": "#/$defs/ElectionResults.AnnotatedString"
           },
           "minItems": 0,
           "type": "array"
         },
         "Schedule": {
+          "description": "For associating a schedule with the contact.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.Schedule",
-            "description": "For associating a schedule with the contact."
+            "$ref": "#/$defs/ElectionResults.Schedule"
           },
           "minItems": 0,
           "type": "array"
         },
         "Uri": {
+          "description": "URI associated with the contact.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
-            "description": "URI associated with the contact."
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri"
           },
           "minItems": 0,
           "type": "array"
@@ -1024,25 +1022,25 @@
           "type": "string"
         },
         "BallotCounts": {
+          "description": "Used for identifying various ballot counts.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.BallotCounts",
-            "description": "Used for identifying various ballot counts."
+            "$ref": "#/$defs/ElectionResults.BallotCounts"
           },
           "minItems": 0,
           "type": "array"
         },
         "BallotStyle": {
+          "description": "For defining ballot styles associated with the election.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.BallotStyle",
-            "description": "For defining ballot styles associated with the election."
+            "$ref": "#/$defs/ElectionResults.BallotStyle"
           },
           "minItems": 0,
           "type": "array"
         },
         "Candidate": {
+          "description": "For defining candidates associated with the election.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.Candidate",
-            "description": "For defining candidates associated with the election."
+            "$ref": "#/$defs/ElectionResults.Candidate"
           },
           "minItems": 0,
           "type": "array"
@@ -1052,8 +1050,8 @@
           "description": "For associating various contact information with the election."
         },
         "Contest": {
+          "description": "For defining contests associated with the election.",
           "items": {
-            "description": "For defining contests associated with the election.",
             "oneOf": [
               {
                 "$ref": "#/$defs/ElectionResults.PartyContest"
@@ -1073,9 +1071,9 @@
           "type": "array"
         },
         "CountStatus": {
+          "description": "For providing various counting status on types of ballots or other items.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.CountStatus",
-            "description": "For providing various counting status on types of ballots or other items."
+            "$ref": "#/$defs/ElectionResults.CountStatus"
           },
           "minItems": 0,
           "type": "array"
@@ -1089,13 +1087,12 @@
         },
         "EndDate": {
           "description": "Calendar end date of the election; for a typical one-day election, the end date is the same as the start date.",
-          "type": "string",
-          "format": "date"
+          "type": "string"
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the election.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the election."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -1110,8 +1107,7 @@
         },
         "StartDate": {
           "description": "Calendar start date of the election, e.g., “2018-11-04”.",
-          "type": "string",
-          "format": "date"
+          "type": "string"
         },
         "Type": {
           "$ref": "#/$defs/ElectionResults.ElectionType",
@@ -1138,8 +1134,8 @@
           "description": "For including various contact information."
         },
         "ElectionOfficialPersonIds": {
+          "description": "Unique identifier for one or more Person elements defined for the election authority.",
           "items": {
-            "description": "Unique identifier for one or more Person elements defined for the election authority.",
             "type": "string",
             "refTypes": [
               "ElectionResults.Person"
@@ -1177,17 +1173,17 @@
           "type": "string"
         },
         "Election": {
+          "description": "For associating elections with the report.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.Election",
-            "description": "For associating elections with the report."
+            "$ref": "#/$defs/ElectionResults.Election"
           },
           "minItems": 0,
           "type": "array"
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the report.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the report."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -1199,12 +1195,11 @@
         "GeneratedDate": {
           "description": "Identifies the date and time that the election report was generated.",
           "pattern": "[0-9]{4}-(0?[1-9]|1[012])-(0?[1-9]|[12][0-9]|3[01])T(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]|(24:00:00))(Z|[+-]((0[0-9]|1[0-3]):[0-5][0-9]|14:00))",
-          "type": "string",
-          "format": "date-time"
+          "type": "string"
         },
         "GpUnit": {
+          "description": "For associating geopolitical units with the report.",
           "items": {
-            "description": "For associating geopolitical units with the report.",
             "oneOf": [
               {
                 "$ref": "#/$defs/ElectionResults.ReportingDevice"
@@ -1218,9 +1213,9 @@
           "type": "array"
         },
         "Header": {
+          "description": "For associating headers with parts of a ballot style.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.Header",
-            "description": "For associating headers with parts of a ballot style."
+            "$ref": "#/$defs/ElectionResults.Header"
           },
           "minItems": 0,
           "type": "array"
@@ -1242,24 +1237,24 @@
           "type": "string"
         },
         "Office": {
+          "description": "For associating offices with the report.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.Office",
-            "description": "For associating offices with the report."
+            "$ref": "#/$defs/ElectionResults.Office"
           },
           "minItems": 0,
           "type": "array"
         },
         "OfficeGroup": {
+          "description": "For associating a name for a grouping of offices with the report.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.OfficeGroup",
-            "description": "For associating a name for a grouping of offices with the report."
+            "$ref": "#/$defs/ElectionResults.OfficeGroup"
           },
           "minItems": 0,
           "type": "array"
         },
         "Party": {
+          "description": "For associating parties with the report.",
           "items": {
-            "description": "For associating parties with the report.",
             "oneOf": [
               {
                 "$ref": "#/$defs/ElectionResults.Party"
@@ -1273,9 +1268,9 @@
           "type": "array"
         },
         "Person": {
+          "description": "For associating persons with the report.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.Person",
-            "description": "For associating persons with the report."
+            "$ref": "#/$defs/ElectionResults.Person"
           },
           "minItems": 0,
           "type": "array"
@@ -1380,9 +1375,9 @@
           "type": "string"
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the header.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the header."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -1416,8 +1411,7 @@
         "EndTime": {
           "description": "End time of the schedule.",
           "pattern": "(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]|(24:00:00))(Z|[+-]((0[0-9]|1[0-3]):[0-5][0-9]|14:00))",
-          "type": "string",
-          "format": "time"
+          "type": "string"
         },
         "Label": {
           "description": "For use as needed and compatibility with the VIP schema.",
@@ -1426,8 +1420,7 @@
         "StartTime": {
           "description": "Start time of the schedule.",
           "pattern": "(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]|(24:00:00))(Z|[+-]((0[0-9]|1[0-3]):[0-5][0-9]|14:00))",
-          "type": "string",
-          "format": "time"
+          "type": "string"
         }
       },
       "type": "object"
@@ -1463,9 +1456,9 @@
           "type": "string"
         },
         "Text": {
+          "description": "Used to hold a string of text with an associated table indicating the language used.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.LanguageString",
-            "description": "Used to hold a string of text with an associated table indicating the language used."
+            "$ref": "#/$defs/ElectionResults.LanguageString"
           },
           "minItems": 1,
           "type": "array"
@@ -1568,17 +1561,16 @@
           ]
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the office.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the office."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
         },
         "FilingDeadline": {
           "description": "Date and time when a candidate must have filed for the contest for the office.",
-          "type": "string",
-          "format": "date"
+          "type": "string"
         },
         "IsPartisan": {
           "description": "Boolean to indicate whether the office is partisan, e.g., true or false.  If not present, assumption is true.",
@@ -1589,8 +1581,8 @@
           "description": "Name of the office; can appear on the ballot."
         },
         "OfficeHolderPersonIds": {
+          "description": "Links to one or more Person instances defined for the office holder.",
           "items": {
-            "description": "Links to one or more Person instances defined for the office holder.",
             "type": "string",
             "refTypes": [
               "ElectionResults.Person"
@@ -1629,8 +1621,8 @@
           "type": "string"
         },
         "OfficeIds": {
+          "description": "Link to one or more Office instances.",
           "items": {
-            "description": "Link to one or more Office instances.",
             "type": "string",
             "refTypes": [
               "ElectionResults.Office"
@@ -1640,9 +1632,9 @@
           "type": "array"
         },
         "SubOfficeGroup": {
+          "description": "For defining a nested hierarchy of Office instance groupings.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.OfficeGroup",
-            "description": "For defining a nested hierarchy of Office instance groupings."
+            "$ref": "#/$defs/ElectionResults.OfficeGroup"
           },
           "minItems": 0,
           "type": "array"
@@ -1683,8 +1675,8 @@
           ]
         },
         "OrderedContestSelectionIds": {
+          "description": "The contest selections for the ballot.",
           "items": {
-            "description": "The contest selections for the ballot.",
             "type": "string",
             "refTypes": [
               "ElectionResults.PartySelection",
@@ -1720,8 +1712,8 @@
           ]
         },
         "OrderedContent": {
+          "description": "For associating a header with ballot content, such as contests or nested headers.",
           "items": {
-            "description": "For associating a header with ballot content, such as contests or nested headers.",
             "oneOf": [
               {
                 "$ref": "#/$defs/ElectionResults.OrderedContest"
@@ -1810,9 +1802,9 @@
           "description": "For associating contact information regarding the party, e.g., party offices."
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the party.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the party."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -1822,8 +1814,8 @@
           "type": "boolean"
         },
         "LeaderPersonIds": {
+          "description": "Identification of a Party's leader.",
           "items": {
-            "description": "Identification of a Party's leader.",
             "type": "string",
             "refTypes": [
               "ElectionResults.Person"
@@ -1833,9 +1825,9 @@
           "type": "array"
         },
         "LogoUri": {
+          "description": "A URI to the party’s graphical logo.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
-            "description": "A URI to the party’s graphical logo."
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri"
           },
           "minItems": 0,
           "type": "array"
@@ -1845,8 +1837,8 @@
           "description": "Official full name of the party, e.g., “Republican”; can appear on the ballot."
         },
         "PartyScopeGpUnitIds": {
+          "description": "The GpUnit(s) the party operates in or the top-most GpUnit.",
           "items": {
-            "description": "The GpUnit(s) the party operates in or the top-most GpUnit.",
             "type": "string",
             "refTypes": [
               "ElectionResults.ReportingDevice",
@@ -1895,8 +1887,8 @@
           "description": "Title of the contest as it appears on the ballot."
         },
         "ContestSelection": {
+          "description": "For associating a contest selection for the contest, i.e., a candidate, a ballot measure.",
           "items": {
-            "description": "For associating a contest selection for the contest, i.e., a candidate, a ballot measure.",
             "oneOf": [
               {
                 "$ref": "#/$defs/ElectionResults.PartySelection"
@@ -1913,9 +1905,9 @@
           "type": "array"
         },
         "CountStatus": {
+          "description": "For providing various counting status associated with the contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.CountStatus",
-            "description": "For providing various counting status associated with the contest."
+            "$ref": "#/$defs/ElectionResults.CountStatus"
           },
           "minItems": 0,
           "type": "array"
@@ -1928,9 +1920,9 @@
           ]
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the contest."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -1944,9 +1936,9 @@
           "type": "string"
         },
         "OtherCounts": {
+          "description": "For associating counts such as overvote and undervotes with the contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.OtherCounts",
-            "description": "For associating counts such as overvote and undervotes with the contest."
+            "$ref": "#/$defs/ElectionResults.OtherCounts"
           },
           "minItems": 0,
           "type": "array"
@@ -2023,8 +2015,8 @@
           "type": "string"
         },
         "PartyIds": {
+          "description": "Link to one or more Party instances. For associating one or more parties with the party selection.",
           "items": {
-            "description": "Link to one or more Party instances. For associating one or more parties with the party selection.",
             "type": "string",
             "refTypes": [
               "ElectionResults.Party",
@@ -2039,9 +2031,9 @@
           "type": "integer"
         },
         "VoteCounts": {
+          "description": "For associating the contest selection’s vote counts.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.VoteCounts",
-            "description": "For associating the contest selection’s vote counts."
+            "$ref": "#/$defs/ElectionResults.VoteCounts"
           },
           "minItems": 0,
           "type": "array"
@@ -2067,22 +2059,21 @@
           "type": "string"
         },
         "ContactInformation": {
+          "description": "For associating contact information with the person.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ContactInformation",
-            "description": "For associating contact information with the person."
+            "$ref": "#/$defs/ElectionResults.ContactInformation"
           },
           "minItems": 0,
           "type": "array"
         },
         "DateOfBirth": {
           "description": "Person’s date of birth.",
-          "type": "string",
-          "format": "date"
+          "type": "string"
         },
         "ExternalIdentifier": {
+          "description": "For associating codes with the person.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating codes with the person."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -2104,8 +2095,8 @@
           "type": "string"
         },
         "MiddleName": {
+          "description": "Person’s middle name.",
           "items": {
-            "description": "Person’s middle name.",
             "type": "string"
           },
           "minItems": 0,
@@ -2168,8 +2159,8 @@
           "type": "string"
         },
         "ComposingGpUnitIds": {
+          "description": "Unique identifier for one or more GpUnit instances.  For creating a reference to another GpUnit that is contained with the parent GpUnit.",
           "items": {
-            "description": "Unique identifier for one or more GpUnit instances.  For creating a reference to another GpUnit that is contained with the parent GpUnit.",
             "type": "string",
             "refTypes": [
               "ElectionResults.ReportingDevice",
@@ -2184,9 +2175,9 @@
           "description": "Used for reporting on details about the type of voting device used for the results in question."
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the GpUnit, e.g., a district’s or county’s code.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the GpUnit, e.g., a district’s or county’s code."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -2221,8 +2212,8 @@
           "type": "string"
         },
         "AuthorityIds": {
+          "description": "A link to one or more Person instances describing an authority responsible for the reporting unit.",
           "items": {
-            "description": "A link to one or more Person instances describing an authority responsible for the reporting unit.",
             "type": "string",
             "refTypes": [
               "ElectionResults.Person"
@@ -2232,8 +2223,8 @@
           "type": "array"
         },
         "ComposingGpUnitIds": {
+          "description": "Unique identifier for one or more GpUnit instances.  For creating a reference to another GpUnit that is contained with the parent GpUnit.",
           "items": {
-            "description": "Unique identifier for one or more GpUnit instances.  For creating a reference to another GpUnit that is contained with the parent GpUnit.",
             "type": "string",
             "refTypes": [
               "ElectionResults.ReportingDevice",
@@ -2248,9 +2239,9 @@
           "description": "For associating contact information with the reporting unit."
         },
         "CountStatus": {
+          "description": "For providing various counting status on types of ballots or other items.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.CountStatus",
-            "description": "For providing various counting status on types of ballots or other items."
+            "$ref": "#/$defs/ElectionResults.CountStatus"
           },
           "minItems": 0,
           "type": "array"
@@ -2260,9 +2251,9 @@
           "description": "For use when the reporting unit serves as the authority in the election."
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the GpUnit, e.g., a district’s or county’s code.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the GpUnit, e.g., a district’s or county’s code."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -2288,9 +2279,9 @@
           "type": "string"
         },
         "PartyRegistration": {
+          "description": "For associating a count of registered voters per party with the geopolitical unit.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.PartyRegistration",
-            "description": "For associating a count of registered voters per party with the geopolitical unit."
+            "$ref": "#/$defs/ElectionResults.PartyRegistration"
           },
           "minItems": 0,
           "type": "array"
@@ -2413,8 +2404,8 @@
           "description": "For a statement on the ballot associated with a “no” vote."
         },
         "ContestSelection": {
+          "description": "For associating a contest selection for the contest, i.e., a candidate, a ballot measure.",
           "items": {
-            "description": "For associating a contest selection for the contest, i.e., a candidate, a ballot measure.",
             "oneOf": [
               {
                 "$ref": "#/$defs/ElectionResults.PartySelection"
@@ -2431,9 +2422,9 @@
           "type": "array"
         },
         "CountStatus": {
+          "description": "For providing various counting status associated with the contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.CountStatus",
-            "description": "For providing various counting status associated with the contest."
+            "$ref": "#/$defs/ElectionResults.CountStatus"
           },
           "minItems": 0,
           "type": "array"
@@ -2450,9 +2441,9 @@
           ]
         },
         "ExternalIdentifier": {
+          "description": "For associating an ID with the contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.ExternalIdentifier",
-            "description": "For associating an ID with the contest."
+            "$ref": "#/$defs/ElectionResults.ExternalIdentifier"
           },
           "minItems": 0,
           "type": "array"
@@ -2466,9 +2457,9 @@
           "type": "boolean"
         },
         "InfoUri": {
+          "description": "For associating a URI with the ballot measure contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
-            "description": "For associating a URI with the ballot measure contest."
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri"
           },
           "minItems": 0,
           "type": "array"
@@ -2485,9 +2476,9 @@
           ]
         },
         "OtherCounts": {
+          "description": "For associating counts such as overvote and undervotes with the contest.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.OtherCounts",
-            "description": "For associating counts such as overvote and undervotes with the contest."
+            "$ref": "#/$defs/ElectionResults.OtherCounts"
           },
           "minItems": 0,
           "type": "array"
@@ -2550,13 +2541,12 @@
         },
         "EndDate": {
           "description": "For the ending date of the schedule.",
-          "type": "string",
-          "format": "date"
+          "type": "string"
         },
         "Hours": {
+          "description": "For specifying a range of hours for a schedule.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.Hours",
-            "description": "For specifying a range of hours for a schedule."
+            "$ref": "#/$defs/ElectionResults.Hours"
           },
           "minItems": 0,
           "type": "array"
@@ -2579,8 +2569,7 @@
         },
         "StartDate": {
           "description": "For the starting date of the schedule.",
-          "type": "string",
-          "format": "date"
+          "type": "string"
         }
       },
       "type": "object"
@@ -2599,9 +2588,9 @@
           "type": "string"
         },
         "MapUri": {
+          "description": "Typically a URI to a map of the GpUnit.",
           "items": {
-            "$ref": "#/$defs/ElectionResults.AnnotatedUri",
-            "description": "Typically a URI to a map of the GpUnit."
+            "$ref": "#/$defs/ElectionResults.AnnotatedUri"
           },
           "minItems": 0,
           "type": "array"
@@ -2654,8 +2643,7 @@
         },
         "EndDate": {
           "description": "End date for the current term of the office.",
-          "type": "string",
-          "format": "date"
+          "type": "string"
         },
         "Label": {
           "description": "For use as needed and compatibility with the VIP schema.",
@@ -2663,8 +2651,7 @@
         },
         "StartDate": {
           "description": "Start date for the current term of the office.",
-          "type": "string",
-          "format": "date"
+          "type": "string"
         },
         "Type": {
           "$ref": "#/$defs/ElectionResults.OfficeTermType",
